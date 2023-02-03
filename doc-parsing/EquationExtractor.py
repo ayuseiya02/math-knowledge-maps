@@ -1,3 +1,4 @@
+# extracts block equations from an xml file
 def extractEquation(xml_filename, eqn_filename):
     xml_file = open(xml_filename, "r").read()
     eqn_file = open(eqn_filename, "w")

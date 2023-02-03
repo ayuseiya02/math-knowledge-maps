@@ -1,5 +1,5 @@
 import os
 from EquationExtractor import *
 
-for filename in os.listdir("../articles/xml"):
-    extractEquation("../articles/xml/" + filename, "equations/" + filename[:-4] + "-eqns.xml")
+for filename in os.listdir("../data/xml"):
+    extractEquation("../data/xml/" + filename, "../data/xml-eqns/" + filename[:-4] + "-eqns.xml")
