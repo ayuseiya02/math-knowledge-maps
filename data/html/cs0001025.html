@@ -1,0 +1,399 @@
+<!DOCTYPE html><html>
+<head>
+<title>Computational Geometry Column 38</title>
+<!--Generated on Wed Jul  3 13:42:13 2019 by LaTeXML (version 0.8.4) http://dlmf.nist.gov/LaTeXML/.-->
+<!--Document created on .-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Computational Geometry Column 38</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Joseph O’Rourke
+
+</span><span class="ltx_author_notes"><span>
+Dept. of Computer Science, Smith College, Northampton,
+MA 01063, USA.
+orourke@cs.smith.edu.
+Supported by NSF Grant CCR-9731804.
+</span></span></span>
+</div>
+<div class="ltx_date ltx_role_creation"></div>
+
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p id="id1" class="ltx_p">Recent results on curve reconstruction are described.</p>
+</div>
+<div id="p1" class="ltx_para">
+<p id="p1.1" class="ltx_p">Reconstruction of a curve from sample points
+(“connect-the-dots”) is an important problem
+studied now for twenty years.
+Early efforts, primarily by researchers in computer vision,
+pattern recognition, and computational morphology,
+relied on ad hoc heuristics (e.g., my own <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx18" title="" class="ltx_ref">OBW87</a>]</cite>).
+The heuristics were placed on a firmer footing with
+<math id="p1.1.m1.1" class="ltx_Math" alttext="{\alpha}" display="inline"><semantics id="p1.1.m1.1a"><mi id="p1.1.m1.1.1" xref="p1.1.m1.1.1.cmml">α</mi><annotation-xml encoding="MathML-Content" id="p1.1.m1.1b"><ci id="p1.1.m1.1.1.cmml" xref="p1.1.m1.1.1">𝛼</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p1.1.m1.1c">italic-alpha</annotation><annotation encoding="application/x-tex" id="p1.1.m1.1d">{\alpha}</annotation></semantics></math>-shapes <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx13" title="" class="ltx_ref">EKS83</a>]</cite> and <math id="p1.1.m2.1" class="ltx_Math" alttext="{\beta}" display="inline"><semantics id="p1.1.m2.1a"><mi id="p1.1.m2.1.1" xref="p1.1.m2.1.1.cmml">β</mi><annotation-xml encoding="MathML-Content" id="p1.1.m2.1b"><ci id="p1.1.m2.1.1.cmml" xref="p1.1.m2.1.1">𝛽</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p1.1.m2.1c">italic-beta</annotation><annotation encoding="application/x-tex" id="p1.1.m2.1d">{\beta}</annotation></semantics></math>-skeletons <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx16" title="" class="ltx_ref">KR85</a>]</cite>
+and other structures,
+whose underlying proximity graphs
+were later shown to support
+accurate reconstruction from uniformly sampled
+curves <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx9" title="" class="ltx_ref">FMG95</a>, <a href="#bib.bibx7" title="" class="ltx_ref">Att98</a>, <a href="#bib.bibx8" title="" class="ltx_ref">BB97</a>]</cite>.
+User selection of the <math id="p1.1.m3.1" class="ltx_Math" alttext="{\alpha}" display="inline"><semantics id="p1.1.m3.1a"><mi id="p1.1.m3.1.1" xref="p1.1.m3.1.1.cmml">α</mi><annotation-xml encoding="MathML-Content" id="p1.1.m3.1b"><ci id="p1.1.m3.1.1.cmml" xref="p1.1.m3.1.1">𝛼</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p1.1.m3.1c">italic-alpha</annotation><annotation encoding="application/x-tex" id="p1.1.m3.1d">{\alpha}</annotation></semantics></math> or <math id="p1.1.m4.1" class="ltx_Math" alttext="{\beta}" display="inline"><semantics id="p1.1.m4.1a"><mi id="p1.1.m4.1.1" xref="p1.1.m4.1.1.cmml">β</mi><annotation-xml encoding="MathML-Content" id="p1.1.m4.1b"><ci id="p1.1.m4.1.1.cmml" xref="p1.1.m4.1.1">𝛽</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p1.1.m4.1c">italic-beta</annotation><annotation encoding="application/x-tex" id="p1.1.m4.1d">{\beta}</annotation></semantics></math>
+parameter is still necessary.</p>
+</div>
+<div id="p2" class="ltx_para">
+<p id="p2.1" class="ltx_p">A breakthrough was achieved by Amenta, Bern, and
+Eppstein <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx2" title="" class="ltx_ref">ABE98</a>]</cite>,
+who designed two algorithms that
+guarantee correct reconstruction of smooth closed curves even with
+(sufficiently dense)
+<math id="p2.1.m1.1" class="ltx_Math" alttext="\underline{\hbox{non}}" display="inline"><semantics id="p2.1.m1.1a"><munder accentunder="true" id="p2.1.m1.1.1" xref="p2.1.m1.1.1.cmml"><mtext id="p2.1.m1.1.1.2" xref="p2.1.m1.1.1.2a.cmml">non</mtext><mo id="p2.1.m1.1.1.1" xref="p2.1.m1.1.1.1.cmml">¯</mo></munder><annotation-xml encoding="MathML-Content" id="p2.1.m1.1b"><apply id="p2.1.m1.1.1.cmml" xref="p2.1.m1.1.1"><ci id="p2.1.m1.1.1.1.cmml" xref="p2.1.m1.1.1.1">¯</ci><ci id="p2.1.m1.1.1.2a.cmml" xref="p2.1.m1.1.1.2"><mtext id="p2.1.m1.1.1.2.cmml" xref="p2.1.m1.1.1.2">non</mtext></ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p2.1.m1.1c">UNDERACCENT:underline ARG:start ATOM:non ARG:end</annotation><annotation encoding="application/x-tex" id="p2.1.m1.1d">\underline{\hbox{non}}</annotation></semantics></math>uniform
+samples,
+and which lift the burden of selecting a parameter.
+One of their algorithms computes what they call the <span id="p2.1.1" class="ltx_text ltx_font_italic">crust</span>,
+a subgraph of the complete graph on the sample points that
+coincides with the correct polygonal curve under the right conditions.
+One of the novelties of their approach is to define the
+sample density to increase on exactly those portions of the curve <math id="p2.1.m2.1" class="ltx_Math" alttext="{\Gamma}" display="inline"><semantics id="p2.1.m2.1a"><mi mathvariant="normal" id="p2.1.m2.1.1" xref="p2.1.m2.1.1.cmml">Γ</mi><annotation-xml encoding="MathML-Content" id="p2.1.m2.1b"><ci id="p2.1.m2.1.1.cmml" xref="p2.1.m2.1.1">Γ</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p2.1.m2.1c">Gamma</annotation><annotation encoding="application/x-tex" id="p2.1.m2.1d">{\Gamma}</annotation></semantics></math>
+where more points are needed for reconstruction.
+They demand that for every point <math id="p2.1.m3.1" class="ltx_Math" alttext="x\in{\Gamma}" display="inline"><semantics id="p2.1.m3.1a"><mrow id="p2.1.m3.1.4" xref="p2.1.m3.1.4.cmml"><mi id="p2.1.m3.1.1" xref="p2.1.m3.1.1.cmml">x</mi><mo id="p2.1.m3.1.2" xref="p2.1.m3.1.2.cmml">∈</mo><mi mathvariant="normal" id="p2.1.m3.1.3" xref="p2.1.m3.1.3.cmml">Γ</mi></mrow><annotation-xml encoding="MathML-Content" id="p2.1.m3.1b"><apply id="p2.1.m3.1.4.cmml" xref="p2.1.m3.1.4"><in id="p2.1.m3.1.2.cmml" xref="p2.1.m3.1.2"></in><ci id="p2.1.m3.1.1.cmml" xref="p2.1.m3.1.1">𝑥</ci><ci id="p2.1.m3.1.3.cmml" xref="p2.1.m3.1.3">Γ</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p2.1.m3.1c">italic-x RELOP:element-of Gamma</annotation><annotation encoding="application/x-tex" id="p2.1.m3.1d">x\in{\Gamma}</annotation></semantics></math>, there is a sample
+point <math id="p2.1.m4.1" class="ltx_Math" alttext="p" display="inline"><semantics id="p2.1.m4.1a"><mi id="p2.1.m4.1.1" xref="p2.1.m4.1.1.cmml">p</mi><annotation-xml encoding="MathML-Content" id="p2.1.m4.1b"><ci id="p2.1.m4.1.1.cmml" xref="p2.1.m4.1.1">𝑝</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p2.1.m4.1c">italic-p</annotation><annotation encoding="application/x-tex" id="p2.1.m4.1d">p</annotation></semantics></math> such that <math id="p2.1.m5.1" class="ltx_Math" alttext="|xp|&lt;{\epsilon}\mu(x)" display="inline"><semantics id="p2.1.m5.1a"><mrow id="p2.1.m5.1.11" xref="p2.1.m5.1.11.cmml"><mrow id="p2.1.m5.1.11.1" xref="p2.1.m5.1.11.1.1.cmml"><mo stretchy="false" id="p2.1.m5.1.1" xref="p2.1.m5.1.11.1.1.1.cmml">|</mo><mrow id="p2.1.m5.1.11.1.2" xref="p2.1.m5.1.11.1.2.cmml"><mi id="p2.1.m5.1.2" xref="p2.1.m5.1.2.cmml">x</mi><mo id="p2.1.m5.1.11.1.2.1" xref="p2.1.m5.1.11.1.2.1.cmml">⁢</mo><mi id="p2.1.m5.1.3" xref="p2.1.m5.1.3.cmml">p</mi></mrow><mo stretchy="false" id="p2.1.m5.1.4" xref="p2.1.m5.1.11.1.1.1.cmml">|</mo></mrow><mo id="p2.1.m5.1.5" xref="p2.1.m5.1.5.cmml">&lt;</mo><mrow id="p2.1.m5.1.11.2" xref="p2.1.m5.1.11.2.cmml"><mi id="p2.1.m5.1.6" xref="p2.1.m5.1.6.cmml">ϵ</mi><mo id="p2.1.m5.1.11.2.1" xref="p2.1.m5.1.11.2.1.cmml">⁢</mo><mi id="p2.1.m5.1.7" xref="p2.1.m5.1.7.cmml">μ</mi><mo id="p2.1.m5.1.11.2.1a" xref="p2.1.m5.1.11.2.1.cmml">⁢</mo><mrow id="p2.1.m5.1.11.2.2" xref="p2.1.m5.1.11.2.cmml"><mo stretchy="false" id="p2.1.m5.1.8" xref="p2.1.m5.1.11.2.cmml">(</mo><mi id="p2.1.m5.1.9" xref="p2.1.m5.1.9.cmml">x</mi><mo stretchy="false" id="p2.1.m5.1.10" xref="p2.1.m5.1.11.2.cmml">)</mo></mrow></mrow></mrow><annotation-xml encoding="MathML-Content" id="p2.1.m5.1b"><apply id="p2.1.m5.1.11.cmml" xref="p2.1.m5.1.11"><lt id="p2.1.m5.1.5.cmml" xref="p2.1.m5.1.5"></lt><apply id="p2.1.m5.1.11.1.1.cmml" xref="p2.1.m5.1.11.1"><abs id="p2.1.m5.1.11.1.1.1.cmml" xref="p2.1.m5.1.1"></abs><apply id="p2.1.m5.1.11.1.2.cmml" xref="p2.1.m5.1.11.1.2"><times id="p2.1.m5.1.11.1.2.1.cmml" xref="p2.1.m5.1.11.1.2.1"></times><ci id="p2.1.m5.1.2.cmml" xref="p2.1.m5.1.2">𝑥</ci><ci id="p2.1.m5.1.3.cmml" xref="p2.1.m5.1.3">𝑝</ci></apply></apply><apply id="p2.1.m5.1.11.2.cmml" xref="p2.1.m5.1.11.2"><times id="p2.1.m5.1.11.2.1.cmml" xref="p2.1.m5.1.11.2.1"></times><ci id="p2.1.m5.1.6.cmml" xref="p2.1.m5.1.6">italic-ϵ</ci><ci id="p2.1.m5.1.7.cmml" xref="p2.1.m5.1.7">𝜇</ci><ci id="p2.1.m5.1.9.cmml" xref="p2.1.m5.1.9">𝑥</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p2.1.m5.1c">VERTBAR:| italic-x italic-p VERTBAR:| RELOP:less-than italic-epsilon italic-mu OPEN:( italic-x CLOSE:)</annotation><annotation encoding="application/x-tex" id="p2.1.m5.1d">|xp|&lt;{\epsilon}\mu(x)</annotation></semantics></math>,
+where <math id="p2.1.m6.1" class="ltx_Math" alttext="\mu(x)" display="inline"><semantics id="p2.1.m6.1a"><mrow id="p2.1.m6.1.5" xref="p2.1.m6.1.5.cmml"><mi id="p2.1.m6.1.1" xref="p2.1.m6.1.1.cmml">μ</mi><mo id="p2.1.m6.1.5.1" xref="p2.1.m6.1.5.1.cmml">⁢</mo><mrow id="p2.1.m6.1.5.2" xref="p2.1.m6.1.5.cmml"><mo stretchy="false" id="p2.1.m6.1.2" xref="p2.1.m6.1.5.cmml">(</mo><mi id="p2.1.m6.1.3" xref="p2.1.m6.1.3.cmml">x</mi><mo stretchy="false" id="p2.1.m6.1.4" xref="p2.1.m6.1.5.cmml">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content" id="p2.1.m6.1b"><apply id="p2.1.m6.1.5.cmml" xref="p2.1.m6.1.5"><times id="p2.1.m6.1.5.1.cmml" xref="p2.1.m6.1.5.1"></times><ci id="p2.1.m6.1.1.cmml" xref="p2.1.m6.1.1">𝜇</ci><ci id="p2.1.m6.1.3.cmml" xref="p2.1.m6.1.3">𝑥</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p2.1.m6.1c">italic-mu OPEN:( italic-x CLOSE:)</annotation><annotation encoding="application/x-tex" id="p2.1.m6.1d">\mu(x)</annotation></semantics></math> is the distance from <math id="p2.1.m7.1" class="ltx_Math" alttext="x" display="inline"><semantics id="p2.1.m7.1a"><mi id="p2.1.m7.1.1" xref="p2.1.m7.1.1.cmml">x</mi><annotation-xml encoding="MathML-Content" id="p2.1.m7.1b"><ci id="p2.1.m7.1.1.cmml" xref="p2.1.m7.1.1">𝑥</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p2.1.m7.1c">italic-x</annotation><annotation encoding="application/x-tex" id="p2.1.m7.1d">x</annotation></semantics></math> to the medial axis/skeleton.
+This distance is small
+wherever two sections of the curve are close (in the vicinity of
+a sharp turn, or a narrow neck), for such sections are
+separated there by a branch of the medial axis.
+They can guarantee reconstruction for all <math id="p2.1.m8.1" class="ltx_Math" alttext="{\epsilon}\lesssim\frac{1}{4}" display="inline"><semantics id="p2.1.m8.1a"><mrow id="p2.1.m8.1.4" xref="p2.1.m8.1.4.cmml"><mi id="p2.1.m8.1.1" xref="p2.1.m8.1.1.cmml">ϵ</mi><mo id="p2.1.m8.1.2" xref="p2.1.m8.1.2.cmml">≲</mo><mfrac id="p2.1.m8.1.3" xref="p2.1.m8.1.3.cmml"><mn id="p2.1.m8.1.3.2" xref="p2.1.m8.1.3.2.cmml">1</mn><mn id="p2.1.m8.1.3.3" xref="p2.1.m8.1.3.3.cmml">4</mn></mfrac></mrow><annotation-xml encoding="MathML-Content" id="p2.1.m8.1b"><apply id="p2.1.m8.1.4.cmml" xref="p2.1.m8.1.4"><csymbol cd="latexml" id="p2.1.m8.1.2.cmml" xref="p2.1.m8.1.2">less-than-or-similar-to</csymbol><ci id="p2.1.m8.1.1.cmml" xref="p2.1.m8.1.1">italic-ϵ</ci><apply id="p2.1.m8.1.3.cmml" xref="p2.1.m8.1.3"><divide id="p2.1.m8.1.3.1.cmml" xref="p2.1.m8.1.3"></divide><cn type="integer" id="p2.1.m8.1.3.2.cmml" xref="p2.1.m8.1.3.2">1</cn><cn type="integer" id="p2.1.m8.1.3.3.cmml" xref="p2.1.m8.1.3.3">4</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p2.1.m8.1c">italic-epsilon RELOP:less-than-or-similar-to FRACOP:italic-divide ARG:start NUMBER:1 ARG:end ARG:start NUMBER:4 ARG:end</annotation><annotation encoding="application/x-tex" id="p2.1.m8.1d">{\epsilon}\lesssim\frac{1}{4}</annotation></semantics></math>.
+Fig. <a href="#S0.F1" title="Figure 1 ‣ Computational Geometry Column 38" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a>(a) illustrates a reconstruction using their algorithm,
+and (b) shows the crust when the sample density is below their
+threshold.<span id="footnote1" class="ltx_note ltx_role_footnote"><sup class="ltx_note_mark">1</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">1</sup><span class="ltx_tag ltx_tag_note">1</span>
+It should be noted that some applications call for multiple
+components, or nodes of degree <math id="footnote1.m1.1" class="ltx_Math" alttext="&gt;2" display="inline"><semantics id="footnote1.m1.1b"><mrow id="footnote1.m1.1.3" xref="footnote1.m1.1.3.cmml"><mi id="footnote1.m1.1.3.1" xref="footnote1.m1.1.3.1.cmml"></mi><mo id="footnote1.m1.1.1" xref="footnote1.m1.1.1.cmml">&gt;</mo><mn id="footnote1.m1.1.2" xref="footnote1.m1.1.2.cmml">2</mn></mrow><annotation-xml encoding="MathML-Content" id="footnote1.m1.1c"><apply id="footnote1.m1.1.3.cmml" xref="footnote1.m1.1.3"><gt id="footnote1.m1.1.1.cmml" xref="footnote1.m1.1.1"></gt><csymbol cd="latexml" id="footnote1.m1.1.3.1.cmml" xref="footnote1.m1.1.3.1">absent</csymbol><cn type="integer" id="footnote1.m1.1.2.cmml" xref="footnote1.m1.1.2">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="footnote1.m1.1d">RELOP:greater-than NUMBER:2</annotation><annotation encoding="application/x-tex" id="footnote1.m1.1e">&gt;2</annotation></semantics></math>, as in (b) of the figure.</span></span></span>
+</p>
+</div>
+<figure id="S0.F1" class="ltx_figure"><img src="x1.png" id="S0.F1.g1" class="ltx_graphics ltx_centering" width="556" height="202" alt="">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>
+(a) <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx2" title="" class="ltx_ref">ABE98</a>]</cite> algorithm on a densely sampled curve.
+(b) The crust <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx2" title="" class="ltx_ref">ABE98</a>]</cite>, with <math id="S0.F1.m2.1" class="ltx_Math" alttext="12" display="inline"><semantics id="S0.F1.m2.1b"><mn id="S0.F1.m2.1.2" xref="S0.F1.m2.1.2.cmml">12</mn><annotation-xml encoding="MathML-Content" id="S0.F1.m2.1c"><cn type="integer" id="S0.F1.m2.1.2.cmml" xref="S0.F1.m2.1.2">12</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F1.m2.1d">NUMBER:12</annotation><annotation encoding="application/x-tex" id="S0.F1.m2.1e">12</annotation></semantics></math> fewer sample points.
+(c) TSP algorithm on sparse set.
+Computations performed at
+<span id="S0.F1.3" class="ltx_text ltx_font_typewriter">http://</span>
+<span id="S0.F1.4" class="ltx_text ltx_font_typewriter">review.mpi-sb.mpg.de:81/Curve-Reconstruction/</span>
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx6" title="" class="ltx_ref">AMNS00</a>]</cite>.
+</figcaption>
+</figure>
+<div id="p3" class="ltx_para">
+<p id="p3.1" class="ltx_p">Their work was followed by a flurry of improvements and extensions:
+a computational improvement <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx15" title="" class="ltx_ref">Gol99</a>]</cite>,
+a simpler “nearest-neighbor crust” that raises the density threshold to
+<math id="p3.1.m1.1" class="ltx_Math" alttext="{\epsilon}=\frac{1}{3}" display="inline"><semantics id="p3.1.m1.1a"><mrow id="p3.1.m1.1.4" xref="p3.1.m1.1.4.cmml"><mi id="p3.1.m1.1.1" xref="p3.1.m1.1.1.cmml">ϵ</mi><mo id="p3.1.m1.1.2" xref="p3.1.m1.1.2.cmml">=</mo><mfrac id="p3.1.m1.1.3" xref="p3.1.m1.1.3.cmml"><mn id="p3.1.m1.1.3.2" xref="p3.1.m1.1.3.2.cmml">1</mn><mn id="p3.1.m1.1.3.3" xref="p3.1.m1.1.3.3.cmml">3</mn></mfrac></mrow><annotation-xml encoding="MathML-Content" id="p3.1.m1.1b"><apply id="p3.1.m1.1.4.cmml" xref="p3.1.m1.1.4"><eq id="p3.1.m1.1.2.cmml" xref="p3.1.m1.1.2"></eq><ci id="p3.1.m1.1.1.cmml" xref="p3.1.m1.1.1">italic-ϵ</ci><apply id="p3.1.m1.1.3.cmml" xref="p3.1.m1.1.3"><divide id="p3.1.m1.1.3.1.cmml" xref="p3.1.m1.1.3"></divide><cn type="integer" id="p3.1.m1.1.3.2.cmml" xref="p3.1.m1.1.3.2">1</cn><cn type="integer" id="p3.1.m1.1.3.3.cmml" xref="p3.1.m1.1.3.3">3</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m1.1c">italic-epsilon RELOP:equals FRACOP:italic-divide ARG:start NUMBER:1 ARG:end ARG:start NUMBER:3 ARG:end</annotation><annotation encoding="application/x-tex" id="p3.1.m1.1d">{\epsilon}=\frac{1}{3}</annotation></semantics></math> <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx10" title="" class="ltx_ref">DK99</a>]</cite>, and
+an extention to curves with endpoints <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx12" title="" class="ltx_ref">DMR99</a>]</cite>.
+Another line of investigation was opened by
+Giesen <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx14" title="" class="ltx_ref">Gie99</a>]</cite>,
+who proved that the TSP tour reconstructs the curve
+for uniformly sampled nonsmooth curves
+(and that no larger class of connected curves can be
+correctly reconstructed within the
+Delaunay subgraph.)
+This was quickly extended by Althaus and Mehlhorn
+to nonuniform samples <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx5" title="" class="ltx_ref">AM00</a>]</cite>,
+who in addition established that the TSP instance can be solved
+in polynomial time.</p>
+</div>
+<div id="p4" class="ltx_para">
+<p id="p4.1" class="ltx_p">Althaus et al. <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx6" title="" class="ltx_ref">AMNS00</a>]</cite>
+have now implemented all the major curve reconstruction algorithms
+using LEDA <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx17" title="" class="ltx_ref">MN99</a>]</cite>,
+and made them available for interactive comparison on the
+Web.
+Their experiments show that the TSP algorithm
+is both the most time-intensive computation
+(13 times the fastest competitor, <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx10" title="" class="ltx_ref">DK99</a>]</cite>),
+but also the most robust for sparsely sampled curves,<span id="footnote2" class="ltx_note ltx_role_footnote"><sup class="ltx_note_mark">2</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">2</sup><span class="ltx_tag ltx_tag_note">2</span>
+Or at least for certain classes of curves,
+with uniform random sampling.</span></span></span>
+as indicated by Fig. <a href="#S0.F1" title="Figure 1 ‣ Computational Geometry Column 38" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a>(c).</p>
+</div>
+<div id="p5" class="ltx_para">
+<p id="p5.1" class="ltx_p">The next frontier in provable
+reconstruction is reconstruction of 2D surfaces embedded in 3D.
+See <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bibx3" title="" class="ltx_ref">ABK98</a>, <a href="#bib.bibx1" title="" class="ltx_ref">AB99</a>, <a href="#bib.bibx4" title="" class="ltx_ref">AC99</a>, <a href="#bib.bibx11" title="" class="ltx_ref">DL99</a>]</cite> for a start.</p>
+</div>
+<section id="S0.SS0.SSSx1" class="ltx_subsubsection">
+<h2 class="ltx_title ltx_title_subsubsection">Acknowledgements</h2>
+
+<div id="S0.SS0.SSSx1.p1" class="ltx_para">
+<p id="S0.SS0.SSSx1.p1.1" class="ltx_p">I thank
+E. Althaus,
+N. Amenta,
+M. Bern,
+T. Dey,
+D. Eppstein,
+J. Giesen,
+and
+K. Mehlhorn for their comments.</p>
+</div>
+</section>
+<section id="bib" class="ltx_bibliography">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+
+<ul class="ltx_biblist">
+<li id="bib.bibx1" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[AB99]</span>
+<span class="ltx_bibblock">
+N. Amenta and M. Bern.
+
+</span>
+<span class="ltx_bibblock">Surface reconstruction by Voronoi filtering.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bibx1.1" class="ltx_text ltx_font_italic">Discrete Comput. Geom.</span>, 22(4):481–504, 1999.
+
+</span>
+</li>
+<li id="bib.bibx2" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[ABE98]</span>
+<span class="ltx_bibblock">
+N. Amenta, M. Bern, and D. Eppstein.
+
+</span>
+<span class="ltx_bibblock">The crust and the <math id="bib.bibx2.m1.1" class="ltx_Math" alttext="\beta" display="inline"><semantics id="bib.bibx2.m1.1a"><mi id="bib.bibx2.m1.1.1" xref="bib.bibx2.m1.1.1.cmml">β</mi><annotation-xml encoding="MathML-Content" id="bib.bibx2.m1.1b"><ci id="bib.bibx2.m1.1.1.cmml" xref="bib.bibx2.m1.1.1">𝛽</ci></annotation-xml><annotation encoding="application/x-llamapun" id="bib.bibx2.m1.1c">italic-beta</annotation><annotation encoding="application/x-tex" id="bib.bibx2.m1.1d">\beta</annotation></semantics></math>-skeleton: Combinatorial curve
+reconstruction.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bibx2.1" class="ltx_text ltx_font_italic">Graph. Models Image Process.</span>, pages 125–135, 1998.
+
+</span>
+</li>
+<li id="bib.bibx3" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[ABK98]</span>
+<span class="ltx_bibblock">
+N. Amenta, M. Bern, and M. Kamvysselis.
+
+</span>
+<span class="ltx_bibblock">A new Voronoi-based surface reconstruction algorithm.
+
+</span>
+<span class="ltx_bibblock">In <span id="bib.bibx3.1" class="ltx_text ltx_font_italic">Proc. SIGGRAPH ’98</span>, Computer Graphics Proceedings, Annual
+Conference Series, pages 415–412, July 1998.
+
+</span>
+</li>
+<li id="bib.bibx4" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[AC99]</span>
+<span class="ltx_bibblock">
+N. Amenta and S. Choi.
+
+</span>
+<span class="ltx_bibblock">One-pass Delaunay filtering for homeomorphic 3D surface
+reconstruction.
+
+</span>
+<span class="ltx_bibblock">Manuscript, 1999.
+
+</span>
+</li>
+<li id="bib.bibx5" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[AM00]</span>
+<span class="ltx_bibblock">
+E. Althaus and K. Mehlhorn.
+
+</span>
+<span class="ltx_bibblock">Polynomial time TSP-based curve reconstruction.
+
+</span>
+<span class="ltx_bibblock">In <span id="bib.bibx5.1" class="ltx_text ltx_font_italic">Proc. 11th ACM-SIAM Sympos. Discrete Algorithms</span>, pages
+686–695, January 2000.
+
+</span>
+</li>
+<li id="bib.bibx6" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[AMNS00]</span>
+<span class="ltx_bibblock">
+E. Althaus, K. Mehlhorn, S. Näher, and S. Schirra.
+
+</span>
+<span class="ltx_bibblock">Experiments on curve reconstruction.
+
+</span>
+<span class="ltx_bibblock">In <span id="bib.bibx6.1" class="ltx_text ltx_font_italic">Proc. 2nd Workshop Algorithm Eng. Exper.</span>, pages 103–114,
+January 2000.
+
+</span>
+</li>
+<li id="bib.bibx7" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[Att98]</span>
+<span class="ltx_bibblock">
+D. Attali.
+
+</span>
+<span class="ltx_bibblock"><math id="bib.bibx7.m1.1" class="ltx_Math" alttext="r" display="inline"><semantics id="bib.bibx7.m1.1a"><mi id="bib.bibx7.m1.1.1" xref="bib.bibx7.m1.1.1.cmml">r</mi><annotation-xml encoding="MathML-Content" id="bib.bibx7.m1.1b"><ci id="bib.bibx7.m1.1.1.cmml" xref="bib.bibx7.m1.1.1">𝑟</ci></annotation-xml><annotation encoding="application/x-llamapun" id="bib.bibx7.m1.1c">italic-r</annotation><annotation encoding="application/x-tex" id="bib.bibx7.m1.1d">r</annotation></semantics></math>-regular shape reconstruction from unorganized points.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bibx7.1" class="ltx_text ltx_font_italic">Comput. Geom. Theory Appl.</span>, 10:239–247, 1998.
+
+</span>
+</li>
+<li id="bib.bibx8" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[BB97]</span>
+<span class="ltx_bibblock">
+F. Bernardini and C. L. Bajaj.
+
+</span>
+<span class="ltx_bibblock">Sampling and reconstructing manifolds using alpha–shapes.
+
+</span>
+<span class="ltx_bibblock">In <span id="bib.bibx8.1" class="ltx_text ltx_font_italic">Proc. 9th Canad. Conf. Comput. Geom.</span>, pages 193–198, 1997.
+
+</span>
+</li>
+<li id="bib.bibx9" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[FMG95]</span>
+<span class="ltx_bibblock">
+L. H. de Figueiredo and J. de Miranda Gomes.
+
+</span>
+<span class="ltx_bibblock">Computational morphology of curves.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bibx9.1" class="ltx_text ltx_font_italic">Visual Comput.</span>, 11:105–112, 1995.
+
+</span>
+</li>
+<li id="bib.bibx10" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[DK99]</span>
+<span class="ltx_bibblock">
+T. K. Dey and P. Kumar.
+
+</span>
+<span class="ltx_bibblock">A simple provable algorithm for curve reconstruction.
+
+</span>
+<span class="ltx_bibblock">In <span id="bib.bibx10.1" class="ltx_text ltx_font_italic">Proc. 10th ACM-SIAM Sympos. Discrete Algorithms</span>, pages
+893–894, January 1999.
+
+</span>
+</li>
+<li id="bib.bibx11" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[DL99]</span>
+<span class="ltx_bibblock">
+T. K. Dey and N. Leekha.
+
+</span>
+<span class="ltx_bibblock">Surface reconstruction simplified.
+
+</span>
+<span class="ltx_bibblock">Manuscript, December 1999.
+
+</span>
+</li>
+<li id="bib.bibx12" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[DMR99]</span>
+<span class="ltx_bibblock">
+T. K. Dey, K. Mehlhorn, and E. A. Ramos.
+
+</span>
+<span class="ltx_bibblock">Curve reconstruction: Connecting dots with good reason.
+
+</span>
+<span class="ltx_bibblock">In <span id="bib.bibx12.1" class="ltx_text ltx_font_italic">Proc. 15th Annu. ACM Sympos. Comput. Geom.</span>, pages 197–206,
+1999.
+
+</span>
+</li>
+<li id="bib.bibx13" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[EKS83]</span>
+<span class="ltx_bibblock">
+H. Edelsbrunner, D. G. Kirkpatrick, and R. Seidel.
+
+</span>
+<span class="ltx_bibblock">On the shape of a set of points in the plane.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bibx13.1" class="ltx_text ltx_font_italic">IEEE Trans. Inform. Theory</span>, IT-29:551–559, 1983.
+
+</span>
+</li>
+<li id="bib.bibx14" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[Gie99]</span>
+<span class="ltx_bibblock">
+J. Giesen.
+
+</span>
+<span class="ltx_bibblock">Curve reconstruction, the TSP, and Menger’s theorem on length.
+
+</span>
+<span class="ltx_bibblock">In <span id="bib.bibx14.1" class="ltx_text ltx_font_italic">Proc. 15th Annu. ACM Sympos. Comput. Geom.</span>, pages 207–216,
+1999.
+
+</span>
+</li>
+<li id="bib.bibx15" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[Gol99]</span>
+<span class="ltx_bibblock">
+C. Gold.
+
+</span>
+<span class="ltx_bibblock">Crust and anti-crust: A one-step boundary and skeleton extraction
+algorithm.
+
+</span>
+<span class="ltx_bibblock">In <span id="bib.bibx15.1" class="ltx_text ltx_font_italic">Proc. 15th Annu. ACM Sympos. Comput. Geom.</span>, pages 189–196,
+1999.
+
+</span>
+</li>
+<li id="bib.bibx16" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[KR85]</span>
+<span class="ltx_bibblock">
+D. G. Kirkpatrick and J. D. Radke.
+
+</span>
+<span class="ltx_bibblock">A framework for computational morphology.
+
+</span>
+<span class="ltx_bibblock">In G. T. Toussaint, editor, <span id="bib.bibx16.1" class="ltx_text ltx_font_italic">Computational Geometry</span>, pages
+217–248. North-Holland, Amsterdam, Netherlands, 1985.
+
+</span>
+</li>
+<li id="bib.bibx17" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[MN99]</span>
+<span class="ltx_bibblock">
+K. Mehlhorn and S. Näher.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bibx17.1" class="ltx_text ltx_font_italic">LEDA: A Platform for Combinatorial and Geometric Computing</span>.
+
+</span>
+<span class="ltx_bibblock">Cambridge University Press, Cambridge, U.K., 1999.
+
+</span>
+</li>
+<li id="bib.bibx18" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[OBW87]</span>
+<span class="ltx_bibblock">
+J. O’Rourke, H. Booth, and R. Washington.
+
+</span>
+<span class="ltx_bibblock">Connect-the-dots: A new heuristic.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bibx18.1" class="ltx_text ltx_font_italic">Comput. Vision Graph. Image Process.</span>, 39:258–266, 1987.
+
+</span>
+</li>
+</ul>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Wed Jul  3 13:42:13 2019 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
+</div></footer>
+</div>
+</body>
+</html>

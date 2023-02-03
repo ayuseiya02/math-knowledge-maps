@@ -1,0 +1,94 @@
+<!DOCTYPE html><html>
+<head>
+<title>Untitled Document</title>
+<!--Generated on Wed Jul  3 20:04:37 2019 by LaTeXML (version 0.8.4) http://dlmf.nist.gov/LaTeXML/.-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</meta>
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document">
+<div id="id1" class="ltx_titlepage">
+<div id="id1.1" class="ltx_block ltx_parbox ltx_align_middle" style="width:52.6pt;">
+<img src="x1.png" id="id1.1.g1" class="ltx_graphics" width="80" height="80" alt="">
+</img>
+</div>
+<p id="id1.2" class="ltx_p"><span id="id1.2.1" class="ltx_inline-para ltx_minipage ltx_align_middle" style="width:284.5pt;">
+<span id="id1.2.1.p1" class="ltx_para">
+<span id="id1.2.1.p1.1" class="ltx_p ltx_align_right">cond-mat/0001345</span>
+<span id="id1.2.1.p1.2" class="ltx_p ltx_align_right">University of Essen</span>
+<span id="id1.2.1.p1.3" class="ltx_p ltx_align_right">January 24, 2000</span>
+</span></span></p>
+<p id="id1.3" class="ltx_p ltx_align_center"><span id="id1.3.1" class="ltx_text ltx_font_sansserif ltx_font_bold" style="font-size:144%;">Polymerized Membranes, a Review</span></p>
+<p id="id1.4" class="ltx_p ltx_align_center"><span id="id1.4.1" class="ltx_text ltx_font_bold" style="font-size:120%;">Kay Jörg Wiese<span id="footnote1" class="ltx_note ltx_role_footnote"><sup class="ltx_note_mark">*</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">*</sup><span class="ltx_tag ltx_tag_note"><span id="footnote1.1" class="ltx_text ltx_font_medium">*</span></span><span id="footnote1.4" class="ltx_text ltx_font_medium">Email: wiese@next23.theo-phys.uni-essen.de</span></span></span></span></span></p>
+<p id="id1.5" class="ltx_p ltx_align_center"><span id="id1.5.1" class="ltx_text" style="font-size:90%;">Fachbereich Physik, Universität GH Essen, 45117 Essen,
+Germany</span></p>
+<div class="ltx_abstract">
+<p id="id1.6" class="ltx_p">Membranes are of great technological and biological as well as theoretical
+interest. Two main classes of membranes can be distinguished:
+Fluid membranes and polymerized, tethered membranes. Here, we
+review progress in the theoretical understanding of polymerized
+membranes, i.e. membranes with a fixed internal connectivity.
+We start by collecting basic physical properties,
+clarifying the role of bending rigidity
+and disorder, theoretically and experimentally as well as
+numerically.
+We then give a thorough introduction into the theory
+of self-avoiding membranes, or more generally non-local field
+theories with <math id="id1.6.m1.1" class="ltx_Math" alttext="\delta" display="inline"><semantics id="id1.6.m1.1a"><mi id="id1.6.m1.1.1" xref="id1.6.m1.1.1.cmml">δ</mi><annotation-xml encoding="MathML-Content" id="id1.6.m1.1b"><ci id="id1.6.m1.1.1.cmml" xref="id1.6.m1.1.1">𝛿</ci></annotation-xml><annotation encoding="application/x-llamapun" id="id1.6.m1.1c">italic-delta</annotation><annotation encoding="application/x-tex" id="id1.6.m1.1d">\delta</annotation></semantics></math>-like interactions. Based on a proof of perturbative renormalizability
+for non-local field-theories, renormalization group
+calculations can be performed up to 2-loop order, which in 3 dimensions
+predict a crumpled phase with fractal dimension of about 2.4;
+this phase is however
+seemingly unstable towards the inclusion of bending rigidity.
+The tricritical behavior of membranes is discussed and shown
+to be quite different from that of polymers.
+Dynamical properties are studied in the same frame-work.
+Exact scaling relations, suggested but not demonstrated long time ago
+by De Gennes for polymers, are established.
+Along the same lines, disorder can be
+included leading to interesting applications.
+We also construct a generalization of the <math id="id1.6.m2.1" class="ltx_Math" alttext="O(N)" display="inline"><semantics id="id1.6.m2.1a"><mrow id="id1.6.m2.1.5" xref="id1.6.m2.1.5.cmml"><mi id="id1.6.m2.1.1" xref="id1.6.m2.1.1.cmml">O</mi><mo id="id1.6.m2.1.5.1" xref="id1.6.m2.1.5.1.cmml">⁢</mo><mrow id="id1.6.m2.1.5.2" xref="id1.6.m2.1.5.cmml"><mo stretchy="false" id="id1.6.m2.1.2" xref="id1.6.m2.1.5.cmml">(</mo><mi id="id1.6.m2.1.3" xref="id1.6.m2.1.3.cmml">N</mi><mo stretchy="false" id="id1.6.m2.1.4" xref="id1.6.m2.1.5.cmml">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content" id="id1.6.m2.1b"><apply id="id1.6.m2.1.5.cmml" xref="id1.6.m2.1.5"><times id="id1.6.m2.1.5.1.cmml" xref="id1.6.m2.1.5.1"></times><ci id="id1.6.m2.1.1.cmml" xref="id1.6.m2.1.1">𝑂</ci><ci id="id1.6.m2.1.3.cmml" xref="id1.6.m2.1.3">𝑁</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="id1.6.m2.1c">italic-O OPEN:( italic-N CLOSE:)</annotation><annotation encoding="application/x-tex" id="id1.6.m2.1d">O(N)</annotation></semantics></math>-model, which
+in the limit <math id="id1.6.m3.1" class="ltx_Math" alttext="N\to 0" display="inline"><semantics id="id1.6.m3.1a"><mrow id="id1.6.m3.1.4" xref="id1.6.m3.1.4.cmml"><mi id="id1.6.m3.1.1" xref="id1.6.m3.1.1.cmml">N</mi><mo id="id1.6.m3.1.2" xref="id1.6.m3.1.2.cmml">→</mo><mn id="id1.6.m3.1.3" xref="id1.6.m3.1.3.cmml">0</mn></mrow><annotation-xml encoding="MathML-Content" id="id1.6.m3.1b"><apply id="id1.6.m3.1.4.cmml" xref="id1.6.m3.1.4"><ci id="id1.6.m3.1.2.cmml" xref="id1.6.m3.1.2">→</ci><ci id="id1.6.m3.1.1.cmml" xref="id1.6.m3.1.1">𝑁</ci><cn type="integer" id="id1.6.m3.1.3.cmml" xref="id1.6.m3.1.3">0</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="id1.6.m3.1c">italic-N ARROW:to NUMBER:0</annotation><annotation encoding="application/x-tex" id="id1.6.m3.1d">N\to 0</annotation></semantics></math> reduces to self-avoiding membranes in analogy with the
+<math id="id1.6.m4.1" class="ltx_Math" alttext="O(N)" display="inline"><semantics id="id1.6.m4.1a"><mrow id="id1.6.m4.1.5" xref="id1.6.m4.1.5.cmml"><mi id="id1.6.m4.1.1" xref="id1.6.m4.1.1.cmml">O</mi><mo id="id1.6.m4.1.5.1" xref="id1.6.m4.1.5.1.cmml">⁢</mo><mrow id="id1.6.m4.1.5.2" xref="id1.6.m4.1.5.cmml"><mo stretchy="false" id="id1.6.m4.1.2" xref="id1.6.m4.1.5.cmml">(</mo><mi id="id1.6.m4.1.3" xref="id1.6.m4.1.3.cmml">N</mi><mo stretchy="false" id="id1.6.m4.1.4" xref="id1.6.m4.1.5.cmml">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content" id="id1.6.m4.1b"><apply id="id1.6.m4.1.5.cmml" xref="id1.6.m4.1.5"><times id="id1.6.m4.1.5.1.cmml" xref="id1.6.m4.1.5.1"></times><ci id="id1.6.m4.1.1.cmml" xref="id1.6.m4.1.1">𝑂</ci><ci id="id1.6.m4.1.3.cmml" xref="id1.6.m4.1.3">𝑁</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="id1.6.m4.1c">italic-O OPEN:( italic-N CLOSE:)</annotation><annotation encoding="application/x-tex" id="id1.6.m4.1d">O(N)</annotation></semantics></math>-model, which in the limit <math id="id1.6.m5.1" class="ltx_Math" alttext="N\to 0" display="inline"><semantics id="id1.6.m5.1a"><mrow id="id1.6.m5.1.4" xref="id1.6.m5.1.4.cmml"><mi id="id1.6.m5.1.1" xref="id1.6.m5.1.1.cmml">N</mi><mo id="id1.6.m5.1.2" xref="id1.6.m5.1.2.cmml">→</mo><mn id="id1.6.m5.1.3" xref="id1.6.m5.1.3.cmml">0</mn></mrow><annotation-xml encoding="MathML-Content" id="id1.6.m5.1b"><apply id="id1.6.m5.1.4.cmml" xref="id1.6.m5.1.4"><ci id="id1.6.m5.1.2.cmml" xref="id1.6.m5.1.2">→</ci><ci id="id1.6.m5.1.1.cmml" xref="id1.6.m5.1.1">𝑁</ci><cn type="integer" id="id1.6.m5.1.3.cmml" xref="id1.6.m5.1.3">0</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="id1.6.m5.1c">italic-N ARROW:to NUMBER:0</annotation><annotation encoding="application/x-tex" id="id1.6.m5.1d">N\to 0</annotation></semantics></math> reduces to self-avoiding polymers.
+Since perturbation theory is at the basis of the above approach,
+one has to ensure that the perturbation
+expansion is not divergent or at least Borel-summable. Using a suitable
+reformulation of the problem, we obtain the instanton governing
+the large-order behavior.
+This suggest that the perturbation expansion is indeed
+Borel-summable and the presented approach meaningful.
+Some technical details are relegated to the appendices.
+A final collection of various topics may also serve as exercises.</p>
+<p id="id1.7" class="ltx_p">PACS numbers: 05.70.Jk, 11.10.Gh, 64.60.Ak,
+75.10.Hk</p>
+</div>
+<p id="id1.8" class="ltx_p ltx_align_center"><span id="id1.8.1" class="ltx_text ltx_font_italic">Review to be published in volume 19 of Domb Lebowitz,</span></p>
+<p id="id1.9" class="ltx_p ltx_align_center"><span id="id1.9.1" class="ltx_text ltx_font_italic">Phase Transitions and Critical Phenomena.</span></p>
+<p id="id1.10" class="ltx_p ltx_align_center"><span id="id1.10.1" class="ltx_text ltx_font_italic">Habilitation thesis, Fakultät für Physik, Universität Essen, Germany</span></p>
+<p id="id1.11" class="ltx_p ltx_align_center"><span id="id1.11.1" class="ltx_text ltx_font_italic">submitted May 21, 1999; accepted October 20, 1999.</span></p>
+</div>
+<div id="p1" class="ltx_para">
+<p id="p1.1" class="ltx_p ltx_align_center"><span id="p1.1.1" class="ltx_text ltx_font_sansserif ltx_font_bold" style="font-size:120%;">Table of Contents</span></p>
+</div>
+<div id="p2" class="ltx_para">
+<br class="ltx_break">
+</br>
+</div>
+<div id="p3" class="ltx_para">
+<p id="p3.1" class="ltx_p">This article will be published in volume 19 of “Domb, Lebowitz”,
+“Phase Transitions and Critical Phenomena”, (C) Academic Press, London.
+More information can be obtained from Academic Press or from
+the author via email: <span id="p3.1.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;">wiese@theo-phys.uni-essen.de</span> or internet: <span id="p3.1.2" class="ltx_text ltx_font_typewriter" style="font-size:90%;">http://www.theo-phys.uni-essen.de/tp/u/wiese/pubwiese.html</span>.</p>
+</div>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Wed Jul  3 20:04:37 2019 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></img>
+</a>
+</div></footer>
+</div>
+</body>
+</html>

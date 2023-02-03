@@ -1,0 +1,969 @@
+<!DOCTYPE html><html>
+<head>
+<title>On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789 </title>
+<!--Generated on Wed Jul  3 19:33:12 2019 by LaTeXML (version 0.8.4) http://dlmf.nist.gov/LaTeXML/.-->
+<!--Document created on Received September 1999 / Accepted January 2000.-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" lang="en" content="cluster: open - stars: evolution – stars: interiors – stars:
+Hertzsprung–Russel (HR) diagram">
+</meta>
+</meta>
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">On the peculiar red clump morphology in the
+open clusters NGC 752 and NGC 7789 </h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Léo Girardi<math id="m1.1" class="ltx_Math" alttext="{}^{1}" display="inline"><semantics id="m1.1a"><msup id="m1.1.1" xref="m1.1.1.cmml"><mi id="m1.1.1a" xref="m1.1.1.cmml"></mi><mn id="m1.1.1.1" xref="m1.1.1.1.cmml">1</mn></msup><annotation-xml encoding="MathML-Content" id="m1.1b"><apply id="m1.1.1.cmml" xref="m1.1.1"><cn type="integer" id="m1.1.1.1.cmml" xref="m1.1.1.1">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m1.1c">FLOATSUPERSCRIPT:start NUMBER:1 FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m1.1d">{}^{1}</annotation></semantics></math>
+</span><span class="ltx_author_notes"><span><math id="id5.m1.1" class="ltx_Math" alttext="{}^{1}" display="inline"><semantics id="id5.m1.1a"><msup id="id5.m1.1.1" xref="id5.m1.1.1.cmml"><mi id="id5.m1.1.1a" xref="id5.m1.1.1.cmml"></mi><mn id="id5.m1.1.1.1" xref="id5.m1.1.1.1.cmml">1</mn></msup><annotation-xml encoding="MathML-Content" id="id5.m1.1b"><apply id="id5.m1.1.1.cmml" xref="id5.m1.1.1"><cn type="integer" id="id5.m1.1.1.1.cmml" xref="id5.m1.1.1.1">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="id5.m1.1c">FLOATSUPERSCRIPT:start NUMBER:1 FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="id5.m1.1d">{}^{1}</annotation></semantics></math> Dipartimento di Astronomia, Università di Padova,
+Vicolo dell’Osservatorio 5, I-35122
+Padova, Italy 
+<br class="ltx_break"><math id="id5.m2.1" class="ltx_Math" alttext="{}^{2}" display="inline"><semantics id="id5.m2.1a"><msup id="id5.m2.1.1" xref="id5.m2.1.1.cmml"><mi id="id5.m2.1.1a" xref="id5.m2.1.1.cmml"></mi><mn id="id5.m2.1.1.1" xref="id5.m2.1.1.1.cmml">2</mn></msup><annotation-xml encoding="MathML-Content" id="id5.m2.1b"><apply id="id5.m2.1.1.cmml" xref="id5.m2.1.1"><cn type="integer" id="id5.m2.1.1.1.cmml" xref="id5.m2.1.1.1">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="id5.m2.1c">FLOATSUPERSCRIPT:start NUMBER:2 FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="id5.m2.1d">{}^{2}</annotation></semantics></math> Institut d’Astronomie de l’Université de Lausanne,
+CH-1290 Chavannes-des-Bois, Switzerland
+</br>
+</span></span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname"> Jean-Claude Mermilliod<math id="m2.1" class="ltx_Math" alttext="{}^{2}" display="inline"><semantics id="m2.1a"><msup id="m2.1.1" xref="m2.1.1.cmml"><mi id="m2.1.1a" xref="m2.1.1.cmml"></mi><mn id="m2.1.1.1" xref="m2.1.1.1.cmml">2</mn></msup><annotation-xml encoding="MathML-Content" id="m2.1b"><apply id="m2.1.1.cmml" xref="m2.1.1"><cn type="integer" id="m2.1.1.1.cmml" xref="m2.1.1.1">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m2.1c">FLOATSUPERSCRIPT:start NUMBER:2 FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m2.1d">{}^{2}</annotation></semantics></math>
+</span><span class="ltx_author_notes"><span><math id="m4.2" class="ltx_Math" alttext="{}^{1}" display="inline"><semantics id="m4.2a"><msup id="m4.2.2" xref="m4.2.2.cmml"><mi id="m4.2.2a" xref="m4.2.2.cmml"></mi><mn id="m4.2.2.2" xref="m4.2.2.2.cmml">1</mn></msup><annotation-xml encoding="MathML-Content" id="m4.2b"><apply id="m4.2.2.cmml" xref="m4.2.2"><cn type="integer" id="m4.2.2.2.cmml" xref="m4.2.2.2">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m4.2c">FLOATSUPERSCRIPT:start NUMBER:1 FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m4.2d">{}^{1}</annotation></semantics></math> Dipartimento di Astronomia, Università di Padova,
+Vicolo dell’Osservatorio 5, I-35122
+Padova, Italy 
+<br class="ltx_break"><math id="m5.2" class="ltx_Math" alttext="{}^{2}" display="inline"><semantics id="m5.2a"><msup id="m5.2.2" xref="m5.2.2.cmml"><mi id="m5.2.2a" xref="m5.2.2.cmml"></mi><mn id="m5.2.2.2" xref="m5.2.2.2.cmml">2</mn></msup><annotation-xml encoding="MathML-Content" id="m5.2b"><apply id="m5.2.2.cmml" xref="m5.2.2"><cn type="integer" id="m5.2.2.2.cmml" xref="m5.2.2.2">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m5.2c">FLOATSUPERSCRIPT:start NUMBER:2 FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m5.2d">{}^{2}</annotation></semantics></math> Institut d’Astronomie de l’Université de Lausanne,
+CH-1290 Chavannes-des-Bois, Switzerland
+</br>
+</span></span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">
+Giovanni Carraro<math id="m3.1" class="ltx_Math" alttext="{}^{1}" display="inline"><semantics id="m3.1a"><msup id="m3.1.1" xref="m3.1.1.cmml"><mi id="m3.1.1a" xref="m3.1.1.cmml"></mi><mn id="m3.1.1.1" xref="m3.1.1.1.cmml">1</mn></msup><annotation-xml encoding="MathML-Content" id="m3.1b"><apply id="m3.1.1.cmml" xref="m3.1.1"><cn type="integer" id="m3.1.1.1.cmml" xref="m3.1.1.1">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m3.1c">FLOATSUPERSCRIPT:start NUMBER:1 FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m3.1d">{}^{1}</annotation></semantics></math>
+</span><span class="ltx_author_notes"><span><math id="m6.2" class="ltx_Math" alttext="{}^{1}" display="inline"><semantics id="m6.2a"><msup id="m6.2.2" xref="m6.2.2.cmml"><mi id="m6.2.2a" xref="m6.2.2.cmml"></mi><mn id="m6.2.2.2" xref="m6.2.2.2.cmml">1</mn></msup><annotation-xml encoding="MathML-Content" id="m6.2b"><apply id="m6.2.2.cmml" xref="m6.2.2"><cn type="integer" id="m6.2.2.2.cmml" xref="m6.2.2.2">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m6.2c">FLOATSUPERSCRIPT:start NUMBER:1 FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m6.2d">{}^{1}</annotation></semantics></math> Dipartimento di Astronomia, Università di Padova,
+Vicolo dell’Osservatorio 5, I-35122
+Padova, Italy 
+<br class="ltx_break"><math id="m7.2" class="ltx_Math" alttext="{}^{2}" display="inline"><semantics id="m7.2a"><msup id="m7.2.2" xref="m7.2.2.cmml"><mi id="m7.2.2a" xref="m7.2.2.cmml"></mi><mn id="m7.2.2.2" xref="m7.2.2.2.cmml">2</mn></msup><annotation-xml encoding="MathML-Content" id="m7.2b"><apply id="m7.2.2.cmml" xref="m7.2.2"><cn type="integer" id="m7.2.2.2.cmml" xref="m7.2.2.2">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m7.2c">FLOATSUPERSCRIPT:start NUMBER:2 FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m7.2d">{}^{2}</annotation></semantics></math> Institut d’Astronomie de l’Université de Lausanne,
+CH-1290 Chavannes-des-Bois, Switzerland
+</br>
+</span></span></span>
+</div>
+<div class="ltx_date ltx_role_creation">Received September 1999 / Accepted January 2000</div>
+
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p id="id1" class="ltx_p">The red clump stars in the open cluster NGC 752 present a peculiar
+distribution in the colour-magnitude diagram (CMD): the clump is
+observed to present a faint extension, slightly to the blue of the
+main concentration of clump stars. We point out that a similar structure
+is present in the CMD of NGC 7789, and discuss their possible origins.
+This feature may be understood as the result of having, at the same time,
+stars of low-mass which undergo the helium-flash, and those just massive
+enough for avoiding it. The ages of both clusters are compatible with
+this interpretation.</p>
+<p id="id2" class="ltx_p">Similar features can be produced in theoretical models which assume a
+non-negligible mass spread for clump stars, of about 0.2 <span id="id2.1" class="ltx_text"><math id="id2.1.m1.1" class="ltx_Math" alttext="M_{\odot}" display="inline"><semantics id="id2.1.m1.1a"><msub id="id2.1.m1.1.3" xref="id2.1.m1.1.3.cmml"><mi id="id2.1.m1.1.1" xref="id2.1.m1.1.1.cmml">M</mi><mo id="id2.1.m1.1.2.1" xref="id2.1.m1.1.2.1.cmml">⊙</mo></msub><annotation-xml encoding="MathML-Content" id="id2.1.m1.1b"><apply id="id2.1.m1.1.3.cmml" xref="id2.1.m1.1.3"><csymbol cd="ambiguous" id="id2.1.m1.1.3.1.cmml" xref="id2.1.m1.1.3">subscript</csymbol><ci id="id2.1.m1.1.1.cmml" xref="id2.1.m1.1.1">𝑀</ci><csymbol cd="latexml" id="id2.1.m1.1.2.1.cmml" xref="id2.1.m1.1.2.1">direct-product</csymbol></apply></annotation-xml><annotation encoding="application/x-llamapun" id="id2.1.m1.1c">italic-M POSTSUBSCRIPT:start MULOP:direct-product POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="id2.1.m1.1d">M_{\odot}</annotation></semantics></math></span>. However,
+one can probably exclude that the observed effect is due to the natural
+mass range of core helium burning stars found in single isochrones,
+although present models do not present the level of detail necessary to
+completely explore this possibility. Also the possibility of a large age
+spread among cluster stars can be refuted on observational grounds.</p>
+<p id="id3" class="ltx_p">We then suggest a few alternatives. This spread may be
+resulting either from star-to-star variations in the mass-loss rates
+during the RGB phase. Alternatively, effects such as stellar rotation or
+convective core overshooting, could be causing a significant spread in
+the core mass at He-ignition for stars of similar mass. Finally, we
+point out that similar effects could also help to understand the
+distribution of clump stars in the CMDs of the clusters NGC 2660 and
+NGC 2204.</p>
+</div>
+<div class="ltx_keywords">
+<h6 class="ltx_title ltx_title_keywords">Key Words.:</h6>cluster: open - stars: evolution – stars: interiors – stars:
+Hertzsprung–Russel (HR) diagram
+</div>
+<span id="id4" class="ltx_note ltx_role_offprints"><sup class="ltx_note_mark">†</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">†</sup><span class="ltx_note_type">offprints: </span>Léo Girardi 
+<br class="ltx_break">e-mail: Lgirardi@pd.astro.it </br>
+</span></span></span>
+<section id="S1" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">1 </span> Introduction </h2>
+
+<div id="S1.p1" class="ltx_para">
+<p id="S1.p1.1" class="ltx_p">The clump of red giants is a remarkable feature in the colour-magnitude
+diagrams (CMD) of intermediate-age and old open clusters (Cannon <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib2" title="" class="ltx_ref">rdc </a></cite>).
+It is defined by stars in the stage of core helium burning (CHeB).</p>
+</div>
+<div id="S1.p2" class="ltx_para">
+<p id="S1.p2.1" class="ltx_p">In the clusters for which the non-member
+field stars and binaries have been identified and excluded,
+the red clump may occupy a very small region of the
+CMD. A good example of this case is given by the 4-Gyr old cluster
+M 67: its 6 clump stars differ in colour by less than
+0.01 mag in <span id="S1.p2.1.1" class="ltx_text"><math id="S1.p2.1.1.m1.1" class="ltx_Math" alttext="B-V" display="inline"><semantics id="S1.p2.1.1.m1.1a"><mrow id="S1.p2.1.1.m1.1.4" xref="S1.p2.1.1.m1.1.4.cmml"><mi id="S1.p2.1.1.m1.1.1" xref="S1.p2.1.1.m1.1.1.cmml">B</mi><mo id="S1.p2.1.1.m1.1.2" xref="S1.p2.1.1.m1.1.2.cmml">-</mo><mi id="S1.p2.1.1.m1.1.3" xref="S1.p2.1.1.m1.1.3.cmml">V</mi></mrow><annotation-xml encoding="MathML-Content" id="S1.p2.1.1.m1.1b"><apply id="S1.p2.1.1.m1.1.4.cmml" xref="S1.p2.1.1.m1.1.4"><minus id="S1.p2.1.1.m1.1.2.cmml" xref="S1.p2.1.1.m1.1.2"></minus><ci id="S1.p2.1.1.m1.1.1.cmml" xref="S1.p2.1.1.m1.1.1">𝐵</ci><ci id="S1.p2.1.1.m1.1.3.cmml" xref="S1.p2.1.1.m1.1.3">𝑉</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p2.1.1.m1.1c">italic-B ADDOP:minus italic-V</annotation><annotation encoding="application/x-tex" id="S1.p2.1.1.m1.1d">B-V</annotation></semantics></math></span>, and 0.1 mag in <math id="S1.p2.1.m1.1" class="ltx_Math" alttext="V" display="inline"><semantics id="S1.p2.1.m1.1a"><mi id="S1.p2.1.m1.1.1" xref="S1.p2.1.m1.1.1.cmml">V</mi><annotation-xml encoding="MathML-Content" id="S1.p2.1.m1.1b"><ci id="S1.p2.1.m1.1.1.cmml" xref="S1.p2.1.m1.1.1">𝑉</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p2.1.m1.1c">italic-V</annotation><annotation encoding="application/x-tex" id="S1.p2.1.m1.1d">V</annotation></semantics></math> (see e.g. Montgomery et
+al. <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib23" title="" class="ltx_ref">mmj </a></cite>). This small spread of the clump
+can be easily understood as the result of having low-mass core
+He-burning stars of very similar masses in this cluster.</p>
+</div>
+<div id="S1.p3" class="ltx_para">
+<p id="S1.p3.1" class="ltx_p">However, some clusters clearly present a more complex clump structure.
+One of the best examples is given by NGC 752: Mermilliod et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib21" title="" class="ltx_ref">mmlm </a></cite>)
+recently pointed out it presents a kind of dual clump.
+It is shown in detail in the figure 5 of Mermilliod et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib21" title="" class="ltx_ref">mmlm </a></cite>):
+there we can notice the presence of the main clump
+centered at <math id="S1.p3.1.m1.1" class="ltx_Math" alttext="\mbox{$B-V$}=1.01" display="inline"><semantics id="S1.p3.1.m1.1a"><mrow id="S1.p3.1.m1.1.7" xref="S1.p3.1.m1.1.7.cmml"><mrow id="S1.p3.1.m1.1.1" xref="S1.p3.1.m1.1.1.cmml"><mi id="S1.p3.1.m1.1.1.1.m1.1.1" xref="S1.p3.1.m1.1.1.1.m1.1.1.cmml">B</mi><mo id="S1.p3.1.m1.1.1.1.m1.1.2" xref="S1.p3.1.m1.1.1.1.m1.1.2.cmml">-</mo><mi id="S1.p3.1.m1.1.1.1.m1.1.3" xref="S1.p3.1.m1.1.1.1.m1.1.3.cmml">V</mi></mrow><mo id="S1.p3.1.m1.1.2" xref="S1.p3.1.m1.1.2.cmml">=</mo><mn id="S1.p3.1.m1.1.6" xref="S1.p3.1.m1.1.6.cmml">1.01</mn></mrow><annotation-xml encoding="MathML-Content" id="S1.p3.1.m1.1b"><apply id="S1.p3.1.m1.1.7.cmml" xref="S1.p3.1.m1.1.7"><eq id="S1.p3.1.m1.1.2.cmml" xref="S1.p3.1.m1.1.2"></eq><apply id="S1.p3.1.m1.1.1.cmml" xref="S1.p3.1.m1.1.1"><minus id="S1.p3.1.m1.1.1.1.m1.1.2.cmml" xref="S1.p3.1.m1.1.1.1.m1.1.2"></minus><ci id="S1.p3.1.m1.1.1.1.m1.1.1.cmml" xref="S1.p3.1.m1.1.1.1.m1.1.1">𝐵</ci><ci id="S1.p3.1.m1.1.1.1.m1.1.3.cmml" xref="S1.p3.1.m1.1.1.1.m1.1.3">𝑉</ci></apply><cn type="float" id="S1.p3.1.m1.1.6.cmml" xref="S1.p3.1.m1.1.6">1.01</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p3.1.m1.1c">italic-B ADDOP:minus italic-V RELOP:equals NUMBER:1.01</annotation><annotation encoding="application/x-tex" id="S1.p3.1.m1.1d">\mbox{$B-V$}=1.01</annotation></semantics></math>, <math id="S1.p3.1.m2.1" class="ltx_Math" alttext="V=9.0" display="inline"><semantics id="S1.p3.1.m2.1a"><mrow id="S1.p3.1.m2.1.6" xref="S1.p3.1.m2.1.6.cmml"><mi id="S1.p3.1.m2.1.1" xref="S1.p3.1.m2.1.1.cmml">V</mi><mo id="S1.p3.1.m2.1.2" xref="S1.p3.1.m2.1.2.cmml">=</mo><mn id="S1.p3.1.m2.1.5" xref="S1.p3.1.m2.1.5.cmml">9.0</mn></mrow><annotation-xml encoding="MathML-Content" id="S1.p3.1.m2.1b"><apply id="S1.p3.1.m2.1.6.cmml" xref="S1.p3.1.m2.1.6"><eq id="S1.p3.1.m2.1.2.cmml" xref="S1.p3.1.m2.1.2"></eq><ci id="S1.p3.1.m2.1.1.cmml" xref="S1.p3.1.m2.1.1">𝑉</ci><cn type="float" id="S1.p3.1.m2.1.5.cmml" xref="S1.p3.1.m2.1.5">9.0</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p3.1.m2.1c">italic-V RELOP:equals NUMBER:9.0</annotation><annotation encoding="application/x-tex" id="S1.p3.1.m2.1d">V=9.0</annotation></semantics></math> and composed of 8 member stars, and a
+distribution of 3 or 4 fainter stars, going down by about 0.5 mag in
+relation with this main clump. Importantly, all
+stars plotted are members of the cluster with probability <math id="S1.p3.1.m3.1" class="ltx_Math" alttext="P&gt;93" display="inline"><semantics id="S1.p3.1.m3.1a"><mrow id="S1.p3.1.m3.1.5" xref="S1.p3.1.m3.1.5.cmml"><mi id="S1.p3.1.m3.1.1" xref="S1.p3.1.m3.1.1.cmml">P</mi><mo id="S1.p3.1.m3.1.2" xref="S1.p3.1.m3.1.2.cmml">&gt;</mo><mn id="S1.p3.1.m3.1.4" xref="S1.p3.1.m3.1.4.cmml">93</mn></mrow><annotation-xml encoding="MathML-Content" id="S1.p3.1.m3.1b"><apply id="S1.p3.1.m3.1.5.cmml" xref="S1.p3.1.m3.1.5"><gt id="S1.p3.1.m3.1.2.cmml" xref="S1.p3.1.m3.1.2"></gt><ci id="S1.p3.1.m3.1.1.cmml" xref="S1.p3.1.m3.1.1">𝑃</ci><cn type="integer" id="S1.p3.1.m3.1.4.cmml" xref="S1.p3.1.m3.1.4">93</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p3.1.m3.1c">italic-P RELOP:greater-than NUMBER:93</annotation><annotation encoding="application/x-tex" id="S1.p3.1.m3.1d">P&gt;93</annotation></semantics></math>%,
+and photometric errors are lower than 0.015 on <math id="S1.p3.1.m4.1" class="ltx_Math" alttext="V" display="inline"><semantics id="S1.p3.1.m4.1a"><mi id="S1.p3.1.m4.1.1" xref="S1.p3.1.m4.1.1.cmml">V</mi><annotation-xml encoding="MathML-Content" id="S1.p3.1.m4.1b"><ci id="S1.p3.1.m4.1.1.cmml" xref="S1.p3.1.m4.1.1">𝑉</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p3.1.m4.1c">italic-V</annotation><annotation encoding="application/x-tex" id="S1.p3.1.m4.1d">V</annotation></semantics></math> and 0.013 on the
+colours. Therefore, the structure seen in NGC 752
+is real, and not an artefact of observational uncertainties.</p>
+</div>
+<div id="S1.p4" class="ltx_para">
+<p id="S1.p4.1" class="ltx_p">On the other hand, recent works suggest that clumps with a faint
+extension may be a commom feature in the field of nearby galaxies.
+In a few words, population synthesis models
+of galaxy fields predict that a secondary red clump may be formed at
+about <math id="S1.p4.1.m1.1" class="ltx_Math" alttext="0.3-0.4" display="inline"><semantics id="S1.p4.1.m1.1a"><mrow id="S1.p4.1.m1.1.8" xref="S1.p4.1.m1.1.8.cmml"><mn id="S1.p4.1.m1.1.3" xref="S1.p4.1.m1.1.3.cmml">0.3</mn><mo id="S1.p4.1.m1.1.4" xref="S1.p4.1.m1.1.4.cmml">-</mo><mn id="S1.p4.1.m1.1.7" xref="S1.p4.1.m1.1.7.cmml">0.4</mn></mrow><annotation-xml encoding="MathML-Content" id="S1.p4.1.m1.1b"><apply id="S1.p4.1.m1.1.8.cmml" xref="S1.p4.1.m1.1.8"><minus id="S1.p4.1.m1.1.4.cmml" xref="S1.p4.1.m1.1.4"></minus><cn type="float" id="S1.p4.1.m1.1.3.cmml" xref="S1.p4.1.m1.1.3">0.3</cn><cn type="float" id="S1.p4.1.m1.1.7.cmml" xref="S1.p4.1.m1.1.7">0.4</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p4.1.m1.1c">NUMBER:0.3 ADDOP:minus NUMBER:0.4</annotation><annotation encoding="application/x-tex" id="S1.p4.1.m1.1d">0.3-0.4</annotation></semantics></math> mag below the main one, containing the CHeB stars which
+are just massive enough for starting to burn helium in non-degenerate
+conditions.
+Girardi et al. <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib10" title="" class="ltx_ref">ggws </a></cite> first suggested the presence of this feature
+in the CMD derived from <span id="S1.p4.1.1" class="ltx_text ltx_font_italic">Hipparcos</span> data-base (Perryman et al. <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib24" title="" class="ltx_ref">macp </a></cite>; ESA <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib6" title="" class="ltx_ref">esa </a></cite>).
+The subject has been later extensively discussed by Girardi (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib11" title="" class="ltx_ref">lg99 </a></cite>).
+Bica et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib1" title="" class="ltx_ref">bgdc </a></cite>) and Piatti et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib25" title="" class="ltx_ref">pgbc </a></cite>) recently presented clear evidence showing that this feature
+is present in the LMC.</p>
+</div>
+<div id="S1.p5" class="ltx_para">
+<p id="S1.p5.1" class="ltx_p">Could this feature provide an explanation also for the peculiar
+morphology of the clump in NGC 752? Is a similar clump morphology
+observed in other clusters as well? These are the main
+questions we address in this paper.</p>
+</div>
+</section>
+<section id="S2" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">2 </span>The clusters</h2>
+
+<div id="S2.p1" class="ltx_para">
+<p id="S2.p1.1" class="ltx_p">First of all, we examined the available data for galactic open
+clusters, in order to identify if other clusters have clumps
+with the same general appearance as in NGC 752.
+We used the extended database of accurate photometry and radial
+velocity data compiled by
+Mermilliod and collaborators. This data allows us to select the member
+stars and avoid the binaries in each cluster. In this way, clean
+CMDs can be produced. Indeed, Mermilliod &amp; Mayor (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib19" title="" class="ltx_ref">mm89 </a></cite>, <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib20" title="" class="ltx_ref">mm90 </a></cite>)
+already noticed the presence of a number of
+stars below the clump in some clusters. The case of NGC 752,
+however, is remarkable for the high fraction of stars
+located below the “main clump” level, which causes its
+apparent bi-modality.</p>
+</div>
+<div id="S2.p2" class="ltx_para">
+<p id="S2.p2.1" class="ltx_p">We searched for clusters with ages similar to that of NGC 752
+(<math id="S2.p2.1.m1.1" class="ltx_Math" alttext="9.1&lt;\log t&lt;9.3" display="inline"><semantics id="S2.p2.1.m1.1a"><mrow id="S2.p2.1.m1.1.11" xref="S2.p2.1.m1.1.11.cmml"><mn id="S2.p2.1.m1.1.3" xref="S2.p2.1.m1.1.3.cmml">9.1</mn><mo id="S2.p2.1.m1.1.4" xref="S2.p2.1.m1.1.4.cmml">&lt;</mo><mrow id="S2.p2.1.m1.1.11.2" xref="S2.p2.1.m1.1.11.2.cmml"><mi id="S2.p2.1.m1.1.5" xref="S2.p2.1.m1.1.5.cmml">log</mi><mo id="S2.p2.1.m1.1.11.2a" xref="S2.p2.1.m1.1.11.2.cmml">⁡</mo><mi id="S2.p2.1.m1.1.6" xref="S2.p2.1.m1.1.6.cmml">t</mi></mrow><mo id="S2.p2.1.m1.1.7" xref="S2.p2.1.m1.1.7.cmml">&lt;</mo><mn id="S2.p2.1.m1.1.10" xref="S2.p2.1.m1.1.10.cmml">9.3</mn></mrow><annotation-xml encoding="MathML-Content" id="S2.p2.1.m1.1b"><apply id="S2.p2.1.m1.1.11.cmml" xref="S2.p2.1.m1.1.11"><and id="S2.p2.1.m1.1.11a.cmml" xref="S2.p2.1.m1.1.11"></and><apply id="S2.p2.1.m1.1.11b.cmml" xref="S2.p2.1.m1.1.11"><lt id="S2.p2.1.m1.1.4.cmml" xref="S2.p2.1.m1.1.4"></lt><cn type="float" id="S2.p2.1.m1.1.3.cmml" xref="S2.p2.1.m1.1.3">9.1</cn><apply id="S2.p2.1.m1.1.11.2.cmml" xref="S2.p2.1.m1.1.11.2"><log id="S2.p2.1.m1.1.5.cmml" xref="S2.p2.1.m1.1.5"></log><ci id="S2.p2.1.m1.1.6.cmml" xref="S2.p2.1.m1.1.6">𝑡</ci></apply></apply><apply id="S2.p2.1.m1.1.11c.cmml" xref="S2.p2.1.m1.1.11"><lt id="S2.p2.1.m1.1.7.cmml" xref="S2.p2.1.m1.1.7"></lt><share href="#S2.p2.1.m1.1.11.2.cmml" id="S2.p2.1.m1.1.11d.cmml" xref="S2.p2.1.m1.1.11"></share><cn type="float" id="S2.p2.1.m1.1.10.cmml" xref="S2.p2.1.m1.1.10">9.3</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p2.1.m1.1c">NUMBER:9.1 RELOP:less-than OPFUNCTION:logarithm italic-t RELOP:less-than NUMBER:9.3</annotation><annotation encoding="application/x-tex" id="S2.p2.1.m1.1d">9.1&lt;\log t&lt;9.3</annotation></semantics></math>). Several candidates were found.
+NGC 3680 and IC 4651 (Mermilliod et al. <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib18" title="" class="ltx_ref">manm </a></cite>) do not present
+the same characteristics as NGC 752 does. The red giant clump in
+NGC 3680 is rather concentrated, with few scatter in magnitude and
+colours, while the morphology of IC 4651 clump is more complex.
+NGC 2158 is a rich and very interesting cluster probably showing
+also a complex structure of the clump region.
+However, most data are photographic and there is presently no
+kinematical membership determination to identify the true members.
+A CCD study paying attention to the red giants would be worth.
+We shall therefore refrain to use this cluster. The fourth cluster
+is NGC 7789 for which <math id="S2.p2.1.m2.1" class="ltx_Math" alttext="BV" display="inline"><semantics id="S2.p2.1.m2.1a"><mrow id="S2.p2.1.m2.1.3" xref="S2.p2.1.m2.1.3.cmml"><mi id="S2.p2.1.m2.1.1" xref="S2.p2.1.m2.1.1.cmml">B</mi><mo id="S2.p2.1.m2.1.3.1" xref="S2.p2.1.m2.1.3.1.cmml">⁢</mo><mi id="S2.p2.1.m2.1.2" xref="S2.p2.1.m2.1.2.cmml">V</mi></mrow><annotation-xml encoding="MathML-Content" id="S2.p2.1.m2.1b"><apply id="S2.p2.1.m2.1.3.cmml" xref="S2.p2.1.m2.1.3"><times id="S2.p2.1.m2.1.3.1.cmml" xref="S2.p2.1.m2.1.3.1"></times><ci id="S2.p2.1.m2.1.1.cmml" xref="S2.p2.1.m2.1.1">𝐵</ci><ci id="S2.p2.1.m2.1.2.cmml" xref="S2.p2.1.m2.1.2">𝑉</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p2.1.m2.1c">italic-B italic-V</annotation><annotation encoding="application/x-tex" id="S2.p2.1.m2.1d">BV</annotation></semantics></math> CCD data have been published by Martinez
+Roger et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib16" title="" class="ltx_ref">mrpc </a></cite>) and Jahn et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib15" title="" class="ltx_ref">jkr </a></cite>). Gim et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib8" title="" class="ltx_ref">ghmc </a></cite>) have
+published an extensive radial-velocity study which permits to reject
+the non-member stars and identify the binaries. Membership
+probabilities from proper motions for NGC 7789 have been published by
+McNamara &amp; Solomon (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib17" title="" class="ltx_ref">mcns </a></cite>) so that the membership of the red giants
+is rather well defined. Most other clusters containing numerous red
+giants and for which good photometric data are available are
+either younger (about 1 Myr) and have a large clump, with a few stars
+below or are older and have a more or less well developed giant
+branch.</p>
+</div>
+<div id="S2.p3" class="ltx_para">
+<p id="S2.p3.1" class="ltx_p">As can be seen in Fig. <a href="#S2.F1" title="Figure 1 ‣ 2 The clusters ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a>,
+the red clump in NGC 7789 presents a tail
+of faint stars extending down to 0.4 mag below the main
+concentration of clump stars. Again, the fainter clump stars are
+observed to be slightly bluer than the main clump concentration.</p>
+</div>
+<figure id="S2.F1" class="ltx_figure">
+<div id="S2.F1.1" class="ltx_block" style="width:469.8pt;vertical-align:-0.0pt;">
+<img src="x1.png" id="S2.F1.1.g1" class="ltx_graphics" width="730" height="914" alt="">
+</img>
+</div>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>
+CMD of NGC 7789. Filled squares denotes stars with membership probability
+<math id="S2.F1.m4.1" class="ltx_Math" alttext="P&gt;75" display="inline"><semantics id="S2.F1.m4.1b"><mrow id="S2.F1.m4.1.5" xref="S2.F1.m4.1.5.cmml"><mi id="S2.F1.m4.1.1" xref="S2.F1.m4.1.1.cmml">P</mi><mo id="S2.F1.m4.1.2" xref="S2.F1.m4.1.2.cmml">&gt;</mo><mn id="S2.F1.m4.1.4" xref="S2.F1.m4.1.4.cmml">75</mn></mrow><annotation-xml encoding="MathML-Content" id="S2.F1.m4.1c"><apply id="S2.F1.m4.1.5.cmml" xref="S2.F1.m4.1.5"><gt id="S2.F1.m4.1.2.cmml" xref="S2.F1.m4.1.2"></gt><ci id="S2.F1.m4.1.1.cmml" xref="S2.F1.m4.1.1">𝑃</ci><cn type="integer" id="S2.F1.m4.1.4.cmml" xref="S2.F1.m4.1.4">75</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.F1.m4.1d">italic-P RELOP:greater-than NUMBER:75</annotation><annotation encoding="application/x-tex" id="S2.F1.m4.1e">P&gt;75</annotation></semantics></math>%, open squares stars with <math id="S2.F1.m5.1" class="ltx_Math" alttext="P&lt;75" display="inline"><semantics id="S2.F1.m5.1b"><mrow id="S2.F1.m5.1.5" xref="S2.F1.m5.1.5.cmml"><mi id="S2.F1.m5.1.1" xref="S2.F1.m5.1.1.cmml">P</mi><mo id="S2.F1.m5.1.2" xref="S2.F1.m5.1.2.cmml">&lt;</mo><mn id="S2.F1.m5.1.4" xref="S2.F1.m5.1.4.cmml">75</mn></mrow><annotation-xml encoding="MathML-Content" id="S2.F1.m5.1c"><apply id="S2.F1.m5.1.5.cmml" xref="S2.F1.m5.1.5"><lt id="S2.F1.m5.1.2.cmml" xref="S2.F1.m5.1.2"></lt><ci id="S2.F1.m5.1.1.cmml" xref="S2.F1.m5.1.1">𝑃</ci><cn type="integer" id="S2.F1.m5.1.4.cmml" xref="S2.F1.m5.1.4">75</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.F1.m5.1d">italic-P RELOP:less-than NUMBER:75</annotation><annotation encoding="application/x-tex" id="S2.F1.m5.1e">P&lt;75</annotation></semantics></math>%, and crosses stars without
+membership probabilities. The isochrone is from the models of Girardi et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib13" title="" class="ltx_ref">gbbc </a></cite>) for solar metallicity and <math id="S2.F1.m6.1" class="ltx_Math" alttext="\log t=9.20" display="inline"><semantics id="S2.F1.m6.1b"><mrow id="S2.F1.m6.1.8" xref="S2.F1.m6.1.8.cmml"><mrow id="S2.F1.m6.1.8.1" xref="S2.F1.m6.1.8.1.cmml"><mi id="S2.F1.m6.1.1" xref="S2.F1.m6.1.1.cmml">log</mi><mo id="S2.F1.m6.1.8.1b" xref="S2.F1.m6.1.8.1.cmml">⁡</mo><mi id="S2.F1.m6.1.2" xref="S2.F1.m6.1.2.cmml">t</mi></mrow><mo id="S2.F1.m6.1.3" xref="S2.F1.m6.1.3.cmml">=</mo><mn id="S2.F1.m6.1.7" xref="S2.F1.m6.1.7.cmml">9.20</mn></mrow><annotation-xml encoding="MathML-Content" id="S2.F1.m6.1c"><apply id="S2.F1.m6.1.8.cmml" xref="S2.F1.m6.1.8"><eq id="S2.F1.m6.1.3.cmml" xref="S2.F1.m6.1.3"></eq><apply id="S2.F1.m6.1.8.1.cmml" xref="S2.F1.m6.1.8.1"><log id="S2.F1.m6.1.1.cmml" xref="S2.F1.m6.1.1"></log><ci id="S2.F1.m6.1.2.cmml" xref="S2.F1.m6.1.2">𝑡</ci></apply><cn type="float" id="S2.F1.m6.1.7.cmml" xref="S2.F1.m6.1.7">9.20</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.F1.m6.1d">OPFUNCTION:logarithm italic-t RELOP:equals NUMBER:9.20</annotation><annotation encoding="application/x-tex" id="S2.F1.m6.1e">\log t=9.20</annotation></semantics></math>. Notice the fainter
+and somewhat bluer tail below the clump.</figcaption>
+</figure>
+<div id="S2.p4" class="ltx_para">
+<p id="S2.p4.1" class="ltx_p">A comparison between NGC 752 and NGC 7789 clearly evidences
+that both clusters have similar ages: suffice it to notice that
+the main sequence termination (TAMS) and red clump are observed at
+the same colour (<math id="S2.p4.1.m1.1" class="ltx_Math" alttext="\mbox{$(B-V)_{o}$}=0.5" display="inline"><semantics id="S2.p4.1.m1.1a"><mrow id="S2.p4.1.m1.1.6" xref="S2.p4.1.m1.1.6.cmml"><msub id="S2.p4.1.m1.1.1" xref="S2.p4.1.m1.1.1.cmml"><mrow id="S2.p4.1.m1.1.1.3" xref="S2.p4.1.m1.1.1.3.2.cmml"><mo stretchy="false" id="S2.p4.1.m1.1.1.1.m1.1.1" xref="S2.p4.1.m1.1.1.3.2.cmml">(</mo><mrow id="S2.p4.1.m1.1.1.3.2" xref="S2.p4.1.m1.1.1.3.2.cmml"><mi id="S2.p4.1.m1.1.1.1.m1.1.2" xref="S2.p4.1.m1.1.1.1.m1.1.2.cmml">B</mi><mo id="S2.p4.1.m1.1.1.1.m1.1.3" xref="S2.p4.1.m1.1.1.1.m1.1.3.cmml">-</mo><mi id="S2.p4.1.m1.1.1.1.m1.1.4" xref="S2.p4.1.m1.1.1.1.m1.1.4.cmml">V</mi></mrow><mo stretchy="false" id="S2.p4.1.m1.1.1.1.m1.1.5" xref="S2.p4.1.m1.1.1.3.2.cmml">)</mo></mrow><mi id="S2.p4.1.m1.1.1.1.m1.1.6.1" xref="S2.p4.1.m1.1.1.1.m1.1.6.1.cmml">o</mi></msub><mo id="S2.p4.1.m1.1.2" xref="S2.p4.1.m1.1.2.cmml">=</mo><mn id="S2.p4.1.m1.1.5" xref="S2.p4.1.m1.1.5.cmml">0.5</mn></mrow><annotation-xml encoding="MathML-Content" id="S2.p4.1.m1.1b"><apply id="S2.p4.1.m1.1.6.cmml" xref="S2.p4.1.m1.1.6"><eq id="S2.p4.1.m1.1.2.cmml" xref="S2.p4.1.m1.1.2"></eq><apply id="S2.p4.1.m1.1.1.cmml" xref="S2.p4.1.m1.1.1"><csymbol cd="ambiguous" id="S2.p4.1.m1.1.1.2.cmml" xref="S2.p4.1.m1.1.1">subscript</csymbol><apply id="S2.p4.1.m1.1.1.3.2.cmml" xref="S2.p4.1.m1.1.1.3"><minus id="S2.p4.1.m1.1.1.1.m1.1.3.cmml" xref="S2.p4.1.m1.1.1.1.m1.1.3"></minus><ci id="S2.p4.1.m1.1.1.1.m1.1.2.cmml" xref="S2.p4.1.m1.1.1.1.m1.1.2">𝐵</ci><ci id="S2.p4.1.m1.1.1.1.m1.1.4.cmml" xref="S2.p4.1.m1.1.1.1.m1.1.4">𝑉</ci></apply><ci id="S2.p4.1.m1.1.1.1.m1.1.6.1.cmml" xref="S2.p4.1.m1.1.1.1.m1.1.6.1">𝑜</ci></apply><cn type="float" id="S2.p4.1.m1.1.5.cmml" xref="S2.p4.1.m1.1.5">0.5</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p4.1.m1.1c">OPEN:( italic-B ADDOP:minus italic-V CLOSE:) POSTSUBSCRIPT:start italic-o POSTSUBSCRIPT:end RELOP:equals NUMBER:0.5</annotation><annotation encoding="application/x-tex" id="S2.p4.1.m1.1d">\mbox{$(B-V)_{o}$}=0.5</annotation></semantics></math> and <math id="S2.p4.1.m2.1" class="ltx_Math" alttext="\mbox{$(B-V)_{o}$}=1.0" display="inline"><semantics id="S2.p4.1.m2.1a"><mrow id="S2.p4.1.m2.1.6" xref="S2.p4.1.m2.1.6.cmml"><msub id="S2.p4.1.m2.1.1" xref="S2.p4.1.m2.1.1.cmml"><mrow id="S2.p4.1.m2.1.1.3" xref="S2.p4.1.m2.1.1.3.2.cmml"><mo stretchy="false" id="S2.p4.1.m2.1.1.1.m1.1.1" xref="S2.p4.1.m2.1.1.3.2.cmml">(</mo><mrow id="S2.p4.1.m2.1.1.3.2" xref="S2.p4.1.m2.1.1.3.2.cmml"><mi id="S2.p4.1.m2.1.1.1.m1.1.2" xref="S2.p4.1.m2.1.1.1.m1.1.2.cmml">B</mi><mo id="S2.p4.1.m2.1.1.1.m1.1.3" xref="S2.p4.1.m2.1.1.1.m1.1.3.cmml">-</mo><mi id="S2.p4.1.m2.1.1.1.m1.1.4" xref="S2.p4.1.m2.1.1.1.m1.1.4.cmml">V</mi></mrow><mo stretchy="false" id="S2.p4.1.m2.1.1.1.m1.1.5" xref="S2.p4.1.m2.1.1.3.2.cmml">)</mo></mrow><mi id="S2.p4.1.m2.1.1.1.m1.1.6.1" xref="S2.p4.1.m2.1.1.1.m1.1.6.1.cmml">o</mi></msub><mo id="S2.p4.1.m2.1.2" xref="S2.p4.1.m2.1.2.cmml">=</mo><mn id="S2.p4.1.m2.1.5" xref="S2.p4.1.m2.1.5.cmml">1.0</mn></mrow><annotation-xml encoding="MathML-Content" id="S2.p4.1.m2.1b"><apply id="S2.p4.1.m2.1.6.cmml" xref="S2.p4.1.m2.1.6"><eq id="S2.p4.1.m2.1.2.cmml" xref="S2.p4.1.m2.1.2"></eq><apply id="S2.p4.1.m2.1.1.cmml" xref="S2.p4.1.m2.1.1"><csymbol cd="ambiguous" id="S2.p4.1.m2.1.1.2.cmml" xref="S2.p4.1.m2.1.1">subscript</csymbol><apply id="S2.p4.1.m2.1.1.3.2.cmml" xref="S2.p4.1.m2.1.1.3"><minus id="S2.p4.1.m2.1.1.1.m1.1.3.cmml" xref="S2.p4.1.m2.1.1.1.m1.1.3"></minus><ci id="S2.p4.1.m2.1.1.1.m1.1.2.cmml" xref="S2.p4.1.m2.1.1.1.m1.1.2">𝐵</ci><ci id="S2.p4.1.m2.1.1.1.m1.1.4.cmml" xref="S2.p4.1.m2.1.1.1.m1.1.4">𝑉</ci></apply><ci id="S2.p4.1.m2.1.1.1.m1.1.6.1.cmml" xref="S2.p4.1.m2.1.1.1.m1.1.6.1">𝑜</ci></apply><cn type="float" id="S2.p4.1.m2.1.5.cmml" xref="S2.p4.1.m2.1.5">1.0</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p4.1.m2.1c">OPEN:( italic-B ADDOP:minus italic-V CLOSE:) POSTSUBSCRIPT:start italic-o POSTSUBSCRIPT:end RELOP:equals NUMBER:1.0</annotation><annotation encoding="application/x-tex" id="S2.p4.1.m2.1d">\mbox{$(B-V)_{o}$}=1.0</annotation></semantics></math>, respectively),
+and that their magnitude difference is also very similar
+(of about <math id="S2.p4.1.m3.1" class="ltx_Math" alttext="\delta V=0.5" display="inline"><semantics id="S2.p4.1.m3.1a"><mrow id="S2.p4.1.m3.1.7" xref="S2.p4.1.m3.1.7.cmml"><mrow id="S2.p4.1.m3.1.7.1" xref="S2.p4.1.m3.1.7.1.cmml"><mi id="S2.p4.1.m3.1.1" xref="S2.p4.1.m3.1.1.cmml">δ</mi><mo id="S2.p4.1.m3.1.7.1.1" xref="S2.p4.1.m3.1.7.1.1.cmml">⁢</mo><mi id="S2.p4.1.m3.1.2" xref="S2.p4.1.m3.1.2.cmml">V</mi></mrow><mo id="S2.p4.1.m3.1.3" xref="S2.p4.1.m3.1.3.cmml">=</mo><mn id="S2.p4.1.m3.1.6" xref="S2.p4.1.m3.1.6.cmml">0.5</mn></mrow><annotation-xml encoding="MathML-Content" id="S2.p4.1.m3.1b"><apply id="S2.p4.1.m3.1.7.cmml" xref="S2.p4.1.m3.1.7"><eq id="S2.p4.1.m3.1.3.cmml" xref="S2.p4.1.m3.1.3"></eq><apply id="S2.p4.1.m3.1.7.1.cmml" xref="S2.p4.1.m3.1.7.1"><times id="S2.p4.1.m3.1.7.1.1.cmml" xref="S2.p4.1.m3.1.7.1.1"></times><ci id="S2.p4.1.m3.1.1.cmml" xref="S2.p4.1.m3.1.1">𝛿</ci><ci id="S2.p4.1.m3.1.2.cmml" xref="S2.p4.1.m3.1.2">𝑉</ci></apply><cn type="float" id="S2.p4.1.m3.1.6.cmml" xref="S2.p4.1.m3.1.6">0.5</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p4.1.m3.1c">italic-delta italic-V RELOP:equals NUMBER:0.5</annotation><annotation encoding="application/x-tex" id="S2.p4.1.m3.1d">\delta V=0.5</annotation></semantics></math> mag) in both clusters.
+Also, we recall that both clusters have metallicities
+very close to each other: according to Friel &amp; Janes (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib7" title="" class="ltx_ref">fj83 </a></cite>),
+<math id="S2.p4.1.m4.1" class="ltx_Math" alttext="\mbox{[Fe/H]}=-0.16\pm 0.05" display="inline"><semantics id="S2.p4.1.m4.1a"><mrow id="S2.p4.1.m4.1.13" xref="S2.p4.1.m4.1.13.cmml"><mtext id="S2.p4.1.m4.1.1" xref="S2.p4.1.m4.1.1a.cmml">[Fe/H]</mtext><mo id="S2.p4.1.m4.1.2" xref="S2.p4.1.m4.1.2.cmml">=</mo><mrow id="S2.p4.1.m4.1.13.1" xref="S2.p4.1.m4.1.13.1.cmml"><mrow id="S2.p4.1.m4.1.13.1.1" xref="S2.p4.1.m4.1.13.1.1.cmml"><mo id="S2.p4.1.m4.1.3" xref="S2.p4.1.m4.1.3.cmml">-</mo><mn id="S2.p4.1.m4.1.7" xref="S2.p4.1.m4.1.7.cmml">0.16</mn></mrow><mo id="S2.p4.1.m4.1.8" xref="S2.p4.1.m4.1.8.cmml">±</mo><mn id="S2.p4.1.m4.1.12" xref="S2.p4.1.m4.1.12.cmml">0.05</mn></mrow></mrow><annotation-xml encoding="MathML-Content" id="S2.p4.1.m4.1b"><apply id="S2.p4.1.m4.1.13.cmml" xref="S2.p4.1.m4.1.13"><eq id="S2.p4.1.m4.1.2.cmml" xref="S2.p4.1.m4.1.2"></eq><ci id="S2.p4.1.m4.1.1a.cmml" xref="S2.p4.1.m4.1.1"><mtext id="S2.p4.1.m4.1.1.cmml" xref="S2.p4.1.m4.1.1">[Fe/H]</mtext></ci><apply id="S2.p4.1.m4.1.13.1.cmml" xref="S2.p4.1.m4.1.13.1"><csymbol cd="latexml" id="S2.p4.1.m4.1.8.cmml" xref="S2.p4.1.m4.1.8">plus-or-minus</csymbol><apply id="S2.p4.1.m4.1.13.1.1.cmml" xref="S2.p4.1.m4.1.13.1.1"><minus id="S2.p4.1.m4.1.3.cmml" xref="S2.p4.1.m4.1.3"></minus><cn type="float" id="S2.p4.1.m4.1.7.cmml" xref="S2.p4.1.m4.1.7">0.16</cn></apply><cn type="float" id="S2.p4.1.m4.1.12.cmml" xref="S2.p4.1.m4.1.12">0.05</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p4.1.m4.1c">ATOM:[Fe/H] RELOP:equals ADDOP:minus NUMBER:0.16 ADDOP:plus-or-minus NUMBER:0.05</annotation><annotation encoding="application/x-tex" id="S2.p4.1.m4.1d">\mbox{[Fe/H]}=-0.16\pm 0.05</annotation></semantics></math> for NGC 752 and <math id="S2.p4.1.m5.1" class="ltx_Math" alttext="\mbox{[Fe/H]}=-0.26\pm 0.06" display="inline"><semantics id="S2.p4.1.m5.1a"><mrow id="S2.p4.1.m5.1.13" xref="S2.p4.1.m5.1.13.cmml"><mtext id="S2.p4.1.m5.1.1" xref="S2.p4.1.m5.1.1a.cmml">[Fe/H]</mtext><mo id="S2.p4.1.m5.1.2" xref="S2.p4.1.m5.1.2.cmml">=</mo><mrow id="S2.p4.1.m5.1.13.1" xref="S2.p4.1.m5.1.13.1.cmml"><mrow id="S2.p4.1.m5.1.13.1.1" xref="S2.p4.1.m5.1.13.1.1.cmml"><mo id="S2.p4.1.m5.1.3" xref="S2.p4.1.m5.1.3.cmml">-</mo><mn id="S2.p4.1.m5.1.7" xref="S2.p4.1.m5.1.7.cmml">0.26</mn></mrow><mo id="S2.p4.1.m5.1.8" xref="S2.p4.1.m5.1.8.cmml">±</mo><mn id="S2.p4.1.m5.1.12" xref="S2.p4.1.m5.1.12.cmml">0.06</mn></mrow></mrow><annotation-xml encoding="MathML-Content" id="S2.p4.1.m5.1b"><apply id="S2.p4.1.m5.1.13.cmml" xref="S2.p4.1.m5.1.13"><eq id="S2.p4.1.m5.1.2.cmml" xref="S2.p4.1.m5.1.2"></eq><ci id="S2.p4.1.m5.1.1a.cmml" xref="S2.p4.1.m5.1.1"><mtext id="S2.p4.1.m5.1.1.cmml" xref="S2.p4.1.m5.1.1">[Fe/H]</mtext></ci><apply id="S2.p4.1.m5.1.13.1.cmml" xref="S2.p4.1.m5.1.13.1"><csymbol cd="latexml" id="S2.p4.1.m5.1.8.cmml" xref="S2.p4.1.m5.1.8">plus-or-minus</csymbol><apply id="S2.p4.1.m5.1.13.1.1.cmml" xref="S2.p4.1.m5.1.13.1.1"><minus id="S2.p4.1.m5.1.3.cmml" xref="S2.p4.1.m5.1.3"></minus><cn type="float" id="S2.p4.1.m5.1.7.cmml" xref="S2.p4.1.m5.1.7">0.26</cn></apply><cn type="float" id="S2.p4.1.m5.1.12.cmml" xref="S2.p4.1.m5.1.12">0.06</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p4.1.m5.1c">ATOM:[Fe/H] RELOP:equals ADDOP:minus NUMBER:0.26 ADDOP:plus-or-minus NUMBER:0.06</annotation><annotation encoding="application/x-tex" id="S2.p4.1.m5.1d">\mbox{[Fe/H]}=-0.26\pm 0.06</annotation></semantics></math> for NGC 7789.</p>
+</div>
+<div id="S2.p5" class="ltx_para">
+<p id="S2.p5.1" class="ltx_p">In Table <a href="#S2.T1" title="Table 1 ‣ 2 The clusters ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a>, we list a limited number of age estimates
+for both clusters, in which the age-dating was based in models with
+overshooting.</p>
+</div>
+<figure id="S2.T1" class="ltx_table">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">Table 1: </span>Age estimates for NGC 752 and NGC 7789.</figcaption>
+<table id="S2.T1.1" class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr id="S2.T1.1.1" class="ltx_tr">
+<th id="S2.T1.1.1.1" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_t">NGC</th>
+<th id="S2.T1.1.1.2" class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_t">Age</th>
+<th id="S2.T1.1.1.3" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_t">Method</th>
+<th id="S2.T1.1.1.4" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_t">Reference</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr id="S2.T1.1.2" class="ltx_tr">
+<td id="S2.T1.1.2.1" class="ltx_td"></td>
+<th id="S2.T1.1.2.2" class="ltx_td ltx_align_center ltx_th ltx_th_column">[Gyr]</th>
+<th id="S2.T1.1.2.3" class="ltx_td ltx_th ltx_th_column"></th>
+<td id="S2.T1.1.2.4" class="ltx_td"></td>
+</tr>
+<tr id="S2.T1.1.3" class="ltx_tr">
+<td id="S2.T1.1.3.1" class="ltx_td ltx_align_left ltx_border_t">752</td>
+<td id="S2.T1.1.3.2" class="ltx_td ltx_align_center ltx_border_t">1.8</td>
+<td id="S2.T1.1.3.3" class="ltx_td ltx_align_left ltx_border_t">isochrone fitting</td>
+<td id="S2.T1.1.3.4" class="ltx_td ltx_align_left ltx_border_t">Meynet et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib22" title="" class="ltx_ref">mmm </a></cite>)</td>
+</tr>
+<tr id="S2.T1.1.4" class="ltx_tr">
+<td id="S2.T1.1.4.1" class="ltx_td"></td>
+<td id="S2.T1.1.4.2" class="ltx_td ltx_align_center">1.5</td>
+<td id="S2.T1.1.4.3" class="ltx_td ltx_align_left">synthetic CMD</td>
+<td id="S2.T1.1.4.4" class="ltx_td ltx_align_left">Carraro &amp; Chiosi (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib3" title="" class="ltx_ref">cc94 </a></cite>)</td>
+</tr>
+<tr id="S2.T1.1.5" class="ltx_tr">
+<td id="S2.T1.1.5.1" class="ltx_td"></td>
+<td id="S2.T1.1.5.2" class="ltx_td ltx_align_center">2.0</td>
+<td id="S2.T1.1.5.3" class="ltx_td ltx_align_left">isochrone fitting</td>
+<td id="S2.T1.1.5.4" class="ltx_td ltx_align_left">Dinescu et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib5" title="" class="ltx_ref">ddgp </a></cite>)</td>
+</tr>
+<tr id="S2.T1.1.6" class="ltx_tr">
+<td id="S2.T1.1.6.1" class="ltx_td ltx_align_left ltx_border_t">7789</td>
+<td id="S2.T1.1.6.2" class="ltx_td ltx_align_center ltx_border_t">1.3</td>
+<td id="S2.T1.1.6.3" class="ltx_td ltx_align_left ltx_border_t">synthetic CMD</td>
+<td id="S2.T1.1.6.4" class="ltx_td ltx_align_left ltx_border_t">Carraro &amp; Chiosi (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib3" title="" class="ltx_ref">cc94 </a></cite>)</td>
+</tr>
+<tr id="S2.T1.1.7" class="ltx_tr">
+<td id="S2.T1.1.7.1" class="ltx_td"></td>
+<td id="S2.T1.1.7.2" class="ltx_td ltx_align_center">1.6</td>
+<td id="S2.T1.1.7.3" class="ltx_td ltx_align_left">isochrone fitting</td>
+<td id="S2.T1.1.7.4" class="ltx_td ltx_align_left">Gim et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib9" title="" class="ltx_ref">gvsh </a></cite>)</td>
+</tr>
+<tr id="S2.T1.1.8" class="ltx_tr">
+<td id="S2.T1.1.8.1" class="ltx_td ltx_border_b"></td>
+<td id="S2.T1.1.8.2" class="ltx_td ltx_align_center ltx_border_b">1.4</td>
+<td id="S2.T1.1.8.3" class="ltx_td ltx_align_left ltx_border_b">isochrone fitting</td>
+<td id="S2.T1.1.8.4" class="ltx_td ltx_align_left ltx_border_b">Vallenari et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib31" title="" class="ltx_ref">vcr </a></cite>)</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<div id="S2.p6" class="ltx_para">
+<p id="S2.p6.1" class="ltx_p">It turns out that both NGC 752 and NGC7789 should have an age of
+about 1.5 Gyr. These are indicative ages, which will
+be useful in the analysis of the following sections.</p>
+</div>
+</section>
+<section id="S3" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">3 </span>The models</h2>
+
+<div id="S3.p1" class="ltx_para">
+<p id="S3.p1.1" class="ltx_p">In order to describe the evolution of clump stars as a function of
+cluster parameters, we make use of the stellar evolutionary tracks
+and isochrones from Girardi et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib13" title="" class="ltx_ref">gbbc </a></cite>). This data-base of stellar
+models contains CHeB stars computed for a large number of initial
+masses, providing a detailed description of the position of these stars
+in both HR and colour-magnitude diagrams. Figure <a href="#S3.F2" title="Figure 2 ‣ 3 The models ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">2</span></a> shows the
+location of the models for solar metallicity (<math id="S3.p1.1.m1.1" class="ltx_Math" alttext="Z=0.019" display="inline"><semantics id="S3.p1.1.m1.1a"><mrow id="S3.p1.1.m1.1.8" xref="S3.p1.1.m1.1.8.cmml"><mi id="S3.p1.1.m1.1.1" xref="S3.p1.1.m1.1.1.cmml">Z</mi><mo id="S3.p1.1.m1.1.2" xref="S3.p1.1.m1.1.2.cmml">=</mo><mn id="S3.p1.1.m1.1.7" xref="S3.p1.1.m1.1.7.cmml">0.019</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.p1.1.m1.1b"><apply id="S3.p1.1.m1.1.8.cmml" xref="S3.p1.1.m1.1.8"><eq id="S3.p1.1.m1.1.2.cmml" xref="S3.p1.1.m1.1.2"></eq><ci id="S3.p1.1.m1.1.1.cmml" xref="S3.p1.1.m1.1.1">𝑍</ci><cn type="float" id="S3.p1.1.m1.1.7.cmml" xref="S3.p1.1.m1.1.7">0.019</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p1.1.m1.1c">italic-Z RELOP:equals NUMBER:0.019</annotation><annotation encoding="application/x-tex" id="S3.p1.1.m1.1d">Z=0.019</annotation></semantics></math>) in the <math id="S3.p1.1.m2.1" class="ltx_Math" alttext="M_{V}" display="inline"><semantics id="S3.p1.1.m2.1a"><msub id="S3.p1.1.m2.1.3" xref="S3.p1.1.m2.1.3.cmml"><mi id="S3.p1.1.m2.1.1" xref="S3.p1.1.m2.1.1.cmml">M</mi><mi id="S3.p1.1.m2.1.2.1" xref="S3.p1.1.m2.1.2.1.cmml">V</mi></msub><annotation-xml encoding="MathML-Content" id="S3.p1.1.m2.1b"><apply id="S3.p1.1.m2.1.3.cmml" xref="S3.p1.1.m2.1.3"><csymbol cd="ambiguous" id="S3.p1.1.m2.1.3.1.cmml" xref="S3.p1.1.m2.1.3">subscript</csymbol><ci id="S3.p1.1.m2.1.1.cmml" xref="S3.p1.1.m2.1.1">𝑀</ci><ci id="S3.p1.1.m2.1.2.1.cmml" xref="S3.p1.1.m2.1.2.1">𝑉</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p1.1.m2.1c">italic-M POSTSUBSCRIPT:start italic-V POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S3.p1.1.m2.1d">M_{V}</annotation></semantics></math>
+versus <span id="S3.p1.1.1" class="ltx_text"><math id="S3.p1.1.1.m1.1" class="ltx_Math" alttext="B-V" display="inline"><semantics id="S3.p1.1.1.m1.1a"><mrow id="S3.p1.1.1.m1.1.4" xref="S3.p1.1.1.m1.1.4.cmml"><mi id="S3.p1.1.1.m1.1.1" xref="S3.p1.1.1.m1.1.1.cmml">B</mi><mo id="S3.p1.1.1.m1.1.2" xref="S3.p1.1.1.m1.1.2.cmml">-</mo><mi id="S3.p1.1.1.m1.1.3" xref="S3.p1.1.1.m1.1.3.cmml">V</mi></mrow><annotation-xml encoding="MathML-Content" id="S3.p1.1.1.m1.1b"><apply id="S3.p1.1.1.m1.1.4.cmml" xref="S3.p1.1.1.m1.1.4"><minus id="S3.p1.1.1.m1.1.2.cmml" xref="S3.p1.1.1.m1.1.2"></minus><ci id="S3.p1.1.1.m1.1.1.cmml" xref="S3.p1.1.1.m1.1.1">𝐵</ci><ci id="S3.p1.1.1.m1.1.3.cmml" xref="S3.p1.1.1.m1.1.3">𝑉</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p1.1.1.m1.1c">italic-B ADDOP:minus italic-V</annotation><annotation encoding="application/x-tex" id="S3.p1.1.1.m1.1d">B-V</annotation></semantics></math></span> diagram. It can be noticed that CHeB models
+of varying mass distribute along a well defined sequence in this plot.
+This sequence is relatively narrow if we consider the initial fraction
+of 70% of the CHeB lifetime, where most of the CHeB stars are expected
+to be found. The remaining 30% fraction, instead, occupies a broad
+distribution in the diagram. Importantly, the sequence of CHeB models
+presents a well-defined lower boundary, which is also drawn in the plot.
+The same boundary line is shown for lower values of metallicity
+(<math id="S3.p1.1.m3.1" class="ltx_Math" alttext="Z=0.008" display="inline"><semantics id="S3.p1.1.m3.1a"><mrow id="S3.p1.1.m3.1.8" xref="S3.p1.1.m3.1.8.cmml"><mi id="S3.p1.1.m3.1.1" xref="S3.p1.1.m3.1.1.cmml">Z</mi><mo id="S3.p1.1.m3.1.2" xref="S3.p1.1.m3.1.2.cmml">=</mo><mn id="S3.p1.1.m3.1.7" xref="S3.p1.1.m3.1.7.cmml">0.008</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.p1.1.m3.1b"><apply id="S3.p1.1.m3.1.8.cmml" xref="S3.p1.1.m3.1.8"><eq id="S3.p1.1.m3.1.2.cmml" xref="S3.p1.1.m3.1.2"></eq><ci id="S3.p1.1.m3.1.1.cmml" xref="S3.p1.1.m3.1.1">𝑍</ci><cn type="float" id="S3.p1.1.m3.1.7.cmml" xref="S3.p1.1.m3.1.7">0.008</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p1.1.m3.1c">italic-Z RELOP:equals NUMBER:0.008</annotation><annotation encoding="application/x-tex" id="S3.p1.1.m3.1d">Z=0.008</annotation></semantics></math> and <math id="S3.p1.1.m4.1" class="ltx_Math" alttext="Z=0.004" display="inline"><semantics id="S3.p1.1.m4.1a"><mrow id="S3.p1.1.m4.1.8" xref="S3.p1.1.m4.1.8.cmml"><mi id="S3.p1.1.m4.1.1" xref="S3.p1.1.m4.1.1.cmml">Z</mi><mo id="S3.p1.1.m4.1.2" xref="S3.p1.1.m4.1.2.cmml">=</mo><mn id="S3.p1.1.m4.1.7" xref="S3.p1.1.m4.1.7.cmml">0.004</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.p1.1.m4.1b"><apply id="S3.p1.1.m4.1.8.cmml" xref="S3.p1.1.m4.1.8"><eq id="S3.p1.1.m4.1.2.cmml" xref="S3.p1.1.m4.1.2"></eq><ci id="S3.p1.1.m4.1.1.cmml" xref="S3.p1.1.m4.1.1">𝑍</ci><cn type="float" id="S3.p1.1.m4.1.7.cmml" xref="S3.p1.1.m4.1.7">0.004</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p1.1.m4.1c">italic-Z RELOP:equals NUMBER:0.004</annotation><annotation encoding="application/x-tex" id="S3.p1.1.m4.1d">Z=0.004</annotation></semantics></math>), thus showing how
+the sequences of CHeB models get bluer as the metallicity decreases.</p>
+</div>
+<figure id="S3.F2" class="ltx_figure">
+<div id="S3.F2.1" class="ltx_block" style="width:341.4pt;vertical-align:-0.0pt;">
+<img src="x2.png" id="S3.F2.1.g1" class="ltx_graphics" width="718" height="718" alt="">
+</img>
+</div>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 2: </span>The location of CHeB star models in the <math id="S3.F2.m5.1" class="ltx_Math" alttext="M_{V}" display="inline"><semantics id="S3.F2.m5.1b"><msub id="S3.F2.m5.1.3" xref="S3.F2.m5.1.3.cmml"><mi id="S3.F2.m5.1.1" xref="S3.F2.m5.1.1.cmml">M</mi><mi id="S3.F2.m5.1.2.1" xref="S3.F2.m5.1.2.1.cmml">V</mi></msub><annotation-xml encoding="MathML-Content" id="S3.F2.m5.1c"><apply id="S3.F2.m5.1.3.cmml" xref="S3.F2.m5.1.3"><csymbol cd="ambiguous" id="S3.F2.m5.1.3.1.cmml" xref="S3.F2.m5.1.3">subscript</csymbol><ci id="S3.F2.m5.1.1.cmml" xref="S3.F2.m5.1.1">𝑀</ci><ci id="S3.F2.m5.1.2.1.cmml" xref="S3.F2.m5.1.2.1">𝑉</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.F2.m5.1d">italic-M POSTSUBSCRIPT:start italic-V POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S3.F2.m5.1e">M_{V}</annotation></semantics></math> versus
+<span id="S3.F2.5" class="ltx_text"><math id="S3.F2.5.m1.1" class="ltx_Math" alttext="B-V" display="inline"><semantics id="S3.F2.5.m1.1b"><mrow id="S3.F2.5.m1.1.4" xref="S3.F2.5.m1.1.4.cmml"><mi id="S3.F2.5.m1.1.1" xref="S3.F2.5.m1.1.1.cmml">B</mi><mo id="S3.F2.5.m1.1.2" xref="S3.F2.5.m1.1.2.cmml">-</mo><mi id="S3.F2.5.m1.1.3" xref="S3.F2.5.m1.1.3.cmml">V</mi></mrow><annotation-xml encoding="MathML-Content" id="S3.F2.5.m1.1c"><apply id="S3.F2.5.m1.1.4.cmml" xref="S3.F2.5.m1.1.4"><minus id="S3.F2.5.m1.1.2.cmml" xref="S3.F2.5.m1.1.2"></minus><ci id="S3.F2.5.m1.1.1.cmml" xref="S3.F2.5.m1.1.1">𝐵</ci><ci id="S3.F2.5.m1.1.3.cmml" xref="S3.F2.5.m1.1.3">𝑉</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.F2.5.m1.1d">italic-B ADDOP:minus italic-V</annotation><annotation encoding="application/x-tex" id="S3.F2.5.m1.1e">B-V</annotation></semantics></math></span> diagram. In the right part of the diagram, we have a large sample
+of tracks of solar metallicity (<math id="S3.F2.m6.1" class="ltx_Math" alttext="Z=0.019" display="inline"><semantics id="S3.F2.m6.1b"><mrow id="S3.F2.m6.1.8" xref="S3.F2.m6.1.8.cmml"><mi id="S3.F2.m6.1.1" xref="S3.F2.m6.1.1.cmml">Z</mi><mo id="S3.F2.m6.1.2" xref="S3.F2.m6.1.2.cmml">=</mo><mn id="S3.F2.m6.1.7" xref="S3.F2.m6.1.7.cmml">0.019</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.F2.m6.1c"><apply id="S3.F2.m6.1.8.cmml" xref="S3.F2.m6.1.8"><eq id="S3.F2.m6.1.2.cmml" xref="S3.F2.m6.1.2"></eq><ci id="S3.F2.m6.1.1.cmml" xref="S3.F2.m6.1.1">𝑍</ci><cn type="float" id="S3.F2.m6.1.7.cmml" xref="S3.F2.m6.1.7">0.019</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.F2.m6.1d">italic-Z RELOP:equals NUMBER:0.019</annotation><annotation encoding="application/x-tex" id="S3.F2.m6.1e">Z=0.019</annotation></semantics></math>): the continuous lines denote
+the initial 70%
+fraction of the CHeB lifetime, for stars of different masses, whereas
+the remaining 30% fraction are marked with dashed lines. The mass range
+goes from 2.5 to 1.1 <span id="S3.F2.6" class="ltx_text"><math id="S3.F2.6.m1.1" class="ltx_Math" alttext="M_{\odot}" display="inline"><semantics id="S3.F2.6.m1.1b"><msub id="S3.F2.6.m1.1.3" xref="S3.F2.6.m1.1.3.cmml"><mi id="S3.F2.6.m1.1.1" xref="S3.F2.6.m1.1.1.cmml">M</mi><mo id="S3.F2.6.m1.1.2.1" xref="S3.F2.6.m1.1.2.1.cmml">⊙</mo></msub><annotation-xml encoding="MathML-Content" id="S3.F2.6.m1.1c"><apply id="S3.F2.6.m1.1.3.cmml" xref="S3.F2.6.m1.1.3"><csymbol cd="ambiguous" id="S3.F2.6.m1.1.3.1.cmml" xref="S3.F2.6.m1.1.3">subscript</csymbol><ci id="S3.F2.6.m1.1.1.cmml" xref="S3.F2.6.m1.1.1">𝑀</ci><csymbol cd="latexml" id="S3.F2.6.m1.1.2.1.cmml" xref="S3.F2.6.m1.1.2.1">direct-product</csymbol></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.F2.6.m1.1d">italic-M POSTSUBSCRIPT:start MULOP:direct-product POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S3.F2.6.m1.1e">M_{\odot}</annotation></semantics></math></span> (from left to right). The continuous line
+denotes the lower boundary of the CHeB tracks as a function of initial
+mass. Similar curves denote the same lower boundary for tracks of
+metallicity <math id="S3.F2.m7.1" class="ltx_Math" alttext="Z=0.008" display="inline"><semantics id="S3.F2.m7.1b"><mrow id="S3.F2.m7.1.8" xref="S3.F2.m7.1.8.cmml"><mi id="S3.F2.m7.1.1" xref="S3.F2.m7.1.1.cmml">Z</mi><mo id="S3.F2.m7.1.2" xref="S3.F2.m7.1.2.cmml">=</mo><mn id="S3.F2.m7.1.7" xref="S3.F2.m7.1.7.cmml">0.008</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.F2.m7.1c"><apply id="S3.F2.m7.1.8.cmml" xref="S3.F2.m7.1.8"><eq id="S3.F2.m7.1.2.cmml" xref="S3.F2.m7.1.2"></eq><ci id="S3.F2.m7.1.1.cmml" xref="S3.F2.m7.1.1">𝑍</ci><cn type="float" id="S3.F2.m7.1.7.cmml" xref="S3.F2.m7.1.7">0.008</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.F2.m7.1d">italic-Z RELOP:equals NUMBER:0.008</annotation><annotation encoding="application/x-tex" id="S3.F2.m7.1e">Z=0.008</annotation></semantics></math> (long-dashed line) and <math id="S3.F2.m8.1" class="ltx_Math" alttext="Z=0.004" display="inline"><semantics id="S3.F2.m8.1b"><mrow id="S3.F2.m8.1.8" xref="S3.F2.m8.1.8.cmml"><mi id="S3.F2.m8.1.1" xref="S3.F2.m8.1.1.cmml">Z</mi><mo id="S3.F2.m8.1.2" xref="S3.F2.m8.1.2.cmml">=</mo><mn id="S3.F2.m8.1.7" xref="S3.F2.m8.1.7.cmml">0.004</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.F2.m8.1c"><apply id="S3.F2.m8.1.8.cmml" xref="S3.F2.m8.1.8"><eq id="S3.F2.m8.1.2.cmml" xref="S3.F2.m8.1.2"></eq><ci id="S3.F2.m8.1.1.cmml" xref="S3.F2.m8.1.1">𝑍</ci><cn type="float" id="S3.F2.m8.1.7.cmml" xref="S3.F2.m8.1.7">0.004</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.F2.m8.1d">italic-Z RELOP:equals NUMBER:0.004</annotation><annotation encoding="application/x-tex" id="S3.F2.m8.1e">Z=0.004</annotation></semantics></math> (dot-dashed line).
+</figcaption>
+</figure>
+<div id="S3.p2" class="ltx_para">
+<p id="S3.p2.1" class="ltx_p">When clusters become older, we expect to find
+CHeB stars of lower and lower masses. Therefore, the position of
+clump stars in an ageing cluster roughly follows the sequence
+shown in Fig. <a href="#S3.F2" title="Figure 2 ‣ 3 The models ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">2</span></a>, going from the upper left to the bottom
+right of the diagram. Along this sequence, however, the clump
+luminosity passes through a temporary minimum when the turn-off mass
+is of about 2 <span id="S3.p2.1.1" class="ltx_text"><math id="S3.p2.1.1.m1.1" class="ltx_Math" alttext="M_{\odot}" display="inline"><semantics id="S3.p2.1.1.m1.1a"><msub id="S3.p2.1.1.m1.1.3" xref="S3.p2.1.1.m1.1.3.cmml"><mi id="S3.p2.1.1.m1.1.1" xref="S3.p2.1.1.m1.1.1.cmml">M</mi><mo id="S3.p2.1.1.m1.1.2.1" xref="S3.p2.1.1.m1.1.2.1.cmml">⊙</mo></msub><annotation-xml encoding="MathML-Content" id="S3.p2.1.1.m1.1b"><apply id="S3.p2.1.1.m1.1.3.cmml" xref="S3.p2.1.1.m1.1.3"><csymbol cd="ambiguous" id="S3.p2.1.1.m1.1.3.1.cmml" xref="S3.p2.1.1.m1.1.3">subscript</csymbol><ci id="S3.p2.1.1.m1.1.1.cmml" xref="S3.p2.1.1.m1.1.1">𝑀</ci><csymbol cd="latexml" id="S3.p2.1.1.m1.1.2.1.cmml" xref="S3.p2.1.1.m1.1.2.1">direct-product</csymbol></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p2.1.1.m1.1c">italic-M POSTSUBSCRIPT:start MULOP:direct-product POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S3.p2.1.1.m1.1d">M_{\odot}</annotation></semantics></math></span>.
+This effect is illustrated in Fig. <a href="#S3.F3" title="Figure 3 ‣ 3 The models ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">3</span></a>, in which we
+simulate clusters with <math id="S3.p2.1.m1.1" class="ltx_Math" alttext="Z=0.019" display="inline"><semantics id="S3.p2.1.m1.1a"><mrow id="S3.p2.1.m1.1.8" xref="S3.p2.1.m1.1.8.cmml"><mi id="S3.p2.1.m1.1.1" xref="S3.p2.1.m1.1.1.cmml">Z</mi><mo id="S3.p2.1.m1.1.2" xref="S3.p2.1.m1.1.2.cmml">=</mo><mn id="S3.p2.1.m1.1.7" xref="S3.p2.1.m1.1.7.cmml">0.019</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.p2.1.m1.1b"><apply id="S3.p2.1.m1.1.8.cmml" xref="S3.p2.1.m1.1.8"><eq id="S3.p2.1.m1.1.2.cmml" xref="S3.p2.1.m1.1.2"></eq><ci id="S3.p2.1.m1.1.1.cmml" xref="S3.p2.1.m1.1.1">𝑍</ci><cn type="float" id="S3.p2.1.m1.1.7.cmml" xref="S3.p2.1.m1.1.7">0.019</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p2.1.m1.1c">italic-Z RELOP:equals NUMBER:0.019</annotation><annotation encoding="application/x-tex" id="S3.p2.1.m1.1d">Z=0.019</annotation></semantics></math> (i.e. solar metallicity) and
+ages between 1 and 2 Gyr. This age interval
+encompasses the probable ages of NGC 752 and NGC 7789.</p>
+</div>
+<figure id="S3.F3" class="ltx_figure">
+<div id="S3.F3.1" class="ltx_block" style="width:469.8pt;vertical-align:-0.0pt;">
+<img src="x3.png" id="S3.F3.1.g1" class="ltx_graphics" width="718" height="718" alt="">
+</img>
+</div>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 3: </span>
+Synthetic CMDs for a sequence of cluster models with solar
+metallicity. Cluster ages increase by a factor of
+12 per cent from panel to panel. Notice the initial gradual
+fading of the clump, which gets again brighter between 1.26 and
+1.58 Gyr.</figcaption>
+</figure>
+<div id="S3.p3" class="ltx_para">
+<p id="S3.p3.1" class="ltx_p">In the sequence of simulations, the clump of
+CHeB stars decreases in luminosity as the cluster ages, up to about
+1.26 Gyr. Then, up to an age of 1.56 Gyr, this luminosity increases
+by as much as 0.4 mag, remaining almost constant afterwards.
+This increase in luminosity in a relatively short timescale
+corresponds to the age (and stellar initial mass)
+at which the CHeB switches from quiescent ignition, to a mildly explosive
+ignition (the He-flash) inside an electron degenerate core.
+The increase in luminosity is mostly due to the large increase in the
+core mass required to
+ignite helium in a degenerate core. The basic theory of this transition
+is detailed in the classical work by Sweigart et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib30" title="" class="ltx_ref">sgr </a></cite>).</p>
+</div>
+<div id="S3.p4" class="ltx_para">
+<p id="S3.p4.1" class="ltx_p">Girardi et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib10" title="" class="ltx_ref">ggws </a></cite>) and Girardi (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib11" title="" class="ltx_ref">lg99 </a></cite>) already explored the
+consequences of this transition in the CMDs of galactic fields.
+The most impressive effect they found is that
+the stars with age of <math id="S3.p4.1.m1.1" class="ltx_Math" alttext="\sim 1" display="inline"><semantics id="S3.p4.1.m1.1a"><mrow id="S3.p4.1.m1.1.3" xref="S3.p4.1.m1.1.3.cmml"><mi id="S3.p4.1.m1.1.3.1" xref="S3.p4.1.m1.1.3.1.cmml"></mi><mo id="S3.p4.1.m1.1.1" xref="S3.p4.1.m1.1.1.cmml">∼</mo><mn id="S3.p4.1.m1.1.2" xref="S3.p4.1.m1.1.2.cmml">1</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.p4.1.m1.1b"><apply id="S3.p4.1.m1.1.3.cmml" xref="S3.p4.1.m1.1.3"><csymbol cd="latexml" id="S3.p4.1.m1.1.1.cmml" xref="S3.p4.1.m1.1.1">similar-to</csymbol><csymbol cd="latexml" id="S3.p4.1.m1.1.3.1.cmml" xref="S3.p4.1.m1.1.3.1">absent</csymbol><cn type="integer" id="S3.p4.1.m1.1.2.cmml" xref="S3.p4.1.m1.1.2">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p4.1.m1.1c">RELOP:similar-to NUMBER:1</annotation><annotation encoding="application/x-tex" id="S3.p4.1.m1.1d">\sim 1</annotation></semantics></math> Gyr may define a “secondary clump” feature
+extending below the main clump of red giants. Of course, the suggestion that
+the same feature may be present in star clusters like NGC 752 and NGC 7789
+is immediate.</p>
+</div>
+<div id="S3.p5" class="ltx_para">
+<p id="S3.p5.1" class="ltx_p">In fact, the age at which the transition occurs in the models
+is clearly in agreement with what is observed in the clusters: at 1.5 Gyr,
+main sequence and red clump are observed at <math id="S3.p5.1.m1.1" class="ltx_Math" alttext="\mbox{$(B-V)_{o}$}=0.5" display="inline"><semantics id="S3.p5.1.m1.1a"><mrow id="S3.p5.1.m1.1.6" xref="S3.p5.1.m1.1.6.cmml"><msub id="S3.p5.1.m1.1.1" xref="S3.p5.1.m1.1.1.cmml"><mrow id="S3.p5.1.m1.1.1.3" xref="S3.p5.1.m1.1.1.3.2.cmml"><mo stretchy="false" id="S3.p5.1.m1.1.1.1.m1.1.1" xref="S3.p5.1.m1.1.1.3.2.cmml">(</mo><mrow id="S3.p5.1.m1.1.1.3.2" xref="S3.p5.1.m1.1.1.3.2.cmml"><mi id="S3.p5.1.m1.1.1.1.m1.1.2" xref="S3.p5.1.m1.1.1.1.m1.1.2.cmml">B</mi><mo id="S3.p5.1.m1.1.1.1.m1.1.3" xref="S3.p5.1.m1.1.1.1.m1.1.3.cmml">-</mo><mi id="S3.p5.1.m1.1.1.1.m1.1.4" xref="S3.p5.1.m1.1.1.1.m1.1.4.cmml">V</mi></mrow><mo stretchy="false" id="S3.p5.1.m1.1.1.1.m1.1.5" xref="S3.p5.1.m1.1.1.3.2.cmml">)</mo></mrow><mi id="S3.p5.1.m1.1.1.1.m1.1.6.1" xref="S3.p5.1.m1.1.1.1.m1.1.6.1.cmml">o</mi></msub><mo id="S3.p5.1.m1.1.2" xref="S3.p5.1.m1.1.2.cmml">=</mo><mn id="S3.p5.1.m1.1.5" xref="S3.p5.1.m1.1.5.cmml">0.5</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.p5.1.m1.1b"><apply id="S3.p5.1.m1.1.6.cmml" xref="S3.p5.1.m1.1.6"><eq id="S3.p5.1.m1.1.2.cmml" xref="S3.p5.1.m1.1.2"></eq><apply id="S3.p5.1.m1.1.1.cmml" xref="S3.p5.1.m1.1.1"><csymbol cd="ambiguous" id="S3.p5.1.m1.1.1.2.cmml" xref="S3.p5.1.m1.1.1">subscript</csymbol><apply id="S3.p5.1.m1.1.1.3.2.cmml" xref="S3.p5.1.m1.1.1.3"><minus id="S3.p5.1.m1.1.1.1.m1.1.3.cmml" xref="S3.p5.1.m1.1.1.1.m1.1.3"></minus><ci id="S3.p5.1.m1.1.1.1.m1.1.2.cmml" xref="S3.p5.1.m1.1.1.1.m1.1.2">𝐵</ci><ci id="S3.p5.1.m1.1.1.1.m1.1.4.cmml" xref="S3.p5.1.m1.1.1.1.m1.1.4">𝑉</ci></apply><ci id="S3.p5.1.m1.1.1.1.m1.1.6.1.cmml" xref="S3.p5.1.m1.1.1.1.m1.1.6.1">𝑜</ci></apply><cn type="float" id="S3.p5.1.m1.1.5.cmml" xref="S3.p5.1.m1.1.5">0.5</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p5.1.m1.1c">OPEN:( italic-B ADDOP:minus italic-V CLOSE:) POSTSUBSCRIPT:start italic-o POSTSUBSCRIPT:end RELOP:equals NUMBER:0.5</annotation><annotation encoding="application/x-tex" id="S3.p5.1.m1.1d">\mbox{$(B-V)_{o}$}=0.5</annotation></semantics></math> and <math id="S3.p5.1.m2.1" class="ltx_Math" alttext="\mbox{$(B-V)_{o}$}=1.0" display="inline"><semantics id="S3.p5.1.m2.1a"><mrow id="S3.p5.1.m2.1.6" xref="S3.p5.1.m2.1.6.cmml"><msub id="S3.p5.1.m2.1.1" xref="S3.p5.1.m2.1.1.cmml"><mrow id="S3.p5.1.m2.1.1.3" xref="S3.p5.1.m2.1.1.3.2.cmml"><mo stretchy="false" id="S3.p5.1.m2.1.1.1.m1.1.1" xref="S3.p5.1.m2.1.1.3.2.cmml">(</mo><mrow id="S3.p5.1.m2.1.1.3.2" xref="S3.p5.1.m2.1.1.3.2.cmml"><mi id="S3.p5.1.m2.1.1.1.m1.1.2" xref="S3.p5.1.m2.1.1.1.m1.1.2.cmml">B</mi><mo id="S3.p5.1.m2.1.1.1.m1.1.3" xref="S3.p5.1.m2.1.1.1.m1.1.3.cmml">-</mo><mi id="S3.p5.1.m2.1.1.1.m1.1.4" xref="S3.p5.1.m2.1.1.1.m1.1.4.cmml">V</mi></mrow><mo stretchy="false" id="S3.p5.1.m2.1.1.1.m1.1.5" xref="S3.p5.1.m2.1.1.3.2.cmml">)</mo></mrow><mi id="S3.p5.1.m2.1.1.1.m1.1.6.1" xref="S3.p5.1.m2.1.1.1.m1.1.6.1.cmml">o</mi></msub><mo id="S3.p5.1.m2.1.2" xref="S3.p5.1.m2.1.2.cmml">=</mo><mn id="S3.p5.1.m2.1.5" xref="S3.p5.1.m2.1.5.cmml">1.0</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.p5.1.m2.1b"><apply id="S3.p5.1.m2.1.6.cmml" xref="S3.p5.1.m2.1.6"><eq id="S3.p5.1.m2.1.2.cmml" xref="S3.p5.1.m2.1.2"></eq><apply id="S3.p5.1.m2.1.1.cmml" xref="S3.p5.1.m2.1.1"><csymbol cd="ambiguous" id="S3.p5.1.m2.1.1.2.cmml" xref="S3.p5.1.m2.1.1">subscript</csymbol><apply id="S3.p5.1.m2.1.1.3.2.cmml" xref="S3.p5.1.m2.1.1.3"><minus id="S3.p5.1.m2.1.1.1.m1.1.3.cmml" xref="S3.p5.1.m2.1.1.1.m1.1.3"></minus><ci id="S3.p5.1.m2.1.1.1.m1.1.2.cmml" xref="S3.p5.1.m2.1.1.1.m1.1.2">𝐵</ci><ci id="S3.p5.1.m2.1.1.1.m1.1.4.cmml" xref="S3.p5.1.m2.1.1.1.m1.1.4">𝑉</ci></apply><ci id="S3.p5.1.m2.1.1.1.m1.1.6.1.cmml" xref="S3.p5.1.m2.1.1.1.m1.1.6.1">𝑜</ci></apply><cn type="float" id="S3.p5.1.m2.1.5.cmml" xref="S3.p5.1.m2.1.5">1.0</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p5.1.m2.1c">OPEN:( italic-B ADDOP:minus italic-V CLOSE:) POSTSUBSCRIPT:start italic-o POSTSUBSCRIPT:end RELOP:equals NUMBER:1.0</annotation><annotation encoding="application/x-tex" id="S3.p5.1.m2.1d">\mbox{$(B-V)_{o}$}=1.0</annotation></semantics></math>,
+respectively, and their magnitude difference is of
+<math id="S3.p5.1.m3.1" class="ltx_Math" alttext="\delta V=0.5" display="inline"><semantics id="S3.p5.1.m3.1a"><mrow id="S3.p5.1.m3.1.7" xref="S3.p5.1.m3.1.7.cmml"><mrow id="S3.p5.1.m3.1.7.1" xref="S3.p5.1.m3.1.7.1.cmml"><mi id="S3.p5.1.m3.1.1" xref="S3.p5.1.m3.1.1.cmml">δ</mi><mo id="S3.p5.1.m3.1.7.1.1" xref="S3.p5.1.m3.1.7.1.1.cmml">⁢</mo><mi id="S3.p5.1.m3.1.2" xref="S3.p5.1.m3.1.2.cmml">V</mi></mrow><mo id="S3.p5.1.m3.1.3" xref="S3.p5.1.m3.1.3.cmml">=</mo><mn id="S3.p5.1.m3.1.6" xref="S3.p5.1.m3.1.6.cmml">0.5</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.p5.1.m3.1b"><apply id="S3.p5.1.m3.1.7.cmml" xref="S3.p5.1.m3.1.7"><eq id="S3.p5.1.m3.1.3.cmml" xref="S3.p5.1.m3.1.3"></eq><apply id="S3.p5.1.m3.1.7.1.cmml" xref="S3.p5.1.m3.1.7.1"><times id="S3.p5.1.m3.1.7.1.1.cmml" xref="S3.p5.1.m3.1.7.1.1"></times><ci id="S3.p5.1.m3.1.1.cmml" xref="S3.p5.1.m3.1.1">𝛿</ci><ci id="S3.p5.1.m3.1.2.cmml" xref="S3.p5.1.m3.1.2">𝑉</ci></apply><cn type="float" id="S3.p5.1.m3.1.6.cmml" xref="S3.p5.1.m3.1.6">0.5</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p5.1.m3.1c">italic-delta italic-V RELOP:equals NUMBER:0.5</annotation><annotation encoding="application/x-tex" id="S3.p5.1.m3.1d">\delta V=0.5</annotation></semantics></math> mag. These numbers are undistiguishable from those
+observed in the CMDs of NGC 752 and NGC 7789.</p>
+</div>
+<div id="S3.p6" class="ltx_para">
+<p id="S3.p6.1" class="ltx_p">However, it is also clear that the models of single-age, single-metallicity
+stellar populations shown in Fig. <a href="#S3.F3" title="Figure 3 ‣ 3 The models ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">3</span></a> do not produce
+“dual clumps”, neither clumps with fainter tails, as in the case
+of galaxy models. What clump models indicate is that the clump has an
+intrinsic elongated structure for ages lower than 1.2 Gyr, getting
+more concentrated at later ages, when the clump gets brighter.
+Therefore, they do not provide an obvious explanation for the clump
+morphologies observed in NGC 7789 and NGC 752.</p>
+</div>
+</section>
+<section id="S4" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">4 </span>Observed red giant clumps</h2>
+
+<div id="S4.p1" class="ltx_para">
+<p id="S4.p1.1" class="ltx_p">The theoretical ZAHB and individual evolutionary tracks have been
+plotted over the observed red giants in NGC 7789
+(Fig. <a href="#S4.F4" title="Figure 4 ‣ 4 Observed red giant clumps ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4</span></a>a). Due to the shape
+of the red giant locus, the position of the ZAHB is rather obvious.
+The diagram can be interpreted as follows: a number of stars, with
+masses between 1.95 and 1.75 <span id="S4.p1.1.1" class="ltx_text"><math id="S4.p1.1.1.m1.1" class="ltx_Math" alttext="M_{\odot}" display="inline"><semantics id="S4.p1.1.1.m1.1a"><msub id="S4.p1.1.1.m1.1.3" xref="S4.p1.1.1.m1.1.3.cmml"><mi id="S4.p1.1.1.m1.1.1" xref="S4.p1.1.1.m1.1.1.cmml">M</mi><mo id="S4.p1.1.1.m1.1.2.1" xref="S4.p1.1.1.m1.1.2.1.cmml">⊙</mo></msub><annotation-xml encoding="MathML-Content" id="S4.p1.1.1.m1.1b"><apply id="S4.p1.1.1.m1.1.3.cmml" xref="S4.p1.1.1.m1.1.3"><csymbol cd="ambiguous" id="S4.p1.1.1.m1.1.3.1.cmml" xref="S4.p1.1.1.m1.1.3">subscript</csymbol><ci id="S4.p1.1.1.m1.1.1.cmml" xref="S4.p1.1.1.m1.1.1">𝑀</ci><csymbol cd="latexml" id="S4.p1.1.1.m1.1.2.1.cmml" xref="S4.p1.1.1.m1.1.2.1">direct-product</csymbol></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p1.1.1.m1.1c">italic-M POSTSUBSCRIPT:start MULOP:direct-product POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S4.p1.1.1.m1.1d">M_{\odot}</annotation></semantics></math></span> are close to or on the ZAHB,
+while other stars have already further evolved from the ZAHB. The
+bulk of the red giants has masses between 1.7 and 1.8 <span id="S4.p1.1.2" class="ltx_text"><math id="S4.p1.1.2.m1.1" class="ltx_Math" alttext="M_{\odot}" display="inline"><semantics id="S4.p1.1.2.m1.1a"><msub id="S4.p1.1.2.m1.1.3" xref="S4.p1.1.2.m1.1.3.cmml"><mi id="S4.p1.1.2.m1.1.1" xref="S4.p1.1.2.m1.1.1.cmml">M</mi><mo id="S4.p1.1.2.m1.1.2.1" xref="S4.p1.1.2.m1.1.2.1.cmml">⊙</mo></msub><annotation-xml encoding="MathML-Content" id="S4.p1.1.2.m1.1b"><apply id="S4.p1.1.2.m1.1.3.cmml" xref="S4.p1.1.2.m1.1.3"><csymbol cd="ambiguous" id="S4.p1.1.2.m1.1.3.1.cmml" xref="S4.p1.1.2.m1.1.3">subscript</csymbol><ci id="S4.p1.1.2.m1.1.1.cmml" xref="S4.p1.1.2.m1.1.1">𝑀</ci><csymbol cd="latexml" id="S4.p1.1.2.m1.1.2.1.cmml" xref="S4.p1.1.2.m1.1.2.1">direct-product</csymbol></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p1.1.2.m1.1c">italic-M POSTSUBSCRIPT:start MULOP:direct-product POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S4.p1.1.2.m1.1d">M_{\odot}</annotation></semantics></math></span>.
+Open circles are known binaries. Some do show the effects of the
+secondaries because their colours are bluer, while several ones are
+right in the middle of the “clump”. The theoretical shape of the
+ZAHB does give a very good representation of the observed morphology
+of the red giant clump.</p>
+</div>
+<figure id="S4.F4" class="ltx_figure"><span id="S4.F4.1" class="ltx_inline-para ltx_minipage ltx_align_middle" style="width:208.1pt;">
+<span id="S4.F4.1.p1" class="ltx_para">
+<span id="S4.F4.1.p1.1" class="ltx_inline-block" style="width:241.8pt;vertical-align:-0.0pt;"><img src="x4.png" id="S4.F4.1.p1.1.g1" class="ltx_graphics" width="718" height="718" alt="">
+</img>
+</span>
+</span></span><span id="S4.F4.2" class="ltx_inline-para ltx_minipage ltx_align_middle" style="width:208.1pt;">
+<span id="S4.F4.2.p1" class="ltx_para">
+<span id="S4.F4.2.p1.1" class="ltx_inline-block" style="width:241.8pt;vertical-align:-0.0pt;"><img src="x5.png" id="S4.F4.2.p1.1.g1" class="ltx_graphics" width="718" height="718" alt="">
+</img>
+</span>
+</span></span>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 4: </span>
+A small region of the CMD, centered on the clump, is shown
+for the clusters NGC 7789 (a) and NGC 752 (b).
+Only probable members are plotted. Single stars are
+shown as full dots, known binaries as open symbols.</figcaption>
+</figure>
+<div id="S4.p2" class="ltx_para">
+<p id="S4.p2.1" class="ltx_p">The resulting image is that at the core Helium-burning
+phase we have a spread in masses and ages among the red giants.
+It is evident that stars do not arrive at the same time in the
+He-burning phase, but clearly the observed morphology is not
+compatible with the ”classical” paradigm of evolution of single
+star, single mass isochrones. We observe, as is well known from the
+evolution on the main sequence, stars on the ZAHB and stars
+leaving this phase toward the asymptiotic giant branch. What is
+surprising is the size of the observed dispersion in mass on the
+ZAHB.</p>
+</div>
+<div id="S4.p3" class="ltx_para">
+<p id="S4.p3.1" class="ltx_p">The individual evolutionary tracks permit to understand the
+vertical dispersion and assign it to the evolution away from the
+ZAHB. However, the solid part of the individual evolutionary tracks,
+covering 70% of the core Helium-burning lifetime is mostly limited
+to the very beginning of the tracks and seems to be a little too
+short with respect to the observed distribution of the stars.</p>
+</div>
+<div id="S4.p4" class="ltx_para">
+<p id="S4.p4.1" class="ltx_p">The stars with <math id="S4.p4.1.m1.1" class="ltx_Math" alttext="12.1&lt;V&lt;12.5" display="inline"><semantics id="S4.p4.1.m1.1a"><mrow id="S4.p4.1.m1.1.12" xref="S4.p4.1.m1.1.12.cmml"><mn id="S4.p4.1.m1.1.4" xref="S4.p4.1.m1.1.4.cmml">12.1</mn><mo id="S4.p4.1.m1.1.5" xref="S4.p4.1.m1.1.5.cmml">&lt;</mo><mi id="S4.p4.1.m1.1.6" xref="S4.p4.1.m1.1.6.cmml">V</mi><mo id="S4.p4.1.m1.1.7" xref="S4.p4.1.m1.1.7.cmml">&lt;</mo><mn id="S4.p4.1.m1.1.11" xref="S4.p4.1.m1.1.11.cmml">12.5</mn></mrow><annotation-xml encoding="MathML-Content" id="S4.p4.1.m1.1b"><apply id="S4.p4.1.m1.1.12.cmml" xref="S4.p4.1.m1.1.12"><and id="S4.p4.1.m1.1.12a.cmml" xref="S4.p4.1.m1.1.12"></and><apply id="S4.p4.1.m1.1.12b.cmml" xref="S4.p4.1.m1.1.12"><lt id="S4.p4.1.m1.1.5.cmml" xref="S4.p4.1.m1.1.5"></lt><cn type="float" id="S4.p4.1.m1.1.4.cmml" xref="S4.p4.1.m1.1.4">12.1</cn><ci id="S4.p4.1.m1.1.6.cmml" xref="S4.p4.1.m1.1.6">𝑉</ci></apply><apply id="S4.p4.1.m1.1.12c.cmml" xref="S4.p4.1.m1.1.12"><lt id="S4.p4.1.m1.1.7.cmml" xref="S4.p4.1.m1.1.7"></lt><share href="#S4.p4.1.m1.1.6.cmml" id="S4.p4.1.m1.1.12d.cmml" xref="S4.p4.1.m1.1.12"></share><cn type="float" id="S4.p4.1.m1.1.11.cmml" xref="S4.p4.1.m1.1.11">12.5</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p4.1.m1.1c">NUMBER:12.1 RELOP:less-than italic-V RELOP:less-than NUMBER:12.5</annotation><annotation encoding="application/x-tex" id="S4.p4.1.m1.1d">12.1&lt;V&lt;12.5</annotation></semantics></math> and <math id="S4.p4.1.m2.1" class="ltx_Math" alttext="B-V\sim 1.4" display="inline"><semantics id="S4.p4.1.m2.1a"><mrow id="S4.p4.1.m2.1.8" xref="S4.p4.1.m2.1.8.cmml"><mrow id="S4.p4.1.m2.1.8.1" xref="S4.p4.1.m2.1.8.1.cmml"><mi id="S4.p4.1.m2.1.1" xref="S4.p4.1.m2.1.1.cmml">B</mi><mo id="S4.p4.1.m2.1.2" xref="S4.p4.1.m2.1.2.cmml">-</mo><mi id="S4.p4.1.m2.1.3" xref="S4.p4.1.m2.1.3.cmml">V</mi></mrow><mo id="S4.p4.1.m2.1.4" xref="S4.p4.1.m2.1.4.cmml">∼</mo><mn id="S4.p4.1.m2.1.7" xref="S4.p4.1.m2.1.7.cmml">1.4</mn></mrow><annotation-xml encoding="MathML-Content" id="S4.p4.1.m2.1b"><apply id="S4.p4.1.m2.1.8.cmml" xref="S4.p4.1.m2.1.8"><csymbol cd="latexml" id="S4.p4.1.m2.1.4.cmml" xref="S4.p4.1.m2.1.4">similar-to</csymbol><apply id="S4.p4.1.m2.1.8.1.cmml" xref="S4.p4.1.m2.1.8.1"><minus id="S4.p4.1.m2.1.2.cmml" xref="S4.p4.1.m2.1.2"></minus><ci id="S4.p4.1.m2.1.1.cmml" xref="S4.p4.1.m2.1.1">𝐵</ci><ci id="S4.p4.1.m2.1.3.cmml" xref="S4.p4.1.m2.1.3">𝑉</ci></apply><cn type="float" id="S4.p4.1.m2.1.7.cmml" xref="S4.p4.1.m2.1.7">1.4</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p4.1.m2.1c">italic-B ADDOP:minus italic-V RELOP:similar-to NUMBER:1.4</annotation><annotation encoding="application/x-tex" id="S4.p4.1.m2.1d">B-V\sim 1.4</annotation></semantics></math> form a bump
+at the exact position predicted by the models (see
+Fig. <a href="#S2.F1" title="Figure 1 ‣ 2 The clusters ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a>a). It
+correponds to the phase when the H-burning shell moving outward
+encounters the H-discontinuity resulting form the first dredge-up.
+They are therefore not in an advanced core He-burning stage, but
+mark a pause in the ascent of the red giant branch.</p>
+</div>
+<div id="S4.p5" class="ltx_para">
+<p id="S4.p5.1" class="ltx_p">The case of NGC 752 (Fig. <a href="#S4.F4" title="Figure 4 ‣ 4 Observed red giant clumps ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4</span></a>b) can be understood in the
+same context. Even
+if there are less red giants, the explanation seems to be quite
+convincing. The “classical” clump is well marked, and the fainter
+stars, which define the so-called second clump, are pretty
+well aligned along the ZAHB. Two models have been plotted, that
+for solar metallicity (<math id="S4.p5.1.m1.1" class="ltx_Math" alttext="Z=0.019" display="inline"><semantics id="S4.p5.1.m1.1a"><mrow id="S4.p5.1.m1.1.8" xref="S4.p5.1.m1.1.8.cmml"><mi id="S4.p5.1.m1.1.1" xref="S4.p5.1.m1.1.1.cmml">Z</mi><mo id="S4.p5.1.m1.1.2" xref="S4.p5.1.m1.1.2.cmml">=</mo><mn id="S4.p5.1.m1.1.7" xref="S4.p5.1.m1.1.7.cmml">0.019</mn></mrow><annotation-xml encoding="MathML-Content" id="S4.p5.1.m1.1b"><apply id="S4.p5.1.m1.1.8.cmml" xref="S4.p5.1.m1.1.8"><eq id="S4.p5.1.m1.1.2.cmml" xref="S4.p5.1.m1.1.2"></eq><ci id="S4.p5.1.m1.1.1.cmml" xref="S4.p5.1.m1.1.1">𝑍</ci><cn type="float" id="S4.p5.1.m1.1.7.cmml" xref="S4.p5.1.m1.1.7">0.019</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p5.1.m1.1c">italic-Z RELOP:equals NUMBER:0.019</annotation><annotation encoding="application/x-tex" id="S4.p5.1.m1.1d">Z=0.019</annotation></semantics></math>) and half solar (<math id="S4.p5.1.m2.1" class="ltx_Math" alttext="Z=0.008" display="inline"><semantics id="S4.p5.1.m2.1a"><mrow id="S4.p5.1.m2.1.8" xref="S4.p5.1.m2.1.8.cmml"><mi id="S4.p5.1.m2.1.1" xref="S4.p5.1.m2.1.1.cmml">Z</mi><mo id="S4.p5.1.m2.1.2" xref="S4.p5.1.m2.1.2.cmml">=</mo><mn id="S4.p5.1.m2.1.7" xref="S4.p5.1.m2.1.7.cmml">0.008</mn></mrow><annotation-xml encoding="MathML-Content" id="S4.p5.1.m2.1b"><apply id="S4.p5.1.m2.1.8.cmml" xref="S4.p5.1.m2.1.8"><eq id="S4.p5.1.m2.1.2.cmml" xref="S4.p5.1.m2.1.2"></eq><ci id="S4.p5.1.m2.1.1.cmml" xref="S4.p5.1.m2.1.1">𝑍</ci><cn type="float" id="S4.p5.1.m2.1.7.cmml" xref="S4.p5.1.m2.1.7">0.008</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p5.1.m2.1c">italic-Z RELOP:equals NUMBER:0.008</annotation><annotation encoding="application/x-tex" id="S4.p5.1.m2.1d">Z=0.008</annotation></semantics></math>). If
+the track is fitted to the base of the clump, both curves equally
+well reproduce the positions of the points.</p>
+</div>
+<div id="S4.p6" class="ltx_para">
+<p id="S4.p6.1" class="ltx_p">We have looked for other clusters to extend the interpretation of
+the clump morphology to further objects. One beautiful example
+has been found with NGC 2660, with the CCD photometry of Sandrelli
+et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib29" title="" class="ltx_ref">sbtm </a></cite>). The striking shape of the red giant locus is fairly
+well reproduced by the ZAHB for <math id="S4.p6.1.m1.1" class="ltx_Math" alttext="Z=0.004" display="inline"><semantics id="S4.p6.1.m1.1a"><mrow id="S4.p6.1.m1.1.8" xref="S4.p6.1.m1.1.8.cmml"><mi id="S4.p6.1.m1.1.1" xref="S4.p6.1.m1.1.1.cmml">Z</mi><mo id="S4.p6.1.m1.1.2" xref="S4.p6.1.m1.1.2.cmml">=</mo><mn id="S4.p6.1.m1.1.7" xref="S4.p6.1.m1.1.7.cmml">0.004</mn></mrow><annotation-xml encoding="MathML-Content" id="S4.p6.1.m1.1b"><apply id="S4.p6.1.m1.1.8.cmml" xref="S4.p6.1.m1.1.8"><eq id="S4.p6.1.m1.1.2.cmml" xref="S4.p6.1.m1.1.2"></eq><ci id="S4.p6.1.m1.1.1.cmml" xref="S4.p6.1.m1.1.1">𝑍</ci><cn type="float" id="S4.p6.1.m1.1.7.cmml" xref="S4.p6.1.m1.1.7">0.004</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p6.1.m1.1c">italic-Z RELOP:equals NUMBER:0.004</annotation><annotation encoding="application/x-tex" id="S4.p6.1.m1.1d">Z=0.004</annotation></semantics></math> (see
+Fig. <a href="#S4.F5" title="Figure 5 ‣ 4 Observed red giant clumps ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">5</span></a>a). The distribution of the
+points leads to masses comprised between 2.2 and <math id="S4.p6.1.m2.1" class="ltx_Math" alttext="1.9" display="inline"><semantics id="S4.p6.1.m2.1a"><mn id="S4.p6.1.m2.1.3" xref="S4.p6.1.m2.1.3.cmml">1.9</mn><annotation-xml encoding="MathML-Content" id="S4.p6.1.m2.1b"><cn type="float" id="S4.p6.1.m2.1.3.cmml" xref="S4.p6.1.m2.1.3">1.9</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p6.1.m2.1c">NUMBER:1.9</annotation><annotation encoding="application/x-tex" id="S4.p6.1.m2.1d">1.9</annotation></semantics></math> <span id="S4.p6.1.1" class="ltx_text"><math id="S4.p6.1.1.m1.1" class="ltx_Math" alttext="M_{\odot}" display="inline"><semantics id="S4.p6.1.1.m1.1a"><msub id="S4.p6.1.1.m1.1.3" xref="S4.p6.1.1.m1.1.3.cmml"><mi id="S4.p6.1.1.m1.1.1" xref="S4.p6.1.1.m1.1.1.cmml">M</mi><mo id="S4.p6.1.1.m1.1.2.1" xref="S4.p6.1.1.m1.1.2.1.cmml">⊙</mo></msub><annotation-xml encoding="MathML-Content" id="S4.p6.1.1.m1.1b"><apply id="S4.p6.1.1.m1.1.3.cmml" xref="S4.p6.1.1.m1.1.3"><csymbol cd="ambiguous" id="S4.p6.1.1.m1.1.3.1.cmml" xref="S4.p6.1.1.m1.1.3">subscript</csymbol><ci id="S4.p6.1.1.m1.1.1.cmml" xref="S4.p6.1.1.m1.1.1">𝑀</ci><csymbol cd="latexml" id="S4.p6.1.1.m1.1.2.1.cmml" xref="S4.p6.1.1.m1.1.2.1">direct-product</csymbol></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p6.1.1.m1.1c">italic-M POSTSUBSCRIPT:start MULOP:direct-product POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S4.p6.1.1.m1.1d">M_{\odot}</annotation></semantics></math></span>.
+IC 1311 also presents a clump with a vertical sequence of stars,
+but in absence of membership criterion, it is difficult to separate
+the cluster and field stars.</p>
+</div>
+<figure id="S4.F5" class="ltx_figure"><span id="S4.F5.1" class="ltx_inline-para ltx_minipage ltx_align_middle" style="width:208.1pt;">
+<span id="S4.F5.1.p1" class="ltx_para">
+<span id="S4.F5.1.p1.1" class="ltx_inline-block" style="width:241.8pt;vertical-align:-0.0pt;"><img src="x6.png" id="S4.F5.1.p1.1.g1" class="ltx_graphics" width="718" height="718" alt="">
+</img>
+</span>
+</span></span><span id="S4.F5.2" class="ltx_inline-para ltx_minipage ltx_align_middle" style="width:208.1pt;">
+<span id="S4.F5.2.p1" class="ltx_para">
+<span id="S4.F5.2.p1.1" class="ltx_inline-block" style="width:241.8pt;vertical-align:-0.0pt;"><img src="x7.png" id="S4.F5.2.p1.1.g1" class="ltx_graphics" width="718" height="718" alt="">
+</img>
+</span>
+</span></span>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 5: </span>
+CMDs for the clusters NGC 2660 (a) and NGC 2204 (b).
+Single stars are shown as full dots, known binaries as open simbols.
+Triangles denote stars on the ascending red giant branch and
+crosses, non-members according to unpublished CORAVEL radial-velocity
+observations.</figcaption>
+</figure>
+<div id="S4.p7" class="ltx_para">
+<p id="S4.p7.1" class="ltx_p">On the oldest side of the age range, NGC 2204 shows a well defined
+and compact clump which contains stars on the ZAHB and stars slightly
+evolved (Fig. <a href="#S4.F5" title="Figure 5 ‣ 4 Observed red giant clumps ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">5</span></a>b).</p>
+</div>
+<div id="S4.p8" class="ltx_para">
+<p id="S4.p8.1" class="ltx_p">This small sample of representative clusters shows that the
+clump morphology changes with ages and that the shape of the ZAHB
+predicted by the models, at various chemical compositions, do
+reproduce well the observed patterns. Still younger open clusters,
+with ages lower than 1 Gyr, have more massive red giants which do not
+evolve through the Helium flash and the morphology is again
+different. It seems that a single isochrone is also not able to
+reproduce the complexity of the clump structure.</p>
+</div>
+</section>
+<section id="S5" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">5 </span>Interpretation</h2>
+
+<div id="S5.p1" class="ltx_para">
+<p id="S5.p1.1" class="ltx_p">After suggesting an interpretation to the red clump morphology in
+these clusters, it is convenient to further discuss details of the
+models. This in order to clarify whether we are really facing
+strange evolutionary behaviours.</p>
+</div>
+<div id="S5.p2" class="ltx_para">
+<p id="S5.p2.1" class="ltx_p">First of all, it is interesting to consider the natural dispersion
+of mass in clump stars of different ages. Fig. <a href="#S5.F6" title="Figure 6 ‣ 5 Interpretation ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">6</span></a>
+presents the locus
+of stars at both the beginning and end of the CHeB stage, on the
+age-initial mass diagram. These two lines delimit the region allowed
+for clump stars. Singling out a single age for a cluster (i.e. a
+horizontal line), we immediately identify the mass range of its clump
+stars. It is interesting to notice that,
+at ages lower than about 1 Gyr, this mass range is about 0.2 <span id="S5.p2.1.1" class="ltx_text"><math id="S5.p2.1.1.m1.1" class="ltx_Math" alttext="M_{\odot}" display="inline"><semantics id="S5.p2.1.1.m1.1a"><msub id="S5.p2.1.1.m1.1.3" xref="S5.p2.1.1.m1.1.3.cmml"><mi id="S5.p2.1.1.m1.1.1" xref="S5.p2.1.1.m1.1.1.cmml">M</mi><mo id="S5.p2.1.1.m1.1.2.1" xref="S5.p2.1.1.m1.1.2.1.cmml">⊙</mo></msub><annotation-xml encoding="MathML-Content" id="S5.p2.1.1.m1.1b"><apply id="S5.p2.1.1.m1.1.3.cmml" xref="S5.p2.1.1.m1.1.3"><csymbol cd="ambiguous" id="S5.p2.1.1.m1.1.3.1.cmml" xref="S5.p2.1.1.m1.1.3">subscript</csymbol><ci id="S5.p2.1.1.m1.1.1.cmml" xref="S5.p2.1.1.m1.1.1">𝑀</ci><csymbol cd="latexml" id="S5.p2.1.1.m1.1.2.1.cmml" xref="S5.p2.1.1.m1.1.2.1">direct-product</csymbol></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p2.1.1.m1.1c">italic-M POSTSUBSCRIPT:start MULOP:direct-product POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S5.p2.1.1.m1.1d">M_{\odot}</annotation></semantics></math></span> wide.
+When we get to a certain age value (about 1.4 Gyr), it gets suddenly
+narrower, to about 0.1 <span id="S5.p2.1.2" class="ltx_text"><math id="S5.p2.1.2.m1.1" class="ltx_Math" alttext="M_{\odot}" display="inline"><semantics id="S5.p2.1.2.m1.1a"><msub id="S5.p2.1.2.m1.1.3" xref="S5.p2.1.2.m1.1.3.cmml"><mi id="S5.p2.1.2.m1.1.1" xref="S5.p2.1.2.m1.1.1.cmml">M</mi><mo id="S5.p2.1.2.m1.1.2.1" xref="S5.p2.1.2.m1.1.2.1.cmml">⊙</mo></msub><annotation-xml encoding="MathML-Content" id="S5.p2.1.2.m1.1b"><apply id="S5.p2.1.2.m1.1.3.cmml" xref="S5.p2.1.2.m1.1.3"><csymbol cd="ambiguous" id="S5.p2.1.2.m1.1.3.1.cmml" xref="S5.p2.1.2.m1.1.3">subscript</csymbol><ci id="S5.p2.1.2.m1.1.1.cmml" xref="S5.p2.1.2.m1.1.1">𝑀</ci><csymbol cd="latexml" id="S5.p2.1.2.m1.1.2.1.cmml" xref="S5.p2.1.2.m1.1.2.1">direct-product</csymbol></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p2.1.2.m1.1c">italic-M POSTSUBSCRIPT:start MULOP:direct-product POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S5.p2.1.2.m1.1d">M_{\odot}</annotation></semantics></math></span>. This effect is the
+simple result from the sudden reduction of the CHeB lifetime, by a factor
+of about 2.5, which follows the onset of electron-degenerate cores:
+this lifetime is of about <math id="S5.p2.1.m1.1" class="ltx_Math" alttext="10^{8}" display="inline"><semantics id="S5.p2.1.m1.1a"><msup id="S5.p2.1.m1.1.4" xref="S5.p2.1.m1.1.4.cmml"><mn id="S5.p2.1.m1.1.2" xref="S5.p2.1.m1.1.2.cmml">10</mn><mn id="S5.p2.1.m1.1.3.1" xref="S5.p2.1.m1.1.3.1.cmml">8</mn></msup><annotation-xml encoding="MathML-Content" id="S5.p2.1.m1.1b"><apply id="S5.p2.1.m1.1.4.cmml" xref="S5.p2.1.m1.1.4"><csymbol cd="ambiguous" id="S5.p2.1.m1.1.4.1.cmml" xref="S5.p2.1.m1.1.4">superscript</csymbol><cn type="integer" id="S5.p2.1.m1.1.2.cmml" xref="S5.p2.1.m1.1.2">10</cn><cn type="integer" id="S5.p2.1.m1.1.3.1.cmml" xref="S5.p2.1.m1.1.3.1">8</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p2.1.m1.1c">NUMBER:10 POSTSUPERSCRIPT:start NUMBER:8 POSTSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S5.p2.1.m1.1d">10^{8}</annotation></semantics></math> yr for low mass stars, gets to a maximum
+of about <math id="S5.p2.1.m2.1" class="ltx_Math" alttext="2.5\times 10^{8}" display="inline"><semantics id="S5.p2.1.m2.1a"><mrow id="S5.p2.1.m2.1.8" xref="S5.p2.1.m2.1.8.cmml"><mn id="S5.p2.1.m2.1.3" xref="S5.p2.1.m2.1.3.cmml">2.5</mn><mo id="S5.p2.1.m2.1.4" xref="S5.p2.1.m2.1.4.cmml">×</mo><msup id="S5.p2.1.m2.1.8.1" xref="S5.p2.1.m2.1.8.1.cmml"><mn id="S5.p2.1.m2.1.6" xref="S5.p2.1.m2.1.6.cmml">10</mn><mn id="S5.p2.1.m2.1.7.1" xref="S5.p2.1.m2.1.7.1.cmml">8</mn></msup></mrow><annotation-xml encoding="MathML-Content" id="S5.p2.1.m2.1b"><apply id="S5.p2.1.m2.1.8.cmml" xref="S5.p2.1.m2.1.8"><times id="S5.p2.1.m2.1.4.cmml" xref="S5.p2.1.m2.1.4"></times><cn type="float" id="S5.p2.1.m2.1.3.cmml" xref="S5.p2.1.m2.1.3">2.5</cn><apply id="S5.p2.1.m2.1.8.1.cmml" xref="S5.p2.1.m2.1.8.1"><csymbol cd="ambiguous" id="S5.p2.1.m2.1.8.1.1.cmml" xref="S5.p2.1.m2.1.8.1">superscript</csymbol><cn type="integer" id="S5.p2.1.m2.1.6.cmml" xref="S5.p2.1.m2.1.6">10</cn><cn type="integer" id="S5.p2.1.m2.1.7.1.cmml" xref="S5.p2.1.m2.1.7.1">8</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p2.1.m2.1c">NUMBER:2.5 MULOP:times NUMBER:10 POSTSUPERSCRIPT:start NUMBER:8 POSTSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S5.p2.1.m2.1d">2.5\times 10^{8}</annotation></semantics></math> yr at the transition mass <span id="S5.p2.1.3" class="ltx_text"><math id="S5.p2.1.3.m1.1" class="ltx_Math" alttext="M_{\rm Hef}" display="inline"><semantics id="S5.p2.1.3.m1.1a"><msub id="S5.p2.1.3.m1.1.3" xref="S5.p2.1.3.m1.1.3.cmml"><mi id="S5.p2.1.3.m1.1.1" xref="S5.p2.1.3.m1.1.1.cmml">M</mi><mi id="S5.p2.1.3.m1.1.2.1" xref="S5.p2.1.3.m1.1.2.1.cmml">Hef</mi></msub><annotation-xml encoding="MathML-Content" id="S5.p2.1.3.m1.1b"><apply id="S5.p2.1.3.m1.1.3.cmml" xref="S5.p2.1.3.m1.1.3"><csymbol cd="ambiguous" id="S5.p2.1.3.m1.1.3.1.cmml" xref="S5.p2.1.3.m1.1.3">subscript</csymbol><ci id="S5.p2.1.3.m1.1.1.cmml" xref="S5.p2.1.3.m1.1.1">𝑀</ci><ci id="S5.p2.1.3.m1.1.2.1.cmml" xref="S5.p2.1.3.m1.1.2.1">Hef</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p2.1.3.m1.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S5.p2.1.3.m1.1d">M_{\rm Hef}</annotation></semantics></math></span>, and then
+decreases monotonically for stars of higher mass
+(see Girardi &amp; Bertelli <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib12" title="" class="ltx_ref">gb98 </a></cite>; Girardi  <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib11" title="" class="ltx_ref">lg99 </a></cite>). This particular
+behaviour simply reflects the different core masses necessary for igniting
+helium in stars of different masses.</p>
+</div>
+<figure id="S5.F6" class="ltx_figure">
+<div id="S5.F6.1" class="ltx_block" style="width:341.4pt;vertical-align:-0.0pt;">
+<img src="x8.png" id="S5.F6.1.g1" class="ltx_graphics" width="718" height="718" alt="">
+</img>
+</div>
+<div id="S5.F6.2" class="ltx_block ltx_parbox ltx_align_bottom" style="width:156.5pt;">
+</div>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 6: </span>
+The age–mass relation for core-He burning stars (shaded area),
+for 3 values of metallicity: <math id="S5.F6.m4.1" class="ltx_Math" alttext="Z=0.004" display="inline"><semantics id="S5.F6.m4.1b"><mrow id="S5.F6.m4.1.8" xref="S5.F6.m4.1.8.cmml"><mi id="S5.F6.m4.1.1" xref="S5.F6.m4.1.1.cmml">Z</mi><mo id="S5.F6.m4.1.2" xref="S5.F6.m4.1.2.cmml">=</mo><mn id="S5.F6.m4.1.7" xref="S5.F6.m4.1.7.cmml">0.004</mn></mrow><annotation-xml encoding="MathML-Content" id="S5.F6.m4.1c"><apply id="S5.F6.m4.1.8.cmml" xref="S5.F6.m4.1.8"><eq id="S5.F6.m4.1.2.cmml" xref="S5.F6.m4.1.2"></eq><ci id="S5.F6.m4.1.1.cmml" xref="S5.F6.m4.1.1">𝑍</ci><cn type="float" id="S5.F6.m4.1.7.cmml" xref="S5.F6.m4.1.7">0.004</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.F6.m4.1d">italic-Z RELOP:equals NUMBER:0.004</annotation><annotation encoding="application/x-tex" id="S5.F6.m4.1e">Z=0.004</annotation></semantics></math>, 0.008, and 0.019. The three
+first panels are for models which adopt a moderate amount of
+convective overshooting. The last
+panel shows the same relation for “classical” (i.e. without
+overshooting) <math id="S5.F6.m5.1" class="ltx_Math" alttext="Z=0.019" display="inline"><semantics id="S5.F6.m5.1b"><mrow id="S5.F6.m5.1.8" xref="S5.F6.m5.1.8.cmml"><mi id="S5.F6.m5.1.1" xref="S5.F6.m5.1.1.cmml">Z</mi><mo id="S5.F6.m5.1.2" xref="S5.F6.m5.1.2.cmml">=</mo><mn id="S5.F6.m5.1.7" xref="S5.F6.m5.1.7.cmml">0.019</mn></mrow><annotation-xml encoding="MathML-Content" id="S5.F6.m5.1c"><apply id="S5.F6.m5.1.8.cmml" xref="S5.F6.m5.1.8"><eq id="S5.F6.m5.1.2.cmml" xref="S5.F6.m5.1.2"></eq><ci id="S5.F6.m5.1.1.cmml" xref="S5.F6.m5.1.1">𝑍</ci><cn type="float" id="S5.F6.m5.1.7.cmml" xref="S5.F6.m5.1.7">0.019</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.F6.m5.1d">italic-Z RELOP:equals NUMBER:0.019</annotation><annotation encoding="application/x-tex" id="S5.F6.m5.1e">Z=0.019</annotation></semantics></math> models.
+In the panel corresponding to <math id="S5.F6.m6.1" class="ltx_Math" alttext="Z=0.019" display="inline"><semantics id="S5.F6.m6.1b"><mrow id="S5.F6.m6.1.8" xref="S5.F6.m6.1.8.cmml"><mi id="S5.F6.m6.1.1" xref="S5.F6.m6.1.1.cmml">Z</mi><mo id="S5.F6.m6.1.2" xref="S5.F6.m6.1.2.cmml">=</mo><mn id="S5.F6.m6.1.7" xref="S5.F6.m6.1.7.cmml">0.019</mn></mrow><annotation-xml encoding="MathML-Content" id="S5.F6.m6.1c"><apply id="S5.F6.m6.1.8.cmml" xref="S5.F6.m6.1.8"><eq id="S5.F6.m6.1.2.cmml" xref="S5.F6.m6.1.2"></eq><ci id="S5.F6.m6.1.1.cmml" xref="S5.F6.m6.1.1">𝑍</ci><cn type="float" id="S5.F6.m6.1.7.cmml" xref="S5.F6.m6.1.7">0.019</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.F6.m6.1d">italic-Z RELOP:equals NUMBER:0.019</annotation><annotation encoding="application/x-tex" id="S5.F6.m6.1e">Z=0.019</annotation></semantics></math> with overshooting, we
+draw a vertical line which schematically separates the low-mass
+and intermediate-mass stars. Crossing this line from left to right,
+clump stars become less luminous by about 0.4 mag. The two horizontal
+lines limit the age interval in which we can find both types
+of clump stars contemporaneously in the same cluster.</figcaption>
+</figure>
+<div id="S5.p3" class="ltx_para">
+<p id="S5.p3.1" class="ltx_p">Fig. <a href="#S5.F6" title="Figure 6 ‣ 5 Interpretation ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">6</span></a> then helps to understand the origin of the
+elongated clumps noticed in the first panels of Fig. <a href="#S3.F3" title="Figure 3 ‣ 3 The models ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">3</span></a>:
+they result from the higher dispersion of clump masses found in
+clusters before the transition.</p>
+</div>
+<div id="S5.p4" class="ltx_para">
+<p id="S5.p4.1" class="ltx_p">Of course, there is also an age range in which we find both
+CHeB stars which ignited helium in non-degenerate conditions, and
+those which have done it quiescently. This is detailed in the
+lower-left diagram of Fig. <a href="#S5.F6" title="Figure 6 ‣ 5 Interpretation ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">6</span></a>. One can notice that,
+whereas the main sequence lifetime increases monotonically as we
+pass from <math id="S5.p4.1.m1.1" class="ltx_Math" alttext="\mbox{$M_{\rm Hef}$}+\delta M" display="inline"><semantics id="S5.p4.1.m1.1a"><mrow id="S5.p4.1.m1.1.5" xref="S5.p4.1.m1.1.5.cmml"><msub id="S5.p4.1.m1.1.1" xref="S5.p4.1.m1.1.1.cmml"><mi id="S5.p4.1.m1.1.1.1.m1.1.1" xref="S5.p4.1.m1.1.1.1.m1.1.1.cmml">M</mi><mi id="S5.p4.1.m1.1.1.1.m1.1.2.1" xref="S5.p4.1.m1.1.1.1.m1.1.2.1.cmml">Hef</mi></msub><mo id="S5.p4.1.m1.1.2" xref="S5.p4.1.m1.1.2.cmml">+</mo><mrow id="S5.p4.1.m1.1.5.1" xref="S5.p4.1.m1.1.5.1.cmml"><mi id="S5.p4.1.m1.1.3" xref="S5.p4.1.m1.1.3.cmml">δ</mi><mo id="S5.p4.1.m1.1.5.1.1" xref="S5.p4.1.m1.1.5.1.1.cmml">⁢</mo><mi id="S5.p4.1.m1.1.4" xref="S5.p4.1.m1.1.4.cmml">M</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S5.p4.1.m1.1b"><apply id="S5.p4.1.m1.1.5.cmml" xref="S5.p4.1.m1.1.5"><plus id="S5.p4.1.m1.1.2.cmml" xref="S5.p4.1.m1.1.2"></plus><apply id="S5.p4.1.m1.1.1.cmml" xref="S5.p4.1.m1.1.1"><csymbol cd="ambiguous" id="S5.p4.1.m1.1.1.2.cmml" xref="S5.p4.1.m1.1.1">subscript</csymbol><ci id="S5.p4.1.m1.1.1.1.m1.1.1.cmml" xref="S5.p4.1.m1.1.1.1.m1.1.1">𝑀</ci><ci id="S5.p4.1.m1.1.1.1.m1.1.2.1.cmml" xref="S5.p4.1.m1.1.1.1.m1.1.2.1">Hef</ci></apply><apply id="S5.p4.1.m1.1.5.1.cmml" xref="S5.p4.1.m1.1.5.1"><times id="S5.p4.1.m1.1.5.1.1.cmml" xref="S5.p4.1.m1.1.5.1.1"></times><ci id="S5.p4.1.m1.1.3.cmml" xref="S5.p4.1.m1.1.3">𝛿</ci><ci id="S5.p4.1.m1.1.4.cmml" xref="S5.p4.1.m1.1.4">𝑀</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.m1.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end ADDOP:plus italic-delta italic-M</annotation><annotation encoding="application/x-tex" id="S5.p4.1.m1.1d">\mbox{$M_{\rm Hef}$}+\delta M</annotation></semantics></math> to <math id="S5.p4.1.m2.1" class="ltx_Math" alttext="\mbox{$M_{\rm Hef}$}-\delta M" display="inline"><semantics id="S5.p4.1.m2.1a"><mrow id="S5.p4.1.m2.1.5" xref="S5.p4.1.m2.1.5.cmml"><msub id="S5.p4.1.m2.1.1" xref="S5.p4.1.m2.1.1.cmml"><mi id="S5.p4.1.m2.1.1.1.m1.1.1" xref="S5.p4.1.m2.1.1.1.m1.1.1.cmml">M</mi><mi id="S5.p4.1.m2.1.1.1.m1.1.2.1" xref="S5.p4.1.m2.1.1.1.m1.1.2.1.cmml">Hef</mi></msub><mo id="S5.p4.1.m2.1.2" xref="S5.p4.1.m2.1.2.cmml">-</mo><mrow id="S5.p4.1.m2.1.5.1" xref="S5.p4.1.m2.1.5.1.cmml"><mi id="S5.p4.1.m2.1.3" xref="S5.p4.1.m2.1.3.cmml">δ</mi><mo id="S5.p4.1.m2.1.5.1.1" xref="S5.p4.1.m2.1.5.1.1.cmml">⁢</mo><mi id="S5.p4.1.m2.1.4" xref="S5.p4.1.m2.1.4.cmml">M</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S5.p4.1.m2.1b"><apply id="S5.p4.1.m2.1.5.cmml" xref="S5.p4.1.m2.1.5"><minus id="S5.p4.1.m2.1.2.cmml" xref="S5.p4.1.m2.1.2"></minus><apply id="S5.p4.1.m2.1.1.cmml" xref="S5.p4.1.m2.1.1"><csymbol cd="ambiguous" id="S5.p4.1.m2.1.1.2.cmml" xref="S5.p4.1.m2.1.1">subscript</csymbol><ci id="S5.p4.1.m2.1.1.1.m1.1.1.cmml" xref="S5.p4.1.m2.1.1.1.m1.1.1">𝑀</ci><ci id="S5.p4.1.m2.1.1.1.m1.1.2.1.cmml" xref="S5.p4.1.m2.1.1.1.m1.1.2.1">Hef</ci></apply><apply id="S5.p4.1.m2.1.5.1.cmml" xref="S5.p4.1.m2.1.5.1"><times id="S5.p4.1.m2.1.5.1.1.cmml" xref="S5.p4.1.m2.1.5.1.1"></times><ci id="S5.p4.1.m2.1.3.cmml" xref="S5.p4.1.m2.1.3">𝛿</ci><ci id="S5.p4.1.m2.1.4.cmml" xref="S5.p4.1.m2.1.4">𝑀</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.m2.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end ADDOP:minus italic-delta italic-M</annotation><annotation encoding="application/x-tex" id="S5.p4.1.m2.1d">\mbox{$M_{\rm Hef}$}-\delta M</annotation></semantics></math>, the CHeB (clump)
+lifetime roughly halves as we pass from <math id="S5.p4.1.m3.1" class="ltx_Math" alttext="\mbox{$M_{\rm Hef}$}+\delta M" display="inline"><semantics id="S5.p4.1.m3.1a"><mrow id="S5.p4.1.m3.1.5" xref="S5.p4.1.m3.1.5.cmml"><msub id="S5.p4.1.m3.1.1" xref="S5.p4.1.m3.1.1.cmml"><mi id="S5.p4.1.m3.1.1.1.m1.1.1" xref="S5.p4.1.m3.1.1.1.m1.1.1.cmml">M</mi><mi id="S5.p4.1.m3.1.1.1.m1.1.2.1" xref="S5.p4.1.m3.1.1.1.m1.1.2.1.cmml">Hef</mi></msub><mo id="S5.p4.1.m3.1.2" xref="S5.p4.1.m3.1.2.cmml">+</mo><mrow id="S5.p4.1.m3.1.5.1" xref="S5.p4.1.m3.1.5.1.cmml"><mi id="S5.p4.1.m3.1.3" xref="S5.p4.1.m3.1.3.cmml">δ</mi><mo id="S5.p4.1.m3.1.5.1.1" xref="S5.p4.1.m3.1.5.1.1.cmml">⁢</mo><mi id="S5.p4.1.m3.1.4" xref="S5.p4.1.m3.1.4.cmml">M</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S5.p4.1.m3.1b"><apply id="S5.p4.1.m3.1.5.cmml" xref="S5.p4.1.m3.1.5"><plus id="S5.p4.1.m3.1.2.cmml" xref="S5.p4.1.m3.1.2"></plus><apply id="S5.p4.1.m3.1.1.cmml" xref="S5.p4.1.m3.1.1"><csymbol cd="ambiguous" id="S5.p4.1.m3.1.1.2.cmml" xref="S5.p4.1.m3.1.1">subscript</csymbol><ci id="S5.p4.1.m3.1.1.1.m1.1.1.cmml" xref="S5.p4.1.m3.1.1.1.m1.1.1">𝑀</ci><ci id="S5.p4.1.m3.1.1.1.m1.1.2.1.cmml" xref="S5.p4.1.m3.1.1.1.m1.1.2.1">Hef</ci></apply><apply id="S5.p4.1.m3.1.5.1.cmml" xref="S5.p4.1.m3.1.5.1"><times id="S5.p4.1.m3.1.5.1.1.cmml" xref="S5.p4.1.m3.1.5.1.1"></times><ci id="S5.p4.1.m3.1.3.cmml" xref="S5.p4.1.m3.1.3">𝛿</ci><ci id="S5.p4.1.m3.1.4.cmml" xref="S5.p4.1.m3.1.4">𝑀</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.m3.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end ADDOP:plus italic-delta italic-M</annotation><annotation encoding="application/x-tex" id="S5.p4.1.m3.1d">\mbox{$M_{\rm Hef}$}+\delta M</annotation></semantics></math> to
+<math id="S5.p4.1.m4.1" class="ltx_Math" alttext="\mbox{$M_{\rm Hef}$}-\delta M" display="inline"><semantics id="S5.p4.1.m4.1a"><mrow id="S5.p4.1.m4.1.5" xref="S5.p4.1.m4.1.5.cmml"><msub id="S5.p4.1.m4.1.1" xref="S5.p4.1.m4.1.1.cmml"><mi id="S5.p4.1.m4.1.1.1.m1.1.1" xref="S5.p4.1.m4.1.1.1.m1.1.1.cmml">M</mi><mi id="S5.p4.1.m4.1.1.1.m1.1.2.1" xref="S5.p4.1.m4.1.1.1.m1.1.2.1.cmml">Hef</mi></msub><mo id="S5.p4.1.m4.1.2" xref="S5.p4.1.m4.1.2.cmml">-</mo><mrow id="S5.p4.1.m4.1.5.1" xref="S5.p4.1.m4.1.5.1.cmml"><mi id="S5.p4.1.m4.1.3" xref="S5.p4.1.m4.1.3.cmml">δ</mi><mo id="S5.p4.1.m4.1.5.1.1" xref="S5.p4.1.m4.1.5.1.1.cmml">⁢</mo><mi id="S5.p4.1.m4.1.4" xref="S5.p4.1.m4.1.4.cmml">M</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S5.p4.1.m4.1b"><apply id="S5.p4.1.m4.1.5.cmml" xref="S5.p4.1.m4.1.5"><minus id="S5.p4.1.m4.1.2.cmml" xref="S5.p4.1.m4.1.2"></minus><apply id="S5.p4.1.m4.1.1.cmml" xref="S5.p4.1.m4.1.1"><csymbol cd="ambiguous" id="S5.p4.1.m4.1.1.2.cmml" xref="S5.p4.1.m4.1.1">subscript</csymbol><ci id="S5.p4.1.m4.1.1.1.m1.1.1.cmml" xref="S5.p4.1.m4.1.1.1.m1.1.1">𝑀</ci><ci id="S5.p4.1.m4.1.1.1.m1.1.2.1.cmml" xref="S5.p4.1.m4.1.1.1.m1.1.2.1">Hef</ci></apply><apply id="S5.p4.1.m4.1.5.1.cmml" xref="S5.p4.1.m4.1.5.1"><times id="S5.p4.1.m4.1.5.1.1.cmml" xref="S5.p4.1.m4.1.5.1.1"></times><ci id="S5.p4.1.m4.1.3.cmml" xref="S5.p4.1.m4.1.3">𝛿</ci><ci id="S5.p4.1.m4.1.4.cmml" xref="S5.p4.1.m4.1.4">𝑀</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.m4.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end ADDOP:minus italic-delta italic-M</annotation><annotation encoding="application/x-tex" id="S5.p4.1.m4.1d">\mbox{$M_{\rm Hef}$}-\delta M</annotation></semantics></math>. At a given age close to <math id="S5.p4.1.m5.1" class="ltx_Math" alttext="t(\mbox{$M_{\rm Hef}$})" display="inline"><semantics id="S5.p4.1.m5.1a"><mrow id="S5.p4.1.m5.1.5" xref="S5.p4.1.m5.1.5.cmml"><mi id="S5.p4.1.m5.1.1" xref="S5.p4.1.m5.1.1.cmml">t</mi><mo id="S5.p4.1.m5.1.5.1" xref="S5.p4.1.m5.1.5.1.cmml">⁢</mo><mrow id="S5.p4.1.m5.1.5.2" xref="S5.p4.1.m5.1.3.cmml"><mo stretchy="false" id="S5.p4.1.m5.1.2" xref="S5.p4.1.m5.1.3.cmml">(</mo><msub id="S5.p4.1.m5.1.3" xref="S5.p4.1.m5.1.3.cmml"><mi id="S5.p4.1.m5.1.3.1.m1.1.1" xref="S5.p4.1.m5.1.3.1.m1.1.1.cmml">M</mi><mi id="S5.p4.1.m5.1.3.1.m1.1.2.1" xref="S5.p4.1.m5.1.3.1.m1.1.2.1.cmml">Hef</mi></msub><mo stretchy="false" id="S5.p4.1.m5.1.4" xref="S5.p4.1.m5.1.3.cmml">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content" id="S5.p4.1.m5.1b"><apply id="S5.p4.1.m5.1.5.cmml" xref="S5.p4.1.m5.1.5"><times id="S5.p4.1.m5.1.5.1.cmml" xref="S5.p4.1.m5.1.5.1"></times><ci id="S5.p4.1.m5.1.1.cmml" xref="S5.p4.1.m5.1.1">𝑡</ci><apply id="S5.p4.1.m5.1.3.cmml" xref="S5.p4.1.m5.1.5.2"><csymbol cd="ambiguous" id="S5.p4.1.m5.1.3.2.cmml" xref="S5.p4.1.m5.1.5.2">subscript</csymbol><ci id="S5.p4.1.m5.1.3.1.m1.1.1.cmml" xref="S5.p4.1.m5.1.3.1.m1.1.1">𝑀</ci><ci id="S5.p4.1.m5.1.3.1.m1.1.2.1.cmml" xref="S5.p4.1.m5.1.3.1.m1.1.2.1">Hef</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.m5.1c">italic-t OPEN:( italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end CLOSE:)</annotation><annotation encoding="application/x-tex" id="S5.p4.1.m5.1d">t(\mbox{$M_{\rm Hef}$})</annotation></semantics></math>, we can
+then have the presence
+of both clump stars with <math id="S5.p4.1.m6.1" class="ltx_Math" alttext="\mbox{$M_{\rm Hef}$}+\delta M" display="inline"><semantics id="S5.p4.1.m6.1a"><mrow id="S5.p4.1.m6.1.5" xref="S5.p4.1.m6.1.5.cmml"><msub id="S5.p4.1.m6.1.1" xref="S5.p4.1.m6.1.1.cmml"><mi id="S5.p4.1.m6.1.1.1.m1.1.1" xref="S5.p4.1.m6.1.1.1.m1.1.1.cmml">M</mi><mi id="S5.p4.1.m6.1.1.1.m1.1.2.1" xref="S5.p4.1.m6.1.1.1.m1.1.2.1.cmml">Hef</mi></msub><mo id="S5.p4.1.m6.1.2" xref="S5.p4.1.m6.1.2.cmml">+</mo><mrow id="S5.p4.1.m6.1.5.1" xref="S5.p4.1.m6.1.5.1.cmml"><mi id="S5.p4.1.m6.1.3" xref="S5.p4.1.m6.1.3.cmml">δ</mi><mo id="S5.p4.1.m6.1.5.1.1" xref="S5.p4.1.m6.1.5.1.1.cmml">⁢</mo><mi id="S5.p4.1.m6.1.4" xref="S5.p4.1.m6.1.4.cmml">M</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S5.p4.1.m6.1b"><apply id="S5.p4.1.m6.1.5.cmml" xref="S5.p4.1.m6.1.5"><plus id="S5.p4.1.m6.1.2.cmml" xref="S5.p4.1.m6.1.2"></plus><apply id="S5.p4.1.m6.1.1.cmml" xref="S5.p4.1.m6.1.1"><csymbol cd="ambiguous" id="S5.p4.1.m6.1.1.2.cmml" xref="S5.p4.1.m6.1.1">subscript</csymbol><ci id="S5.p4.1.m6.1.1.1.m1.1.1.cmml" xref="S5.p4.1.m6.1.1.1.m1.1.1">𝑀</ci><ci id="S5.p4.1.m6.1.1.1.m1.1.2.1.cmml" xref="S5.p4.1.m6.1.1.1.m1.1.2.1">Hef</ci></apply><apply id="S5.p4.1.m6.1.5.1.cmml" xref="S5.p4.1.m6.1.5.1"><times id="S5.p4.1.m6.1.5.1.1.cmml" xref="S5.p4.1.m6.1.5.1.1"></times><ci id="S5.p4.1.m6.1.3.cmml" xref="S5.p4.1.m6.1.3">𝛿</ci><ci id="S5.p4.1.m6.1.4.cmml" xref="S5.p4.1.m6.1.4">𝑀</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.m6.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end ADDOP:plus italic-delta italic-M</annotation><annotation encoding="application/x-tex" id="S5.p4.1.m6.1d">\mbox{$M_{\rm Hef}$}+\delta M</annotation></semantics></math> at the end of their
+CHeB evolution,
+and stars with <math id="S5.p4.1.m7.1" class="ltx_Math" alttext="\mbox{$M_{\rm Hef}$}-\delta M" display="inline"><semantics id="S5.p4.1.m7.1a"><mrow id="S5.p4.1.m7.1.5" xref="S5.p4.1.m7.1.5.cmml"><msub id="S5.p4.1.m7.1.1" xref="S5.p4.1.m7.1.1.cmml"><mi id="S5.p4.1.m7.1.1.1.m1.1.1" xref="S5.p4.1.m7.1.1.1.m1.1.1.cmml">M</mi><mi id="S5.p4.1.m7.1.1.1.m1.1.2.1" xref="S5.p4.1.m7.1.1.1.m1.1.2.1.cmml">Hef</mi></msub><mo id="S5.p4.1.m7.1.2" xref="S5.p4.1.m7.1.2.cmml">-</mo><mrow id="S5.p4.1.m7.1.5.1" xref="S5.p4.1.m7.1.5.1.cmml"><mi id="S5.p4.1.m7.1.3" xref="S5.p4.1.m7.1.3.cmml">δ</mi><mo id="S5.p4.1.m7.1.5.1.1" xref="S5.p4.1.m7.1.5.1.1.cmml">⁢</mo><mi id="S5.p4.1.m7.1.4" xref="S5.p4.1.m7.1.4.cmml">M</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S5.p4.1.m7.1b"><apply id="S5.p4.1.m7.1.5.cmml" xref="S5.p4.1.m7.1.5"><minus id="S5.p4.1.m7.1.2.cmml" xref="S5.p4.1.m7.1.2"></minus><apply id="S5.p4.1.m7.1.1.cmml" xref="S5.p4.1.m7.1.1"><csymbol cd="ambiguous" id="S5.p4.1.m7.1.1.2.cmml" xref="S5.p4.1.m7.1.1">subscript</csymbol><ci id="S5.p4.1.m7.1.1.1.m1.1.1.cmml" xref="S5.p4.1.m7.1.1.1.m1.1.1">𝑀</ci><ci id="S5.p4.1.m7.1.1.1.m1.1.2.1.cmml" xref="S5.p4.1.m7.1.1.1.m1.1.2.1">Hef</ci></apply><apply id="S5.p4.1.m7.1.5.1.cmml" xref="S5.p4.1.m7.1.5.1"><times id="S5.p4.1.m7.1.5.1.1.cmml" xref="S5.p4.1.m7.1.5.1.1"></times><ci id="S5.p4.1.m7.1.3.cmml" xref="S5.p4.1.m7.1.3">𝛿</ci><ci id="S5.p4.1.m7.1.4.cmml" xref="S5.p4.1.m7.1.4">𝑀</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.m7.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end ADDOP:minus italic-delta italic-M</annotation><annotation encoding="application/x-tex" id="S5.p4.1.m7.1d">\mbox{$M_{\rm Hef}$}-\delta M</annotation></semantics></math> at the beginning of the same
+phase. The interest of this
+situation is that these two kind of stars (with <math id="S5.p4.1.m8.1" class="ltx_Math" alttext="\mbox{$M_{\rm Hef}$}+\delta M" display="inline"><semantics id="S5.p4.1.m8.1a"><mrow id="S5.p4.1.m8.1.5" xref="S5.p4.1.m8.1.5.cmml"><msub id="S5.p4.1.m8.1.1" xref="S5.p4.1.m8.1.1.cmml"><mi id="S5.p4.1.m8.1.1.1.m1.1.1" xref="S5.p4.1.m8.1.1.1.m1.1.1.cmml">M</mi><mi id="S5.p4.1.m8.1.1.1.m1.1.2.1" xref="S5.p4.1.m8.1.1.1.m1.1.2.1.cmml">Hef</mi></msub><mo id="S5.p4.1.m8.1.2" xref="S5.p4.1.m8.1.2.cmml">+</mo><mrow id="S5.p4.1.m8.1.5.1" xref="S5.p4.1.m8.1.5.1.cmml"><mi id="S5.p4.1.m8.1.3" xref="S5.p4.1.m8.1.3.cmml">δ</mi><mo id="S5.p4.1.m8.1.5.1.1" xref="S5.p4.1.m8.1.5.1.1.cmml">⁢</mo><mi id="S5.p4.1.m8.1.4" xref="S5.p4.1.m8.1.4.cmml">M</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S5.p4.1.m8.1b"><apply id="S5.p4.1.m8.1.5.cmml" xref="S5.p4.1.m8.1.5"><plus id="S5.p4.1.m8.1.2.cmml" xref="S5.p4.1.m8.1.2"></plus><apply id="S5.p4.1.m8.1.1.cmml" xref="S5.p4.1.m8.1.1"><csymbol cd="ambiguous" id="S5.p4.1.m8.1.1.2.cmml" xref="S5.p4.1.m8.1.1">subscript</csymbol><ci id="S5.p4.1.m8.1.1.1.m1.1.1.cmml" xref="S5.p4.1.m8.1.1.1.m1.1.1">𝑀</ci><ci id="S5.p4.1.m8.1.1.1.m1.1.2.1.cmml" xref="S5.p4.1.m8.1.1.1.m1.1.2.1">Hef</ci></apply><apply id="S5.p4.1.m8.1.5.1.cmml" xref="S5.p4.1.m8.1.5.1"><times id="S5.p4.1.m8.1.5.1.1.cmml" xref="S5.p4.1.m8.1.5.1.1"></times><ci id="S5.p4.1.m8.1.3.cmml" xref="S5.p4.1.m8.1.3">𝛿</ci><ci id="S5.p4.1.m8.1.4.cmml" xref="S5.p4.1.m8.1.4">𝑀</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.m8.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end ADDOP:plus italic-delta italic-M</annotation><annotation encoding="application/x-tex" id="S5.p4.1.m8.1d">\mbox{$M_{\rm Hef}$}+\delta M</annotation></semantics></math> and
+<math id="S5.p4.1.m9.1" class="ltx_Math" alttext="\mbox{$M_{\rm Hef}$}-\delta M" display="inline"><semantics id="S5.p4.1.m9.1a"><mrow id="S5.p4.1.m9.1.5" xref="S5.p4.1.m9.1.5.cmml"><msub id="S5.p4.1.m9.1.1" xref="S5.p4.1.m9.1.1.cmml"><mi id="S5.p4.1.m9.1.1.1.m1.1.1" xref="S5.p4.1.m9.1.1.1.m1.1.1.cmml">M</mi><mi id="S5.p4.1.m9.1.1.1.m1.1.2.1" xref="S5.p4.1.m9.1.1.1.m1.1.2.1.cmml">Hef</mi></msub><mo id="S5.p4.1.m9.1.2" xref="S5.p4.1.m9.1.2.cmml">-</mo><mrow id="S5.p4.1.m9.1.5.1" xref="S5.p4.1.m9.1.5.1.cmml"><mi id="S5.p4.1.m9.1.3" xref="S5.p4.1.m9.1.3.cmml">δ</mi><mo id="S5.p4.1.m9.1.5.1.1" xref="S5.p4.1.m9.1.5.1.1.cmml">⁢</mo><mi id="S5.p4.1.m9.1.4" xref="S5.p4.1.m9.1.4.cmml">M</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S5.p4.1.m9.1b"><apply id="S5.p4.1.m9.1.5.cmml" xref="S5.p4.1.m9.1.5"><minus id="S5.p4.1.m9.1.2.cmml" xref="S5.p4.1.m9.1.2"></minus><apply id="S5.p4.1.m9.1.1.cmml" xref="S5.p4.1.m9.1.1"><csymbol cd="ambiguous" id="S5.p4.1.m9.1.1.2.cmml" xref="S5.p4.1.m9.1.1">subscript</csymbol><ci id="S5.p4.1.m9.1.1.1.m1.1.1.cmml" xref="S5.p4.1.m9.1.1.1.m1.1.1">𝑀</ci><ci id="S5.p4.1.m9.1.1.1.m1.1.2.1.cmml" xref="S5.p4.1.m9.1.1.1.m1.1.2.1">Hef</ci></apply><apply id="S5.p4.1.m9.1.5.1.cmml" xref="S5.p4.1.m9.1.5.1"><times id="S5.p4.1.m9.1.5.1.1.cmml" xref="S5.p4.1.m9.1.5.1.1"></times><ci id="S5.p4.1.m9.1.3.cmml" xref="S5.p4.1.m9.1.3">𝛿</ci><ci id="S5.p4.1.m9.1.4.cmml" xref="S5.p4.1.m9.1.4">𝑀</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.m9.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end ADDOP:minus italic-delta italic-M</annotation><annotation encoding="application/x-tex" id="S5.p4.1.m9.1d">\mbox{$M_{\rm Hef}$}-\delta M</annotation></semantics></math>) have CHeB initial
+luminosities differing by up to 0.4 mag, thus providing a good
+hint for the origin of dual clumps. The coexistence of both
+CHeB stars lasts for a maximum period of 0.2 Gyr.
+Interestingly, in some cases it may happen that stars in both regimes
+(degenerate and non-degenerate He ignition), for very short
+age intervals, are distributed over
+non-contiguous age intervals. In the Girardi et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib13" title="" class="ltx_ref">gbbc </a></cite>) models, it
+happens for the <math id="S5.p4.1.m10.1" class="ltx_Math" alttext="Z=0.008" display="inline"><semantics id="S5.p4.1.m10.1a"><mrow id="S5.p4.1.m10.1.8" xref="S5.p4.1.m10.1.8.cmml"><mi id="S5.p4.1.m10.1.1" xref="S5.p4.1.m10.1.1.cmml">Z</mi><mo id="S5.p4.1.m10.1.2" xref="S5.p4.1.m10.1.2.cmml">=</mo><mn id="S5.p4.1.m10.1.7" xref="S5.p4.1.m10.1.7.cmml">0.008</mn></mrow><annotation-xml encoding="MathML-Content" id="S5.p4.1.m10.1b"><apply id="S5.p4.1.m10.1.8.cmml" xref="S5.p4.1.m10.1.8"><eq id="S5.p4.1.m10.1.2.cmml" xref="S5.p4.1.m10.1.2"></eq><ci id="S5.p4.1.m10.1.1.cmml" xref="S5.p4.1.m10.1.1">𝑍</ci><cn type="float" id="S5.p4.1.m10.1.7.cmml" xref="S5.p4.1.m10.1.7">0.008</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.m10.1c">italic-Z RELOP:equals NUMBER:0.008</annotation><annotation encoding="application/x-tex" id="S5.p4.1.m10.1d">Z=0.008</annotation></semantics></math> tracks, and for those with
+<math id="S5.p4.1.m11.1" class="ltx_Math" alttext="Z=0.019" display="inline"><semantics id="S5.p4.1.m11.1a"><mrow id="S5.p4.1.m11.1.8" xref="S5.p4.1.m11.1.8.cmml"><mi id="S5.p4.1.m11.1.1" xref="S5.p4.1.m11.1.1.cmml">Z</mi><mo id="S5.p4.1.m11.1.2" xref="S5.p4.1.m11.1.2.cmml">=</mo><mn id="S5.p4.1.m11.1.7" xref="S5.p4.1.m11.1.7.cmml">0.019</mn></mrow><annotation-xml encoding="MathML-Content" id="S5.p4.1.m11.1b"><apply id="S5.p4.1.m11.1.8.cmml" xref="S5.p4.1.m11.1.8"><eq id="S5.p4.1.m11.1.2.cmml" xref="S5.p4.1.m11.1.2"></eq><ci id="S5.p4.1.m11.1.1.cmml" xref="S5.p4.1.m11.1.1">𝑍</ci><cn type="float" id="S5.p4.1.m11.1.7.cmml" xref="S5.p4.1.m11.1.7">0.019</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.m11.1c">italic-Z RELOP:equals NUMBER:0.019</annotation><annotation encoding="application/x-tex" id="S5.p4.1.m11.1d">Z=0.019</annotation></semantics></math> computed without overshooting (see Fig. <a href="#S5.F6" title="Figure 6 ‣ 5 Interpretation ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">6</span></a>),
+for which we have a non-monotonic mass vs. age relation
+for stars at the late stages of CHeB, in the vicinity of <span id="S5.p4.1.1" class="ltx_text"><math id="S5.p4.1.1.m1.1" class="ltx_Math" alttext="M_{\rm Hef}" display="inline"><semantics id="S5.p4.1.1.m1.1a"><msub id="S5.p4.1.1.m1.1.3" xref="S5.p4.1.1.m1.1.3.cmml"><mi id="S5.p4.1.1.m1.1.1" xref="S5.p4.1.1.m1.1.1.cmml">M</mi><mi id="S5.p4.1.1.m1.1.2.1" xref="S5.p4.1.1.m1.1.2.1.cmml">Hef</mi></msub><annotation-xml encoding="MathML-Content" id="S5.p4.1.1.m1.1b"><apply id="S5.p4.1.1.m1.1.3.cmml" xref="S5.p4.1.1.m1.1.3"><csymbol cd="ambiguous" id="S5.p4.1.1.m1.1.3.1.cmml" xref="S5.p4.1.1.m1.1.3">subscript</csymbol><ci id="S5.p4.1.1.m1.1.1.cmml" xref="S5.p4.1.1.m1.1.1">𝑀</ci><ci id="S5.p4.1.1.m1.1.2.1.cmml" xref="S5.p4.1.1.m1.1.2.1">Hef</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p4.1.1.m1.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S5.p4.1.1.m1.1d">M_{\rm Hef}</annotation></semantics></math></span>.
+In the context of the present investigation, this is of course the
+most interesting situation, because it could alone
+generate a dual clump <span id="S5.p4.1.2" class="ltx_text ltx_font_italic">in a single isochrone</span>, without
+any artificial assumption about the dispersion of age and mass of
+clump stars.</p>
+</div>
+<div id="S5.p5" class="ltx_para">
+<p id="S5.p5.1" class="ltx_p">By means of simulations like those shown in Fig. <a href="#S3.F3" title="Figure 3 ‣ 3 The models ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">3</span></a>,
+however, we have verified that dual clumps do not appear due to
+this effect of mass dispersion, because the clump stars of higher
+mass are found
+to be always more evolved than those of lower mass, and hence
+already departed from the ZAHB to much higher luminosities. Thus,
+at the age they are observed simultaneously with the brighter clump
+of the lower-mass stars, they no longer represent clump stars of
+lower luminosity.</p>
+</div>
+<div id="S5.p6" class="ltx_para">
+<p id="S5.p6.1" class="ltx_p">On the other hand, we should notice that the possibility of having
+dual clumps in single isochrones may depend essentially on
+the velocity at which the clump gets brighter and short-lived
+with the stellar mass, or, equivalently, on the velocity at which
+the core mass at the He-flash increases along the transition mass
+<span id="S5.p6.1.1" class="ltx_text"><math id="S5.p6.1.1.m1.1" class="ltx_Math" alttext="M_{\rm Hef}" display="inline"><semantics id="S5.p6.1.1.m1.1a"><msub id="S5.p6.1.1.m1.1.3" xref="S5.p6.1.1.m1.1.3.cmml"><mi id="S5.p6.1.1.m1.1.1" xref="S5.p6.1.1.m1.1.1.cmml">M</mi><mi id="S5.p6.1.1.m1.1.2.1" xref="S5.p6.1.1.m1.1.2.1.cmml">Hef</mi></msub><annotation-xml encoding="MathML-Content" id="S5.p6.1.1.m1.1b"><apply id="S5.p6.1.1.m1.1.3.cmml" xref="S5.p6.1.1.m1.1.3"><csymbol cd="ambiguous" id="S5.p6.1.1.m1.1.3.1.cmml" xref="S5.p6.1.1.m1.1.3">subscript</csymbol><ci id="S5.p6.1.1.m1.1.1.cmml" xref="S5.p6.1.1.m1.1.1">𝑀</ci><ci id="S5.p6.1.1.m1.1.2.1.cmml" xref="S5.p6.1.1.m1.1.2.1">Hef</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p6.1.1.m1.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S5.p6.1.1.m1.1d">M_{\rm Hef}</annotation></semantics></math></span>. The present models (Girardi et al. <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib13" title="" class="ltx_ref">gbbc </a></cite>)
+may not present the level of detail necessary to explore this
+possibility further, due to their limited mass resolution, of
+about 0.05 <span id="S5.p6.1.2" class="ltx_text"><math id="S5.p6.1.2.m1.1" class="ltx_Math" alttext="M_{\odot}" display="inline"><semantics id="S5.p6.1.2.m1.1a"><msub id="S5.p6.1.2.m1.1.3" xref="S5.p6.1.2.m1.1.3.cmml"><mi id="S5.p6.1.2.m1.1.1" xref="S5.p6.1.2.m1.1.1.cmml">M</mi><mo id="S5.p6.1.2.m1.1.2.1" xref="S5.p6.1.2.m1.1.2.1.cmml">⊙</mo></msub><annotation-xml encoding="MathML-Content" id="S5.p6.1.2.m1.1b"><apply id="S5.p6.1.2.m1.1.3.cmml" xref="S5.p6.1.2.m1.1.3"><csymbol cd="ambiguous" id="S5.p6.1.2.m1.1.3.1.cmml" xref="S5.p6.1.2.m1.1.3">subscript</csymbol><ci id="S5.p6.1.2.m1.1.1.cmml" xref="S5.p6.1.2.m1.1.1">𝑀</ci><csymbol cd="latexml" id="S5.p6.1.2.m1.1.2.1.cmml" xref="S5.p6.1.2.m1.1.2.1">direct-product</csymbol></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p6.1.2.m1.1c">italic-M POSTSUBSCRIPT:start MULOP:direct-product POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S5.p6.1.2.m1.1d">M_{\odot}</annotation></semantics></math></span>. This means that, at timescales
+faster than 0.06 Gyr, our models reflect the result of
+interpolating between the contiguous evolutionary tracks, more
+than the real evolutionary behaviour of the stars. An improvement
+by a factor of 2 in the model resolution would be desirable.</p>
+</div>
+<div id="S5.p7" class="ltx_para">
+<p id="S5.p7.1" class="ltx_p">Other subtle effects can also be invoked
+to generate the dual clump features in the models.</p>
+</div>
+<div id="S5.p8" class="ltx_para">
+<p id="S5.p8.1" class="ltx_p">One of them is the presence of
+a small dispersion of ages for the cluster stars.
+It would reflect in a larger range of masses for clump
+stars. Such effect is simulated in Fig. <a href="#S5.F7" title="Figure 7 ‣ 5 Interpretation ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">7</span></a>,
+in which we present synthetic CMDs computed
+by assuming constant star formation in the age intervals
+<math id="S5.p8.1.m1.1" class="ltx_Math" alttext="1.12-1.26" display="inline"><semantics id="S5.p8.1.m1.1a"><mrow id="S5.p8.1.m1.1.10" xref="S5.p8.1.m1.1.10.cmml"><mn id="S5.p8.1.m1.1.4" xref="S5.p8.1.m1.1.4.cmml">1.12</mn><mo id="S5.p8.1.m1.1.5" xref="S5.p8.1.m1.1.5.cmml">-</mo><mn id="S5.p8.1.m1.1.9" xref="S5.p8.1.m1.1.9.cmml">1.26</mn></mrow><annotation-xml encoding="MathML-Content" id="S5.p8.1.m1.1b"><apply id="S5.p8.1.m1.1.10.cmml" xref="S5.p8.1.m1.1.10"><minus id="S5.p8.1.m1.1.5.cmml" xref="S5.p8.1.m1.1.5"></minus><cn type="float" id="S5.p8.1.m1.1.4.cmml" xref="S5.p8.1.m1.1.4">1.12</cn><cn type="float" id="S5.p8.1.m1.1.9.cmml" xref="S5.p8.1.m1.1.9">1.26</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p8.1.m1.1c">NUMBER:1.12 ADDOP:minus NUMBER:1.26</annotation><annotation encoding="application/x-tex" id="S5.p8.1.m1.1d">1.12-1.26</annotation></semantics></math>, <math id="S5.p8.1.m2.1" class="ltx_Math" alttext="1.26-1.41" display="inline"><semantics id="S5.p8.1.m2.1a"><mrow id="S5.p8.1.m2.1.10" xref="S5.p8.1.m2.1.10.cmml"><mn id="S5.p8.1.m2.1.4" xref="S5.p8.1.m2.1.4.cmml">1.26</mn><mo id="S5.p8.1.m2.1.5" xref="S5.p8.1.m2.1.5.cmml">-</mo><mn id="S5.p8.1.m2.1.9" xref="S5.p8.1.m2.1.9.cmml">1.41</mn></mrow><annotation-xml encoding="MathML-Content" id="S5.p8.1.m2.1b"><apply id="S5.p8.1.m2.1.10.cmml" xref="S5.p8.1.m2.1.10"><minus id="S5.p8.1.m2.1.5.cmml" xref="S5.p8.1.m2.1.5"></minus><cn type="float" id="S5.p8.1.m2.1.4.cmml" xref="S5.p8.1.m2.1.4">1.26</cn><cn type="float" id="S5.p8.1.m2.1.9.cmml" xref="S5.p8.1.m2.1.9">1.41</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p8.1.m2.1c">NUMBER:1.26 ADDOP:minus NUMBER:1.41</annotation><annotation encoding="application/x-tex" id="S5.p8.1.m2.1d">1.26-1.41</annotation></semantics></math>, and <math id="S5.p8.1.m3.1" class="ltx_Math" alttext="1.12-1.41" display="inline"><semantics id="S5.p8.1.m3.1a"><mrow id="S5.p8.1.m3.1.10" xref="S5.p8.1.m3.1.10.cmml"><mn id="S5.p8.1.m3.1.4" xref="S5.p8.1.m3.1.4.cmml">1.12</mn><mo id="S5.p8.1.m3.1.5" xref="S5.p8.1.m3.1.5.cmml">-</mo><mn id="S5.p8.1.m3.1.9" xref="S5.p8.1.m3.1.9.cmml">1.41</mn></mrow><annotation-xml encoding="MathML-Content" id="S5.p8.1.m3.1b"><apply id="S5.p8.1.m3.1.10.cmml" xref="S5.p8.1.m3.1.10"><minus id="S5.p8.1.m3.1.5.cmml" xref="S5.p8.1.m3.1.5"></minus><cn type="float" id="S5.p8.1.m3.1.4.cmml" xref="S5.p8.1.m3.1.4">1.12</cn><cn type="float" id="S5.p8.1.m3.1.9.cmml" xref="S5.p8.1.m3.1.9">1.41</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p8.1.m3.1c">NUMBER:1.12 ADDOP:minus NUMBER:1.41</annotation><annotation encoding="application/x-tex" id="S5.p8.1.m3.1d">1.12-1.41</annotation></semantics></math> Gyr. These age intervals
+were chosen so that we have the presence of stars in the transition
+region between degenerate and non-degenerate helium ignition.
+It can be noticed that the clump is only slightly broadened
+in Fig. <a href="#S5.F7" title="Figure 7 ‣ 5 Interpretation ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">7</span></a>, when compared to the simulations
+of Fig. <a href="#S3.F3" title="Figure 3 ‣ 3 The models ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">3</span></a>. Moreover, notice that the assumption of an
+age dispersion implies also that the turn-off region of the CMD is
+slightly broadened, by at most 0.10 mag in colour, if compared to
+the single-age simulations of Fig. <a href="#S3.F3" title="Figure 3 ‣ 3 The models ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">3</span></a>.</p>
+</div>
+<div id="S5.p9" class="ltx_para">
+<p id="S5.p9.1" class="ltx_p">Similar effects, without however any broadening of the MS, can be
+obtained by assuming differential mass-loss by evolved stars.</p>
+</div>
+<div id="S5.p10" class="ltx_para">
+<p id="S5.p10.1" class="ltx_p">It is worth remarking that an age spread of <math id="S5.p10.1.m1.1" class="ltx_Math" alttext="\ga 0.1" display="inline"><semantics id="S5.p10.1.m1.1a"><mrow id="S5.p10.1.m1.1.5" xref="S5.p10.1.m1.1.5.cmml"><mi id="S5.p10.1.m1.1.5.1" xref="S5.p10.1.m1.1.5.1.cmml"></mi><mo id="S5.p10.1.m1.1.1" xref="S5.p10.1.m1.1.1.cmml">≳</mo><mn id="S5.p10.1.m1.1.4" xref="S5.p10.1.m1.1.4.cmml">0.1</mn></mrow><annotation-xml encoding="MathML-Content" id="S5.p10.1.m1.1b"><apply id="S5.p10.1.m1.1.5.cmml" xref="S5.p10.1.m1.1.5"><csymbol cd="latexml" id="S5.p10.1.m1.1.1.cmml" xref="S5.p10.1.m1.1.1">greater-than-or-similar-to</csymbol><csymbol cd="latexml" id="S5.p10.1.m1.1.5.1.cmml" xref="S5.p10.1.m1.1.5.1">absent</csymbol><cn type="float" id="S5.p10.1.m1.1.4.cmml" xref="S5.p10.1.m1.1.4">0.1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p10.1.m1.1c">RELOP:greater-than-or-similar-to NUMBER:0.1</annotation><annotation encoding="application/x-tex" id="S5.p10.1.m1.1d">\ga 0.1</annotation></semantics></math> Gyr, as assumed
+in Fig. <a href="#S5.F7" title="Figure 7 ‣ 5 Interpretation ‣ On the peculiar red clump morphology in the open clusters NGC 752 and NGC 7789" class="ltx_ref"><span class="ltx_text ltx_ref_tag">7</span></a>, would represent an
+extreme case. 0.01 Gyr would represent a better upper limit to the age
+spread in a cluster, according to estimates based on the pre-main
+sequences of Orion and other very young open clusters (Prosser et al. <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib26" title="" class="ltx_ref">pshs </a></cite>; Hillenbrand <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib14" title="" class="ltx_ref">lah97 </a></cite>).</p>
+</div>
+<figure id="S5.F7" class="ltx_figure">
+<div id="S5.F7.1" class="ltx_block" style="width:469.8pt;vertical-align:-0.0pt;">
+<img src="x9.png" id="S5.F7.1.g1" class="ltx_graphics" width="718" height="308" alt="">
+</img>
+</div>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 7: </span>
+CMD of models which assume constant star formation between two
+age limits: from the left to the right panel, respectively,
+ages are from <math id="S5.F7.m7.1" class="ltx_Math" alttext="1.12" display="inline"><semantics id="S5.F7.m7.1b"><mn id="S5.F7.m7.1.4" xref="S5.F7.m7.1.4.cmml">1.12</mn><annotation-xml encoding="MathML-Content" id="S5.F7.m7.1c"><cn type="float" id="S5.F7.m7.1.4.cmml" xref="S5.F7.m7.1.4">1.12</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S5.F7.m7.1d">NUMBER:1.12</annotation><annotation encoding="application/x-tex" id="S5.F7.m7.1e">1.12</annotation></semantics></math> to <math id="S5.F7.m8.1" class="ltx_Math" alttext="1.26" display="inline"><semantics id="S5.F7.m8.1b"><mn id="S5.F7.m8.1.4" xref="S5.F7.m8.1.4.cmml">1.26</mn><annotation-xml encoding="MathML-Content" id="S5.F7.m8.1c"><cn type="float" id="S5.F7.m8.1.4.cmml" xref="S5.F7.m8.1.4">1.26</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S5.F7.m8.1d">NUMBER:1.26</annotation><annotation encoding="application/x-tex" id="S5.F7.m8.1e">1.26</annotation></semantics></math> Gyr, <math id="S5.F7.m9.1" class="ltx_Math" alttext="1.26" display="inline"><semantics id="S5.F7.m9.1b"><mn id="S5.F7.m9.1.4" xref="S5.F7.m9.1.4.cmml">1.26</mn><annotation-xml encoding="MathML-Content" id="S5.F7.m9.1c"><cn type="float" id="S5.F7.m9.1.4.cmml" xref="S5.F7.m9.1.4">1.26</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S5.F7.m9.1d">NUMBER:1.26</annotation><annotation encoding="application/x-tex" id="S5.F7.m9.1e">1.26</annotation></semantics></math> to <math id="S5.F7.m10.1" class="ltx_Math" alttext="1.41" display="inline"><semantics id="S5.F7.m10.1b"><mn id="S5.F7.m10.1.4" xref="S5.F7.m10.1.4.cmml">1.41</mn><annotation-xml encoding="MathML-Content" id="S5.F7.m10.1c"><cn type="float" id="S5.F7.m10.1.4.cmml" xref="S5.F7.m10.1.4">1.41</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S5.F7.m10.1d">NUMBER:1.41</annotation><annotation encoding="application/x-tex" id="S5.F7.m10.1e">1.41</annotation></semantics></math> Gyr, and
+<math id="S5.F7.m11.1" class="ltx_Math" alttext="1.12" display="inline"><semantics id="S5.F7.m11.1b"><mn id="S5.F7.m11.1.4" xref="S5.F7.m11.1.4.cmml">1.12</mn><annotation-xml encoding="MathML-Content" id="S5.F7.m11.1c"><cn type="float" id="S5.F7.m11.1.4.cmml" xref="S5.F7.m11.1.4">1.12</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S5.F7.m11.1d">NUMBER:1.12</annotation><annotation encoding="application/x-tex" id="S5.F7.m11.1e">1.12</annotation></semantics></math> to <math id="S5.F7.m12.1" class="ltx_Math" alttext="1.41" display="inline"><semantics id="S5.F7.m12.1b"><mn id="S5.F7.m12.1.4" xref="S5.F7.m12.1.4.cmml">1.41</mn><annotation-xml encoding="MathML-Content" id="S5.F7.m12.1c"><cn type="float" id="S5.F7.m12.1.4.cmml" xref="S5.F7.m12.1.4">1.41</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S5.F7.m12.1d">NUMBER:1.41</annotation><annotation encoding="application/x-tex" id="S5.F7.m12.1e">1.41</annotation></semantics></math> Gyr.</figcaption>
+</figure>
+</section>
+<section id="S6" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">6 </span>Conclusions</h2>
+
+<div id="S6.p1" class="ltx_para">
+<p id="S6.p1.1" class="ltx_p">In this paper, we suggest that the peculiar CMD morphology of the
+red clump in the open clusters NGC 752 and NGC 7789, may be indicating
+the presence of stars which ignited helium under both degenerate and
+non-degenerate conditions. This interpretation is suggested
+by the coincidence between the ages of the clusters (as derived
+from the main CMD features), with the ages
+at which evolutionary models undergo this main evolutionary
+transition. We remark that the event we are referring to, is
+equivalent ot the so-called “RGB phase transition” as mentioned
+in Renzini &amp; Buzzoni (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib27" title="" class="ltx_ref">rb86 </a></cite>) and Sweigart et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib30" title="" class="ltx_ref">sgr </a></cite>).</p>
+</div>
+<div id="S6.p2" class="ltx_para">
+<p id="S6.p2.1" class="ltx_p">This situation, however, can not be reproduced by models which
+assume a single isochrone for the clusters, because the mass
+dispersion of clumps stars in any simple model can hardly be larger
+than 0.2 <span id="S6.p2.1.1" class="ltx_text"><math id="S6.p2.1.1.m1.1" class="ltx_Math" alttext="M_{\odot}" display="inline"><semantics id="S6.p2.1.1.m1.1a"><msub id="S6.p2.1.1.m1.1.3" xref="S6.p2.1.1.m1.1.3.cmml"><mi id="S6.p2.1.1.m1.1.1" xref="S6.p2.1.1.m1.1.1.cmml">M</mi><mo id="S6.p2.1.1.m1.1.2.1" xref="S6.p2.1.1.m1.1.2.1.cmml">⊙</mo></msub><annotation-xml encoding="MathML-Content" id="S6.p2.1.1.m1.1b"><apply id="S6.p2.1.1.m1.1.3.cmml" xref="S6.p2.1.1.m1.1.3"><csymbol cd="ambiguous" id="S6.p2.1.1.m1.1.3.1.cmml" xref="S6.p2.1.1.m1.1.3">subscript</csymbol><ci id="S6.p2.1.1.m1.1.1.cmml" xref="S6.p2.1.1.m1.1.1">𝑀</ci><csymbol cd="latexml" id="S6.p2.1.1.m1.1.2.1.cmml" xref="S6.p2.1.1.m1.1.2.1">direct-product</csymbol></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S6.p2.1.1.m1.1c">italic-M POSTSUBSCRIPT:start MULOP:direct-product POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S6.p2.1.1.m1.1d">M_{\odot}</annotation></semantics></math></span>. Moreover, the tendency found in the simple cluster
+models is that clump stars of higher mass are more evolved away
+from the ZAHB, and hence invariably more luminous than stars of lower
+masses. This happens despite that, in the vicinity of the
+transition mass <span id="S6.p2.1.2" class="ltx_text"><math id="S6.p2.1.2.m1.1" class="ltx_Math" alttext="M_{\rm Hef}" display="inline"><semantics id="S6.p2.1.2.m1.1a"><msub id="S6.p2.1.2.m1.1.3" xref="S6.p2.1.2.m1.1.3.cmml"><mi id="S6.p2.1.2.m1.1.1" xref="S6.p2.1.2.m1.1.1.cmml">M</mi><mi id="S6.p2.1.2.m1.1.2.1" xref="S6.p2.1.2.m1.1.2.1.cmml">Hef</mi></msub><annotation-xml encoding="MathML-Content" id="S6.p2.1.2.m1.1b"><apply id="S6.p2.1.2.m1.1.3.cmml" xref="S6.p2.1.2.m1.1.3"><csymbol cd="ambiguous" id="S6.p2.1.2.m1.1.3.1.cmml" xref="S6.p2.1.2.m1.1.3">subscript</csymbol><ci id="S6.p2.1.2.m1.1.1.cmml" xref="S6.p2.1.2.m1.1.1">𝑀</ci><ci id="S6.p2.1.2.m1.1.2.1.cmml" xref="S6.p2.1.2.m1.1.2.1">Hef</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S6.p2.1.2.m1.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S6.p2.1.2.m1.1d">M_{\rm Hef}</annotation></semantics></math></span>, more massive clump stars start to burn helium
+at luminosities up to 0.4 mag fainter than the less massive ones.</p>
+</div>
+<div id="S6.p3" class="ltx_para">
+<p id="S6.p3.1" class="ltx_p">Neither can this situation be simply reproduced assuming an age
+dispersion for the clump stars. The age dispersion required (more
+than 0.1 Gyr) is too large compared to present observational
+estimates. Moreover, such a high age dispersion would also cause
+a non-negligible –and so far not observed– spread in the main sequence
+region of the CMD.
+</p>
+</div>
+<div id="S6.p4" class="ltx_para">
+<p id="S6.p4.1" class="ltx_p">We are left, then, with a couple of other possibilities. First,
+mass-loss on the RGB may cause a significant dispersion of
+clump masses, at a single age. Different amounts of mass-loss
+can be triggered, for instance, in stars with different rotational
+velocities. If this is the case, studying clusters like NGC 7789
+we may be able to put constraints on the differential mass loss
+for stars of this approximate mass range, just in the way we actually
+do for stars in globular clusters (cf. Renzini &amp; Fusi Pecci <cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib28" title="" class="ltx_ref">rfp </a></cite>).
+Second, the mass and age at which the transition occurs
+is somewhat dependent of the efficiency adopted for overshooting
+in stellar cores during the main-sequence phase. Any dispersion in
+this efficiency (caused, e.g.  by different rotational velocities),
+should also reflect on a dispersion of H-exhausted cores masses
+at a given age. Such a dispersion would be more evident exactly in
+the mass range of the transition, because it is the mass interval in
+which the core mass–initial mass relation changes the most.
+For clusters older than 4 Gyr, for instance, the core mass at
+He ignition is practically constant and much less sensitive to
+the extension of convective cores.</p>
+</div>
+<div id="S6.p5" class="ltx_para">
+<p id="S6.p5.1" class="ltx_p">If any of these interpretations is correct, we face some interesting
+possibilities. First, with more data for open clusters in the
+relevant age range, we may be able to constrain observationally the
+velocity at which the transition from non-degenerate to degenerate
+helium ignition occurs. Second, once this age interval is better
+documented, we may be able to
+attach independent observables (like the main sequence termination
+colour and magnitude) to this transition, to which theoretical
+models should comply. The present data for
+NGC 752 and NGC 7789 suggest that <math id="S6.p5.1.m1.1" class="ltx_Math" alttext="(B-V)_{0}^{\rm TO}\sim 0.5" display="inline"><semantics id="S6.p5.1.m1.1a"><mrow id="S6.p5.1.m1.1.12" xref="S6.p5.1.m1.1.12.cmml"><msubsup id="S6.p5.1.m1.1.12.1" xref="S6.p5.1.m1.1.12.1.cmml"><mrow id="S6.p5.1.m1.1.12.1.2.2" xref="S6.p5.1.m1.1.12.1.2.2.2.cmml"><mo stretchy="false" id="S6.p5.1.m1.1.1" xref="S6.p5.1.m1.1.12.1.2.2.2.cmml">(</mo><mrow id="S6.p5.1.m1.1.12.1.2.2.2" xref="S6.p5.1.m1.1.12.1.2.2.2.cmml"><mi id="S6.p5.1.m1.1.2" xref="S6.p5.1.m1.1.2.cmml">B</mi><mo id="S6.p5.1.m1.1.3" xref="S6.p5.1.m1.1.3.cmml">-</mo><mi id="S6.p5.1.m1.1.4" xref="S6.p5.1.m1.1.4.cmml">V</mi></mrow><mo stretchy="false" id="S6.p5.1.m1.1.5" xref="S6.p5.1.m1.1.12.1.2.2.2.cmml">)</mo></mrow><mn id="S6.p5.1.m1.1.6.1" xref="S6.p5.1.m1.1.6.1.cmml">0</mn><mi id="S6.p5.1.m1.1.7.1" xref="S6.p5.1.m1.1.7.1.cmml">TO</mi></msubsup><mo id="S6.p5.1.m1.1.8" xref="S6.p5.1.m1.1.8.cmml">∼</mo><mn id="S6.p5.1.m1.1.11" xref="S6.p5.1.m1.1.11.cmml">0.5</mn></mrow><annotation-xml encoding="MathML-Content" id="S6.p5.1.m1.1b"><apply id="S6.p5.1.m1.1.12.cmml" xref="S6.p5.1.m1.1.12"><csymbol cd="latexml" id="S6.p5.1.m1.1.8.cmml" xref="S6.p5.1.m1.1.8">similar-to</csymbol><apply id="S6.p5.1.m1.1.12.1.cmml" xref="S6.p5.1.m1.1.12.1"><csymbol cd="ambiguous" id="S6.p5.1.m1.1.12.1.1.cmml" xref="S6.p5.1.m1.1.12.1">superscript</csymbol><apply id="S6.p5.1.m1.1.12.1.2.cmml" xref="S6.p5.1.m1.1.12.1"><csymbol cd="ambiguous" id="S6.p5.1.m1.1.12.1.2.1.cmml" xref="S6.p5.1.m1.1.12.1">subscript</csymbol><apply id="S6.p5.1.m1.1.12.1.2.2.2.cmml" xref="S6.p5.1.m1.1.12.1.2.2"><minus id="S6.p5.1.m1.1.3.cmml" xref="S6.p5.1.m1.1.3"></minus><ci id="S6.p5.1.m1.1.2.cmml" xref="S6.p5.1.m1.1.2">𝐵</ci><ci id="S6.p5.1.m1.1.4.cmml" xref="S6.p5.1.m1.1.4">𝑉</ci></apply><cn type="integer" id="S6.p5.1.m1.1.6.1.cmml" xref="S6.p5.1.m1.1.6.1">0</cn></apply><ci id="S6.p5.1.m1.1.7.1.cmml" xref="S6.p5.1.m1.1.7.1">TO</ci></apply><cn type="float" id="S6.p5.1.m1.1.11.cmml" xref="S6.p5.1.m1.1.11">0.5</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S6.p5.1.m1.1c">OPEN:( italic-B ADDOP:minus italic-V CLOSE:) POSTSUBSCRIPT:start NUMBER:0 POSTSUBSCRIPT:end POSTSUPERSCRIPT:start TO POSTSUPERSCRIPT:end RELOP:similar-to NUMBER:0.5</annotation><annotation encoding="application/x-tex" id="S6.p5.1.m1.1d">(B-V)_{0}^{\rm TO}\sim 0.5</annotation></semantics></math> at the
+transition mass <span id="S6.p5.1.m2.1.1.1" class="ltx_text ltx_markedasmath"><math id="S6.p5.1.m2.1.1.1.m1.1" class="ltx_Math" alttext="M_{\rm Hef}" display="inline"><semantics id="S6.p5.1.m2.1.1.1.m1.1a"><msub id="S6.p5.1.m2.1.1.1.m1.1.3" xref="S6.p5.1.m2.1.1.1.m1.1.3.cmml"><mi id="S6.p5.1.m2.1.1.1.m1.1.1" xref="S6.p5.1.m2.1.1.1.m1.1.1.cmml">M</mi><mi id="S6.p5.1.m2.1.1.1.m1.1.2.1" xref="S6.p5.1.m2.1.1.1.m1.1.2.1.cmml">Hef</mi></msub><annotation-xml encoding="MathML-Content" id="S6.p5.1.m2.1.1.1.m1.1b"><apply id="S6.p5.1.m2.1.1.1.m1.1.3.cmml" xref="S6.p5.1.m2.1.1.1.m1.1.3"><csymbol cd="ambiguous" id="S6.p5.1.m2.1.1.1.m1.1.3.1.cmml" xref="S6.p5.1.m2.1.1.1.m1.1.3">subscript</csymbol><ci id="S6.p5.1.m2.1.1.1.m1.1.1.cmml" xref="S6.p5.1.m2.1.1.1.m1.1.1">𝑀</ci><ci id="S6.p5.1.m2.1.1.1.m1.1.2.1.cmml" xref="S6.p5.1.m2.1.1.1.m1.1.2.1">Hef</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S6.p5.1.m2.1.1.1.m1.1c">italic-M POSTSUBSCRIPT:start Hef POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S6.p5.1.m2.1.1.1.m1.1d">M_{\rm Hef}</annotation></semantics></math></span>, for near-solar metallicities.
+Alternative data for LMC clusters by Corsi et al. (<cite class="ltx_cite ltx_citemacro_cite"><a href="#bib.bib4" title="" class="ltx_ref">cbfp </a></cite>), indicates
+<math id="S6.p5.1.m3.1" class="ltx_Math" alttext="(B-V)_{0}^{\rm TO}\sim 0.25" display="inline"><semantics id="S6.p5.1.m3.1a"><mrow id="S6.p5.1.m3.1.13" xref="S6.p5.1.m3.1.13.cmml"><msubsup id="S6.p5.1.m3.1.13.1" xref="S6.p5.1.m3.1.13.1.cmml"><mrow id="S6.p5.1.m3.1.13.1.2.2" xref="S6.p5.1.m3.1.13.1.2.2.2.cmml"><mo stretchy="false" id="S6.p5.1.m3.1.1" xref="S6.p5.1.m3.1.13.1.2.2.2.cmml">(</mo><mrow id="S6.p5.1.m3.1.13.1.2.2.2" xref="S6.p5.1.m3.1.13.1.2.2.2.cmml"><mi id="S6.p5.1.m3.1.2" xref="S6.p5.1.m3.1.2.cmml">B</mi><mo id="S6.p5.1.m3.1.3" xref="S6.p5.1.m3.1.3.cmml">-</mo><mi id="S6.p5.1.m3.1.4" xref="S6.p5.1.m3.1.4.cmml">V</mi></mrow><mo stretchy="false" id="S6.p5.1.m3.1.5" xref="S6.p5.1.m3.1.13.1.2.2.2.cmml">)</mo></mrow><mn id="S6.p5.1.m3.1.6.1" xref="S6.p5.1.m3.1.6.1.cmml">0</mn><mi id="S6.p5.1.m3.1.7.1" xref="S6.p5.1.m3.1.7.1.cmml">TO</mi></msubsup><mo id="S6.p5.1.m3.1.8" xref="S6.p5.1.m3.1.8.cmml">∼</mo><mn id="S6.p5.1.m3.1.12" xref="S6.p5.1.m3.1.12.cmml">0.25</mn></mrow><annotation-xml encoding="MathML-Content" id="S6.p5.1.m3.1b"><apply id="S6.p5.1.m3.1.13.cmml" xref="S6.p5.1.m3.1.13"><csymbol cd="latexml" id="S6.p5.1.m3.1.8.cmml" xref="S6.p5.1.m3.1.8">similar-to</csymbol><apply id="S6.p5.1.m3.1.13.1.cmml" xref="S6.p5.1.m3.1.13.1"><csymbol cd="ambiguous" id="S6.p5.1.m3.1.13.1.1.cmml" xref="S6.p5.1.m3.1.13.1">superscript</csymbol><apply id="S6.p5.1.m3.1.13.1.2.cmml" xref="S6.p5.1.m3.1.13.1"><csymbol cd="ambiguous" id="S6.p5.1.m3.1.13.1.2.1.cmml" xref="S6.p5.1.m3.1.13.1">subscript</csymbol><apply id="S6.p5.1.m3.1.13.1.2.2.2.cmml" xref="S6.p5.1.m3.1.13.1.2.2"><minus id="S6.p5.1.m3.1.3.cmml" xref="S6.p5.1.m3.1.3"></minus><ci id="S6.p5.1.m3.1.2.cmml" xref="S6.p5.1.m3.1.2">𝐵</ci><ci id="S6.p5.1.m3.1.4.cmml" xref="S6.p5.1.m3.1.4">𝑉</ci></apply><cn type="integer" id="S6.p5.1.m3.1.6.1.cmml" xref="S6.p5.1.m3.1.6.1">0</cn></apply><ci id="S6.p5.1.m3.1.7.1.cmml" xref="S6.p5.1.m3.1.7.1">TO</ci></apply><cn type="float" id="S6.p5.1.m3.1.12.cmml" xref="S6.p5.1.m3.1.12">0.25</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S6.p5.1.m3.1c">OPEN:( italic-B ADDOP:minus italic-V CLOSE:) POSTSUBSCRIPT:start NUMBER:0 POSTSUBSCRIPT:end POSTSUPERSCRIPT:start TO POSTSUPERSCRIPT:end RELOP:similar-to NUMBER:0.25</annotation><annotation encoding="application/x-tex" id="S6.p5.1.m3.1d">(B-V)_{0}^{\rm TO}\sim 0.25</annotation></semantics></math> for the same transition mass
+at a metallicity of about half solar. These numbers seem to be
+reasonably well reproduced by the present models.</p>
+</div>
+<div class="ltx_acknowledgements">
+<h6 class="ltx_title ltx_title_acknowledgements">Acknowledgements.</h6>
+We are grateful to Dr A. Bragaglia for providing a copy of the CCD data in
+NGC 2660 in advance of publication.
+The work by L.G. and G.C. is funded by the Italian MURST.
+L.G. acknowledges the hospitality from the Université de Lausanne
+during a visit. The work of J.-C.M. has been supported by grants of the
+Swiss National Funds (FNRS).
+
+</div>
+</section>
+<section id="bib" class="ltx_bibliography">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+
+<ul class="ltx_biblist">
+<li id="bib.bib1" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1998)</span>
+<span class="ltx_bibblock"> Bica E., Geisler D., Dottori H., Clariá J.J., Piatti
+A.E., Santos Jr. J.F.C., 1998, AJ 116, 723
+
+</span>
+</li>
+<li id="bib.bib2" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1970)</span>
+<span class="ltx_bibblock"> Cannon R.D., 1970, MNRAS 150, 111
+
+</span>
+</li>
+<li id="bib.bib3" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1994)</span>
+<span class="ltx_bibblock"> Carraro G., Chiosi C., 1994, A&amp;A 287, 761
+
+</span>
+</li>
+<li id="bib.bib4" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1994)</span>
+<span class="ltx_bibblock"> Corsi C.E., Buonanno R., Fusi Pecci F., Ferraro F.R., Testa
+V., Greggio L., 1994, MNRAS 271, 385
+
+</span>
+</li>
+<li id="bib.bib5" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1995)</span>
+<span class="ltx_bibblock"> Dinescu D.I., Demarque P., Guenther D.B., Pinsonneault M.H.,
+1995, AJ 109, 2090
+
+</span>
+</li>
+<li id="bib.bib6" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1997)</span>
+<span class="ltx_bibblock"> ESA, 1997, The Hipparcos and Tycho Catalogues, ESA SP-1200
+
+</span>
+</li>
+<li id="bib.bib7" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1983)</span>
+<span class="ltx_bibblock"> Friel, Janes, 1983, A&amp;A 267, 75
+
+</span>
+</li>
+<li id="bib.bib8" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1998a)</span>
+<span class="ltx_bibblock"> Gim M., Hesser J.E., McClure R.D., Stetson P.B., 1998a,
+PASP 110, 1172
+
+</span>
+</li>
+<li id="bib.bib9" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1998b)</span>
+<span class="ltx_bibblock"> Gim M., Vandenberg D.A, Stetson, P.B, Hesser J.E., 1998b,
+PASP 110, 1318
+
+</span>
+</li>
+<li id="bib.bib10" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1998)</span>
+<span class="ltx_bibblock"> Girardi L., Groenewegen M.A.T., Weiss A., Salaris M., 1998,
+MNRAS 301, 149
+
+</span>
+</li>
+<li id="bib.bib11" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1999)</span>
+<span class="ltx_bibblock"> Girardi L., 1999, MNRAS 308, 818
+
+</span>
+</li>
+<li id="bib.bib12" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1998)</span>
+<span class="ltx_bibblock"> Girardi L., Bertelli G., 1998, MNRAS 300, 533
+
+</span>
+</li>
+<li id="bib.bib13" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(2000)</span>
+<span class="ltx_bibblock"> Girardi L., Bressan A., Bertelli G., Chiosi C., 2000,
+A&amp;AS in press.
+
+</span>
+</li>
+<li id="bib.bib14" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1997)</span>
+<span class="ltx_bibblock"> Hillenbrand L.A. 1997, AJ 113, 1733
+
+</span>
+</li>
+<li id="bib.bib15" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1995)</span>
+<span class="ltx_bibblock"> Jahn K., Kaluzny J., Rucinski S.M. 1995, A&amp;A 295, 101
+
+</span>
+</li>
+<li id="bib.bib16" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1994)</span>
+<span class="ltx_bibblock"> Martinez Roger C., Paez E., Castellani V., Straniero O. 1994,
+A&amp;A 290, 62
+
+</span>
+</li>
+<li id="bib.bib17" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1981)</span>
+<span class="ltx_bibblock"> McNamara B.J., Solomon S. 1981, A&amp;AS 43, 337
+
+</span>
+</li>
+<li id="bib.bib18" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1995)</span>
+<span class="ltx_bibblock"> Mermilliod J.-C., Andersen J., Nordström B., Mayor M. 1995,
+A&amp;A 299, 53
+
+</span>
+</li>
+<li id="bib.bib19" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1989)</span>
+<span class="ltx_bibblock"> Mermilliod J.-C., Mayor M. 1989, A&amp;A 219, 125
+
+</span>
+</li>
+<li id="bib.bib20" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1990)</span>
+<span class="ltx_bibblock"> Mermilliod J.-C., Mayor M. 1990, A&amp;A 237, 61
+
+</span>
+</li>
+<li id="bib.bib21" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1998)</span>
+<span class="ltx_bibblock"> Mermilliod J.-C., Mathieu R.D., Latham D.W., Mayor M., 1998,
+A&amp;A 339, 423
+
+</span>
+</li>
+<li id="bib.bib22" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1993)</span>
+<span class="ltx_bibblock"> Meynet G., Mermilliod J-C., Maeder A., 1993, A&amp;AS 98, 447
+
+</span>
+</li>
+<li id="bib.bib23" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1993)</span>
+<span class="ltx_bibblock"> Montgomery K.A., Marschall L.A., Janes K.A. 1993, AJ 106, 181
+
+</span>
+</li>
+<li id="bib.bib24" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1997)</span>
+<span class="ltx_bibblock"> Perryman M.A.C., et al., 1997, A&amp;A 323, L49
+
+</span>
+</li>
+<li id="bib.bib25" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1999)</span>
+<span class="ltx_bibblock"> Piatti A., Geisler D., Bica E., Clariá J.J., Santos Jr. J.F.C., Sarajedini A., Dottori H., 1999, AJ 118, 2865
+
+</span>
+</li>
+<li id="bib.bib26" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1994)</span>
+<span class="ltx_bibblock"> Prosser C.F., Stauffer J.R., Hartmann L., Soderblom D.R.,
+Jones B.F., Werner M.W., McCaughrean M.J. 1994, ApJ 421, 517
+
+</span>
+</li>
+<li id="bib.bib27" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1986)</span>
+<span class="ltx_bibblock"> Renzini A., Buzzoni A., 1986, in Spectral Evolution of Galaxies,
+eds. C. Chiosi and A. Renzini, Dordrecht: Reidel, p. 195
+
+</span>
+</li>
+<li id="bib.bib28" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1988)</span>
+<span class="ltx_bibblock"> Renzini A., Fusi Pecci F., 1988, ARA&amp;A 26, 199
+
+</span>
+</li>
+<li id="bib.bib29" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1999)</span>
+<span class="ltx_bibblock"> Sandrelli S., Bragaglia A., Tosi M., Marconi G., 1999,
+309, 739
+
+</span>
+</li>
+<li id="bib.bib30" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1990)</span>
+<span class="ltx_bibblock"> Sweigart A.V., Greggio L., Renzini A., 1990, ApJ 364, 527
+
+</span>
+</li>
+<li id="bib.bib31" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">(1999)</span>
+<span class="ltx_bibblock"> Vallenari A., Carraro G., Richichi A., 1999, A&amp;A 353, 147
+
+</span>
+</li>
+</ul>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Wed Jul  3 19:33:12 2019 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></img>
+</a>
+</div></footer>
+</div>
+</body>
+</html>

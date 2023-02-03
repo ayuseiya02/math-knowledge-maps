@@ -1,0 +1,503 @@
+<!DOCTYPE html><html>
+<head>
+<title>Evolution in the Multiverse</title>
+<!--Generated on Wed Jul  3 19:47:27 2019 by LaTeXML (version 0.8.4) http://dlmf.nist.gov/LaTeXML/.-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</meta>
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Evolution in the Multiverse</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Russell K. Standish
+<br class="ltx_break">High Performance Computing Support Unit
+<br class="ltx_break">University of New South Wales
+<br class="ltx_break">Sydney, 2052
+<br class="ltx_break">Australia
+<br class="ltx_break">R.Standish@unsw.edu.au
+<br class="ltx_break">http://parallel.hpc.unsw.edu.au
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</span></span>
+</div>
+
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p id="id1" class="ltx_p">In the <span id="id1.1" class="ltx_text ltx_font_italic">Many Worlds Interpretation</span> of quantum mechanics, the
+range of possible worlds (or histories) provides variation, and the
+Anthropic Principle is a selective principle analogous to natural
+selection. When looked on in this way, the “process” by which the
+laws and constants of physics is determined not too different from the
+process that gave rise to our current biodiversity, i.e. Darwinian
+evolution. This has implications for the fields of SETI and Artificial
+Life, which are based on a philosophy of the inevitability of life.</p>
+</div>
+<section id="S1" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
+
+<div id="S1.p1" class="ltx_para">
+<p id="S1.p1.1" class="ltx_p">The <span id="S1.p1.1.1" class="ltx_text ltx_font_italic">Many Worlds Interpretation</span> (MWI)<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib6" title="" class="ltx_ref">6</a>]</cite> of
+Quantum Mechanics has become increasingly favoured in recent years
+over its rivals, with a recent straw poll of eminent
+physicists<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib18" title="" class="ltx_ref">18</a>, pp170–1]</cite> showing more than 50% support it.
+David Deutsch<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib7" title="" class="ltx_ref">7</a>]</cite> provides a convincing argument in favour
+of MWI, and the <span id="S1.p1.1.2" class="ltx_text ltx_font_italic">multiverse</span> in the title is due to him.
+Tegmark<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib17" title="" class="ltx_ref">17</a>]</cite> has somewhat waggishly suggested that a <span id="S1.p1.1.3" class="ltx_text ltx_font_italic">Principle of Plenitude</span> (alternatively <span id="S1.p1.1.4" class="ltx_text ltx_font_italic">All Universes
+Hypothesis</span> — AUH), coupled with the <a href="http://www.anthropic-principle.com" title="" class="ltx_ref ltx_href"><span id="S1.p1.1.5" class="ltx_text ltx_font_italic">Anthropic
+Principle</span></a><span id="footnote1" class="ltx_note ltx_role_footnote"><sup class="ltx_note_mark">1</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">1</sup><span class="ltx_tag ltx_tag_note">1</span>The <span id="footnote1.1" class="ltx_text ltx_font_italic">Anthropic Principle</span> is a statement that the universe we observe
+must be consistent with the existence of us as observers. In the all
+universes hypothesis, the anthropic principle acts to select those
+universes that are “interesting”, i.e. capable of supporting self
+aware consciousness. In this all universes picture, the distinction
+between the weak and strong forms of the anthropic principle is
+meaningless, so we will simply refer to the Anthropic Principle
+throughout ths paper.</span></span></span><cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib3" title="" class="ltx_ref">3</a>]</cite> (AP) could be the
+ultimate <span id="S1.p1.1.6" class="ltx_text ltx_font_italic">theory of everything</span> (TOE). Tegmark’s Plenitude
+consists of all mathematically consistent logical systems, the
+principle of plenitude according each of these systems physical
+existence, however by the anthropic principle, we should only expect
+to find ourselves in a system capable of supporting <span id="S1.p1.1.7" class="ltx_text ltx_font_italic">self-aware
+substructures</span>, i.e. conciousness. Alternative Plenitudes have
+been suggested, for example Schmidhuber’s<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib14" title="" class="ltx_ref">14</a>]</cite> all
+possible programs for a universal turing machine. I have argued
+elsewhere<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib16" title="" class="ltx_ref">16</a>]</cite>, that the quantum mechanical subset of the
+Plenitude, namely the Multiverse, is the most likely system to be
+observed by conscious beings.</p>
+</div>
+<div id="S1.p2" class="ltx_para">
+<p id="S1.p2.1" class="ltx_p">In this paper, we accept the MWI or Multiverse as a working
+hypothesis, and consider what the implications are for evolutionary
+systems. An evolutionary system consists of a means of producing
+variation, and a means of selecting amongst those variations (natural
+selection). Now variations are produced by chance and in the
+Multiverse picture, this corresponds to a branching of histories,
+whereby a particular entity’s offspring will have different forms in
+different histories. The measure of each variant is related to the
+proportions in which the variants are formed, and the measure of each
+variant evolves in time through a strictly deterministic application
+of Schrödinger’s equation.</p>
+</div>
+<div id="S1.p3" class="ltx_para">
+<p id="S1.p3.1" class="ltx_p">What, then, determines which organisms we see today, given that a
+priori, any possible history, and hence any mix of organisms may
+correspond to our own? Is natural selection completely meaningless?</p>
+</div>
+<div id="S1.p4" class="ltx_para">
+<p id="S1.p4.1" class="ltx_p">The first principle we need to apply is the anthropic principle, i.e.
+only those histories leading to complex, self-aware substructures will
+be selected. We also need to apply the <span id="S1.p4.1.1" class="ltx_text ltx_font_italic">self sampling
+assumption<cite class="ltx_cite ltx_citemacro_cite"><span id="S1.p4.1.1.1" class="ltx_text ltx_font_upright">[</span><a href="#bib.bib4" title="" class="ltx_ref">4</a>, <a href="#bib.bib5" title="" class="ltx_ref">5</a><span id="S1.p4.1.1.2" class="ltx_text ltx_font_upright">]</span></cite></span> (SSA). The SSA is that each
+observer should regard itself as a random sample drawn from the set of
+all observer. It is the implicit assumption used in Carter and
+Leslie’s Doomsday argument<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib9" title="" class="ltx_ref">9</a>]</cite>, and much other anthropic
+reasoning. Stated another way, as observers, we should expect to see a
+world that is nearly maximal in measure, subject to it being
+consistent with our existence. In this picture, natural selection is
+a process that differentiates the measure attributed to each variant
+organism.</p>
+</div>
+</section>
+<section id="S2" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">2 </span>Complexity Growth in Evolution</h2>
+
+<div id="S2.p1" class="ltx_para">
+<p id="S2.p1.1" class="ltx_p">As I argued elsewhere<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib16" title="" class="ltx_ref">16</a>]</cite>, lawful universes with simple
+initial states by far dominate the set consistent with the AP. So the
+AP fixes the end point of our evolutionary history (existence of
+complex, self-aware organisms), and the SSA fixes the beginning
+(evolutionary history is most likely started with the simplest
+organisms). We should therefore expect to see an increase in
+complexity through time.</p>
+</div>
+<div id="S2.p2" class="ltx_para">
+<p id="S2.p2.1" class="ltx_p">What about living systems not governed by the anthropic principle?
+Examples include extra terrestrial life (within our own universe, if
+it exists) and artificial life systems. Nonhuman terrestrial life is
+governed by the AP, since one expects that the evolutionary process
+that produced us will also produce the numerous other organisms found
+on Earth. A system of life that has evolved completely independently
+of Earth has no requirement to produce intelligent beings, and unless
+complexity growth is inevitable given the laws of physics and
+chemistry, no requirement to produce complex life forms. Proponents of
+SETI (the <span id="S2.p2.1.1" class="ltx_text ltx_font_italic">Search for Extra-Terrestrial Intelligence</span>) believe in
+an inevitability of the evolution of intelligent life, given the laws
+of physics. The anthropic principle does indeed ensure that the laws
+of physics are compatible with the evolution of intelligence, but does
+not mandate that this should be likely (excepting, obviously in our
+own case). Hanson<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib8" title="" class="ltx_ref">8</a>]</cite> has studied a model of evolution
+based on easy and hard steps to make predictions about what the
+distribution of such steps should be within the fossil record. He
+finds that the fossil record is consistent with there being 4–5 hard
+steps in getting to intelligent life on Earth. By hard steps, he means
+steps who’s expected duration greatly exeeds the present age of the
+universe. The hard steps include</p>
+<ul id="S2.I1" class="ltx_itemize">
+<li id="S2.I1.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S2.I1.i1.p1" class="ltx_para">
+<p id="S2.I1.i1.p1.1" class="ltx_p">origin of first replicator</p>
+</div>
+</li>
+<li id="S2.I1.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S2.I1.i2.p1" class="ltx_para">
+<p id="S2.I1.i2.p1.1" class="ltx_p">origin of sex</p>
+</div>
+</li>
+<li id="S2.I1.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S2.I1.i3.p1" class="ltx_para">
+<p id="S2.I1.i3.p1.1" class="ltx_p">origin of eukaryotic cells</p>
+</div>
+</li>
+<li id="S2.I1.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S2.I1.i4.p1" class="ltx_para">
+<p id="S2.I1.i4.p1.1" class="ltx_p">origin of multicellularity</p>
+</div>
+</li>
+<li id="S2.I1.i5" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S2.I1.i5.p1" class="ltx_para">
+<p id="S2.I1.i5.p1.1" class="ltx_p">possibly the origin of self-aware conscious entities</p>
+</div>
+</li>
+</ul>
+<p id="S2.p2.2" class="ltx_p">This would imply that intelligent life is fairly unique
+within our own universe, to the chagrin of the SETI proponents,
+but simple prokaryotic life may well be ubiquitous. Of
+course, it is also true that a single example of extra terrestrial
+intelligence would be an important counterexample to these arguments
+based on the AP and SSA, so SETI is by itself not a fruitless
+exercise.</p>
+</div>
+<div id="S2.p3" class="ltx_para">
+<p id="S2.p3.1" class="ltx_p">Likewise, for artificial life, it would seem plausible that a serious
+of easy and hard steps are required to climb the complexity ladder.
+Already, the first such hard transition (the creation of replicators
+from the primeval soup) has been
+observed<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib11" title="" class="ltx_ref">11</a>, <a href="#bib.bib10" title="" class="ltx_ref">10</a>]</cite>, but equivalents of other
+transitions (eg transition to sexual reproduction, prokaryote to
+eukaryote or multicellularity) have not been observed to date. Ray is
+leading a major experiment designed to probe the transition to
+multicellularity<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib12" title="" class="ltx_ref">12</a>, <a href="#bib.bib13" title="" class="ltx_ref">13</a>]</cite> — success in this experiment
+will provide remarkable constraints on just how finely tuned the
+physics and chemistry needs to be in order for the system to pass
+through a hard transistion.</p>
+</div>
+<div id="S2.p4" class="ltx_para">
+<p id="S2.p4.1" class="ltx_p">Adami<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib1" title="" class="ltx_ref">1</a>, <a href="#bib.bib2" title="" class="ltx_ref">2</a>]</cite> and co-workers examined the <span id="S2.p4.1.1" class="ltx_text ltx_font_italic">Avida</span>
+alife system for evidence of complexity growth during evolution. They
+did find this, although this is largely seen as the artificial
+organisms learning how to solve arithmetic problems that have been
+imposed artificially on the system. An analogous study by
+myself<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib15" title="" class="ltx_ref">15</a>]</cite> of Tierra showed no such increase in
+complexity over time — if anything the trend was to greater
+simplicity. This work is still in progress.</p>
+</div>
+</section>
+<section id="S3" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">3 </span>Evolutionary Physics?</h2>
+
+<div id="S3.p1" class="ltx_para">
+<p id="S3.p1.1" class="ltx_p">Returning back to the picture of the “All Universes Hypothesis”, we
+can see that our current universe is made up from contingency and
+necessity. The necessity comes from the requirements of the anthropic
+principle, however when a particular aspect of the universe is not
+constrained by the AP, its value must be decided by chance (according
+to the SSA) the first time it is “measured” by self-aware beings
+(this measurement may well be indirect — properties of the
+microscopic or cosmic worlds will need to be consistent with our
+everyday observations at the macroscopic level, so may well be
+determined prior to the first direct measurements). Evolution is also
+described as a mixture of contingency and necessity. When understood
+in terms of the AP supplying the necessary, and the SSA supplying the
+rationale for resolving chance, the connection between the selection
+of phyical laws and the selection of organisms in evolution is made
+clear. It is as though the laws of physics and chemistry have
+themselves evolved. Perhaps applying evolutionary principles to the
+underlying physico-chemical laws of an alife system will result in an
+alife system that can pass through these hard transitions.
+</p>
+</div>
+</section>
+<section id="bib" class="ltx_bibliography">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+
+<ul class="ltx_biblist">
+<li id="bib.bib1" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[1]</span>
+<span class="ltx_bibblock">
+Chris Adami.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib1.1" class="ltx_text ltx_font_italic">Introduction to Artificial Life</span>.
+
+</span>
+<span class="ltx_bibblock">Springer, 1998.
+
+</span>
+</li>
+<li id="bib.bib2" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[2]</span>
+<span class="ltx_bibblock">
+Chris Adami.
+
+</span>
+<span class="ltx_bibblock">Physical complexity of symbolic sequences.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib2.1" class="ltx_text ltx_font_italic">Physica D</span>, 137:62–69, 2000.
+
+</span>
+</li>
+<li id="bib.bib3" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[3]</span>
+<span class="ltx_bibblock">
+J. D. Barrow and F. J. Tipler.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib3.1" class="ltx_text ltx_font_italic">The Anthropic Cosmological Principle</span>.
+
+</span>
+<span class="ltx_bibblock">Clarendon, Oxford, 1986.
+
+</span>
+</li>
+<li id="bib.bib4" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[4]</span>
+<span class="ltx_bibblock">
+Nick Bostrom.
+
+</span>
+<span class="ltx_bibblock">Paradoxes of the self-sampling assumption.
+
+</span>
+<span class="ltx_bibblock">http://www.anthropic-principle.com/preprints.html.
+
+</span>
+</li>
+<li id="bib.bib5" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[5]</span>
+<span class="ltx_bibblock">
+Nick Bostrom.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib5.1" class="ltx_text ltx_font_italic">Observational Selection Effects and Probability</span>.
+
+</span>
+<span class="ltx_bibblock">PhD thesis, Dept. Philosophy, Logic and Scientific Methods
+<br class="ltx_break">London
+School of Economics, 2000.
+
+</br>
+</span>
+<span class="ltx_bibblock">http://www.anthropic-principle.com/preprints.html.
+
+</span>
+</li>
+<li id="bib.bib6" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[6]</span>
+<span class="ltx_bibblock">
+Bryce de Witt and R. Neill Graham.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib6.1" class="ltx_text ltx_font_italic">The Many Worlds Interpretation of Quantum Mechanics</span>.
+
+</span>
+<span class="ltx_bibblock">Princeton UP, 1973.
+
+</span>
+</li>
+<li id="bib.bib7" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[7]</span>
+<span class="ltx_bibblock">
+David Deutsh.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib7.1" class="ltx_text ltx_font_italic">The Fabric of Reality</span>.
+
+</span>
+<span class="ltx_bibblock">Penguin, 1997.
+
+</span>
+</li>
+<li id="bib.bib8" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[8]</span>
+<span class="ltx_bibblock">
+Robin Hanson.
+
+</span>
+<span class="ltx_bibblock">Must early life be easy? the rythm of major evolutionary transitions.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib8.1" class="ltx_text ltx_font_italic">Origins of Life</span>, 2000.
+
+</span>
+<span class="ltx_bibblock">submitted; http://hanson.gmu.edu/hardstep.pdf.
+
+</span>
+</li>
+<li id="bib.bib9" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[9]</span>
+<span class="ltx_bibblock">
+J. Leslie.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib9.1" class="ltx_text ltx_font_italic">The End of the World</span>.
+
+</span>
+<span class="ltx_bibblock">Routledge, London, 1996.
+
+</span>
+</li>
+<li id="bib.bib10" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[10]</span>
+<span class="ltx_bibblock">
+A. N. Pargellis.
+
+</span>
+<span class="ltx_bibblock">The evolution of self-replicating computer organisms.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib10.1" class="ltx_text ltx_font_italic">Physica D</span>, 98:111, 1996.
+
+</span>
+</li>
+<li id="bib.bib11" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[11]</span>
+<span class="ltx_bibblock">
+A. N. Pargellis.
+
+</span>
+<span class="ltx_bibblock">The spontaneous generation of digital life.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib11.1" class="ltx_text ltx_font_italic">Physica D</span>, 91:86, 1996.
+
+</span>
+</li>
+<li id="bib.bib12" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[12]</span>
+<span class="ltx_bibblock">
+Tom Ray.
+
+</span>
+<span class="ltx_bibblock">A proposal to create two biodiversity reserves: One digital and one
+organic.
+
+</span>
+<span class="ltx_bibblock">See ftp://tierra.slhs.udel.edu/tierra/doc/reserves.tex,
+http://www.hip.atr.co.jp/~ray/pubs/reserves/reserves.html. Also see New
+Scientist, vol 150, no 2034, pp32–35.
+
+</span>
+</li>
+<li id="bib.bib13" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[13]</span>
+<span class="ltx_bibblock">
+Tom Ray and Joseph Hart.
+
+</span>
+<span class="ltx_bibblock">Evolution of differentiated multi-threaded digital organisms.
+
+</span>
+<span class="ltx_bibblock">In Chris Adami, Richard Belew, Hiroaki Kitano, and Charles Taylor,
+editors, <span id="bib.bib13.1" class="ltx_text ltx_font_italic">Artificial Life VI</span>, pages 295–304, Cambridge, Mass., 1998.
+MIT Press.
+
+</span>
+</li>
+<li id="bib.bib14" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[14]</span>
+<span class="ltx_bibblock">
+Jürgen Schmidhuber.
+
+</span>
+<span class="ltx_bibblock">A computer scientist’s view of life, the universe and everything.
+
+</span>
+<span class="ltx_bibblock">In C. Freska, M. Jantzen, and R. Valk, editors, <span id="bib.bib14.1" class="ltx_text ltx_font_italic">Foundations of
+Computer Science: Potential-Theory-Cognition</span>, volume 1337 of <span id="bib.bib14.2" class="ltx_text ltx_font_italic">Lecture
+Notes in Computer Science</span>, pages 201–208. Springer, Berlin, 1997.
+
+</span>
+</li>
+<li id="bib.bib15" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[15]</span>
+<span class="ltx_bibblock">
+Russell K. Standish.
+
+</span>
+<span class="ltx_bibblock">Some techniques for the measurement of complexity in Tierra.
+
+</span>
+<span class="ltx_bibblock">In <span id="bib.bib15.1" class="ltx_text ltx_font_italic">Advances in Artificial Life</span>, volume 1674 of <span id="bib.bib15.2" class="ltx_text ltx_font_italic">Lecture
+Notes in Computer Science</span>, page 104, Berlin, 1999. Springer.
+
+</span>
+</li>
+<li id="bib.bib16" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[16]</span>
+<span class="ltx_bibblock">
+Russell K. Standish.
+
+</span>
+<span class="ltx_bibblock">Why Occam’s razor?
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib16.1" class="ltx_text ltx_font_italic">Annals of Physics</span>, 2000.
+
+</span>
+<span class="ltx_bibblock">submitted.
+
+</span>
+</li>
+<li id="bib.bib17" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[17]</span>
+<span class="ltx_bibblock">
+Max Tegmark.
+
+</span>
+<span class="ltx_bibblock">Is ”the theory of everything” merely the ultimate ensemble theory.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib17.1" class="ltx_text ltx_font_italic">Annals of Physics</span>, 270:1–51, 1998.
+
+</span>
+</li>
+<li id="bib.bib18" class="ltx_bibitem">
+<span class="ltx_tag ltx_tag_bibitem">[18]</span>
+<span class="ltx_bibblock">
+Frank J. Tipler.
+
+</span>
+<span class="ltx_bibblock"><span id="bib.bib18.1" class="ltx_text ltx_font_italic">The Physics of Immortality</span>.
+
+</span>
+<span class="ltx_bibblock">Doubleday, 1994.
+
+</span>
+</li>
+</ul>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Wed Jul  3 19:47:27 2019 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></img>
+</a>
+</div></footer>
+</div>
+</body>
+</html>
