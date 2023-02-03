@@ -1,0 +1,638 @@
+<!DOCTYPE html><html>
+<head>
+<title>Detection of Nonlinear Coupling and its Application to Cardiorespiratory Interaction</title>
+<!--Generated on Mon Jul 15 14:46:54 2019 by LaTeXML (version 0.8.4) http://dlmf.nist.gov/LaTeXML/.-->
+<!--Document created on July 15, 2019.-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</meta>
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Detection of Nonlinear Coupling and 
+<br class="ltx_break">its Application to Cardiorespiratory Interaction</br>
+</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Guillermo J. Ortega and Diego A. Golombek
+</span><span class="ltx_author_notes"><span>
+<span class="ltx_contact ltx_role_affiliation">Centro de Estudios e Investigaciones, Universidad Nacional
+de Quilmes, 
+<br class="ltx_break">R.S. Peña 180, (1876) Bernal, Provincia de Buenos Aires, Argentina
+</br>
+</span></span></span></span>
+</div>
+<div class="ltx_date ltx_role_creation">July 15, 2019</div>
+
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p id="id1" class="ltx_p">We present here a modification of the Lagrangian measures technique,
+which allows a reliable detection of interdependency among simultaneous
+measurements of different variables. This method is applied to a
+simulated multivariate
+time series and to a bivariate cardiorespiratory signal. By using
+this methodology, it is possible to reveal a nonlinear interaction
+among cardiac and respiration rhythms in pathological conditions.</p>
+</div>
+<div class="ltx_classification">
+<h6 class="ltx_title ltx_title_classification">pacs: </h6>PACS numbers: 87.22.As, 05.45.+b
+</div>
+<div id="p1" class="ltx_para">
+<p id="p1.1" class="ltx_p">The study of natural complex phenomena has urged
+for the reformulation of signal processing for
+nonlinear systems. Moreover, with the advent of
+chaos theory and the ”suspicion” that many natural phenomena
+may behave in a chaotic, although deterministic,
+way, new analytical methods have been developed.
+Many of these complex behavior
+arise as the interaction of the variables involved
+in the process under consideration. This is especially true
+in the case of physiological monitoring, where the
+signals are correlated with one another by feedback mechanisms.
+Very recently <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib1" title="" class="ltx_ref">1</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib2" title="" class="ltx_ref">2</a>]</cite>, cardiorespiratory interaction
+has attracted the interest of the nonlinear community as a subject
+area where application of new methodologies can be tested.</p>
+</div>
+<div id="p2" class="ltx_para">
+<p id="p2.1" class="ltx_p">Cardiorespiratory interaction is one of these examples
+where traditional tools have been used in
+order to gain information about its underlying dynamics.
+In this case, an interdependency between heart rate (HR) and respiration
+(R) rhythms, in physiological conditions, is almost present
+and is known as Respiratory Sinus Arrhithmia (see <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib3" title="" class="ltx_ref">3</a>]</cite>
+and references therein).
+This phenomenon is especially evident in the usual analysis
+by means of linear tools, like power spectrum. Accordingly,
+the power spectrum of the heart rate contains a peak centered
+at the respiratory frequency <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib3" title="" class="ltx_ref">3</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib4" title="" class="ltx_ref">4</a>]</cite>. However,
+there may exist situations where this peak will not be present.
+This fact is interpreted as a blockade in the interaction
+between both systems.</p>
+</div>
+<div id="p3" class="ltx_para">
+<p id="p3.1" class="ltx_p">In this Letter, we use a recently developed technique
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib5" title="" class="ltx_ref">5</a>, <a href="#bib.bib6" title="" class="ltx_ref">6</a>]</cite>, originally aimed to detect hidden
+frequencies in time series, with the purpose to demonstrate the
+interdependence among cardiac and respiratory signals, even
+in pathological conditions, where traditional tools,
+like power spectrum, show no signs of interactions.
+As we will explain below, a simple modification of
+our original approach will allow us to deal with this
+rather noisy and short time series.
+For illustration, we will show the technique in a
+well known system, the Lorenz system, in
+order to understand the basic steps.</p>
+</div>
+<div id="p4" class="ltx_para">
+<p id="p4.1" class="ltx_p">From the point of view of nonlinear dynamics <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib7" title="" class="ltx_ref">7</a>, <a href="#bib.bib8" title="" class="ltx_ref">8</a>, <a href="#bib.bib9" title="" class="ltx_ref">9</a>]</cite>,
+a time series is considered as the ”output” or observable
+of a dynamical system, which can be described by the <math id="p4.1.m1.1" class="ltx_Math" alttext="p" display="inline"><semantics id="p4.1.m1.1a"><mi id="p4.1.m1.1.1" xref="p4.1.m1.1.1.cmml">p</mi><annotation-xml encoding="MathML-Content" id="p4.1.m1.1b"><ci id="p4.1.m1.1.1.cmml" xref="p4.1.m1.1.1">𝑝</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p4.1.m1.1c">italic-p</annotation><annotation encoding="application/x-tex" id="p4.1.m1.1d">p</annotation></semantics></math>-first
+order differential equation.
+In the case of chaotic behavior, the system must be necessarily
+multivariate (that is, <math id="p4.1.m2.1" class="ltx_Math" alttext="p&gt;2" display="inline"><semantics id="p4.1.m2.1a"><mrow id="p4.1.m2.1.4" xref="p4.1.m2.1.4.cmml"><mi id="p4.1.m2.1.1" xref="p4.1.m2.1.1.cmml">p</mi><mo id="p4.1.m2.1.2" xref="p4.1.m2.1.2.cmml">&gt;</mo><mn id="p4.1.m2.1.3" xref="p4.1.m2.1.3.cmml">2</mn></mrow><annotation-xml encoding="MathML-Content" id="p4.1.m2.1b"><apply id="p4.1.m2.1.4.cmml" xref="p4.1.m2.1.4"><gt id="p4.1.m2.1.2.cmml" xref="p4.1.m2.1.2"></gt><ci id="p4.1.m2.1.1.cmml" xref="p4.1.m2.1.1">𝑝</ci><cn type="integer" id="p4.1.m2.1.3.cmml" xref="p4.1.m2.1.3">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p4.1.m2.1c">italic-p RELOP:greater-than NUMBER:2</annotation><annotation encoding="application/x-tex" id="p4.1.m2.1d">p&gt;2</annotation></semantics></math>).
+Embedding techniques <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib9" title="" class="ltx_ref">9</a>]</cite> provide a way to reconstruct geometric
+(attractor structure) and statistical information of the original system
+by constructing an equivalent representation of it, using time-delayed
+coordinates. Given a time series of <math id="p4.1.m3.1" class="ltx_Math" alttext="m" display="inline"><semantics id="p4.1.m3.1a"><mi id="p4.1.m3.1.1" xref="p4.1.m3.1.1.cmml">m</mi><annotation-xml encoding="MathML-Content" id="p4.1.m3.1b"><ci id="p4.1.m3.1.1.cmml" xref="p4.1.m3.1.1">𝑚</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p4.1.m3.1c">italic-m</annotation><annotation encoding="application/x-tex" id="p4.1.m3.1d">m</annotation></semantics></math> values, an <math id="p4.1.m4.1" class="ltx_Math" alttext="n" display="inline"><semantics id="p4.1.m4.1a"><mi id="p4.1.m4.1.1" xref="p4.1.m4.1.1.cmml">n</mi><annotation-xml encoding="MathML-Content" id="p4.1.m4.1b"><ci id="p4.1.m4.1.1.cmml" xref="p4.1.m4.1.1">𝑛</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p4.1.m4.1c">italic-n</annotation><annotation encoding="application/x-tex" id="p4.1.m4.1d">n</annotation></semantics></math>-dimensional vector
+can be constructed:</p>
+<table id="S0.EGx1" class="ltx_equationgroup ltx_eqn_eqnarray ltx_eqn_table">
+
+<tbody id="S0.Ex1"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex1.m1.1" class="ltx_Math" alttext="\displaystyle\bar{x_{i}}=(x_{i},x_{i+\tau},...,x_{i+(n-1).\tau})" display="inline"><semantics id="S0.Ex1.m1.1a"><mrow id="S0.Ex1.m1.1.17" xref="S0.Ex1.m1.1.17.cmml"><mover accent="true" id="S0.Ex1.m1.1.1" xref="S0.Ex1.m1.1.1.cmml"><msub id="S0.Ex1.m1.1.1.2" xref="S0.Ex1.m1.1.1.2.cmml"><mi id="S0.Ex1.m1.1.1.2.1" xref="S0.Ex1.m1.1.1.2.1.cmml">x</mi><mi id="S0.Ex1.m1.1.1.2.2.1" xref="S0.Ex1.m1.1.1.2.2.1.cmml">i</mi></msub><mo stretchy="false" id="S0.Ex1.m1.1.1.1" xref="S0.Ex1.m1.1.1.1.cmml">¯</mo></mover><mo id="S0.Ex1.m1.1.2" xref="S0.Ex1.m1.1.2.cmml">=</mo><mrow id="S0.Ex1.m1.1.17.1" xref="S0.Ex1.m1.1.17.1.1.cmml"><mo stretchy="false" id="S0.Ex1.m1.1.3" xref="S0.Ex1.m1.1.17.1.1.cmml">(</mo><msub id="S0.Ex1.m1.1.17.1.2" xref="S0.Ex1.m1.1.17.1.2.cmml"><mi id="S0.Ex1.m1.1.4" xref="S0.Ex1.m1.1.4.cmml">x</mi><mi id="S0.Ex1.m1.1.5.1" xref="S0.Ex1.m1.1.5.1.cmml">i</mi></msub><mo id="S0.Ex1.m1.1.6" xref="S0.Ex1.m1.1.17.1.1.cmml">,</mo><msub id="S0.Ex1.m1.1.17.1.3" xref="S0.Ex1.m1.1.17.1.3.cmml"><mi id="S0.Ex1.m1.1.7" xref="S0.Ex1.m1.1.7.cmml">x</mi><mrow id="S0.Ex1.m1.1.8.1" xref="S0.Ex1.m1.1.8.1.cmml"><mi id="S0.Ex1.m1.1.8.1.1" xref="S0.Ex1.m1.1.8.1.1.cmml">i</mi><mo id="S0.Ex1.m1.1.8.1.2" xref="S0.Ex1.m1.1.8.1.2.cmml">+</mo><mi id="S0.Ex1.m1.1.8.1.3" xref="S0.Ex1.m1.1.8.1.3.cmml">τ</mi></mrow></msub><mo id="S0.Ex1.m1.1.9" xref="S0.Ex1.m1.1.17.1.1.cmml">,</mo><mi mathvariant="normal" id="S0.Ex1.m1.1.12" xref="S0.Ex1.m1.1.12.cmml">…</mi><mo id="S0.Ex1.m1.1.13" xref="S0.Ex1.m1.1.17.1.1.cmml">,</mo><msub id="S0.Ex1.m1.1.17.1.4" xref="S0.Ex1.m1.1.17.1.4.cmml"><mi id="S0.Ex1.m1.1.14" xref="S0.Ex1.m1.1.14.cmml">x</mi><mrow id="S0.Ex1.m1.1.15.1" xref="S0.Ex1.m1.1.15.1.10.cmml"><mrow id="S0.Ex1.m1.1.15.1.11" xref="S0.Ex1.m1.1.15.1.11.cmml"><mi id="S0.Ex1.m1.1.15.1.1" xref="S0.Ex1.m1.1.15.1.1.cmml">i</mi><mo id="S0.Ex1.m1.1.15.1.2" xref="S0.Ex1.m1.1.15.1.2.cmml">+</mo><mrow id="S0.Ex1.m1.1.15.1.11.1" xref="S0.Ex1.m1.1.15.1.11.1.2.cmml"><mo stretchy="false" id="S0.Ex1.m1.1.15.1.3" xref="S0.Ex1.m1.1.15.1.11.1.2.cmml">(</mo><mrow id="S0.Ex1.m1.1.15.1.11.1.2" xref="S0.Ex1.m1.1.15.1.11.1.2.cmml"><mi id="S0.Ex1.m1.1.15.1.4" xref="S0.Ex1.m1.1.15.1.4.cmml">n</mi><mo id="S0.Ex1.m1.1.15.1.5" xref="S0.Ex1.m1.1.15.1.5.cmml">-</mo><mn id="S0.Ex1.m1.1.15.1.6" xref="S0.Ex1.m1.1.15.1.6.cmml">1</mn></mrow><mo stretchy="false" id="S0.Ex1.m1.1.15.1.7" xref="S0.Ex1.m1.1.15.1.11.1.2.cmml">)</mo></mrow></mrow><mo id="S0.Ex1.m1.1.15.1.8" xref="S0.Ex1.m1.1.15.1.10a.cmml">.</mo><mi id="S0.Ex1.m1.1.15.1.9" xref="S0.Ex1.m1.1.15.1.9.cmml">τ</mi></mrow></msub><mo stretchy="false" id="S0.Ex1.m1.1.16" xref="S0.Ex1.m1.1.17.1.1.cmml">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content" id="S0.Ex1.m1.1b"><apply id="S0.Ex1.m1.1.17.cmml" xref="S0.Ex1.m1.1.17"><eq id="S0.Ex1.m1.1.2.cmml" xref="S0.Ex1.m1.1.2"></eq><apply id="S0.Ex1.m1.1.1.cmml" xref="S0.Ex1.m1.1.1"><ci id="S0.Ex1.m1.1.1.1.cmml" xref="S0.Ex1.m1.1.1.1">¯</ci><apply id="S0.Ex1.m1.1.1.2.cmml" xref="S0.Ex1.m1.1.1.2"><csymbol cd="ambiguous" id="S0.Ex1.m1.1.1.2.3.cmml" xref="S0.Ex1.m1.1.1.2">subscript</csymbol><ci id="S0.Ex1.m1.1.1.2.1.cmml" xref="S0.Ex1.m1.1.1.2.1">𝑥</ci><ci id="S0.Ex1.m1.1.1.2.2.1.cmml" xref="S0.Ex1.m1.1.1.2.2.1">𝑖</ci></apply></apply><vector id="S0.Ex1.m1.1.17.1.1.cmml" xref="S0.Ex1.m1.1.17.1"><apply id="S0.Ex1.m1.1.17.1.2.cmml" xref="S0.Ex1.m1.1.17.1.2"><csymbol cd="ambiguous" id="S0.Ex1.m1.1.17.1.2.1.cmml" xref="S0.Ex1.m1.1.17.1.2">subscript</csymbol><ci id="S0.Ex1.m1.1.4.cmml" xref="S0.Ex1.m1.1.4">𝑥</ci><ci id="S0.Ex1.m1.1.5.1.cmml" xref="S0.Ex1.m1.1.5.1">𝑖</ci></apply><apply id="S0.Ex1.m1.1.17.1.3.cmml" xref="S0.Ex1.m1.1.17.1.3"><csymbol cd="ambiguous" id="S0.Ex1.m1.1.17.1.3.1.cmml" xref="S0.Ex1.m1.1.17.1.3">subscript</csymbol><ci id="S0.Ex1.m1.1.7.cmml" xref="S0.Ex1.m1.1.7">𝑥</ci><apply id="S0.Ex1.m1.1.8.1.cmml" xref="S0.Ex1.m1.1.8.1"><plus id="S0.Ex1.m1.1.8.1.2.cmml" xref="S0.Ex1.m1.1.8.1.2"></plus><ci id="S0.Ex1.m1.1.8.1.1.cmml" xref="S0.Ex1.m1.1.8.1.1">𝑖</ci><ci id="S0.Ex1.m1.1.8.1.3.cmml" xref="S0.Ex1.m1.1.8.1.3">𝜏</ci></apply></apply><ci id="S0.Ex1.m1.1.12.cmml" xref="S0.Ex1.m1.1.12">…</ci><apply id="S0.Ex1.m1.1.17.1.4.cmml" xref="S0.Ex1.m1.1.17.1.4"><csymbol cd="ambiguous" id="S0.Ex1.m1.1.17.1.4.1.cmml" xref="S0.Ex1.m1.1.17.1.4">subscript</csymbol><ci id="S0.Ex1.m1.1.14.cmml" xref="S0.Ex1.m1.1.14">𝑥</ci><apply id="S0.Ex1.m1.1.15.1.10.cmml" xref="S0.Ex1.m1.1.15.1"><csymbol cd="ambiguous" id="S0.Ex1.m1.1.15.1.10a.cmml" xref="S0.Ex1.m1.1.15.1.8">formulae-sequence</csymbol><apply id="S0.Ex1.m1.1.15.1.11.cmml" xref="S0.Ex1.m1.1.15.1.11"><plus id="S0.Ex1.m1.1.15.1.2.cmml" xref="S0.Ex1.m1.1.15.1.2"></plus><ci id="S0.Ex1.m1.1.15.1.1.cmml" xref="S0.Ex1.m1.1.15.1.1">𝑖</ci><apply id="S0.Ex1.m1.1.15.1.11.1.2.cmml" xref="S0.Ex1.m1.1.15.1.11.1"><minus id="S0.Ex1.m1.1.15.1.5.cmml" xref="S0.Ex1.m1.1.15.1.5"></minus><ci id="S0.Ex1.m1.1.15.1.4.cmml" xref="S0.Ex1.m1.1.15.1.4">𝑛</ci><cn type="integer" id="S0.Ex1.m1.1.15.1.6.cmml" xref="S0.Ex1.m1.1.15.1.6">1</cn></apply></apply><ci id="S0.Ex1.m1.1.15.1.9.cmml" xref="S0.Ex1.m1.1.15.1.9">𝜏</ci></apply></apply></vector></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.Ex1.m1.1c">OVERACCENT:bar ARG:start italic-x POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end ARG:end RELOP:equals OPEN:( italic-x POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end PUNCT:, italic-x POSTSUBSCRIPT:start italic-i ADDOP:plus italic-tau POSTSUBSCRIPT:end PUNCT:, ID:ldots PUNCT:, italic-x POSTSUBSCRIPT:start italic-i ADDOP:plus OPEN:( italic-n ADDOP:minus NUMBER:1 CLOSE:) PERIOD:. italic-tau POSTSUBSCRIPT:end CLOSE:)</annotation><annotation encoding="application/x-tex" id="S0.Ex1.m1.1d">\displaystyle\bar{x_{i}}=(x_{i},x_{i+\tau},...,x_{i+(n-1).\tau})</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p id="p4.2" class="ltx_p">where <math id="p4.2.m1.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p4.2.m1.1a"><mi id="p4.2.m1.1.1" xref="p4.2.m1.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p4.2.m1.1b"><ci id="p4.2.m1.1.1.cmml" xref="p4.2.m1.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p4.2.m1.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p4.2.m1.1d">\tau</annotation></semantics></math> is the time delay. In this way, from a single set
+of observations, multivariate vectors in the reconstructed
+<math id="p4.2.m2.1" class="ltx_Math" alttext="n" display="inline"><semantics id="p4.2.m2.1a"><mi id="p4.2.m2.1.1" xref="p4.2.m2.1.1.cmml">n</mi><annotation-xml encoding="MathML-Content" id="p4.2.m2.1b"><ci id="p4.2.m2.1.1.cmml" xref="p4.2.m2.1.1">𝑛</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p4.2.m2.1c">italic-n</annotation><annotation encoding="application/x-tex" id="p4.2.m2.1d">n</annotation></semantics></math>-dimensional space are used to trace the orbit of the system.</p>
+</div>
+<div id="p5" class="ltx_para">
+<p id="p5.1" class="ltx_p">One of the many ways to describe the dynamics is by
+studying the long-term behavior of the system.
+When performing a statistical description of dynamical systems,
+a central role is played by the natural (or <span id="p5.1.1" class="ltx_text ltx_font_italic">physical</span>) probability
+measure, which describes where the orbit has been, and whose
+integral over a volume of state space counts the number of points
+within that volume <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib7" title="" class="ltx_ref">7</a>, <a href="#bib.bib8" title="" class="ltx_ref">8</a>]</cite>. By performing a partition in the
+reconstructed phase space of dimension <math id="p5.1.m1.1" class="ltx_Math" alttext="n" display="inline"><semantics id="p5.1.m1.1a"><mi id="p5.1.m1.1.1" xref="p5.1.m1.1.1.cmml">n</mi><annotation-xml encoding="MathML-Content" id="p5.1.m1.1b"><ci id="p5.1.m1.1.1.cmml" xref="p5.1.m1.1.1">𝑛</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m1.1c">italic-n</annotation><annotation encoding="application/x-tex" id="p5.1.m1.1d">n</annotation></semantics></math>, this probability density can
+be estimated as,</p>
+<table id="S0.E1" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.E1.m1.1" class="ltx_Math" alttext="\hat{\mu}({\bf x}_{i})=\frac{n({\bf x}_{i})}{\sum_{j}n({\bf x}_{j})}" display="block"><semantics id="S0.E1.m1.1a"><mrow id="S0.E1.m1.1.8" xref="S0.E1.m1.1.8.cmml"><mrow id="S0.E1.m1.1.8.1" xref="S0.E1.m1.1.8.1.cmml"><mover accent="true" id="S0.E1.m1.1.1" xref="S0.E1.m1.1.1.cmml"><mi id="S0.E1.m1.1.1.2" xref="S0.E1.m1.1.1.2.cmml">μ</mi><mo stretchy="false" id="S0.E1.m1.1.1.1" xref="S0.E1.m1.1.1.1.cmml">^</mo></mover><mo id="S0.E1.m1.1.8.1.1" xref="S0.E1.m1.1.8.1.1.cmml">⁢</mo><mrow id="S0.E1.m1.1.8.1.2" xref="S0.E1.m1.1.8.1.2.2.cmml"><mo stretchy="false" id="S0.E1.m1.1.2" xref="S0.E1.m1.1.8.1.2.2.cmml">(</mo><msub id="S0.E1.m1.1.8.1.2.2" xref="S0.E1.m1.1.8.1.2.2.cmml"><mi id="S0.E1.m1.1.3" xref="S0.E1.m1.1.3.cmml">𝐱</mi><mi id="S0.E1.m1.1.4.1" xref="S0.E1.m1.1.4.1.cmml">i</mi></msub><mo stretchy="false" id="S0.E1.m1.1.5" xref="S0.E1.m1.1.8.1.2.2.cmml">)</mo></mrow></mrow><mo id="S0.E1.m1.1.6" xref="S0.E1.m1.1.6.cmml">=</mo><mfrac id="S0.E1.m1.1.7" xref="S0.E1.m1.1.7.cmml"><mrow id="S0.E1.m1.1.7.2" xref="S0.E1.m1.1.7.2.cmml"><mi id="S0.E1.m1.1.7.2.1" xref="S0.E1.m1.1.7.2.1.cmml">n</mi><mo id="S0.E1.m1.1.7.2.6" xref="S0.E1.m1.1.7.2.6.cmml">⁢</mo><mrow id="S0.E1.m1.1.7.2.7" xref="S0.E1.m1.1.7.2.7.2.cmml"><mo stretchy="false" id="S0.E1.m1.1.7.2.2" xref="S0.E1.m1.1.7.2.7.2.cmml">(</mo><msub id="S0.E1.m1.1.7.2.7.2" xref="S0.E1.m1.1.7.2.7.2.cmml"><mi id="S0.E1.m1.1.7.2.3" xref="S0.E1.m1.1.7.2.3.cmml">𝐱</mi><mi id="S0.E1.m1.1.7.2.4.1" xref="S0.E1.m1.1.7.2.4.1.cmml">i</mi></msub><mo stretchy="false" id="S0.E1.m1.1.7.2.5" xref="S0.E1.m1.1.7.2.7.2.cmml">)</mo></mrow></mrow><mrow id="S0.E1.m1.1.7.3" xref="S0.E1.m1.1.7.3.cmml"><msub id="S0.E1.m1.1.7.3.8" xref="S0.E1.m1.1.7.3.8.cmml"><mo largeop="true" symmetric="true" id="S0.E1.m1.1.7.3.1" xref="S0.E1.m1.1.7.3.1.cmml">∑</mo><mi id="S0.E1.m1.1.7.3.2.1" xref="S0.E1.m1.1.7.3.2.1.cmml">j</mi></msub><mrow id="S0.E1.m1.1.7.3.9" xref="S0.E1.m1.1.7.3.9.cmml"><mi id="S0.E1.m1.1.7.3.3" xref="S0.E1.m1.1.7.3.3.cmml">n</mi><mo id="S0.E1.m1.1.7.3.9.1" xref="S0.E1.m1.1.7.3.9.1.cmml">⁢</mo><mrow id="S0.E1.m1.1.7.3.9.2" xref="S0.E1.m1.1.7.3.9.2.2.cmml"><mo stretchy="false" id="S0.E1.m1.1.7.3.4" xref="S0.E1.m1.1.7.3.9.2.2.cmml">(</mo><msub id="S0.E1.m1.1.7.3.9.2.2" xref="S0.E1.m1.1.7.3.9.2.2.cmml"><mi id="S0.E1.m1.1.7.3.5" xref="S0.E1.m1.1.7.3.5.cmml">𝐱</mi><mi id="S0.E1.m1.1.7.3.6.1" xref="S0.E1.m1.1.7.3.6.1.cmml">j</mi></msub><mo stretchy="false" id="S0.E1.m1.1.7.3.7" xref="S0.E1.m1.1.7.3.9.2.2.cmml">)</mo></mrow></mrow></mrow></mfrac></mrow><annotation-xml encoding="MathML-Content" id="S0.E1.m1.1b"><apply id="S0.E1.m1.1.8.cmml" xref="S0.E1.m1.1.8"><eq id="S0.E1.m1.1.6.cmml" xref="S0.E1.m1.1.6"></eq><apply id="S0.E1.m1.1.8.1.cmml" xref="S0.E1.m1.1.8.1"><times id="S0.E1.m1.1.8.1.1.cmml" xref="S0.E1.m1.1.8.1.1"></times><apply id="S0.E1.m1.1.1.cmml" xref="S0.E1.m1.1.1"><ci id="S0.E1.m1.1.1.1.cmml" xref="S0.E1.m1.1.1.1">^</ci><ci id="S0.E1.m1.1.1.2.cmml" xref="S0.E1.m1.1.1.2">𝜇</ci></apply><apply id="S0.E1.m1.1.8.1.2.2.cmml" xref="S0.E1.m1.1.8.1.2"><csymbol cd="ambiguous" id="S0.E1.m1.1.8.1.2.2.1.cmml" xref="S0.E1.m1.1.8.1.2">subscript</csymbol><ci id="S0.E1.m1.1.3.cmml" xref="S0.E1.m1.1.3">𝐱</ci><ci id="S0.E1.m1.1.4.1.cmml" xref="S0.E1.m1.1.4.1">𝑖</ci></apply></apply><apply id="S0.E1.m1.1.7.cmml" xref="S0.E1.m1.1.7"><divide id="S0.E1.m1.1.7.1.cmml" xref="S0.E1.m1.1.7"></divide><apply id="S0.E1.m1.1.7.2.cmml" xref="S0.E1.m1.1.7.2"><times id="S0.E1.m1.1.7.2.6.cmml" xref="S0.E1.m1.1.7.2.6"></times><ci id="S0.E1.m1.1.7.2.1.cmml" xref="S0.E1.m1.1.7.2.1">𝑛</ci><apply id="S0.E1.m1.1.7.2.7.2.cmml" xref="S0.E1.m1.1.7.2.7"><csymbol cd="ambiguous" id="S0.E1.m1.1.7.2.7.2.1.cmml" xref="S0.E1.m1.1.7.2.7">subscript</csymbol><ci id="S0.E1.m1.1.7.2.3.cmml" xref="S0.E1.m1.1.7.2.3">𝐱</ci><ci id="S0.E1.m1.1.7.2.4.1.cmml" xref="S0.E1.m1.1.7.2.4.1">𝑖</ci></apply></apply><apply id="S0.E1.m1.1.7.3.cmml" xref="S0.E1.m1.1.7.3"><apply id="S0.E1.m1.1.7.3.8.cmml" xref="S0.E1.m1.1.7.3.8"><csymbol cd="ambiguous" id="S0.E1.m1.1.7.3.8.1.cmml" xref="S0.E1.m1.1.7.3.8">subscript</csymbol><sum id="S0.E1.m1.1.7.3.1.cmml" xref="S0.E1.m1.1.7.3.1"></sum><ci id="S0.E1.m1.1.7.3.2.1.cmml" xref="S0.E1.m1.1.7.3.2.1">𝑗</ci></apply><apply id="S0.E1.m1.1.7.3.9.cmml" xref="S0.E1.m1.1.7.3.9"><times id="S0.E1.m1.1.7.3.9.1.cmml" xref="S0.E1.m1.1.7.3.9.1"></times><ci id="S0.E1.m1.1.7.3.3.cmml" xref="S0.E1.m1.1.7.3.3">𝑛</ci><apply id="S0.E1.m1.1.7.3.9.2.2.cmml" xref="S0.E1.m1.1.7.3.9.2"><csymbol cd="ambiguous" id="S0.E1.m1.1.7.3.9.2.2.1.cmml" xref="S0.E1.m1.1.7.3.9.2">subscript</csymbol><ci id="S0.E1.m1.1.7.3.5.cmml" xref="S0.E1.m1.1.7.3.5">𝐱</ci><ci id="S0.E1.m1.1.7.3.6.1.cmml" xref="S0.E1.m1.1.7.3.6.1">𝑗</ci></apply></apply></apply></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.E1.m1.1c">OVERACCENT:hat ARG:start italic-mu ARG:end OPEN:( bold-x POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end CLOSE:) RELOP:equals FRACOP:italic-divide ARG:start italic-n OPEN:( bold-x POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end CLOSE:) ARG:end ARG:start SUMOP:sum POSTSUBSCRIPT:start italic-j POSTSUBSCRIPT:end italic-n OPEN:( bold-x POSTSUBSCRIPT:start italic-j POSTSUBSCRIPT:end CLOSE:) ARG:end</annotation><annotation encoding="application/x-tex" id="S0.E1.m1.1d">\hat{\mu}({\bf x}_{i})=\frac{n({\bf x}_{i})}{\sum_{j}n({\bf x}_{j})}</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right"><span class="ltx_tag ltx_tag_equation ltx_align_right">(1)</span></td>
+</tr>
+</table>
+<p id="p5.2" class="ltx_p">with <math id="p5.2.m1.1" class="ltx_Math" alttext="n({\bf x}_{i})" display="inline"><semantics id="p5.2.m1.1a"><mrow id="p5.2.m1.1.6" xref="p5.2.m1.1.6.cmml"><mi id="p5.2.m1.1.1" xref="p5.2.m1.1.1.cmml">n</mi><mo id="p5.2.m1.1.6.1" xref="p5.2.m1.1.6.1.cmml">⁢</mo><mrow id="p5.2.m1.1.6.2" xref="p5.2.m1.1.6.2.2.cmml"><mo stretchy="false" id="p5.2.m1.1.2" xref="p5.2.m1.1.6.2.2.cmml">(</mo><msub id="p5.2.m1.1.6.2.2" xref="p5.2.m1.1.6.2.2.cmml"><mi id="p5.2.m1.1.3" xref="p5.2.m1.1.3.cmml">𝐱</mi><mi id="p5.2.m1.1.4.1" xref="p5.2.m1.1.4.1.cmml">i</mi></msub><mo stretchy="false" id="p5.2.m1.1.5" xref="p5.2.m1.1.6.2.2.cmml">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content" id="p5.2.m1.1b"><apply id="p5.2.m1.1.6.cmml" xref="p5.2.m1.1.6"><times id="p5.2.m1.1.6.1.cmml" xref="p5.2.m1.1.6.1"></times><ci id="p5.2.m1.1.1.cmml" xref="p5.2.m1.1.1">𝑛</ci><apply id="p5.2.m1.1.6.2.2.cmml" xref="p5.2.m1.1.6.2"><csymbol cd="ambiguous" id="p5.2.m1.1.6.2.2.1.cmml" xref="p5.2.m1.1.6.2">subscript</csymbol><ci id="p5.2.m1.1.3.cmml" xref="p5.2.m1.1.3">𝐱</ci><ci id="p5.2.m1.1.4.1.cmml" xref="p5.2.m1.1.4.1">𝑖</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.2.m1.1c">italic-n OPEN:( bold-x POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end CLOSE:)</annotation><annotation encoding="application/x-tex" id="p5.2.m1.1d">n({\bf x}_{i})</annotation></semantics></math> equal to the number of points in partition
+element <math id="p5.2.m2.1" class="ltx_Math" alttext="i" display="inline"><semantics id="p5.2.m2.1a"><mi id="p5.2.m2.1.1" xref="p5.2.m2.1.1.cmml">i</mi><annotation-xml encoding="MathML-Content" id="p5.2.m2.1b"><ci id="p5.2.m2.1.1.cmml" xref="p5.2.m2.1.1">𝑖</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p5.2.m2.1c">italic-i</annotation><annotation encoding="application/x-tex" id="p5.2.m2.1d">i</annotation></semantics></math> around the point <math id="p5.2.m3.1" class="ltx_Math" alttext="{\bf x}_{i}" display="inline"><semantics id="p5.2.m3.1a"><msub id="p5.2.m3.1.3" xref="p5.2.m3.1.3.cmml"><mi id="p5.2.m3.1.1" xref="p5.2.m3.1.1.cmml">𝐱</mi><mi id="p5.2.m3.1.2.1" xref="p5.2.m3.1.2.1.cmml">i</mi></msub><annotation-xml encoding="MathML-Content" id="p5.2.m3.1b"><apply id="p5.2.m3.1.3.cmml" xref="p5.2.m3.1.3"><csymbol cd="ambiguous" id="p5.2.m3.1.3.1.cmml" xref="p5.2.m3.1.3">subscript</csymbol><ci id="p5.2.m3.1.1.cmml" xref="p5.2.m3.1.1">𝐱</ci><ci id="p5.2.m3.1.2.1.cmml" xref="p5.2.m3.1.2.1">𝑖</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.2.m3.1c">bold-x POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p5.2.m3.1d">{\bf x}_{i}</annotation></semantics></math>.
+Using this approach, we have recently proposed a new
+technique to detect hidden frequencies in chaotic time series
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib5" title="" class="ltx_ref">5</a>, <a href="#bib.bib6" title="" class="ltx_ref">6</a>]</cite>. Here we use an extension of this technique
+which gives a reliable detection of intrinsic frequencies in
+noisy and short time series.</p>
+</div>
+<div id="p6" class="ltx_para">
+<p id="p6.1" class="ltx_p">Basically, the procedure is the following: for a given time
+series, a fixed, relatively high embedding
+dimension is chosen (high enough in order to unfold the
+geometrical structure of the attractor), and
+a reconstruction for a given range of time lags <math id="p6.1.m1.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p6.1.m1.1a"><mi id="p6.1.m1.1.1" xref="p6.1.m1.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p6.1.m1.1b"><ci id="p6.1.m1.1.1.cmml" xref="p6.1.m1.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p6.1.m1.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p6.1.m1.1d">\tau</annotation></semantics></math>
+(the number of lags should be several times the
+correlation length of the time series) is then performed.
+For each <math id="p6.1.m2.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p6.1.m2.1a"><mi id="p6.1.m2.1.1" xref="p6.1.m2.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p6.1.m2.1b"><ci id="p6.1.m2.1.1.cmml" xref="p6.1.m2.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p6.1.m2.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p6.1.m2.1d">\tau</annotation></semantics></math> the density of points the
+trajectory encounters as it evolves is calculated.
+In this case, the density along the reconstructed
+trajectory is estimated as</p>
+<table id="S0.E2" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.E2.m1.1" class="ltx_Math" alttext="\hat{\mu}({\bf x}_{i},\tau)=\frac{n({\bf x}_{i},\tau)}{\sum_{j}n({\bf x}_{j},%
+\tau)}" display="block"><semantics id="S0.E2.m1.1a"><mrow id="S0.E2.m1.1.10" xref="S0.E2.m1.1.10.cmml"><mrow id="S0.E2.m1.1.10.1" xref="S0.E2.m1.1.10.1.cmml"><mover accent="true" id="S0.E2.m1.1.1" xref="S0.E2.m1.1.1.cmml"><mi id="S0.E2.m1.1.1.2" xref="S0.E2.m1.1.1.2.cmml">μ</mi><mo stretchy="false" id="S0.E2.m1.1.1.1" xref="S0.E2.m1.1.1.1.cmml">^</mo></mover><mo id="S0.E2.m1.1.10.1.1" xref="S0.E2.m1.1.10.1.1.cmml">⁢</mo><mrow id="S0.E2.m1.1.10.1.2" xref="S0.E2.m1.1.10.1.2.1.cmml"><mo stretchy="false" id="S0.E2.m1.1.2" xref="S0.E2.m1.1.10.1.2.1.cmml">(</mo><msub id="S0.E2.m1.1.10.1.2.2" xref="S0.E2.m1.1.10.1.2.2.cmml"><mi id="S0.E2.m1.1.3" xref="S0.E2.m1.1.3.cmml">𝐱</mi><mi id="S0.E2.m1.1.4.1" xref="S0.E2.m1.1.4.1.cmml">i</mi></msub><mo id="S0.E2.m1.1.5" xref="S0.E2.m1.1.10.1.2.1.cmml">,</mo><mi id="S0.E2.m1.1.6" xref="S0.E2.m1.1.6.cmml">τ</mi><mo stretchy="false" id="S0.E2.m1.1.7" xref="S0.E2.m1.1.10.1.2.1.cmml">)</mo></mrow></mrow><mo id="S0.E2.m1.1.8" xref="S0.E2.m1.1.8.cmml">=</mo><mfrac id="S0.E2.m1.1.9" xref="S0.E2.m1.1.9.cmml"><mrow id="S0.E2.m1.1.9.2" xref="S0.E2.m1.1.9.2.cmml"><mi id="S0.E2.m1.1.9.2.1" xref="S0.E2.m1.1.9.2.1.cmml">n</mi><mo id="S0.E2.m1.1.9.2.8" xref="S0.E2.m1.1.9.2.8.cmml">⁢</mo><mrow id="S0.E2.m1.1.9.2.9" xref="S0.E2.m1.1.9.2.9.1.cmml"><mo stretchy="false" id="S0.E2.m1.1.9.2.2" xref="S0.E2.m1.1.9.2.9.1.cmml">(</mo><msub id="S0.E2.m1.1.9.2.9.2" xref="S0.E2.m1.1.9.2.9.2.cmml"><mi id="S0.E2.m1.1.9.2.3" xref="S0.E2.m1.1.9.2.3.cmml">𝐱</mi><mi id="S0.E2.m1.1.9.2.4.1" xref="S0.E2.m1.1.9.2.4.1.cmml">i</mi></msub><mo id="S0.E2.m1.1.9.2.5" xref="S0.E2.m1.1.9.2.9.1.cmml">,</mo><mi id="S0.E2.m1.1.9.2.6" xref="S0.E2.m1.1.9.2.6.cmml">τ</mi><mo stretchy="false" id="S0.E2.m1.1.9.2.7" xref="S0.E2.m1.1.9.2.9.1.cmml">)</mo></mrow></mrow><mrow id="S0.E2.m1.1.9.3" xref="S0.E2.m1.1.9.3.cmml"><msub id="S0.E2.m1.1.9.3.10" xref="S0.E2.m1.1.9.3.10.cmml"><mo largeop="true" symmetric="true" id="S0.E2.m1.1.9.3.1" xref="S0.E2.m1.1.9.3.1.cmml">∑</mo><mi id="S0.E2.m1.1.9.3.2.1" xref="S0.E2.m1.1.9.3.2.1.cmml">j</mi></msub><mrow id="S0.E2.m1.1.9.3.11" xref="S0.E2.m1.1.9.3.11.cmml"><mi id="S0.E2.m1.1.9.3.3" xref="S0.E2.m1.1.9.3.3.cmml">n</mi><mo id="S0.E2.m1.1.9.3.11.1" xref="S0.E2.m1.1.9.3.11.1.cmml">⁢</mo><mrow id="S0.E2.m1.1.9.3.11.2" xref="S0.E2.m1.1.9.3.11.2.1.cmml"><mo stretchy="false" id="S0.E2.m1.1.9.3.4" xref="S0.E2.m1.1.9.3.11.2.1.cmml">(</mo><msub id="S0.E2.m1.1.9.3.11.2.2" xref="S0.E2.m1.1.9.3.11.2.2.cmml"><mi id="S0.E2.m1.1.9.3.5" xref="S0.E2.m1.1.9.3.5.cmml">𝐱</mi><mi id="S0.E2.m1.1.9.3.6.1" xref="S0.E2.m1.1.9.3.6.1.cmml">j</mi></msub><mo id="S0.E2.m1.1.9.3.7" xref="S0.E2.m1.1.9.3.11.2.1.cmml">,</mo><mi id="S0.E2.m1.1.9.3.8" xref="S0.E2.m1.1.9.3.8.cmml">τ</mi><mo stretchy="false" id="S0.E2.m1.1.9.3.9" xref="S0.E2.m1.1.9.3.11.2.1.cmml">)</mo></mrow></mrow></mrow></mfrac></mrow><annotation-xml encoding="MathML-Content" id="S0.E2.m1.1b"><apply id="S0.E2.m1.1.10.cmml" xref="S0.E2.m1.1.10"><eq id="S0.E2.m1.1.8.cmml" xref="S0.E2.m1.1.8"></eq><apply id="S0.E2.m1.1.10.1.cmml" xref="S0.E2.m1.1.10.1"><times id="S0.E2.m1.1.10.1.1.cmml" xref="S0.E2.m1.1.10.1.1"></times><apply id="S0.E2.m1.1.1.cmml" xref="S0.E2.m1.1.1"><ci id="S0.E2.m1.1.1.1.cmml" xref="S0.E2.m1.1.1.1">^</ci><ci id="S0.E2.m1.1.1.2.cmml" xref="S0.E2.m1.1.1.2">𝜇</ci></apply><interval closure="open" id="S0.E2.m1.1.10.1.2.1.cmml" xref="S0.E2.m1.1.10.1.2"><apply id="S0.E2.m1.1.10.1.2.2.cmml" xref="S0.E2.m1.1.10.1.2.2"><csymbol cd="ambiguous" id="S0.E2.m1.1.10.1.2.2.1.cmml" xref="S0.E2.m1.1.10.1.2.2">subscript</csymbol><ci id="S0.E2.m1.1.3.cmml" xref="S0.E2.m1.1.3">𝐱</ci><ci id="S0.E2.m1.1.4.1.cmml" xref="S0.E2.m1.1.4.1">𝑖</ci></apply><ci id="S0.E2.m1.1.6.cmml" xref="S0.E2.m1.1.6">𝜏</ci></interval></apply><apply id="S0.E2.m1.1.9.cmml" xref="S0.E2.m1.1.9"><divide id="S0.E2.m1.1.9.1.cmml" xref="S0.E2.m1.1.9"></divide><apply id="S0.E2.m1.1.9.2.cmml" xref="S0.E2.m1.1.9.2"><times id="S0.E2.m1.1.9.2.8.cmml" xref="S0.E2.m1.1.9.2.8"></times><ci id="S0.E2.m1.1.9.2.1.cmml" xref="S0.E2.m1.1.9.2.1">𝑛</ci><interval closure="open" id="S0.E2.m1.1.9.2.9.1.cmml" xref="S0.E2.m1.1.9.2.9"><apply id="S0.E2.m1.1.9.2.9.2.cmml" xref="S0.E2.m1.1.9.2.9.2"><csymbol cd="ambiguous" id="S0.E2.m1.1.9.2.9.2.1.cmml" xref="S0.E2.m1.1.9.2.9.2">subscript</csymbol><ci id="S0.E2.m1.1.9.2.3.cmml" xref="S0.E2.m1.1.9.2.3">𝐱</ci><ci id="S0.E2.m1.1.9.2.4.1.cmml" xref="S0.E2.m1.1.9.2.4.1">𝑖</ci></apply><ci id="S0.E2.m1.1.9.2.6.cmml" xref="S0.E2.m1.1.9.2.6">𝜏</ci></interval></apply><apply id="S0.E2.m1.1.9.3.cmml" xref="S0.E2.m1.1.9.3"><apply id="S0.E2.m1.1.9.3.10.cmml" xref="S0.E2.m1.1.9.3.10"><csymbol cd="ambiguous" id="S0.E2.m1.1.9.3.10.1.cmml" xref="S0.E2.m1.1.9.3.10">subscript</csymbol><sum id="S0.E2.m1.1.9.3.1.cmml" xref="S0.E2.m1.1.9.3.1"></sum><ci id="S0.E2.m1.1.9.3.2.1.cmml" xref="S0.E2.m1.1.9.3.2.1">𝑗</ci></apply><apply id="S0.E2.m1.1.9.3.11.cmml" xref="S0.E2.m1.1.9.3.11"><times id="S0.E2.m1.1.9.3.11.1.cmml" xref="S0.E2.m1.1.9.3.11.1"></times><ci id="S0.E2.m1.1.9.3.3.cmml" xref="S0.E2.m1.1.9.3.3">𝑛</ci><interval closure="open" id="S0.E2.m1.1.9.3.11.2.1.cmml" xref="S0.E2.m1.1.9.3.11.2"><apply id="S0.E2.m1.1.9.3.11.2.2.cmml" xref="S0.E2.m1.1.9.3.11.2.2"><csymbol cd="ambiguous" id="S0.E2.m1.1.9.3.11.2.2.1.cmml" xref="S0.E2.m1.1.9.3.11.2.2">subscript</csymbol><ci id="S0.E2.m1.1.9.3.5.cmml" xref="S0.E2.m1.1.9.3.5">𝐱</ci><ci id="S0.E2.m1.1.9.3.6.1.cmml" xref="S0.E2.m1.1.9.3.6.1">𝑗</ci></apply><ci id="S0.E2.m1.1.9.3.8.cmml" xref="S0.E2.m1.1.9.3.8">𝜏</ci></interval></apply></apply></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.E2.m1.1c">OVERACCENT:hat ARG:start italic-mu ARG:end OPEN:( bold-x POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end PUNCT:, italic-tau CLOSE:) RELOP:equals FRACOP:italic-divide ARG:start italic-n OPEN:( bold-x POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end PUNCT:, italic-tau CLOSE:) ARG:end ARG:start SUMOP:sum POSTSUBSCRIPT:start italic-j POSTSUBSCRIPT:end italic-n OPEN:( bold-x POSTSUBSCRIPT:start italic-j POSTSUBSCRIPT:end PUNCT:, italic-tau CLOSE:) ARG:end</annotation><annotation encoding="application/x-tex" id="S0.E2.m1.1d">\hat{\mu}({\bf x}_{i},\tau)=\frac{n({\bf x}_{i},\tau)}{\sum_{j}n({\bf x}_{j},%
+\tau)}</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right"><span class="ltx_tag ltx_tag_equation ltx_align_right">(2)</span></td>
+</tr>
+</table>
+<p id="p6.2" class="ltx_p">that is, every <math id="p6.2.m1.1" class="ltx_Math" alttext="{\bf x}_{i}" display="inline"><semantics id="p6.2.m1.1a"><msub id="p6.2.m1.1.3" xref="p6.2.m1.1.3.cmml"><mi id="p6.2.m1.1.1" xref="p6.2.m1.1.1.cmml">𝐱</mi><mi id="p6.2.m1.1.2.1" xref="p6.2.m1.1.2.1.cmml">i</mi></msub><annotation-xml encoding="MathML-Content" id="p6.2.m1.1b"><apply id="p6.2.m1.1.3.cmml" xref="p6.2.m1.1.3"><csymbol cd="ambiguous" id="p6.2.m1.1.3.1.cmml" xref="p6.2.m1.1.3">subscript</csymbol><ci id="p6.2.m1.1.1.cmml" xref="p6.2.m1.1.1">𝐱</ci><ci id="p6.2.m1.1.2.1.cmml" xref="p6.2.m1.1.2.1">𝑖</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p6.2.m1.1c">bold-x POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p6.2.m1.1d">{\bf x}_{i}</annotation></semantics></math> is ordered consecutively along the
+trajectory. Roughly speaking, this is an estimate
+of the probability measure the system trajectory
+encounters as it evolves. In order to estimate the
+density given by Eq. <a href="#S0.E1" title="(1) ‣ Detection of Nonlinear Coupling and its Application to Cardiorespiratory Interaction" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a> we have used small spheres
+around each point <math id="p6.2.m2.1" class="ltx_Math" alttext="{\bf x}_{i}" display="inline"><semantics id="p6.2.m2.1a"><msub id="p6.2.m2.1.3" xref="p6.2.m2.1.3.cmml"><mi id="p6.2.m2.1.1" xref="p6.2.m2.1.1.cmml">𝐱</mi><mi id="p6.2.m2.1.2.1" xref="p6.2.m2.1.2.1.cmml">i</mi></msub><annotation-xml encoding="MathML-Content" id="p6.2.m2.1b"><apply id="p6.2.m2.1.3.cmml" xref="p6.2.m2.1.3"><csymbol cd="ambiguous" id="p6.2.m2.1.3.1.cmml" xref="p6.2.m2.1.3">subscript</csymbol><ci id="p6.2.m2.1.1.cmml" xref="p6.2.m2.1.1">𝐱</ci><ci id="p6.2.m2.1.2.1.cmml" xref="p6.2.m2.1.2.1">𝑖</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p6.2.m2.1c">bold-x POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p6.2.m2.1d">{\bf x}_{i}</annotation></semantics></math>, and count the
+number of other points <math id="p6.2.m3.1" class="ltx_Math" alttext="{\bf x}_{j}" display="inline"><semantics id="p6.2.m3.1a"><msub id="p6.2.m3.1.3" xref="p6.2.m3.1.3.cmml"><mi id="p6.2.m3.1.1" xref="p6.2.m3.1.1.cmml">𝐱</mi><mi id="p6.2.m3.1.2.1" xref="p6.2.m3.1.2.1.cmml">j</mi></msub><annotation-xml encoding="MathML-Content" id="p6.2.m3.1b"><apply id="p6.2.m3.1.3.cmml" xref="p6.2.m3.1.3"><csymbol cd="ambiguous" id="p6.2.m3.1.3.1.cmml" xref="p6.2.m3.1.3">subscript</csymbol><ci id="p6.2.m3.1.1.cmml" xref="p6.2.m3.1.1">𝐱</ci><ci id="p6.2.m3.1.2.1.cmml" xref="p6.2.m3.1.2.1">𝑗</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p6.2.m3.1c">bold-x POSTSUBSCRIPT:start italic-j POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p6.2.m3.1d">{\bf x}_{j}</annotation></semantics></math> inside this volume.
+Typically, we have used a radius of 5% to 20% of the
+total extent of the attractor. In this way, a new time
+series may be constructed with the density data,
+which now gives information of the different regions in
+the reconstructed phase space that the
+system visits. This information reveals recurring motion in
+the phase space, which is ultimately
+transferred to the observable time series as periodicity
+information. A periodogram <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib10" title="" class="ltx_ref">10</a>]</cite> <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib11" title="" class="ltx_ref">11</a>]</cite> is
+performed over this
+density time series, <math id="p6.2.m4.1" class="ltx_Math" alttext="\hat{P}" display="inline"><semantics id="p6.2.m4.1a"><mover accent="true" id="p6.2.m4.1.1" xref="p6.2.m4.1.1.cmml"><mi id="p6.2.m4.1.1.2" xref="p6.2.m4.1.1.2.cmml">P</mi><mo stretchy="false" id="p6.2.m4.1.1.1" xref="p6.2.m4.1.1.1.cmml">^</mo></mover><annotation-xml encoding="MathML-Content" id="p6.2.m4.1b"><apply id="p6.2.m4.1.1.cmml" xref="p6.2.m4.1.1"><ci id="p6.2.m4.1.1.1.cmml" xref="p6.2.m4.1.1.1">^</ci><ci id="p6.2.m4.1.1.2.cmml" xref="p6.2.m4.1.1.2">𝑃</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p6.2.m4.1c">OVERACCENT:hat ARG:start italic-P ARG:end</annotation><annotation encoding="application/x-tex" id="p6.2.m4.1d">\hat{P}</annotation></semantics></math>, for each <math id="p6.2.m5.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p6.2.m5.1a"><mi id="p6.2.m5.1.1" xref="p6.2.m5.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p6.2.m5.1b"><ci id="p6.2.m5.1.1.cmml" xref="p6.2.m5.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p6.2.m5.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p6.2.m5.1d">\tau</annotation></semantics></math> (see
+reference <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib10" title="" class="ltx_ref">10</a>]</cite> for numerical implementation) as</p>
+</div>
+<div id="p7" class="ltx_para">
+<table id="S0.E3" class="ltx_equation ltx_eqn_table">
+
+<tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S0.E3.m1.1" class="ltx_Math" alttext="\hat{P}(f_{k},\tau)={1\over N^{2}}\left[\sum_{j=0}^{N-1}\hat{\mu}({\bf x}_{i},%
+\tau)e^{{i2\pi jk}\over N}\right]^{2}" display="block"><semantics id="S0.E3.m1.1a"><mrow id="S0.E3.m1.1.25" xref="S0.E3.m1.1.25.cmml"><mrow id="S0.E3.m1.1.25.1" xref="S0.E3.m1.1.25.1.cmml"><mover accent="true" id="S0.E3.m1.1.1" xref="S0.E3.m1.1.1.cmml"><mi id="S0.E3.m1.1.1.2" xref="S0.E3.m1.1.1.2.cmml">P</mi><mo stretchy="false" id="S0.E3.m1.1.1.1" xref="S0.E3.m1.1.1.1.cmml">^</mo></mover><mo id="S0.E3.m1.1.25.1.1" xref="S0.E3.m1.1.25.1.1.cmml">⁢</mo><mrow id="S0.E3.m1.1.25.1.2" xref="S0.E3.m1.1.25.1.2.1.cmml"><mo stretchy="false" id="S0.E3.m1.1.2" xref="S0.E3.m1.1.25.1.2.1.cmml">(</mo><msub id="S0.E3.m1.1.25.1.2.2" xref="S0.E3.m1.1.25.1.2.2.cmml"><mi id="S0.E3.m1.1.3" xref="S0.E3.m1.1.3.cmml">f</mi><mi id="S0.E3.m1.1.4.1" xref="S0.E3.m1.1.4.1.cmml">k</mi></msub><mo id="S0.E3.m1.1.5" xref="S0.E3.m1.1.25.1.2.1.cmml">,</mo><mi id="S0.E3.m1.1.6" xref="S0.E3.m1.1.6.cmml">τ</mi><mo stretchy="false" id="S0.E3.m1.1.7" xref="S0.E3.m1.1.25.1.2.1.cmml">)</mo></mrow></mrow><mo id="S0.E3.m1.1.8" xref="S0.E3.m1.1.8.cmml">=</mo><mrow id="S0.E3.m1.1.25.2" xref="S0.E3.m1.1.25.2.cmml"><mfrac id="S0.E3.m1.1.9" xref="S0.E3.m1.1.9.cmml"><mn id="S0.E3.m1.1.9.2" xref="S0.E3.m1.1.9.2.cmml">1</mn><msup id="S0.E3.m1.1.9.3" xref="S0.E3.m1.1.9.3.cmml"><mi id="S0.E3.m1.1.9.3.1" xref="S0.E3.m1.1.9.3.1.cmml">N</mi><mn id="S0.E3.m1.1.9.3.2.1" xref="S0.E3.m1.1.9.3.2.1.cmml">2</mn></msup></mfrac><mo id="S0.E3.m1.1.25.2.1" xref="S0.E3.m1.1.25.2.1.cmml">⁢</mo><msup id="S0.E3.m1.1.25.2.2" xref="S0.E3.m1.1.25.2.2.cmml"><mrow id="S0.E3.m1.1.25.2.2.2" xref="S0.E3.m1.1.25.2.2.2.1.cmml"><mo id="S0.E3.m1.1.10" xref="S0.E3.m1.1.25.2.2.2.1.1.cmml">[</mo><mrow id="S0.E3.m1.1.25.2.2.2.2" xref="S0.E3.m1.1.25.2.2.2.2.cmml"><munderover id="S0.E3.m1.1.25.2.2.2.2.1" xref="S0.E3.m1.1.25.2.2.2.2.1.cmml"><mo largeop="true" movablelimits="false" symmetric="true" id="S0.E3.m1.1.11" xref="S0.E3.m1.1.11.cmml">∑</mo><mrow id="S0.E3.m1.1.12.1" xref="S0.E3.m1.1.12.1.cmml"><mi id="S0.E3.m1.1.12.1.1" xref="S0.E3.m1.1.12.1.1.cmml">j</mi><mo id="S0.E3.m1.1.12.1.2" xref="S0.E3.m1.1.12.1.2.cmml">=</mo><mn id="S0.E3.m1.1.12.1.3" xref="S0.E3.m1.1.12.1.3.cmml">0</mn></mrow><mrow id="S0.E3.m1.1.13.1" xref="S0.E3.m1.1.13.1.cmml"><mi id="S0.E3.m1.1.13.1.1" xref="S0.E3.m1.1.13.1.1.cmml">N</mi><mo id="S0.E3.m1.1.13.1.2" xref="S0.E3.m1.1.13.1.2.cmml">-</mo><mn id="S0.E3.m1.1.13.1.3" xref="S0.E3.m1.1.13.1.3.cmml">1</mn></mrow></munderover><mrow id="S0.E3.m1.1.25.2.2.2.2.2" xref="S0.E3.m1.1.25.2.2.2.2.2.cmml"><mover accent="true" id="S0.E3.m1.1.14" xref="S0.E3.m1.1.14.cmml"><mi id="S0.E3.m1.1.14.2" xref="S0.E3.m1.1.14.2.cmml">μ</mi><mo stretchy="false" id="S0.E3.m1.1.14.1" xref="S0.E3.m1.1.14.1.cmml">^</mo></mover><mo id="S0.E3.m1.1.25.2.2.2.2.2.1" xref="S0.E3.m1.1.25.2.2.2.2.2.1.cmml">⁢</mo><mrow id="S0.E3.m1.1.25.2.2.2.2.2.2" xref="S0.E3.m1.1.25.2.2.2.2.2.2.1.cmml"><mo stretchy="false" id="S0.E3.m1.1.15" xref="S0.E3.m1.1.25.2.2.2.2.2.2.1.cmml">(</mo><msub id="S0.E3.m1.1.25.2.2.2.2.2.2.2" xref="S0.E3.m1.1.25.2.2.2.2.2.2.2.cmml"><mi id="S0.E3.m1.1.16" xref="S0.E3.m1.1.16.cmml">𝐱</mi><mi id="S0.E3.m1.1.17.1" xref="S0.E3.m1.1.17.1.cmml">i</mi></msub><mo id="S0.E3.m1.1.18" xref="S0.E3.m1.1.25.2.2.2.2.2.2.1.cmml">,</mo><mi id="S0.E3.m1.1.19" xref="S0.E3.m1.1.19.cmml">τ</mi><mo stretchy="false" id="S0.E3.m1.1.20" xref="S0.E3.m1.1.25.2.2.2.2.2.2.1.cmml">)</mo></mrow><mo id="S0.E3.m1.1.25.2.2.2.2.2.1a" xref="S0.E3.m1.1.25.2.2.2.2.2.1.cmml">⁢</mo><msup id="S0.E3.m1.1.25.2.2.2.2.2.3" xref="S0.E3.m1.1.25.2.2.2.2.2.3.cmml"><mi id="S0.E3.m1.1.21" xref="S0.E3.m1.1.21.cmml">e</mi><mfrac id="S0.E3.m1.1.22.1" xref="S0.E3.m1.1.22.1.cmml"><mrow id="S0.E3.m1.1.22.1.1.2" xref="S0.E3.m1.1.22.1.1.2.cmml"><mi id="S0.E3.m1.1.22.1.1.2.1" xref="S0.E3.m1.1.22.1.1.2.1.cmml">i</mi><mo id="S0.E3.m1.1.22.1.1.2.6" xref="S0.E3.m1.1.22.1.1.2.6.cmml">⁢</mo><mn id="S0.E3.m1.1.22.1.1.2.2" xref="S0.E3.m1.1.22.1.1.2.2.cmml">2</mn><mo id="S0.E3.m1.1.22.1.1.2.6a" xref="S0.E3.m1.1.22.1.1.2.6.cmml">⁢</mo><mi id="S0.E3.m1.1.22.1.1.2.3" xref="S0.E3.m1.1.22.1.1.2.3.cmml">π</mi><mo id="S0.E3.m1.1.22.1.1.2.6b" xref="S0.E3.m1.1.22.1.1.2.6.cmml">⁢</mo><mi id="S0.E3.m1.1.22.1.1.2.4" xref="S0.E3.m1.1.22.1.1.2.4.cmml">j</mi><mo id="S0.E3.m1.1.22.1.1.2.6c" xref="S0.E3.m1.1.22.1.1.2.6.cmml">⁢</mo><mi id="S0.E3.m1.1.22.1.1.2.5" xref="S0.E3.m1.1.22.1.1.2.5.cmml">k</mi></mrow><mi id="S0.E3.m1.1.22.1.1.3" xref="S0.E3.m1.1.22.1.1.3.cmml">N</mi></mfrac></msup></mrow></mrow><mo id="S0.E3.m1.1.23" xref="S0.E3.m1.1.25.2.2.2.1.1.cmml">]</mo></mrow><mn id="S0.E3.m1.1.24.1" xref="S0.E3.m1.1.24.1.cmml">2</mn></msup></mrow></mrow><annotation-xml encoding="MathML-Content" id="S0.E3.m1.1b"><apply id="S0.E3.m1.1.25.cmml" xref="S0.E3.m1.1.25"><eq id="S0.E3.m1.1.8.cmml" xref="S0.E3.m1.1.8"></eq><apply id="S0.E3.m1.1.25.1.cmml" xref="S0.E3.m1.1.25.1"><times id="S0.E3.m1.1.25.1.1.cmml" xref="S0.E3.m1.1.25.1.1"></times><apply id="S0.E3.m1.1.1.cmml" xref="S0.E3.m1.1.1"><ci id="S0.E3.m1.1.1.1.cmml" xref="S0.E3.m1.1.1.1">^</ci><ci id="S0.E3.m1.1.1.2.cmml" xref="S0.E3.m1.1.1.2">𝑃</ci></apply><interval closure="open" id="S0.E3.m1.1.25.1.2.1.cmml" xref="S0.E3.m1.1.25.1.2"><apply id="S0.E3.m1.1.25.1.2.2.cmml" xref="S0.E3.m1.1.25.1.2.2"><csymbol cd="ambiguous" id="S0.E3.m1.1.25.1.2.2.1.cmml" xref="S0.E3.m1.1.25.1.2.2">subscript</csymbol><ci id="S0.E3.m1.1.3.cmml" xref="S0.E3.m1.1.3">𝑓</ci><ci id="S0.E3.m1.1.4.1.cmml" xref="S0.E3.m1.1.4.1">𝑘</ci></apply><ci id="S0.E3.m1.1.6.cmml" xref="S0.E3.m1.1.6">𝜏</ci></interval></apply><apply id="S0.E3.m1.1.25.2.cmml" xref="S0.E3.m1.1.25.2"><times id="S0.E3.m1.1.25.2.1.cmml" xref="S0.E3.m1.1.25.2.1"></times><apply id="S0.E3.m1.1.9.cmml" xref="S0.E3.m1.1.9"><divide id="S0.E3.m1.1.9.1.cmml" xref="S0.E3.m1.1.9"></divide><cn type="integer" id="S0.E3.m1.1.9.2.cmml" xref="S0.E3.m1.1.9.2">1</cn><apply id="S0.E3.m1.1.9.3.cmml" xref="S0.E3.m1.1.9.3"><csymbol cd="ambiguous" id="S0.E3.m1.1.9.3.3.cmml" xref="S0.E3.m1.1.9.3">superscript</csymbol><ci id="S0.E3.m1.1.9.3.1.cmml" xref="S0.E3.m1.1.9.3.1">𝑁</ci><cn type="integer" id="S0.E3.m1.1.9.3.2.1.cmml" xref="S0.E3.m1.1.9.3.2.1">2</cn></apply></apply><apply id="S0.E3.m1.1.25.2.2.cmml" xref="S0.E3.m1.1.25.2.2"><csymbol cd="ambiguous" id="S0.E3.m1.1.25.2.2.1.cmml" xref="S0.E3.m1.1.25.2.2">superscript</csymbol><apply id="S0.E3.m1.1.25.2.2.2.1.cmml" xref="S0.E3.m1.1.25.2.2.2"><csymbol cd="latexml" id="S0.E3.m1.1.25.2.2.2.1.1.cmml" xref="S0.E3.m1.1.10">delimited-[]</csymbol><apply id="S0.E3.m1.1.25.2.2.2.2.cmml" xref="S0.E3.m1.1.25.2.2.2.2"><apply id="S0.E3.m1.1.25.2.2.2.2.1.cmml" xref="S0.E3.m1.1.25.2.2.2.2.1"><csymbol cd="ambiguous" id="S0.E3.m1.1.25.2.2.2.2.1.1.cmml" xref="S0.E3.m1.1.25.2.2.2.2.1">superscript</csymbol><apply id="S0.E3.m1.1.25.2.2.2.2.1.2.cmml" xref="S0.E3.m1.1.25.2.2.2.2.1"><csymbol cd="ambiguous" id="S0.E3.m1.1.25.2.2.2.2.1.2.1.cmml" xref="S0.E3.m1.1.25.2.2.2.2.1">subscript</csymbol><sum id="S0.E3.m1.1.11.cmml" xref="S0.E3.m1.1.11"></sum><apply id="S0.E3.m1.1.12.1.cmml" xref="S0.E3.m1.1.12.1"><eq id="S0.E3.m1.1.12.1.2.cmml" xref="S0.E3.m1.1.12.1.2"></eq><ci id="S0.E3.m1.1.12.1.1.cmml" xref="S0.E3.m1.1.12.1.1">𝑗</ci><cn type="integer" id="S0.E3.m1.1.12.1.3.cmml" xref="S0.E3.m1.1.12.1.3">0</cn></apply></apply><apply id="S0.E3.m1.1.13.1.cmml" xref="S0.E3.m1.1.13.1"><minus id="S0.E3.m1.1.13.1.2.cmml" xref="S0.E3.m1.1.13.1.2"></minus><ci id="S0.E3.m1.1.13.1.1.cmml" xref="S0.E3.m1.1.13.1.1">𝑁</ci><cn type="integer" id="S0.E3.m1.1.13.1.3.cmml" xref="S0.E3.m1.1.13.1.3">1</cn></apply></apply><apply id="S0.E3.m1.1.25.2.2.2.2.2.cmml" xref="S0.E3.m1.1.25.2.2.2.2.2"><times id="S0.E3.m1.1.25.2.2.2.2.2.1.cmml" xref="S0.E3.m1.1.25.2.2.2.2.2.1"></times><apply id="S0.E3.m1.1.14.cmml" xref="S0.E3.m1.1.14"><ci id="S0.E3.m1.1.14.1.cmml" xref="S0.E3.m1.1.14.1">^</ci><ci id="S0.E3.m1.1.14.2.cmml" xref="S0.E3.m1.1.14.2">𝜇</ci></apply><interval closure="open" id="S0.E3.m1.1.25.2.2.2.2.2.2.1.cmml" xref="S0.E3.m1.1.25.2.2.2.2.2.2"><apply id="S0.E3.m1.1.25.2.2.2.2.2.2.2.cmml" xref="S0.E3.m1.1.25.2.2.2.2.2.2.2"><csymbol cd="ambiguous" id="S0.E3.m1.1.25.2.2.2.2.2.2.2.1.cmml" xref="S0.E3.m1.1.25.2.2.2.2.2.2.2">subscript</csymbol><ci id="S0.E3.m1.1.16.cmml" xref="S0.E3.m1.1.16">𝐱</ci><ci id="S0.E3.m1.1.17.1.cmml" xref="S0.E3.m1.1.17.1">𝑖</ci></apply><ci id="S0.E3.m1.1.19.cmml" xref="S0.E3.m1.1.19">𝜏</ci></interval><apply id="S0.E3.m1.1.25.2.2.2.2.2.3.cmml" xref="S0.E3.m1.1.25.2.2.2.2.2.3"><csymbol cd="ambiguous" id="S0.E3.m1.1.25.2.2.2.2.2.3.1.cmml" xref="S0.E3.m1.1.25.2.2.2.2.2.3">superscript</csymbol><ci id="S0.E3.m1.1.21.cmml" xref="S0.E3.m1.1.21">𝑒</ci><apply id="S0.E3.m1.1.22.1.cmml" xref="S0.E3.m1.1.22.1"><divide id="S0.E3.m1.1.22.1.1.1.cmml" xref="S0.E3.m1.1.22.1"></divide><apply id="S0.E3.m1.1.22.1.1.2.cmml" xref="S0.E3.m1.1.22.1.1.2"><times id="S0.E3.m1.1.22.1.1.2.6.cmml" xref="S0.E3.m1.1.22.1.1.2.6"></times><ci id="S0.E3.m1.1.22.1.1.2.1.cmml" xref="S0.E3.m1.1.22.1.1.2.1">𝑖</ci><cn type="integer" id="S0.E3.m1.1.22.1.1.2.2.cmml" xref="S0.E3.m1.1.22.1.1.2.2">2</cn><ci id="S0.E3.m1.1.22.1.1.2.3.cmml" xref="S0.E3.m1.1.22.1.1.2.3">𝜋</ci><ci id="S0.E3.m1.1.22.1.1.2.4.cmml" xref="S0.E3.m1.1.22.1.1.2.4">𝑗</ci><ci id="S0.E3.m1.1.22.1.1.2.5.cmml" xref="S0.E3.m1.1.22.1.1.2.5">𝑘</ci></apply><ci id="S0.E3.m1.1.22.1.1.3.cmml" xref="S0.E3.m1.1.22.1.1.3">𝑁</ci></apply></apply></apply></apply></apply><cn type="integer" id="S0.E3.m1.1.24.1.cmml" xref="S0.E3.m1.1.24.1">2</cn></apply></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.E3.m1.1c">OVERACCENT:hat ARG:start italic-P ARG:end OPEN:( italic-f POSTSUBSCRIPT:start italic-k POSTSUBSCRIPT:end PUNCT:, italic-tau CLOSE:) RELOP:equals FRACOP:italic-divide ARG:start NUMBER:1 ARG:end ARG:start italic-N POSTSUPERSCRIPT:start NUMBER:2 POSTSUPERSCRIPT:end ARG:end OPEN:[ SUMOP:sum POSTSUBSCRIPT:start italic-j RELOP:equals NUMBER:0 POSTSUBSCRIPT:end POSTSUPERSCRIPT:start italic-N ADDOP:minus NUMBER:1 POSTSUPERSCRIPT:end OVERACCENT:hat ARG:start italic-mu ARG:end OPEN:( bold-x POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end PUNCT:, italic-tau CLOSE:) italic-e POSTSUPERSCRIPT:start FRACOP:italic-divide ARG:start italic-i NUMBER:2 italic-pi italic-j italic-k ARG:end ARG:start italic-N ARG:end POSTSUPERSCRIPT:end CLOSE:] POSTSUPERSCRIPT:start NUMBER:2 POSTSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S0.E3.m1.1d">\hat{P}(f_{k},\tau)={1\over N^{2}}\left[\sum_{j=0}^{N-1}\hat{\mu}({\bf x}_{i},%
+\tau)e^{{i2\pi jk}\over N}\right]^{2}</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right"><span class="ltx_tag ltx_tag_equation ltx_align_right">(3)</span></td>
+</tr>
+</table>
+<p id="p7.1" class="ltx_p">with <math id="p7.1.m1.1" class="ltx_Math" alttext="N" display="inline"><semantics id="p7.1.m1.1a"><mi id="p7.1.m1.1.1" xref="p7.1.m1.1.1.cmml">N</mi><annotation-xml encoding="MathML-Content" id="p7.1.m1.1b"><ci id="p7.1.m1.1.1.cmml" xref="p7.1.m1.1.1">𝑁</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m1.1c">italic-N</annotation><annotation encoding="application/x-tex" id="p7.1.m1.1d">N</annotation></semantics></math> representing the number of data points in
+the density time series.</p>
+</div>
+<div id="p8" class="ltx_para">
+<p id="p8.1" class="ltx_p">In order to plot all the periodograms in a single
+graph we have used a gray-scale map, and 3 contour
+curves were superimposed in each plot in order to
+clarify visual inspection.</p>
+</div>
+<div id="p9" class="ltx_para">
+<p id="p9.1" class="ltx_p">A note about the use of the periodogram is in order here.
+The periodogram is based in the direct Fourier transformation
+of the signal <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib11" title="" class="ltx_ref">11</a>]</cite>. If the signal comes from a
+deterministic system, no further modification is needed in
+order to the correct interpretation of the periodogram in
+terms of the Fourier transform. However, in the case of
+more noise-like signals, it is best to introduce statistical
+analysis, because for each frequency <math id="p9.1.m1.1" class="ltx_Math" alttext="f_{k}" display="inline"><semantics id="p9.1.m1.1a"><msub id="p9.1.m1.1.3" xref="p9.1.m1.1.3.cmml"><mi id="p9.1.m1.1.1" xref="p9.1.m1.1.1.cmml">f</mi><mi id="p9.1.m1.1.2.1" xref="p9.1.m1.1.2.1.cmml">k</mi></msub><annotation-xml encoding="MathML-Content" id="p9.1.m1.1b"><apply id="p9.1.m1.1.3.cmml" xref="p9.1.m1.1.3"><csymbol cd="ambiguous" id="p9.1.m1.1.3.1.cmml" xref="p9.1.m1.1.3">subscript</csymbol><ci id="p9.1.m1.1.1.cmml" xref="p9.1.m1.1.1">𝑓</ci><ci id="p9.1.m1.1.2.1.cmml" xref="p9.1.m1.1.2.1">𝑘</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p9.1.m1.1c">italic-f POSTSUBSCRIPT:start italic-k POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p9.1.m1.1d">f_{k}</annotation></semantics></math>, <math id="p9.1.m2.1" class="ltx_Math" alttext="P(f_{k})" display="inline"><semantics id="p9.1.m2.1a"><mrow id="p9.1.m2.1.6" xref="p9.1.m2.1.6.cmml"><mi id="p9.1.m2.1.1" xref="p9.1.m2.1.1.cmml">P</mi><mo id="p9.1.m2.1.6.1" xref="p9.1.m2.1.6.1.cmml">⁢</mo><mrow id="p9.1.m2.1.6.2" xref="p9.1.m2.1.6.2.2.cmml"><mo stretchy="false" id="p9.1.m2.1.2" xref="p9.1.m2.1.6.2.2.cmml">(</mo><msub id="p9.1.m2.1.6.2.2" xref="p9.1.m2.1.6.2.2.cmml"><mi id="p9.1.m2.1.3" xref="p9.1.m2.1.3.cmml">f</mi><mi id="p9.1.m2.1.4.1" xref="p9.1.m2.1.4.1.cmml">k</mi></msub><mo stretchy="false" id="p9.1.m2.1.5" xref="p9.1.m2.1.6.2.2.cmml">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content" id="p9.1.m2.1b"><apply id="p9.1.m2.1.6.cmml" xref="p9.1.m2.1.6"><times id="p9.1.m2.1.6.1.cmml" xref="p9.1.m2.1.6.1"></times><ci id="p9.1.m2.1.1.cmml" xref="p9.1.m2.1.1">𝑃</ci><apply id="p9.1.m2.1.6.2.2.cmml" xref="p9.1.m2.1.6.2"><csymbol cd="ambiguous" id="p9.1.m2.1.6.2.2.1.cmml" xref="p9.1.m2.1.6.2">subscript</csymbol><ci id="p9.1.m2.1.3.cmml" xref="p9.1.m2.1.3">𝑓</ci><ci id="p9.1.m2.1.4.1.cmml" xref="p9.1.m2.1.4.1">𝑘</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p9.1.m2.1c">italic-P OPEN:( italic-f POSTSUBSCRIPT:start italic-k POSTSUBSCRIPT:end CLOSE:)</annotation><annotation encoding="application/x-tex" id="p9.1.m2.1d">P(f_{k})</annotation></semantics></math> is
+in fact a random variable, which can introduce fluctuations
+in the estimation process. This is usually accomplished
+by using <span id="p9.1.1" class="ltx_text ltx_font_italic">averaging</span> <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib11" title="" class="ltx_ref">11</a>]</cite>, with several realizations
+of the estimate. In our case, we have used plain periodograms
+because in plotting them side by side, several realizations
+of the periodograms is in fact equivalent to the process of
+averaging. True frequencies must remain constant in the
+embedding process, so any kind of fluctuations in the
+estimate can be readily detected.</p>
+</div>
+<div id="p10" class="ltx_para">
+<p id="p10.1" class="ltx_p">The Lorenz system <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib12" title="" class="ltx_ref">12</a>]</cite> is a model proposed to explain
+the convective dynamics in the atmosphere (known as
+the Rayleigh-Benard convection), with the
+following variables:</p>
+<table id="S0.EGx2" class="ltx_equationgroup ltx_eqn_eqnarray ltx_eqn_table">
+
+<tbody id="S0.Ex2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex2.m1.1" class="ltx_Math" alttext="\displaystyle{\dot{x}}" display="inline"><semantics id="S0.Ex2.m1.1a"><mover accent="true" id="S0.Ex2.m1.1.1" xref="S0.Ex2.m1.1.1.cmml"><mi id="S0.Ex2.m1.1.1.2" xref="S0.Ex2.m1.1.1.2.cmml">x</mi><mo id="S0.Ex2.m1.1.1.1" xref="S0.Ex2.m1.1.1.1.cmml">˙</mo></mover><annotation-xml encoding="MathML-Content" id="S0.Ex2.m1.1b"><apply id="S0.Ex2.m1.1.1.cmml" xref="S0.Ex2.m1.1.1"><ci id="S0.Ex2.m1.1.1.1.cmml" xref="S0.Ex2.m1.1.1.1">˙</ci><ci id="S0.Ex2.m1.1.1.2.cmml" xref="S0.Ex2.m1.1.1.2">𝑥</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.Ex2.m1.1c">OVERACCENT:dot ARG:start italic-x ARG:end</annotation><annotation encoding="application/x-tex" id="S0.Ex2.m1.1d">\displaystyle{\dot{x}}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_center ltx_eqn_cell"><math id="S0.Ex2.m2.1" class="ltx_Math" alttext="\displaystyle=" display="inline"><semantics id="S0.Ex2.m2.1a"><mo id="S0.Ex2.m2.1.1" xref="S0.Ex2.m2.1.1.cmml">=</mo><annotation-xml encoding="MathML-Content" id="S0.Ex2.m2.1b"><eq id="S0.Ex2.m2.1.1.cmml" xref="S0.Ex2.m2.1.1"></eq></annotation-xml><annotation encoding="application/x-llamapun" id="S0.Ex2.m2.1c">RELOP:equals</annotation><annotation encoding="application/x-tex" id="S0.Ex2.m2.1d">\displaystyle=</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex2.m3.1" class="ltx_Math" alttext="\displaystyle-sx+sy" display="inline"><semantics id="S0.Ex2.m3.1a"><mrow id="S0.Ex2.m3.1.7" xref="S0.Ex2.m3.1.7.cmml"><mrow id="S0.Ex2.m3.1.7.1" xref="S0.Ex2.m3.1.7.1.cmml"><mo id="S0.Ex2.m3.1.1" xref="S0.Ex2.m3.1.1.cmml">-</mo><mrow id="S0.Ex2.m3.1.7.1.1" xref="S0.Ex2.m3.1.7.1.1.cmml"><mi id="S0.Ex2.m3.1.2" xref="S0.Ex2.m3.1.2.cmml">s</mi><mo id="S0.Ex2.m3.1.7.1.1.1" xref="S0.Ex2.m3.1.7.1.1.1.cmml">⁢</mo><mi id="S0.Ex2.m3.1.3" xref="S0.Ex2.m3.1.3.cmml">x</mi></mrow></mrow><mo id="S0.Ex2.m3.1.4" xref="S0.Ex2.m3.1.4.cmml">+</mo><mrow id="S0.Ex2.m3.1.7.2" xref="S0.Ex2.m3.1.7.2.cmml"><mi id="S0.Ex2.m3.1.5" xref="S0.Ex2.m3.1.5.cmml">s</mi><mo id="S0.Ex2.m3.1.7.2.1" xref="S0.Ex2.m3.1.7.2.1.cmml">⁢</mo><mi id="S0.Ex2.m3.1.6" xref="S0.Ex2.m3.1.6.cmml">y</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S0.Ex2.m3.1b"><apply id="S0.Ex2.m3.1.7.cmml" xref="S0.Ex2.m3.1.7"><plus id="S0.Ex2.m3.1.4.cmml" xref="S0.Ex2.m3.1.4"></plus><apply id="S0.Ex2.m3.1.7.1.cmml" xref="S0.Ex2.m3.1.7.1"><minus id="S0.Ex2.m3.1.1.cmml" xref="S0.Ex2.m3.1.1"></minus><apply id="S0.Ex2.m3.1.7.1.1.cmml" xref="S0.Ex2.m3.1.7.1.1"><times id="S0.Ex2.m3.1.7.1.1.1.cmml" xref="S0.Ex2.m3.1.7.1.1.1"></times><ci id="S0.Ex2.m3.1.2.cmml" xref="S0.Ex2.m3.1.2">𝑠</ci><ci id="S0.Ex2.m3.1.3.cmml" xref="S0.Ex2.m3.1.3">𝑥</ci></apply></apply><apply id="S0.Ex2.m3.1.7.2.cmml" xref="S0.Ex2.m3.1.7.2"><times id="S0.Ex2.m3.1.7.2.1.cmml" xref="S0.Ex2.m3.1.7.2.1"></times><ci id="S0.Ex2.m3.1.5.cmml" xref="S0.Ex2.m3.1.5">𝑠</ci><ci id="S0.Ex2.m3.1.6.cmml" xref="S0.Ex2.m3.1.6">𝑦</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.Ex2.m3.1c">ADDOP:minus italic-s italic-x ADDOP:plus italic-s italic-y</annotation><annotation encoding="application/x-tex" id="S0.Ex2.m3.1d">\displaystyle-sx+sy</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+<tbody id="S0.E4"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.E4.m1.1" class="ltx_Math" alttext="\displaystyle{\dot{y}}" display="inline"><semantics id="S0.E4.m1.1a"><mover accent="true" id="S0.E4.m1.1.1" xref="S0.E4.m1.1.1.cmml"><mi id="S0.E4.m1.1.1.2" xref="S0.E4.m1.1.1.2.cmml">y</mi><mo id="S0.E4.m1.1.1.1" xref="S0.E4.m1.1.1.1.cmml">˙</mo></mover><annotation-xml encoding="MathML-Content" id="S0.E4.m1.1b"><apply id="S0.E4.m1.1.1.cmml" xref="S0.E4.m1.1.1"><ci id="S0.E4.m1.1.1.1.cmml" xref="S0.E4.m1.1.1.1">˙</ci><ci id="S0.E4.m1.1.1.2.cmml" xref="S0.E4.m1.1.1.2">𝑦</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.E4.m1.1c">OVERACCENT:dot ARG:start italic-y ARG:end</annotation><annotation encoding="application/x-tex" id="S0.E4.m1.1d">\displaystyle{\dot{y}}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_center ltx_eqn_cell"><math id="S0.E4.m2.1" class="ltx_Math" alttext="\displaystyle=" display="inline"><semantics id="S0.E4.m2.1a"><mo id="S0.E4.m2.1.1" xref="S0.E4.m2.1.1.cmml">=</mo><annotation-xml encoding="MathML-Content" id="S0.E4.m2.1b"><eq id="S0.E4.m2.1.1.cmml" xref="S0.E4.m2.1.1"></eq></annotation-xml><annotation encoding="application/x-llamapun" id="S0.E4.m2.1c">RELOP:equals</annotation><annotation encoding="application/x-tex" id="S0.E4.m2.1d">\displaystyle=</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.E4.m3.1" class="ltx_Math" alttext="\displaystyle-y+rx-xz" display="inline"><semantics id="S0.E4.m3.1a"><mrow id="S0.E4.m3.1.9" xref="S0.E4.m3.1.9.cmml"><mrow id="S0.E4.m3.1.9.1" xref="S0.E4.m3.1.9.1.cmml"><mrow id="S0.E4.m3.1.9.1.1" xref="S0.E4.m3.1.9.1.1.cmml"><mo id="S0.E4.m3.1.1" xref="S0.E4.m3.1.1.cmml">-</mo><mi id="S0.E4.m3.1.2" xref="S0.E4.m3.1.2.cmml">y</mi></mrow><mo id="S0.E4.m3.1.3" xref="S0.E4.m3.1.3.cmml">+</mo><mrow id="S0.E4.m3.1.9.1.2" xref="S0.E4.m3.1.9.1.2.cmml"><mi id="S0.E4.m3.1.4" xref="S0.E4.m3.1.4.cmml">r</mi><mo id="S0.E4.m3.1.9.1.2.1" xref="S0.E4.m3.1.9.1.2.1.cmml">⁢</mo><mi id="S0.E4.m3.1.5" xref="S0.E4.m3.1.5.cmml">x</mi></mrow></mrow><mo id="S0.E4.m3.1.6" xref="S0.E4.m3.1.6.cmml">-</mo><mrow id="S0.E4.m3.1.9.2" xref="S0.E4.m3.1.9.2.cmml"><mi id="S0.E4.m3.1.7" xref="S0.E4.m3.1.7.cmml">x</mi><mo id="S0.E4.m3.1.9.2.1" xref="S0.E4.m3.1.9.2.1.cmml">⁢</mo><mi id="S0.E4.m3.1.8" xref="S0.E4.m3.1.8.cmml">z</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S0.E4.m3.1b"><apply id="S0.E4.m3.1.9.cmml" xref="S0.E4.m3.1.9"><minus id="S0.E4.m3.1.6.cmml" xref="S0.E4.m3.1.6"></minus><apply id="S0.E4.m3.1.9.1.cmml" xref="S0.E4.m3.1.9.1"><plus id="S0.E4.m3.1.3.cmml" xref="S0.E4.m3.1.3"></plus><apply id="S0.E4.m3.1.9.1.1.cmml" xref="S0.E4.m3.1.9.1.1"><minus id="S0.E4.m3.1.1.cmml" xref="S0.E4.m3.1.1"></minus><ci id="S0.E4.m3.1.2.cmml" xref="S0.E4.m3.1.2">𝑦</ci></apply><apply id="S0.E4.m3.1.9.1.2.cmml" xref="S0.E4.m3.1.9.1.2"><times id="S0.E4.m3.1.9.1.2.1.cmml" xref="S0.E4.m3.1.9.1.2.1"></times><ci id="S0.E4.m3.1.4.cmml" xref="S0.E4.m3.1.4">𝑟</ci><ci id="S0.E4.m3.1.5.cmml" xref="S0.E4.m3.1.5">𝑥</ci></apply></apply><apply id="S0.E4.m3.1.9.2.cmml" xref="S0.E4.m3.1.9.2"><times id="S0.E4.m3.1.9.2.1.cmml" xref="S0.E4.m3.1.9.2.1"></times><ci id="S0.E4.m3.1.7.cmml" xref="S0.E4.m3.1.7">𝑥</ci><ci id="S0.E4.m3.1.8.cmml" xref="S0.E4.m3.1.8">𝑧</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.E4.m3.1c">ADDOP:minus italic-y ADDOP:plus italic-r italic-x ADDOP:minus italic-x italic-z</annotation><annotation encoding="application/x-tex" id="S0.E4.m3.1d">\displaystyle-y+rx-xz</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right"><span class="ltx_tag ltx_tag_equation ltx_align_right">(4)</span></td>
+</tr></tbody>
+<tbody id="S0.Ex3"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_td ltx_align_right ltx_eqn_cell"><math id="S0.Ex3.m1.1" class="ltx_Math" alttext="\displaystyle{\dot{z}}" display="inline"><semantics id="S0.Ex3.m1.1a"><mover accent="true" id="S0.Ex3.m1.1.1" xref="S0.Ex3.m1.1.1.cmml"><mi id="S0.Ex3.m1.1.1.2" xref="S0.Ex3.m1.1.1.2.cmml">z</mi><mo id="S0.Ex3.m1.1.1.1" xref="S0.Ex3.m1.1.1.1.cmml">˙</mo></mover><annotation-xml encoding="MathML-Content" id="S0.Ex3.m1.1b"><apply id="S0.Ex3.m1.1.1.cmml" xref="S0.Ex3.m1.1.1"><ci id="S0.Ex3.m1.1.1.1.cmml" xref="S0.Ex3.m1.1.1.1">˙</ci><ci id="S0.Ex3.m1.1.1.2.cmml" xref="S0.Ex3.m1.1.1.2">𝑧</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.Ex3.m1.1c">OVERACCENT:dot ARG:start italic-z ARG:end</annotation><annotation encoding="application/x-tex" id="S0.Ex3.m1.1d">\displaystyle{\dot{z}}</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_center ltx_eqn_cell"><math id="S0.Ex3.m2.1" class="ltx_Math" alttext="\displaystyle=" display="inline"><semantics id="S0.Ex3.m2.1a"><mo id="S0.Ex3.m2.1.1" xref="S0.Ex3.m2.1.1.cmml">=</mo><annotation-xml encoding="MathML-Content" id="S0.Ex3.m2.1b"><eq id="S0.Ex3.m2.1.1.cmml" xref="S0.Ex3.m2.1.1"></eq></annotation-xml><annotation encoding="application/x-llamapun" id="S0.Ex3.m2.1c">RELOP:equals</annotation><annotation encoding="application/x-tex" id="S0.Ex3.m2.1d">\displaystyle=</annotation></semantics></math></td>
+<td class="ltx_td ltx_align_left ltx_eqn_cell"><math id="S0.Ex3.m3.1" class="ltx_Math" alttext="\displaystyle-bz+xy" display="inline"><semantics id="S0.Ex3.m3.1a"><mrow id="S0.Ex3.m3.1.7" xref="S0.Ex3.m3.1.7.cmml"><mrow id="S0.Ex3.m3.1.7.1" xref="S0.Ex3.m3.1.7.1.cmml"><mo id="S0.Ex3.m3.1.1" xref="S0.Ex3.m3.1.1.cmml">-</mo><mrow id="S0.Ex3.m3.1.7.1.1" xref="S0.Ex3.m3.1.7.1.1.cmml"><mi id="S0.Ex3.m3.1.2" xref="S0.Ex3.m3.1.2.cmml">b</mi><mo id="S0.Ex3.m3.1.7.1.1.1" xref="S0.Ex3.m3.1.7.1.1.1.cmml">⁢</mo><mi id="S0.Ex3.m3.1.3" xref="S0.Ex3.m3.1.3.cmml">z</mi></mrow></mrow><mo id="S0.Ex3.m3.1.4" xref="S0.Ex3.m3.1.4.cmml">+</mo><mrow id="S0.Ex3.m3.1.7.2" xref="S0.Ex3.m3.1.7.2.cmml"><mi id="S0.Ex3.m3.1.5" xref="S0.Ex3.m3.1.5.cmml">x</mi><mo id="S0.Ex3.m3.1.7.2.1" xref="S0.Ex3.m3.1.7.2.1.cmml">⁢</mo><mi id="S0.Ex3.m3.1.6" xref="S0.Ex3.m3.1.6.cmml">y</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S0.Ex3.m3.1b"><apply id="S0.Ex3.m3.1.7.cmml" xref="S0.Ex3.m3.1.7"><plus id="S0.Ex3.m3.1.4.cmml" xref="S0.Ex3.m3.1.4"></plus><apply id="S0.Ex3.m3.1.7.1.cmml" xref="S0.Ex3.m3.1.7.1"><minus id="S0.Ex3.m3.1.1.cmml" xref="S0.Ex3.m3.1.1"></minus><apply id="S0.Ex3.m3.1.7.1.1.cmml" xref="S0.Ex3.m3.1.7.1.1"><times id="S0.Ex3.m3.1.7.1.1.1.cmml" xref="S0.Ex3.m3.1.7.1.1.1"></times><ci id="S0.Ex3.m3.1.2.cmml" xref="S0.Ex3.m3.1.2">𝑏</ci><ci id="S0.Ex3.m3.1.3.cmml" xref="S0.Ex3.m3.1.3">𝑧</ci></apply></apply><apply id="S0.Ex3.m3.1.7.2.cmml" xref="S0.Ex3.m3.1.7.2"><times id="S0.Ex3.m3.1.7.2.1.cmml" xref="S0.Ex3.m3.1.7.2.1"></times><ci id="S0.Ex3.m3.1.5.cmml" xref="S0.Ex3.m3.1.5">𝑥</ci><ci id="S0.Ex3.m3.1.6.cmml" xref="S0.Ex3.m3.1.6">𝑦</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.Ex3.m3.1c">ADDOP:minus italic-b italic-z ADDOP:plus italic-x italic-y</annotation><annotation encoding="application/x-tex" id="S0.Ex3.m3.1d">\displaystyle-bz+xy</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p id="p10.2" class="ltx_p">and the standard parameters <math id="p10.2.m1.1" class="ltx_Math" alttext="s" display="inline"><semantics id="p10.2.m1.1a"><mi id="p10.2.m1.1.1" xref="p10.2.m1.1.1.cmml">s</mi><annotation-xml encoding="MathML-Content" id="p10.2.m1.1b"><ci id="p10.2.m1.1.1.cmml" xref="p10.2.m1.1.1">𝑠</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m1.1c">italic-s</annotation><annotation encoding="application/x-tex" id="p10.2.m1.1d">s</annotation></semantics></math> = 10.0, <math id="p10.2.m2.1" class="ltx_Math" alttext="r" display="inline"><semantics id="p10.2.m2.1a"><mi id="p10.2.m2.1.1" xref="p10.2.m2.1.1.cmml">r</mi><annotation-xml encoding="MathML-Content" id="p10.2.m2.1b"><ci id="p10.2.m2.1.1.cmml" xref="p10.2.m2.1.1">𝑟</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m2.1c">italic-r</annotation><annotation encoding="application/x-tex" id="p10.2.m2.1d">r</annotation></semantics></math> = 28.0 and
+<math id="p10.2.m3.1" class="ltx_Math" alttext="b" display="inline"><semantics id="p10.2.m3.1a"><mi id="p10.2.m3.1.1" xref="p10.2.m3.1.1.cmml">b</mi><annotation-xml encoding="MathML-Content" id="p10.2.m3.1b"><ci id="p10.2.m3.1.1.cmml" xref="p10.2.m3.1.1">𝑏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m3.1c">italic-b</annotation><annotation encoding="application/x-tex" id="p10.2.m3.1d">b</annotation></semantics></math> = 2.66, that yields a chaotic regime. The <math id="p10.2.m4.1" class="ltx_Math" alttext="x" display="inline"><semantics id="p10.2.m4.1a"><mi id="p10.2.m4.1.1" xref="p10.2.m4.1.1.cmml">x</mi><annotation-xml encoding="MathML-Content" id="p10.2.m4.1b"><ci id="p10.2.m4.1.1.cmml" xref="p10.2.m4.1.1">𝑥</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m4.1c">italic-x</annotation><annotation encoding="application/x-tex" id="p10.2.m4.1d">x</annotation></semantics></math>
+coordinate is proportional to the velocity of the
+circulating flux, while the <math id="p10.2.m5.1" class="ltx_Math" alttext="z" display="inline"><semantics id="p10.2.m5.1a"><mi id="p10.2.m5.1.1" xref="p10.2.m5.1.1.cmml">z</mi><annotation-xml encoding="MathML-Content" id="p10.2.m5.1b"><ci id="p10.2.m5.1.1.cmml" xref="p10.2.m5.1.1">𝑧</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m5.1c">italic-z</annotation><annotation encoding="application/x-tex" id="p10.2.m5.1d">z</annotation></semantics></math> coordinate represents
+the distortion of the temperature with respect to a linear
+profile between the upper and lower
+temperature. Figures 1(a) and 1(b) (and first and third
+stripes in Figure 1(c)) shows the power spectra
+of the <math id="p10.2.m6.1" class="ltx_Math" alttext="x" display="inline"><semantics id="p10.2.m6.1a"><mi id="p10.2.m6.1.1" xref="p10.2.m6.1.1.cmml">x</mi><annotation-xml encoding="MathML-Content" id="p10.2.m6.1b"><ci id="p10.2.m6.1.1.cmml" xref="p10.2.m6.1.1">𝑥</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m6.1c">italic-x</annotation><annotation encoding="application/x-tex" id="p10.2.m6.1d">x</annotation></semantics></math> and <math id="p10.2.m7.1" class="ltx_Math" alttext="z" display="inline"><semantics id="p10.2.m7.1a"><mi id="p10.2.m7.1.1" xref="p10.2.m7.1.1.cmml">z</mi><annotation-xml encoding="MathML-Content" id="p10.2.m7.1b"><ci id="p10.2.m7.1.1.cmml" xref="p10.2.m7.1.1">𝑧</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m7.1c">italic-z</annotation><annotation encoding="application/x-tex" id="p10.2.m7.1d">z</annotation></semantics></math> coordinates, which look totally different,
+forcing the preliminary conclusion that there
+is no dynamical connection between both phenomena. Moreover,
+the power spectrum of the <math id="p10.2.m8.1" class="ltx_Math" alttext="x" display="inline"><semantics id="p10.2.m8.1a"><mi id="p10.2.m8.1.1" xref="p10.2.m8.1.1.cmml">x</mi><annotation-xml encoding="MathML-Content" id="p10.2.m8.1b"><ci id="p10.2.m8.1.1.cmml" xref="p10.2.m8.1.1">𝑥</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m8.1c">italic-x</annotation><annotation encoding="application/x-tex" id="p10.2.m8.1d">x</annotation></semantics></math>
+coordinate shows no characteristic frequency at all.
+Its power is mainly distributed in the lower
+band; in contrast, the power spectrum of the <math id="p10.2.m9.1" class="ltx_Math" alttext="z" display="inline"><semantics id="p10.2.m9.1a"><mi id="p10.2.m9.1.1" xref="p10.2.m9.1.1.cmml">z</mi><annotation-xml encoding="MathML-Content" id="p10.2.m9.1b"><ci id="p10.2.m9.1.1.cmml" xref="p10.2.m9.1.1">𝑧</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m9.1c">italic-z</annotation><annotation encoding="application/x-tex" id="p10.2.m9.1d">z</annotation></semantics></math> coordinate
+shows a very definite frequency around
+harmonic number 54. However, both time series belong to
+the same system. It must be remarked that more involved linear
+methods, like cross-correlation and coherence gives no further
+insight in this problem. The above fact reveals the
+main disadvantage in applying spectral methods for analyzing
+time series coming from chaotic
+systems. We have used the <math id="p10.2.m10.1" class="ltx_Math" alttext="x" display="inline"><semantics id="p10.2.m10.1a"><mi id="p10.2.m10.1.1" xref="p10.2.m10.1.1.cmml">x</mi><annotation-xml encoding="MathML-Content" id="p10.2.m10.1b"><ci id="p10.2.m10.1.1.cmml" xref="p10.2.m10.1.1">𝑥</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m10.1c">italic-x</annotation><annotation encoding="application/x-tex" id="p10.2.m10.1d">x</annotation></semantics></math> variable as our experimental
+time series with 2048 data points. An
+embedding dimension of 3 has been used, and a 10% radius of the
+attractor was employed in order
+to estimate the density. The main panel of Figure 1(c) shows the
+power spectrum of the density
+time series after applying our method to the <math id="p10.2.m11.1" class="ltx_Math" alttext="x" display="inline"><semantics id="p10.2.m11.1a"><mi id="p10.2.m11.1.1" xref="p10.2.m11.1.1.cmml">x</mi><annotation-xml encoding="MathML-Content" id="p10.2.m11.1b"><ci id="p10.2.m11.1.1.cmml" xref="p10.2.m11.1.1">𝑥</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m11.1c">italic-x</annotation><annotation encoding="application/x-tex" id="p10.2.m11.1d">x</annotation></semantics></math> coordinate,
+for each <math id="p10.2.m12.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p10.2.m12.1a"><mi id="p10.2.m12.1.1" xref="p10.2.m12.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p10.2.m12.1b"><ci id="p10.2.m12.1.1.cmml" xref="p10.2.m12.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m12.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p10.2.m12.1d">\tau</annotation></semantics></math> of the embedding process. As
+the <math id="p10.2.m13.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p10.2.m13.1a"><mi id="p10.2.m13.1.1" xref="p10.2.m13.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p10.2.m13.1b"><ci id="p10.2.m13.1.1.cmml" xref="p10.2.m13.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m13.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p10.2.m13.1d">\tau</annotation></semantics></math> parameter varies, the strong frequency which appears
+in the <math id="p10.2.m14.1" class="ltx_Math" alttext="z" display="inline"><semantics id="p10.2.m14.1a"><mi id="p10.2.m14.1.1" xref="p10.2.m14.1.1.cmml">z</mi><annotation-xml encoding="MathML-Content" id="p10.2.m14.1b"><ci id="p10.2.m14.1.1.cmml" xref="p10.2.m14.1.1">𝑧</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m14.1c">italic-z</annotation><annotation encoding="application/x-tex" id="p10.2.m14.1d">z</annotation></semantics></math> coordinate is remarkably recovered, as well as some
+of the frequencies in the lower band.
+Inversely, it is also possible to use the <math id="p10.2.m15.1" class="ltx_Math" alttext="z" display="inline"><semantics id="p10.2.m15.1a"><mi id="p10.2.m15.1.1" xref="p10.2.m15.1.1.cmml">z</mi><annotation-xml encoding="MathML-Content" id="p10.2.m15.1b"><ci id="p10.2.m15.1.1.cmml" xref="p10.2.m15.1.1">𝑧</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m15.1c">italic-z</annotation><annotation encoding="application/x-tex" id="p10.2.m15.1d">z</annotation></semantics></math> coordinate as
+the experimental one. Figure 2 shows the same as Figure 1
+this time using the <math id="p10.2.m16.1" class="ltx_Math" alttext="z" display="inline"><semantics id="p10.2.m16.1a"><mi id="p10.2.m16.1.1" xref="p10.2.m16.1.1.cmml">z</mi><annotation-xml encoding="MathML-Content" id="p10.2.m16.1b"><ci id="p10.2.m16.1.1.cmml" xref="p10.2.m16.1.1">𝑧</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m16.1c">italic-z</annotation><annotation encoding="application/x-tex" id="p10.2.m16.1d">z</annotation></semantics></math> coordinate. Although the power spectrum of
+this coordinate shows a single sharp peak, perhaps
+superimposed to a continuous background, our method allows
+to predict the existence of lower band frequencies in its
+dynamics. This is evident in the power spectrum of the
+<math id="p10.2.m17.1" class="ltx_Math" alttext="x" display="inline"><semantics id="p10.2.m17.1a"><mi id="p10.2.m17.1.1" xref="p10.2.m17.1.1.cmml">x</mi><annotation-xml encoding="MathML-Content" id="p10.2.m17.1b"><ci id="p10.2.m17.1.1.cmml" xref="p10.2.m17.1.1">𝑥</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m17.1c">italic-x</annotation><annotation encoding="application/x-tex" id="p10.2.m17.1d">x</annotation></semantics></math> or <math id="p10.2.m18.1" class="ltx_Math" alttext="y" display="inline"><semantics id="p10.2.m18.1a"><mi id="p10.2.m18.1.1" xref="p10.2.m18.1.1.cmml">y</mi><annotation-xml encoding="MathML-Content" id="p10.2.m18.1b"><ci id="p10.2.m18.1.1.cmml" xref="p10.2.m18.1.1">𝑦</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.2.m18.1c">italic-y</annotation><annotation encoding="application/x-tex" id="p10.2.m18.1d">y</annotation></semantics></math> coordinates.</p>
+</div>
+<div id="p11" class="ltx_para">
+<p id="p11.1" class="ltx_p">Two additional points are
+noteworthy. Some spurious frequencies may appear in this
+procedure, for example due to an effect
+of the finite size of time series. However, these are easily
+detected because they do not remain
+constant along the <math id="p11.1.m1.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p11.1.m1.1a"><mi id="p11.1.m1.1.1" xref="p11.1.m1.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p11.1.m1.1b"><ci id="p11.1.m1.1.1.cmml" xref="p11.1.m1.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p11.1.m1.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p11.1.m1.1d">\tau</annotation></semantics></math> scan. By varying the <math id="p11.1.m2.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p11.1.m2.1a"><mi id="p11.1.m2.1.1" xref="p11.1.m2.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p11.1.m2.1b"><ci id="p11.1.m2.1.1.cmml" xref="p11.1.m2.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p11.1.m2.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p11.1.m2.1d">\tau</annotation></semantics></math> parameter in the
+reconstruction, a nonlinear
+transformation is performed, and intrinsic properties of the
+system must remain constant along this
+procedure, a fact guaranteed by the embedding theorems <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib9" title="" class="ltx_ref">9</a>]</cite>
+In fact, we are seeking that <math id="p11.1.m3.1" class="ltx_Math" alttext="\hat{P}(f_{i},\tau)=\hat{P}(f_{i})" display="inline"><semantics id="p11.1.m3.1a"><mrow id="p11.1.m3.1.14" xref="p11.1.m3.1.14.cmml"><mrow id="p11.1.m3.1.14.1" xref="p11.1.m3.1.14.1.cmml"><mover accent="true" id="p11.1.m3.1.1" xref="p11.1.m3.1.1.cmml"><mi id="p11.1.m3.1.1.2" xref="p11.1.m3.1.1.2.cmml">P</mi><mo stretchy="false" id="p11.1.m3.1.1.1" xref="p11.1.m3.1.1.1.cmml">^</mo></mover><mo id="p11.1.m3.1.14.1.1" xref="p11.1.m3.1.14.1.1.cmml">⁢</mo><mrow id="p11.1.m3.1.14.1.2" xref="p11.1.m3.1.14.1.2.1.cmml"><mo stretchy="false" id="p11.1.m3.1.2" xref="p11.1.m3.1.14.1.2.1.cmml">(</mo><msub id="p11.1.m3.1.14.1.2.2" xref="p11.1.m3.1.14.1.2.2.cmml"><mi id="p11.1.m3.1.3" xref="p11.1.m3.1.3.cmml">f</mi><mi id="p11.1.m3.1.4.1" xref="p11.1.m3.1.4.1.cmml">i</mi></msub><mo id="p11.1.m3.1.5" xref="p11.1.m3.1.14.1.2.1.cmml">,</mo><mi id="p11.1.m3.1.6" xref="p11.1.m3.1.6.cmml">τ</mi><mo stretchy="false" id="p11.1.m3.1.7" xref="p11.1.m3.1.14.1.2.1.cmml">)</mo></mrow></mrow><mo id="p11.1.m3.1.8" xref="p11.1.m3.1.8.cmml">=</mo><mrow id="p11.1.m3.1.14.2" xref="p11.1.m3.1.14.2.cmml"><mover accent="true" id="p11.1.m3.1.9" xref="p11.1.m3.1.9.cmml"><mi id="p11.1.m3.1.9.2" xref="p11.1.m3.1.9.2.cmml">P</mi><mo stretchy="false" id="p11.1.m3.1.9.1" xref="p11.1.m3.1.9.1.cmml">^</mo></mover><mo id="p11.1.m3.1.14.2.1" xref="p11.1.m3.1.14.2.1.cmml">⁢</mo><mrow id="p11.1.m3.1.14.2.2" xref="p11.1.m3.1.14.2.2.2.cmml"><mo stretchy="false" id="p11.1.m3.1.10" xref="p11.1.m3.1.14.2.2.2.cmml">(</mo><msub id="p11.1.m3.1.14.2.2.2" xref="p11.1.m3.1.14.2.2.2.cmml"><mi id="p11.1.m3.1.11" xref="p11.1.m3.1.11.cmml">f</mi><mi id="p11.1.m3.1.12.1" xref="p11.1.m3.1.12.1.cmml">i</mi></msub><mo stretchy="false" id="p11.1.m3.1.13" xref="p11.1.m3.1.14.2.2.2.cmml">)</mo></mrow></mrow></mrow><annotation-xml encoding="MathML-Content" id="p11.1.m3.1b"><apply id="p11.1.m3.1.14.cmml" xref="p11.1.m3.1.14"><eq id="p11.1.m3.1.8.cmml" xref="p11.1.m3.1.8"></eq><apply id="p11.1.m3.1.14.1.cmml" xref="p11.1.m3.1.14.1"><times id="p11.1.m3.1.14.1.1.cmml" xref="p11.1.m3.1.14.1.1"></times><apply id="p11.1.m3.1.1.cmml" xref="p11.1.m3.1.1"><ci id="p11.1.m3.1.1.1.cmml" xref="p11.1.m3.1.1.1">^</ci><ci id="p11.1.m3.1.1.2.cmml" xref="p11.1.m3.1.1.2">𝑃</ci></apply><interval closure="open" id="p11.1.m3.1.14.1.2.1.cmml" xref="p11.1.m3.1.14.1.2"><apply id="p11.1.m3.1.14.1.2.2.cmml" xref="p11.1.m3.1.14.1.2.2"><csymbol cd="ambiguous" id="p11.1.m3.1.14.1.2.2.1.cmml" xref="p11.1.m3.1.14.1.2.2">subscript</csymbol><ci id="p11.1.m3.1.3.cmml" xref="p11.1.m3.1.3">𝑓</ci><ci id="p11.1.m3.1.4.1.cmml" xref="p11.1.m3.1.4.1">𝑖</ci></apply><ci id="p11.1.m3.1.6.cmml" xref="p11.1.m3.1.6">𝜏</ci></interval></apply><apply id="p11.1.m3.1.14.2.cmml" xref="p11.1.m3.1.14.2"><times id="p11.1.m3.1.14.2.1.cmml" xref="p11.1.m3.1.14.2.1"></times><apply id="p11.1.m3.1.9.cmml" xref="p11.1.m3.1.9"><ci id="p11.1.m3.1.9.1.cmml" xref="p11.1.m3.1.9.1">^</ci><ci id="p11.1.m3.1.9.2.cmml" xref="p11.1.m3.1.9.2">𝑃</ci></apply><apply id="p11.1.m3.1.14.2.2.2.cmml" xref="p11.1.m3.1.14.2.2"><csymbol cd="ambiguous" id="p11.1.m3.1.14.2.2.2.1.cmml" xref="p11.1.m3.1.14.2.2">subscript</csymbol><ci id="p11.1.m3.1.11.cmml" xref="p11.1.m3.1.11">𝑓</ci><ci id="p11.1.m3.1.12.1.cmml" xref="p11.1.m3.1.12.1">𝑖</ci></apply></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p11.1.m3.1c">OVERACCENT:hat ARG:start italic-P ARG:end OPEN:( italic-f POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end PUNCT:, italic-tau CLOSE:) RELOP:equals OVERACCENT:hat ARG:start italic-P ARG:end OPEN:( italic-f POSTSUBSCRIPT:start italic-i POSTSUBSCRIPT:end CLOSE:)</annotation><annotation encoding="application/x-tex" id="p11.1.m3.1d">\hat{P}(f_{i},\tau)=\hat{P}(f_{i})</annotation></semantics></math>, independently of the particular <math id="p11.1.m4.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p11.1.m4.1a"><mi id="p11.1.m4.1.1" xref="p11.1.m4.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p11.1.m4.1b"><ci id="p11.1.m4.1.1.cmml" xref="p11.1.m4.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p11.1.m4.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p11.1.m4.1d">\tau</annotation></semantics></math> used.
+The second point is that intrinsic frequencies (as is the
+case of harmonic number 54) may disappear for some values of the
+<math id="p11.1.m5.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p11.1.m5.1a"><mi id="p11.1.m5.1.1" xref="p11.1.m5.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p11.1.m5.1b"><ci id="p11.1.m5.1.1.cmml" xref="p11.1.m5.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p11.1.m5.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p11.1.m5.1d">\tau</annotation></semantics></math> parameter. This is due to the
+embedding itself, which is only guaranteed to give faithful
+results in the case of infinitely long data
+sets and without noise. Some values of the time lag <math id="p11.1.m6.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p11.1.m6.1a"><mi id="p11.1.m6.1.1" xref="p11.1.m6.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p11.1.m6.1b"><ci id="p11.1.m6.1.1.cmml" xref="p11.1.m6.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p11.1.m6.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p11.1.m6.1d">\tau</annotation></semantics></math> may
+introduce false information, or even hide
+important frequencies. By performing a scan along a series of <math id="p11.1.m7.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p11.1.m7.1a"><mi id="p11.1.m7.1.1" xref="p11.1.m7.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p11.1.m7.1b"><ci id="p11.1.m7.1.1.cmml" xref="p11.1.m7.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p11.1.m7.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p11.1.m7.1d">\tau</annotation></semantics></math>
+we can be assured of extracting
+information of the system itself.</p>
+</div>
+<div id="p12" class="ltx_para">
+<p id="p12.1" class="ltx_p">Now, we use our approach in the multivariate
+time series from heart rate and respiration rhythms.
+The experiment is fully described in reference <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib4" title="" class="ltx_ref">4</a>]</cite>.
+This is a multivariate time series recorded
+from a patient in the sleep laboratory of the Beth Israel
+Hospital in Boston. The HR-record is the heart
+rate, the R-record is the chest volume (respiration force)
+and the BOC-record is the blood oxygen
+concentration (measured by ear oximetry). 2048 data
+points were chosen from the total record,
+corresponding to the periods of the sleep apnea episodes
+of the patient. Figure 3 shows the results
+of applying our analysis to the respiration force time
+series. We have used an embedding dimension of 4 for
+the reconstruction process and a radius of the ball
+of 15% of the reconstructed attractor.</p>
+</div>
+<div id="p13" class="ltx_para">
+<p id="p13.1" class="ltx_p">Classical power spectrum analysis of
+the HR-record shows a strong peak at harmonic number
+22 (which corresponds to a frequency of
+0.021 Hz). However, the R-record shows several peaks around
+the harmonic number 260 (0.254
+Hz), and no traces of the main frequency of the HR-record.
+Therefore, it could be concluded that both
+variables are (linearly) independent. In the original
+analysis <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib4" title="" class="ltx_ref">4</a>]</cite>, based on standard spectral
+analysis there is no mention at all of any kind of
+coupling among both variables in this pathological
+case, i.e. sleep apnea, contrary to the case of
+the RSA in the physiological case.</p>
+</div>
+<div id="p14" class="ltx_para">
+<p id="p14.1" class="ltx_p">By applying our analysis to the R-record
+(Figure 3(c), main panel),
+it appears that the main frequencies in the
+reconstructed system are those related with the HR record,
+and some traces of the original R time series
+can be observed (around <math id="p14.1.m1.1" class="ltx_Math" alttext="\tau=25" display="inline"><semantics id="p14.1.m1.1a"><mrow id="p14.1.m1.1.5" xref="p14.1.m1.1.5.cmml"><mi id="p14.1.m1.1.1" xref="p14.1.m1.1.1.cmml">τ</mi><mo id="p14.1.m1.1.2" xref="p14.1.m1.1.2.cmml">=</mo><mn id="p14.1.m1.1.4" xref="p14.1.m1.1.4.cmml">25</mn></mrow><annotation-xml encoding="MathML-Content" id="p14.1.m1.1b"><apply id="p14.1.m1.1.5.cmml" xref="p14.1.m1.1.5"><eq id="p14.1.m1.1.2.cmml" xref="p14.1.m1.1.2"></eq><ci id="p14.1.m1.1.1.cmml" xref="p14.1.m1.1.1">𝜏</ci><cn type="integer" id="p14.1.m1.1.4.cmml" xref="p14.1.m1.1.4">25</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p14.1.m1.1c">italic-tau RELOP:equals NUMBER:25</annotation><annotation encoding="application/x-tex" id="p14.1.m1.1d">\tau=25</annotation></semantics></math>).
+This fact, as in the previous case of the
+Lorenz system, could be considered as a justification of
+a nonlinear relation between both variables, and, moreover,
+suggests that they are related with the same dynamics.
+However, in this particular case, the flow of information
+is in the oposite direction as in the case of the RSA.</p>
+</div>
+<div id="p15" class="ltx_para">
+<p id="p15.1" class="ltx_p">As in the case of the Lorenz system, we can apply the
+procedure to the other variable, that is, the HR record
+(Figure 4). Although some traces of the
+R record are recovered (specially around <math id="p15.1.m1.1" class="ltx_Math" alttext="\tau" display="inline"><semantics id="p15.1.m1.1a"><mi id="p15.1.m1.1.1" xref="p15.1.m1.1.1.cmml">τ</mi><annotation-xml encoding="MathML-Content" id="p15.1.m1.1b"><ci id="p15.1.m1.1.1.cmml" xref="p15.1.m1.1.1">𝜏</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p15.1.m1.1c">italic-tau</annotation><annotation encoding="application/x-tex" id="p15.1.m1.1d">\tau</annotation></semantics></math> = 90)
+almost all of the power is concentrated in the characteristic
+frequency of the HR. This would imply a very weak coupling
+from the heart rate to the respiration variable. In the
+case of the Lorenz system, the equations shows that both
+variables used, <math id="p15.1.m2.1" class="ltx_Math" alttext="x" display="inline"><semantics id="p15.1.m2.1a"><mi id="p15.1.m2.1.1" xref="p15.1.m2.1.1.cmml">x</mi><annotation-xml encoding="MathML-Content" id="p15.1.m2.1b"><ci id="p15.1.m2.1.1.cmml" xref="p15.1.m2.1.1">𝑥</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p15.1.m2.1c">italic-x</annotation><annotation encoding="application/x-tex" id="p15.1.m2.1d">x</annotation></semantics></math> and <math id="p15.1.m3.1" class="ltx_Math" alttext="z" display="inline"><semantics id="p15.1.m3.1a"><mi id="p15.1.m3.1.1" xref="p15.1.m3.1.1.cmml">z</mi><annotation-xml encoding="MathML-Content" id="p15.1.m3.1b"><ci id="p15.1.m3.1.1.cmml" xref="p15.1.m3.1.1">𝑧</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p15.1.m3.1c">italic-z</annotation><annotation encoding="application/x-tex" id="p15.1.m3.1d">z</annotation></semantics></math> are in fact coupled to each
+other. That is why it is possible to recover the whole
+spectrum by using whatever of both variables.
+One can conclude from the above argument that the
+coupling among HR and R variables could have a preferential
+flow direction from the HR to the R, in this pathological
+condition.</p>
+</div>
+<div id="p16" class="ltx_para">
+<p id="p16.1" class="ltx_p">Experience in numerical models shows that hidden
+frequencies, as detected by our approach, are caused
+fundamentally by chaotic systems, when one of the variables
+”fails” in projecting its periodic content over the measured
+time series.
+In a linear system, or a nonlinear system without a
+chaotic behavior, this does not happen. Considering
+the cardiorrespiratory interaction, the modulation of
+HR by respiration is clearly seen
+in the power spectrum of the HR signal under physiological conditions.
+However, in
+the pathological condition we are considering, this
+coupling is not revealed by linear analysis, and moreover, it
+appears to be in the opposite direction. It could be argued that the
+underlying dynamics has changed from
+a linear/nonlinear state to a chaotic behavior.
+This could be a reason for the dissapearance of the
+RSA phenomena and the appearance of an inverse coupling. This
+fact could also be in accordance with
+the so-called ”dynamical diseases” <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib14" title="" class="ltx_ref">14</a>]</cite> where
+an abrupt change in the dynamics of the
+interacting variables is evidenced.</p>
+</div>
+<div id="p17" class="ltx_para">
+<p id="p17.1" class="ltx_p">It is very worthy to mention that we have used the
+data set as it is. No further filter or smoothing routines
+have been applied to the data, beyond those of the
+recording process and to the conversion from the ECG to Heart
+rate data <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib4" title="" class="ltx_ref">4</a>]</cite>. We think that it is
+very important, from the point of view of nonlinear
+dynamics analysis, to minimize the use of any kind of
+”treatment” of the experimental record, which may
+alter the underlying dynamics, especially in this
+short and very noisy data sets.</p>
+</div>
+<div id="p18" class="ltx_para">
+<p id="p18.1" class="ltx_p">Data requirements for applying this method are almost
+the same as in any classical spectral analysis.
+Stationarity <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib15" title="" class="ltx_ref">15</a>]</cite> of the data is the most
+important prerequisite, because of the probability
+estimate that is being calculated. The method is fairly
+robust against noise contamination, mainly
+because of the density estimation step, as we have shown
+with other methods <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib6" title="" class="ltx_ref">6</a>, <a href="#bib.bib16" title="" class="ltx_ref">16</a>]</cite>. Other than
+these considerations, the algorithm is of wide use,
+and could be applied to any kind of experimental
+data, from biological to geophysical and so on.
+We are currently applying this analysis to
+physiological data derived from biological rhythmicity
+recording in mammals <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib17" title="" class="ltx_ref">17</a>]</cite>.
+It should be noted that even more information could be
+gathered from the reconstructed density
+time series by applying nonlinear analytical methods
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib16" title="" class="ltx_ref">16</a>]</cite>. However, the use of power spectra is
+still the most common tool in time series analysis because
+of its simplicity and ease of
+interpretation <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib10" title="" class="ltx_ref">10</a>, <a href="#bib.bib18" title="" class="ltx_ref">18</a>]</cite>, and here we propose to extend its
+well known capabilities with the aids of
+nonlinear methods. The most important benefits derived
+from our methodology might be observed
+in the case of several variables, where one or more
+of them are not available experimentally. In this
+way, more information could be achieved that the one
+currently available from classical spectral
+analysis techniques.</p>
+</div>
+<div id="p19" class="ltx_para">
+<p id="p19.1" class="ltx_p">The authors are members of CONICET Argentina.
+Studies in D.A.G.s laboratory are funded by
+grants from CONICET, UNQ, ANPCyT and Fundación Antorchas.</p>
+</div>
+<section id="bib" class="ltx_bibliography">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+
+<ul class="ltx_biblist">
+<li id="bib.bib1" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[1]</span>
+<span class="ltx_bibblock">
+C. Schafer, M. Rosenblum, J. Kurths and H. H. Abel,
+Nature <span id="bib.bib1.1" class="ltx_text ltx_font_bold">392</span> 239 (1998).
+
+</span>
+</li>
+<li id="bib.bib2" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[2]</span>
+<span class="ltx_bibblock">
+C. Schafer, M. Rosenblum, H. H. Abel and J. Kurths,
+Phys. Rev. E <span id="bib.bib2.1" class="ltx_text ltx_font_bold">60</span>(1) 1 (1999).
+
+</span>
+</li>
+<li id="bib.bib3" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[3]</span>
+<span class="ltx_bibblock">
+S. Akselrod <span id="bib.bib3.1" class="ltx_text ltx_font_italic">at al.</span>, Science <span id="bib.bib3.2" class="ltx_text ltx_font_bold">213</span>, 220 (1981).
+
+</span>
+</li>
+<li id="bib.bib4" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[4]</span>
+<span class="ltx_bibblock">
+D. Rigney, A. L. Goldberger, W. C. Ocasio, Y. Ichimaru,
+M. G. Moody and R. G. Mark, in
+<span id="bib.bib4.1" class="ltx_text ltx_font_italic">Time Series Prediction: Forecasting the Future and
+Understanding the Past</span>, edited by A. S. Weigend and
+N. A. Gershenfeld, Santa Fe Institute Studies in the
+Sciences of Complexity, Vol. 15 (Addison-Wesley
+Publishing Company, 1994).
+
+</span>
+</li>
+<li id="bib.bib5" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[5]</span>
+<span class="ltx_bibblock">
+G. Ortega, Phys. Lett. A <span id="bib.bib5.1" class="ltx_text ltx_font_bold">209</span>, 351 (1995).
+
+</span>
+</li>
+<li id="bib.bib6" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[6]</span>
+<span class="ltx_bibblock">
+G. Ortega, Phys. Rev. Lett. <span id="bib.bib6.1" class="ltx_text ltx_font_bold">77</span>(2), 259 (1996).
+
+</span>
+</li>
+<li id="bib.bib7" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[7]</span>
+<span class="ltx_bibblock">
+H. Abarbanel, R. Brown, J. Sidorowich and L. Tsimring,
+Rev. Mod. Phys. <span id="bib.bib7.1" class="ltx_text ltx_font_bold">65</span>(4), 1331 (1993).
+
+</span>
+</li>
+<li id="bib.bib8" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[8]</span>
+<span class="ltx_bibblock">
+J.-P. Eckmann and D. Ruelle, Rev. Mod. Phys.
+<span id="bib.bib8.1" class="ltx_text ltx_font_bold">57</span>(3), 617 (1985).
+
+</span>
+</li>
+<li id="bib.bib9" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[9]</span>
+<span class="ltx_bibblock">
+T. Sauer, J. Yorke and M. Casdagli,
+J. Stat. Phys. <span id="bib.bib9.1" class="ltx_text ltx_font_bold">65</span>(3/4), 579 (1991).
+
+</span>
+</li>
+<li id="bib.bib10" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[10]</span>
+<span class="ltx_bibblock">
+W.H. Press, S.A. Teukolsky, W.T. Vetterling
+and B.P. Flannery, <span id="bib.bib10.1" class="ltx_text ltx_font_italic">Numerical Recipes</span>
+(Cambridge University Press, Cambridge, 1992), 2nd. ed.
+
+</span>
+</li>
+<li id="bib.bib11" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[11]</span>
+<span class="ltx_bibblock">
+A.V. Oppenheim and R.W. Schafer, <span id="bib.bib11.1" class="ltx_text ltx_font_italic">Discrete-Time
+Signal Processing</span> (Prentice Hall, Englewood Cliffs,
+New Jersey)
+
+</span>
+</li>
+<li id="bib.bib12" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[12]</span>
+<span class="ltx_bibblock">
+E. Lorenz, J. Atoms. Sci. <span id="bib.bib12.1" class="ltx_text ltx_font_bold">20</span>, 130 (1963).
+
+</span>
+</li>
+<li id="bib.bib13" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[13]</span>
+<span class="ltx_bibblock">
+H. Koepchen, in <span id="bib.bib13.1" class="ltx_text ltx_font_italic">Rhythms in Physiological Systems</span>,
+edited by H. Haken and H. Koepchen, Springer Verlag Series
+in Synergetics Vol. 55 (Springer, Berlin, 1991), pp. 3-20.
+
+</span>
+</li>
+<li id="bib.bib14" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[14]</span>
+<span class="ltx_bibblock">
+M. Mackey and L. Glass, <span id="bib.bib14.1" class="ltx_text ltx_font_italic">From Clocks to Chaos: The Rhythms of
+Life</span>, Ch. 7 (Univ. Press, Princeton, 1988).
+
+</span>
+</li>
+<li id="bib.bib15" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[15]</span>
+<span class="ltx_bibblock">
+M. Priesley, <span id="bib.bib15.1" class="ltx_text ltx_font_italic">Non-linear and Non-stationary Time
+Series Analysis</span> (Academic Press, London, 1991)
+
+</span>
+</li>
+<li id="bib.bib16" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[16]</span>
+<span class="ltx_bibblock">
+G. Ortega, and E. Louis, Phys. Rev. Lett. <span id="bib.bib16.1" class="ltx_text ltx_font_bold">81</span> 4345 (1998).
+
+</span>
+</li>
+<li id="bib.bib17" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[17]</span>
+<span class="ltx_bibblock">
+G. Ortega, D. Golombek and L. Romanelli,
+J. Theoret. Biol. <span id="bib.bib17.1" class="ltx_text ltx_font_bold">169</span>(1) 15 (1994).
+
+</span>
+</li>
+<li id="bib.bib18" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[18]</span>
+<span class="ltx_bibblock">
+R. Bracewell, (1990) Science <span id="bib.bib18.1" class="ltx_text ltx_font_bold">248</span> 697 (1990).
+
+</span>
+</li>
+</ul>
+</section>
+<figure id="S0.F1" class="ltx_figure"><img src="x1.png" id="S0.F1.g1" class="ltx_graphics ltx_centering" width="368" height="450" alt="">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>Spectral analysis and nonlinear coupling in the
+Lorenz system. Reconstruction using the <math id="S0.F1.m2.1" class="ltx_Math" alttext="x" display="inline"><semantics id="S0.F1.m2.1b"><mi id="S0.F1.m2.1.1" xref="S0.F1.m2.1.1.cmml">x</mi><annotation-xml encoding="MathML-Content" id="S0.F1.m2.1c"><ci id="S0.F1.m2.1.1.cmml" xref="S0.F1.m2.1.1">𝑥</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F1.m2.1d">italic-x</annotation><annotation encoding="application/x-tex" id="S0.F1.m2.1e">x</annotation></semantics></math> coordinate.</figcaption>
+</img>
+</figure>
+<div class="ltx_pagination ltx_role_newpage"></div>
+<figure id="S0.F2" class="ltx_figure"><img src="x2.png" id="S0.F2.g1" class="ltx_graphics ltx_centering" width="368" height="450" alt="">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 2: </span>Spectral analysis and nonlinear coupling in the
+Lorenz system. Reconstruction using the <math id="S0.F2.m2.1" class="ltx_Math" alttext="z" display="inline"><semantics id="S0.F2.m2.1b"><mi id="S0.F2.m2.1.1" xref="S0.F2.m2.1.1.cmml">z</mi><annotation-xml encoding="MathML-Content" id="S0.F2.m2.1c"><ci id="S0.F2.m2.1.1.cmml" xref="S0.F2.m2.1.1">𝑧</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F2.m2.1d">italic-z</annotation><annotation encoding="application/x-tex" id="S0.F2.m2.1e">z</annotation></semantics></math> coordinate.</figcaption>
+</img>
+</figure>
+<div class="ltx_pagination ltx_role_newpage"></div>
+<figure id="S0.F3" class="ltx_figure"><img src="x3.png" id="S0.F3.g1" class="ltx_graphics ltx_centering" width="364" height="450" alt="">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 3: </span>Spectral analysis and nonlinear coupling in the
+cardiorrespiratory signals. Reconstruction using the R
+signal.</figcaption>
+</img>
+</figure>
+<div class="ltx_pagination ltx_role_newpage"></div>
+<figure id="S0.F4" class="ltx_figure"><img src="x4.png" id="S0.F4.g1" class="ltx_graphics ltx_centering" width="364" height="450" alt="">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 4: </span>Spectral analysis and nonlinear coupling in the
+cardiorrespiratory signals. Reconstruction using the HR
+signal.</figcaption>
+</img>
+</figure>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Mon Jul 15 14:46:54 2019 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></img>
+</a>
+</div></footer>
+</div>
+</body>
+</html>

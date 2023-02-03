@@ -1,0 +1,565 @@
+<!DOCTYPE html><html>
+<head>
+<title>Islands, craters, and a moving surface step on a hexagonally reconstructed (100) noble metal surface</title>
+<!--Generated on Mon Jul 15 14:19:12 2019 by LaTeXML (version 0.8.4) http://dlmf.nist.gov/LaTeXML/.-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</meta>
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Islands, craters, and a moving surface step on a hexagonally reconstructed
+(100) noble metal surface</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">
+Daniele Passerone<math id="m1.1" class="ltx_Math" alttext="{}^{a,b}" display="inline"><semantics id="m1.1a"><msup id="m1.1.1" xref="m1.1.1.cmml"><mi id="m1.1.1a" xref="m1.1.1.cmml"></mi><mrow id="m1.1.1.1" xref="m1.1.1.1.4.cmml"><mi id="m1.1.1.1.1" xref="m1.1.1.1.1.cmml">a</mi><mo id="m1.1.1.1.2" xref="m1.1.1.1.4.cmml">,</mo><mi id="m1.1.1.1.3" xref="m1.1.1.1.3.cmml">b</mi></mrow></msup><annotation-xml encoding="MathML-Content" id="m1.1b"><apply id="m1.1.1.cmml" xref="m1.1.1"><list id="m1.1.1.1.4.cmml" xref="m1.1.1.1"><ci id="m1.1.1.1.1.cmml" xref="m1.1.1.1.1">𝑎</ci><ci id="m1.1.1.1.3.cmml" xref="m1.1.1.1.3">𝑏</ci></list></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m1.1c">FLOATSUPERSCRIPT:start italic-a PUNCT:, italic-b FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m1.1d">{}^{a,b}</annotation></semantics></math><cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib1" title="" class="ltx_ref">*</a>]</cite>, Furio Ercolessi<math id="m2.1" class="ltx_Math" alttext="{}^{a,b}" display="inline"><semantics id="m2.1a"><msup id="m2.1.1" xref="m2.1.1.cmml"><mi id="m2.1.1a" xref="m2.1.1.cmml"></mi><mrow id="m2.1.1.1" xref="m2.1.1.1.4.cmml"><mi id="m2.1.1.1.1" xref="m2.1.1.1.1.cmml">a</mi><mo id="m2.1.1.1.2" xref="m2.1.1.1.4.cmml">,</mo><mi id="m2.1.1.1.3" xref="m2.1.1.1.3.cmml">b</mi></mrow></msup><annotation-xml encoding="MathML-Content" id="m2.1b"><apply id="m2.1.1.cmml" xref="m2.1.1"><list id="m2.1.1.1.4.cmml" xref="m2.1.1.1"><ci id="m2.1.1.1.1.cmml" xref="m2.1.1.1.1">𝑎</ci><ci id="m2.1.1.1.3.cmml" xref="m2.1.1.1.3">𝑏</ci></list></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m2.1c">FLOATSUPERSCRIPT:start italic-a PUNCT:, italic-b FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m2.1d">{}^{a,b}</annotation></semantics></math><cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib2" title="" class="ltx_ref">†</a>]</cite>,
+and Erio Tosatti<math id="m3.1" class="ltx_Math" alttext="{}^{a,b,c}" display="inline"><semantics id="m3.1a"><msup id="m3.1.1" xref="m3.1.1.cmml"><mi id="m3.1.1a" xref="m3.1.1.cmml"></mi><mrow id="m3.1.1.1" xref="m3.1.1.1.6.cmml"><mi id="m3.1.1.1.1" xref="m3.1.1.1.1.cmml">a</mi><mo id="m3.1.1.1.2" xref="m3.1.1.1.6.cmml">,</mo><mi id="m3.1.1.1.3" xref="m3.1.1.1.3.cmml">b</mi><mo id="m3.1.1.1.4" xref="m3.1.1.1.6.cmml">,</mo><mi id="m3.1.1.1.5" xref="m3.1.1.1.5.cmml">c</mi></mrow></msup><annotation-xml encoding="MathML-Content" id="m3.1b"><apply id="m3.1.1.cmml" xref="m3.1.1"><list id="m3.1.1.1.6.cmml" xref="m3.1.1.1"><ci id="m3.1.1.1.1.cmml" xref="m3.1.1.1.1">𝑎</ci><ci id="m3.1.1.1.3.cmml" xref="m3.1.1.1.3">𝑏</ci><ci id="m3.1.1.1.5.cmml" xref="m3.1.1.1.5">𝑐</ci></list></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m3.1c">FLOATSUPERSCRIPT:start italic-a PUNCT:, italic-b PUNCT:, italic-c FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m3.1d">{}^{a,b,c}</annotation></semantics></math><cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib3" title="" class="ltx_ref">‡</a>]</cite> 
+<br class="ltx_break"><span id="id1" class="ltx_text ltx_font_italic">a) Istituto Nazionale per la Fisica della Materia (INFM)
+<br class="ltx_break">b) International School for Advanced Studies, Trieste, Italy
+<br class="ltx_break">c) The Abdus Salam International Center for Theoretical Physics,
+<br class="ltx_break">Trieste, Italy</br>
+</br>
+</br>
+</span>
+
+</br>
+</span></span>
+</div>
+
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p id="id2" class="ltx_p">Deposition/removal of metal atoms on the hex reconstructed (100)
+surface of Au, Pt and Ir should present intriguing aspects, since a new island
+implies hex <math id="id2.m1.1" class="ltx_Math" alttext="\rightarrow" display="inline"><semantics id="id2.m1.1a"><mo id="id2.m1.1.1" xref="id2.m1.1.1.cmml">→</mo><annotation-xml encoding="MathML-Content" id="id2.m1.1b"><ci id="id2.m1.1.1.cmml" xref="id2.m1.1.1">→</ci></annotation-xml><annotation encoding="application/x-llamapun" id="id2.m1.1c">ARROW:rightarrow</annotation><annotation encoding="application/x-tex" id="id2.m1.1d">\rightarrow</annotation></semantics></math> square deconstruction of the substrate, and a new
+crater the square <math id="id2.m2.1" class="ltx_Math" alttext="\rightarrow" display="inline"><semantics id="id2.m2.1a"><mo id="id2.m2.1.1" xref="id2.m2.1.1.cmml">→</mo><annotation-xml encoding="MathML-Content" id="id2.m2.1b"><ci id="id2.m2.1.1.cmml" xref="id2.m2.1.1">→</ci></annotation-xml><annotation encoding="application/x-llamapun" id="id2.m2.1c">ARROW:rightarrow</annotation><annotation encoding="application/x-tex" id="id2.m2.1d">\rightarrow</annotation></semantics></math> hex reconstruction of the uncovered layer. To obtain a microscopic understanding of
+how islands/craters form in these conditions, we have conducted simulations of
+island and crater growth on Au(100), whose atomistic behavior, including
+the hex reconstruction on top of the square substrate, is well described by means of
+classical many-body forces. By increasing/decreasing the Au coverage on Au(100),
+we find that island/craters will not grow unless they exceed a critical size of about 8-10
+atoms. This value is close to that which explains the nonlinear coverage dependence observed
+in molecular adsorption on the closely related surface Pt <math id="id2.m3.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="id2.m3.1a"><mrow id="id2.m3.1.6"><mo stretchy="false" id="id2.m3.1.1">(</mo><mn id="id2.m3.1.4" xref="id2.m3.1.4.cmml">100</mn><mo stretchy="false" id="id2.m3.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="id2.m3.1b"><cn type="integer" id="id2.m3.1.4.cmml" xref="id2.m3.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="id2.m3.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="id2.m3.1d">(100)</annotation></semantics></math>. This threshold size is
+rationalized in terms of a transverse step correlation length,
+measuring the spatial extent where reconstruction of a given plane is disturbed by the
+nearby step.
+<span id="id2.1" class="ltx_text ltx_font_italic">Keywords</span>:
+Molecular dynamics; Gold; Surface structure, morphology, roughness, and
+topography; Low index single crystal surfaces; Vicinal single crystal surfaces;
+Surface relaxation and reconstruction; Growth.</p>
+</div>
+<section id="S1" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">I </span>Introduction</h2>
+
+<div id="S1.p1" class="ltx_para">
+<p id="S1.p1.1" class="ltx_p">The heavy noble metal <math id="S1.p1.1.m1.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S1.p1.1.m1.1a"><mrow id="S1.p1.1.m1.1.6"><mo stretchy="false" id="S1.p1.1.m1.1.1">(</mo><mn id="S1.p1.1.m1.1.4" xref="S1.p1.1.m1.1.4.cmml">100</mn><mo stretchy="false" id="S1.p1.1.m1.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S1.p1.1.m1.1b"><cn type="integer" id="S1.p1.1.m1.1.4.cmml" xref="S1.p1.1.m1.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p1.1.m1.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S1.p1.1.m1.1d">(100)</annotation></semantics></math> surfaces possess the so-called
+hex-reconstruction, where the top monolayer spontaneously converts from
+square to (approximately) hexagonal (in fact, triangular), with
+a lateral density increase of <math id="S1.p1.1.m2.1" class="ltx_Math" alttext="25-30\%" display="inline"><semantics id="S1.p1.1.m2.1a"><mrow id="S1.p1.1.m2.1.7" xref="S1.p1.1.m2.1.7.cmml"><mn id="S1.p1.1.m2.1.2" xref="S1.p1.1.m2.1.2.cmml">25</mn><mo id="S1.p1.1.m2.1.3" xref="S1.p1.1.m2.1.3.cmml">-</mo><mrow id="S1.p1.1.m2.1.7.1" xref="S1.p1.1.m2.1.7.1.cmml"><mn id="S1.p1.1.m2.1.5" xref="S1.p1.1.m2.1.5.cmml">30</mn><mo id="S1.p1.1.m2.1.6" xref="S1.p1.1.m2.1.6.cmml">%</mo></mrow></mrow><annotation-xml encoding="MathML-Content" id="S1.p1.1.m2.1b"><apply id="S1.p1.1.m2.1.7.cmml" xref="S1.p1.1.m2.1.7"><minus id="S1.p1.1.m2.1.3.cmml" xref="S1.p1.1.m2.1.3"></minus><cn type="integer" id="S1.p1.1.m2.1.2.cmml" xref="S1.p1.1.m2.1.2">25</cn><apply id="S1.p1.1.m2.1.7.1.cmml" xref="S1.p1.1.m2.1.7.1"><csymbol cd="latexml" id="S1.p1.1.m2.1.6.cmml" xref="S1.p1.1.m2.1.6">percent</csymbol><cn type="integer" id="S1.p1.1.m2.1.5.cmml" xref="S1.p1.1.m2.1.5">30</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p1.1.m2.1c">NUMBER:25 ADDOP:minus NUMBER:30 POSTFIX:percent</annotation><annotation encoding="application/x-tex" id="S1.p1.1.m2.1d">25-30\%</annotation></semantics></math> <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib4" title="" class="ltx_ref">4</a>]</cite>. The
+second atomic layer, immediately below the first, remains instead
+square, with a bulk-like lateral density,
+and only a minor local perturbation in correspondence of the
+domain walls, or solitons, which the hex layer forms by (incommensurate)
+epitaxy onto it.</p>
+</div>
+<div id="S1.p2" class="ltx_para">
+<p id="S1.p2.1" class="ltx_p">Let us imagine the flat, hex-reconstructed <math id="S1.p2.1.m1.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S1.p2.1.m1.1a"><mrow id="S1.p2.1.m1.1.6"><mo stretchy="false" id="S1.p2.1.m1.1.1">(</mo><mn id="S1.p2.1.m1.1.4" xref="S1.p2.1.m1.1.4.cmml">100</mn><mo stretchy="false" id="S1.p2.1.m1.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S1.p2.1.m1.1b"><cn type="integer" id="S1.p2.1.m1.1.4.cmml" xref="S1.p2.1.m1.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p2.1.m1.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S1.p2.1.m1.1d">(100)</annotation></semantics></math> surface and consider what should happen if we were to ideally deposit one further
+monolayer on top of it. The new top monolayer should be itself
+hex-reconstructed, because that is the lowest energy configuration
+for this surface. However the former top layer, now covered and
+turned into a second layer, must <span id="S1.p2.1.1" class="ltx_text ltx_font_italic">de-</span>construct, from the hex
+state back to a square lattice. Conversely, we
+may imagine removing the top monolayer. The former, unreconstructed second
+layer must now acquire some extra atoms, in order to become
+hex-reconstructed, again because that is the lowest energy state.</p>
+</div>
+<div id="S1.p3" class="ltx_para">
+<p id="S1.p3.1" class="ltx_p">The questions now are: how exactly should all this happen? Where
+do the excess atoms, expelled from the covered layer, go? Conversely,
+where do the extra atoms needed for top layer reconstruction come from?
+And what other consequences does this peculiar situation have?
+A related problem which provided some inspiration for this work is that of
+the surprising nonlinearity observed, mainly by
+King <span id="S1.p3.1.1" class="ltx_text ltx_font_italic">et al. <cite class="ltx_cite ltx_citemacro_cite"><span id="S1.p3.1.1.1" class="ltx_text ltx_font_upright">[</span><a href="#bib.bib5" title="" class="ltx_ref">5</a><span id="S1.p3.1.1.2" class="ltx_text ltx_font_upright">]</span></cite></span>
+in surface adsorption of molecules (CO, O<math id="S1.p3.1.m1.1" class="ltx_Math" alttext="{}_{2}," display="inline"><semantics id="S1.p3.1.m1.1a"><mrow id="S1.p3.1.m1.1.3" xref="S1.p3.1.m1.1.1.cmml"><msub id="S1.p3.1.m1.1.1" xref="S1.p3.1.m1.1.1.cmml"><mi id="S1.p3.1.m1.1.1a" xref="S1.p3.1.m1.1.1.cmml"></mi><mn id="S1.p3.1.m1.1.1.1" xref="S1.p3.1.m1.1.1.1.cmml">2</mn></msub><mo id="S1.p3.1.m1.1.2" xref="S1.p3.1.m1.1.1.cmml">,</mo></mrow><annotation-xml encoding="MathML-Content" id="S1.p3.1.m1.1b"><apply id="S1.p3.1.m1.1.1.cmml" xref="S1.p3.1.m1.1.3"><cn type="integer" id="S1.p3.1.m1.1.1.1.cmml" xref="S1.p3.1.m1.1.1.1">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p3.1.m1.1c">FLOATSUBSCRIPT:start NUMBER:2 FLOATSUBSCRIPT:end PUNCT:,</annotation><annotation encoding="application/x-tex" id="S1.p3.1.m1.1d">{}_{2},</annotation></semantics></math> D<math id="S1.p3.1.m2.1" class="ltx_Math" alttext="{}_{2}" display="inline"><semantics id="S1.p3.1.m2.1a"><msub id="S1.p3.1.m2.1.1" xref="S1.p3.1.m2.1.1.cmml"><mi id="S1.p3.1.m2.1.1a" xref="S1.p3.1.m2.1.1.cmml"></mi><mn id="S1.p3.1.m2.1.1.1" xref="S1.p3.1.m2.1.1.1.cmml">2</mn></msub><annotation-xml encoding="MathML-Content" id="S1.p3.1.m2.1b"><apply id="S1.p3.1.m2.1.1.cmml" xref="S1.p3.1.m2.1.1"><cn type="integer" id="S1.p3.1.m2.1.1.1.cmml" xref="S1.p3.1.m2.1.1.1">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p3.1.m2.1c">FLOATSUBSCRIPT:start NUMBER:2 FLOATSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S1.p3.1.m2.1d">{}_{2}</annotation></semantics></math>) versus
+coverage, on a hex reconstructed Pt <math id="S1.p3.1.m3.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S1.p3.1.m3.1a"><mrow id="S1.p3.1.m3.1.6"><mo stretchy="false" id="S1.p3.1.m3.1.1">(</mo><mn id="S1.p3.1.m3.1.4" xref="S1.p3.1.m3.1.4.cmml">100</mn><mo stretchy="false" id="S1.p3.1.m3.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S1.p3.1.m3.1b"><cn type="integer" id="S1.p3.1.m3.1.4.cmml" xref="S1.p3.1.m3.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p3.1.m3.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S1.p3.1.m3.1d">(100)</annotation></semantics></math> substrate.</p>
+</div>
+<div id="S1.p4" class="ltx_para">
+<p id="S1.p4.1" class="ltx_p">In this paper we describe
+work which lays the ground for addressing some of these questions.</p>
+</div>
+<div id="S1.p5" class="ltx_para">
+<p id="S1.p5.1" class="ltx_p">We carried out Molecular Dynamics (MD) simulation work addressing
+specifically the hex-reconstructed Au <math id="S1.p5.1.m1.1" class="ltx_Math" alttext="(100)." display="inline"><semantics id="S1.p5.1.m1.1a"><mrow id="S1.p5.1.m1.1.7"><mrow id="S1.p5.1.m1.1.7.2"><mo stretchy="false" id="S1.p5.1.m1.1.1">(</mo><mn id="S1.p5.1.m1.1.4" xref="S1.p5.1.m1.1.4.cmml">100</mn><mo stretchy="false" id="S1.p5.1.m1.1.5">)</mo></mrow><mo id="S1.p5.1.m1.1.6">.</mo></mrow><annotation-xml encoding="MathML-Content" id="S1.p5.1.m1.1b"><cn type="integer" id="S1.p5.1.m1.1.4.cmml" xref="S1.p5.1.m1.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p5.1.m1.1c">OPEN:( NUMBER:100 CLOSE:) PERIOD:.</annotation><annotation encoding="application/x-tex" id="S1.p5.1.m1.1d">(100).</annotation></semantics></math>
+The temperature dependence
+of the top layer density allows us to study
+phenomena associated with density changes by simply changing the
+sample temperature in a particle-conserving system:
+upon increasing temperature lateral density of a flat reconstructed
+Au <math id="S1.p5.1.m2.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S1.p5.1.m2.1a"><mrow id="S1.p5.1.m2.1.6"><mo stretchy="false" id="S1.p5.1.m2.1.1">(</mo><mn id="S1.p5.1.m2.1.4" xref="S1.p5.1.m2.1.4.cmml">100</mn><mo stretchy="false" id="S1.p5.1.m2.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S1.p5.1.m2.1b"><cn type="integer" id="S1.p5.1.m2.1.4.cmml" xref="S1.p5.1.m2.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p5.1.m2.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S1.p5.1.m2.1d">(100)</annotation></semantics></math> surface shows a tendency to increase. We find in our simulations <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib6" title="" class="ltx_ref">6</a>]</cite> an increase from the <math id="S1.p5.1.m3.1" class="ltx_Math" alttext="T=0" display="inline"><semantics id="S1.p5.1.m3.1a"><mrow id="S1.p5.1.m3.1.4" xref="S1.p5.1.m3.1.4.cmml"><mi id="S1.p5.1.m3.1.1" xref="S1.p5.1.m3.1.1.cmml">T</mi><mo id="S1.p5.1.m3.1.2" xref="S1.p5.1.m3.1.2.cmml">=</mo><mn id="S1.p5.1.m3.1.3" xref="S1.p5.1.m3.1.3.cmml">0</mn></mrow><annotation-xml encoding="MathML-Content" id="S1.p5.1.m3.1b"><apply id="S1.p5.1.m3.1.4.cmml" xref="S1.p5.1.m3.1.4"><eq id="S1.p5.1.m3.1.2.cmml" xref="S1.p5.1.m3.1.2"></eq><ci id="S1.p5.1.m3.1.1.cmml" xref="S1.p5.1.m3.1.1">𝑇</ci><cn type="integer" id="S1.p5.1.m3.1.3.cmml" xref="S1.p5.1.m3.1.3">0</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p5.1.m3.1c">italic-T RELOP:equals NUMBER:0</annotation><annotation encoding="application/x-tex" id="S1.p5.1.m3.1d">T=0</annotation></semantics></math>
+lateral density of <math id="S1.p5.1.m4.1" class="ltx_Math" alttext="1.24" display="inline"><semantics id="S1.p5.1.m4.1a"><mn id="S1.p5.1.m4.1.4" xref="S1.p5.1.m4.1.4.cmml">1.24</mn><annotation-xml encoding="MathML-Content" id="S1.p5.1.m4.1b"><cn type="float" id="S1.p5.1.m4.1.4.cmml" xref="S1.p5.1.m4.1.4">1.24</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p5.1.m4.1c">NUMBER:1.24</annotation><annotation encoding="application/x-tex" id="S1.p5.1.m4.1d">1.24</annotation></semantics></math> with respect to the bulk, to <math id="S1.p5.1.m5.1" class="ltx_Math" alttext="1.35" display="inline"><semantics id="S1.p5.1.m5.1a"><mn id="S1.p5.1.m5.1.4" xref="S1.p5.1.m5.1.4.cmml">1.35</mn><annotation-xml encoding="MathML-Content" id="S1.p5.1.m5.1b"><cn type="float" id="S1.p5.1.m5.1.4.cmml" xref="S1.p5.1.m5.1.4">1.35</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p5.1.m5.1c">NUMBER:1.35</annotation><annotation encoding="application/x-tex" id="S1.p5.1.m5.1d">1.35</annotation></semantics></math> for <math id="S1.p5.1.m6.1" class="ltx_Math" alttext="T=1100K" display="inline"><semantics id="S1.p5.1.m6.1a"><mrow id="S1.p5.1.m6.1.8" xref="S1.p5.1.m6.1.8.cmml"><mi id="S1.p5.1.m6.1.1" xref="S1.p5.1.m6.1.1.cmml">T</mi><mo id="S1.p5.1.m6.1.2" xref="S1.p5.1.m6.1.2.cmml">=</mo><mrow id="S1.p5.1.m6.1.8.1" xref="S1.p5.1.m6.1.8.1.cmml"><mn id="S1.p5.1.m6.1.6" xref="S1.p5.1.m6.1.6.cmml">1100</mn><mo id="S1.p5.1.m6.1.8.1.1" xref="S1.p5.1.m6.1.8.1.1.cmml">⁢</mo><mi id="S1.p5.1.m6.1.7" xref="S1.p5.1.m6.1.7.cmml">K</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S1.p5.1.m6.1b"><apply id="S1.p5.1.m6.1.8.cmml" xref="S1.p5.1.m6.1.8"><eq id="S1.p5.1.m6.1.2.cmml" xref="S1.p5.1.m6.1.2"></eq><ci id="S1.p5.1.m6.1.1.cmml" xref="S1.p5.1.m6.1.1">𝑇</ci><apply id="S1.p5.1.m6.1.8.1.cmml" xref="S1.p5.1.m6.1.8.1"><times id="S1.p5.1.m6.1.8.1.1.cmml" xref="S1.p5.1.m6.1.8.1.1"></times><cn type="integer" id="S1.p5.1.m6.1.6.cmml" xref="S1.p5.1.m6.1.6">1100</cn><ci id="S1.p5.1.m6.1.7.cmml" xref="S1.p5.1.m6.1.7">𝐾</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S1.p5.1.m6.1c">italic-T RELOP:equals NUMBER:1100 italic-K</annotation><annotation encoding="application/x-tex" id="S1.p5.1.m6.1d">T=1100K</annotation></semantics></math>. This behavior is
+in close agreement with experiment for both Au and Pt <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib4" title="" class="ltx_ref">4</a>]</cite>.
+Thus,
+heating is equivalent to removing atoms, cooling to adding atoms.</p>
+</div>
+<div id="S1.p6" class="ltx_para">
+<p id="S1.p6.1" class="ltx_p">The work done so far includes the following:</p>
+</div>
+<div id="S1.p7" class="ltx_para">
+<ul id="S1.I1" class="ltx_itemize">
+<li id="S1.I1.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S1.I1.i1.p1" class="ltx_para">
+<p id="S1.I1.i1.p1.1" class="ltx_p">interplay of step and hex reconstruction, showing their important
+mutual influence;</p>
+</div>
+</li>
+<li id="S1.I1.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S1.I1.i2.p1" class="ltx_para">
+<p id="S1.I1.i2.p1.1" class="ltx_p">sudden formation of a small adsorbed island (spontaneously expelled
+by heating) with accompanying deconstruction of the covered portion;</p>
+</div>
+</li>
+<li id="S1.I1.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S1.I1.i3.p1" class="ltx_para">
+<p id="S1.I1.i3.p1.1" class="ltx_p">sudden formation of a small crater (spontaneously formed by cooling)
+with accompanying reconstruction of the uncovered substrate portion;</p>
+</div>
+</li>
+<li id="S1.I1.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S1.I1.i4.p1" class="ltx_para">
+<p id="S1.I1.i4.p1.1" class="ltx_p">sudden step retraction (obtained by heating) with reconstruction of
+the uncovered substrate portion, via “incorporation” of step edge atoms.</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="S1.p8" class="ltx_para">
+<p id="S1.p8.1" class="ltx_p">In the following, we shall briefly summarize some of our results, leaving a more
+proper and detailed account for a separate publication.</p>
+</div>
+</section>
+<section id="S2" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">II </span>Method</h2>
+
+<div id="S2.p1" class="ltx_para">
+<p id="S2.p1.1" class="ltx_p">The hexagonal reconstruction of Au, Pt and Ir(100) consists of a
+spontaneously stabilized 2D close-packed monolayer on top of the
+otherwise (100) crystal. This phenomenon is reasonably well understood, but quite hard
+to handle at the electronic level <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib7" title="" class="ltx_ref">7</a>]</cite>. We found quite
+some time ago that it was possible to reproduce it with quantitative
+accuracy for Au(100)<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib8" title="" class="ltx_ref">8</a>]</cite>, using
+classical potentials of the many-body type, the glue<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib9" title="" class="ltx_ref">9</a>]</cite>
+potentials,
+very specially and carefully optimized for Au. Within that approximation, it is possible
+to carry out extensive
+simulations of some of the the situations imagined above, and obtain
+from them a microscopic insight into those otherwise puzzling
+questions.</p>
+</div>
+<div id="S2.p2" class="ltx_para">
+<p id="S2.p2.1" class="ltx_p">With the glue potential for gold, we carried out classical MD simulation.
+Newton’s equations were integrated numerically,
+allowing for large length-scales (at least 50 Å lateral size)
+and long simulation times, (at least 1 nsec),
+working at sufficiently high temperature so as to attain sufficient
+atom mobilities.</p>
+</div>
+<div id="S2.p3" class="ltx_para">
+<p id="S2.p3.1" class="ltx_p">The geometry chosen for simulating our surfaces is an N-layer (001)
+slab, (N=12-16) with periodic boundary conditions (PBC) along the (100)
+and (010) directions. The top (001) surface was free, whereas the bottom
+one consisted of 3 frozen bulk-like layers. The typical total atom number ranged from 20000 to 30000 <span id="footnote1" class="ltx_note ltx_role_footnote"><sup class="ltx_note_mark">1</sup><span class="ltx_note_outer"><span class="ltx_note_content"><sup class="ltx_note_mark">1</sup><span class="ltx_tag ltx_tag_note">1</span>The free <math id="footnote1.m1.1" class="ltx_Math" alttext="(001)" display="inline"><semantics id="footnote1.m1.1b"><mrow id="footnote1.m1.1.6"><mo stretchy="false" id="footnote1.m1.1.1">(</mo><mn id="footnote1.m1.1.4" xref="footnote1.m1.1.4.cmml">001</mn><mo stretchy="false" id="footnote1.m1.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="footnote1.m1.1c"><cn type="integer" id="footnote1.m1.1.4.cmml" xref="footnote1.m1.1.4">001</cn></annotation-xml><annotation encoding="application/x-llamapun" id="footnote1.m1.1d">OPEN:( NUMBER:001 CLOSE:)</annotation><annotation encoding="application/x-tex" id="footnote1.m1.1e">(001)</annotation></semantics></math> surface of Au is generally reconstructed,
+with a periodicity which depends on temperature, and is generally incommensurate <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib10" title="" class="ltx_ref">10</a>]</cite>. Our cell can only accommodate a commensurate periodicity (at least in the absence of steps) and we choose that to be <math id="footnote1.m2.1" class="ltx_Math" alttext="(5\times 1)" display="inline"><semantics id="footnote1.m2.1b"><mrow id="footnote1.m2.1.6" xref="footnote1.m2.1.6.2.cmml"><mo stretchy="false" id="footnote1.m2.1.1" xref="footnote1.m2.1.6.2.cmml">(</mo><mrow id="footnote1.m2.1.6.2" xref="footnote1.m2.1.6.2.cmml"><mn id="footnote1.m2.1.2" xref="footnote1.m2.1.2.cmml">5</mn><mo id="footnote1.m2.1.3" xref="footnote1.m2.1.3.cmml">×</mo><mn id="footnote1.m2.1.4" xref="footnote1.m2.1.4.cmml">1</mn></mrow><mo stretchy="false" id="footnote1.m2.1.5" xref="footnote1.m2.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="footnote1.m2.1c"><apply id="footnote1.m2.1.6.2.cmml" xref="footnote1.m2.1.6"><times id="footnote1.m2.1.3.cmml" xref="footnote1.m2.1.3"></times><cn type="integer" id="footnote1.m2.1.2.cmml" xref="footnote1.m2.1.2">5</cn><cn type="integer" id="footnote1.m2.1.4.cmml" xref="footnote1.m2.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="footnote1.m2.1d">OPEN:( NUMBER:5 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="footnote1.m2.1e">(5\times 1)</annotation></semantics></math>, or <math id="footnote1.m3.1" class="ltx_Math" alttext="(5\times 25)" display="inline"><semantics id="footnote1.m3.1b"><mrow id="footnote1.m3.1.7" xref="footnote1.m3.1.7.2.cmml"><mo stretchy="false" id="footnote1.m3.1.1" xref="footnote1.m3.1.7.2.cmml">(</mo><mrow id="footnote1.m3.1.7.2" xref="footnote1.m3.1.7.2.cmml"><mn id="footnote1.m3.1.2" xref="footnote1.m3.1.2.cmml">5</mn><mo id="footnote1.m3.1.3" xref="footnote1.m3.1.3.cmml">×</mo><mn id="footnote1.m3.1.5" xref="footnote1.m3.1.5.cmml">25</mn></mrow><mo stretchy="false" id="footnote1.m3.1.6" xref="footnote1.m3.1.7.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="footnote1.m3.1c"><apply id="footnote1.m3.1.7.2.cmml" xref="footnote1.m3.1.7"><times id="footnote1.m3.1.3.cmml" xref="footnote1.m3.1.3"></times><cn type="integer" id="footnote1.m3.1.2.cmml" xref="footnote1.m3.1.2">5</cn><cn type="integer" id="footnote1.m3.1.5.cmml" xref="footnote1.m3.1.5">25</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="footnote1.m3.1d">OPEN:( NUMBER:5 MULOP:times NUMBER:25 CLOSE:)</annotation><annotation encoding="application/x-tex" id="footnote1.m3.1e">(5\times 25)</annotation></semantics></math>, rather close
+to the actual one, <math id="footnote1.m4.1" class="ltx_Math" alttext="(5\times 34)" display="inline"><semantics id="footnote1.m4.1b"><mrow id="footnote1.m4.1.7" xref="footnote1.m4.1.7.2.cmml"><mo stretchy="false" id="footnote1.m4.1.1" xref="footnote1.m4.1.7.2.cmml">(</mo><mrow id="footnote1.m4.1.7.2" xref="footnote1.m4.1.7.2.cmml"><mn id="footnote1.m4.1.2" xref="footnote1.m4.1.2.cmml">5</mn><mo id="footnote1.m4.1.3" xref="footnote1.m4.1.3.cmml">×</mo><mn id="footnote1.m4.1.5" xref="footnote1.m4.1.5.cmml">34</mn></mrow><mo stretchy="false" id="footnote1.m4.1.6" xref="footnote1.m4.1.7.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="footnote1.m4.1c"><apply id="footnote1.m4.1.7.2.cmml" xref="footnote1.m4.1.7"><times id="footnote1.m4.1.3.cmml" xref="footnote1.m4.1.3"></times><cn type="integer" id="footnote1.m4.1.2.cmml" xref="footnote1.m4.1.2">5</cn><cn type="integer" id="footnote1.m4.1.5.cmml" xref="footnote1.m4.1.5">34</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="footnote1.m4.1d">OPEN:( NUMBER:5 MULOP:times NUMBER:34 CLOSE:)</annotation><annotation encoding="application/x-tex" id="footnote1.m4.1e">(5\times 34)</annotation></semantics></math>. We do not expect these small deviations to
+be very important. An additional aspect is that of rotations of the reconstructed
+overlayer. The experimental rotational angle is given as <math id="footnote1.m5.1" class="ltx_Math" alttext="0.84^{\circ}" display="inline"><semantics id="footnote1.m5.1b"><msup id="footnote1.m5.1.6" xref="footnote1.m5.1.6.cmml"><mn id="footnote1.m5.1.4" xref="footnote1.m5.1.4.cmml">0.84</mn><mo id="footnote1.m5.1.5.1" xref="footnote1.m5.1.5.1.cmml">∘</mo></msup><annotation-xml encoding="MathML-Content" id="footnote1.m5.1c"><apply id="footnote1.m5.1.6.cmml" xref="footnote1.m5.1.6"><csymbol cd="ambiguous" id="footnote1.m5.1.6.1.cmml" xref="footnote1.m5.1.6">superscript</csymbol><cn type="float" id="footnote1.m5.1.4.cmml" xref="footnote1.m5.1.4">0.84</cn><compose id="footnote1.m5.1.5.1.cmml" xref="footnote1.m5.1.5.1"></compose></apply></annotation-xml><annotation encoding="application/x-llamapun" id="footnote1.m5.1d">NUMBER:0.84 POSTSUPERSCRIPT:start MULOP:compose POSTSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="footnote1.m5.1e">0.84^{\circ}</annotation></semantics></math> <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib4" title="" class="ltx_ref">4</a>]</cite>, jumping to zero at <math id="footnote1.m6.1" class="ltx_Math" alttext="1000K" display="inline"><semantics id="footnote1.m6.1b"><mrow id="footnote1.m6.1.6" xref="footnote1.m6.1.6.cmml"><mn id="footnote1.m6.1.4" xref="footnote1.m6.1.4.cmml">1000</mn><mo id="footnote1.m6.1.6.1" xref="footnote1.m6.1.6.1.cmml">⁢</mo><mi id="footnote1.m6.1.5" xref="footnote1.m6.1.5.cmml">K</mi></mrow><annotation-xml encoding="MathML-Content" id="footnote1.m6.1c"><apply id="footnote1.m6.1.6.cmml" xref="footnote1.m6.1.6"><times id="footnote1.m6.1.6.1.cmml" xref="footnote1.m6.1.6.1"></times><cn type="integer" id="footnote1.m6.1.4.cmml" xref="footnote1.m6.1.4">1000</cn><ci id="footnote1.m6.1.5.cmml" xref="footnote1.m6.1.5">𝐾</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="footnote1.m6.1d">NUMBER:1000 italic-K</annotation><annotation encoding="application/x-tex" id="footnote1.m6.1e">1000K</annotation></semantics></math>. Rotations are basically incompatible with
+periodic boundary conditions, and have been neglected.</span></span></span>.</p>
+</div>
+<div id="S2.p4" class="ltx_para">
+<p id="S2.p4.1" class="ltx_p">In order to simulate a surface with a <span id="S2.p4.1.1" class="ltx_text ltx_font_italic">single</span> step, we generated
+new suitable PBCs which transform an <math id="S2.p4.1.m1.1" class="ltx_Math" alttext="A" display="inline"><semantics id="S2.p4.1.m1.1a"><mi id="S2.p4.1.m1.1.1" xref="S2.p4.1.m1.1.1.cmml">A</mi><annotation-xml encoding="MathML-Content" id="S2.p4.1.m1.1b"><ci id="S2.p4.1.m1.1.1.cmml" xref="S2.p4.1.m1.1.1">𝐴</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p4.1.m1.1c">italic-A</annotation><annotation encoding="application/x-tex" id="S2.p4.1.m1.1d">A</annotation></semantics></math> layer into a <math id="S2.p4.1.m2.1" class="ltx_Math" alttext="B" display="inline"><semantics id="S2.p4.1.m2.1a"><mi id="S2.p4.1.m2.1.1" xref="S2.p4.1.m2.1.1.cmml">B</mi><annotation-xml encoding="MathML-Content" id="S2.p4.1.m2.1b"><ci id="S2.p4.1.m2.1.1.cmml" xref="S2.p4.1.m2.1.1">𝐵</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p4.1.m2.1c">italic-B</annotation><annotation encoding="application/x-tex" id="S2.p4.1.m2.1d">B</annotation></semantics></math> layer
+(within an ABAB.. (100) stacking sequence) when crossing
+the slab boundary in the direction orthogonal to the step.
+This artifact allows the study of an isolated step which interacts only
+with its repeated image, and the terrace size remains constant during
+the system evolution.</p>
+</div>
+<div id="S2.p5" class="ltx_para">
+<p id="S2.p5.1" class="ltx_p">Temperature was controlled, and the system was carefully and gradually heated
+through velocity rescaling. Mobility of surface atoms became
+non-negligible for <math id="S2.p5.1.m1.1" class="ltx_Math" alttext="T&gt;1000K" display="inline"><semantics id="S2.p5.1.m1.1a"><mrow id="S2.p5.1.m1.1.8" xref="S2.p5.1.m1.1.8.cmml"><mi id="S2.p5.1.m1.1.1" xref="S2.p5.1.m1.1.1.cmml">T</mi><mo id="S2.p5.1.m1.1.2" xref="S2.p5.1.m1.1.2.cmml">&gt;</mo><mrow id="S2.p5.1.m1.1.8.1" xref="S2.p5.1.m1.1.8.1.cmml"><mn id="S2.p5.1.m1.1.6" xref="S2.p5.1.m1.1.6.cmml">1000</mn><mo id="S2.p5.1.m1.1.8.1.1" xref="S2.p5.1.m1.1.8.1.1.cmml">⁢</mo><mi id="S2.p5.1.m1.1.7" xref="S2.p5.1.m1.1.7.cmml">K</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S2.p5.1.m1.1b"><apply id="S2.p5.1.m1.1.8.cmml" xref="S2.p5.1.m1.1.8"><gt id="S2.p5.1.m1.1.2.cmml" xref="S2.p5.1.m1.1.2"></gt><ci id="S2.p5.1.m1.1.1.cmml" xref="S2.p5.1.m1.1.1">𝑇</ci><apply id="S2.p5.1.m1.1.8.1.cmml" xref="S2.p5.1.m1.1.8.1"><times id="S2.p5.1.m1.1.8.1.1.cmml" xref="S2.p5.1.m1.1.8.1.1"></times><cn type="integer" id="S2.p5.1.m1.1.6.cmml" xref="S2.p5.1.m1.1.6">1000</cn><ci id="S2.p5.1.m1.1.7.cmml" xref="S2.p5.1.m1.1.7">𝐾</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p5.1.m1.1c">italic-T RELOP:greater-than NUMBER:1000 italic-K</annotation><annotation encoding="application/x-tex" id="S2.p5.1.m1.1d">T&gt;1000K</annotation></semantics></math> (well below melting, <math id="S2.p5.1.m2.1" class="ltx_Math" alttext="T_{m}=1336K" display="inline"><semantics id="S2.p5.1.m2.1a"><mrow id="S2.p5.1.m2.1.9" xref="S2.p5.1.m2.1.9.cmml"><msub id="S2.p5.1.m2.1.9.1" xref="S2.p5.1.m2.1.9.1.cmml"><mi id="S2.p5.1.m2.1.1" xref="S2.p5.1.m2.1.1.cmml">T</mi><mi id="S2.p5.1.m2.1.2.1" xref="S2.p5.1.m2.1.2.1.cmml">m</mi></msub><mo id="S2.p5.1.m2.1.3" xref="S2.p5.1.m2.1.3.cmml">=</mo><mrow id="S2.p5.1.m2.1.9.2" xref="S2.p5.1.m2.1.9.2.cmml"><mn id="S2.p5.1.m2.1.7" xref="S2.p5.1.m2.1.7.cmml">1336</mn><mo id="S2.p5.1.m2.1.9.2.1" xref="S2.p5.1.m2.1.9.2.1.cmml">⁢</mo><mi id="S2.p5.1.m2.1.8" xref="S2.p5.1.m2.1.8.cmml">K</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S2.p5.1.m2.1b"><apply id="S2.p5.1.m2.1.9.cmml" xref="S2.p5.1.m2.1.9"><eq id="S2.p5.1.m2.1.3.cmml" xref="S2.p5.1.m2.1.3"></eq><apply id="S2.p5.1.m2.1.9.1.cmml" xref="S2.p5.1.m2.1.9.1"><csymbol cd="ambiguous" id="S2.p5.1.m2.1.9.1.1.cmml" xref="S2.p5.1.m2.1.9.1">subscript</csymbol><ci id="S2.p5.1.m2.1.1.cmml" xref="S2.p5.1.m2.1.1">𝑇</ci><ci id="S2.p5.1.m2.1.2.1.cmml" xref="S2.p5.1.m2.1.2.1">𝑚</ci></apply><apply id="S2.p5.1.m2.1.9.2.cmml" xref="S2.p5.1.m2.1.9.2"><times id="S2.p5.1.m2.1.9.2.1.cmml" xref="S2.p5.1.m2.1.9.2.1"></times><cn type="integer" id="S2.p5.1.m2.1.7.cmml" xref="S2.p5.1.m2.1.7">1336</cn><ci id="S2.p5.1.m2.1.8.cmml" xref="S2.p5.1.m2.1.8">𝐾</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p5.1.m2.1c">italic-T POSTSUBSCRIPT:start italic-m POSTSUBSCRIPT:end RELOP:equals NUMBER:1336 italic-K</annotation><annotation encoding="application/x-tex" id="S2.p5.1.m2.1d">T_{m}=1336K</annotation></semantics></math> for Au).</p>
+</div>
+<div id="S2.p6" class="ltx_para">
+<p id="S2.p6.1" class="ltx_p">The simulation of atom addition and removal represents a difficult task
+in the canonical ensemble. Working fully canonically, i.e., conserving
+particles, we were able to obtain a similar outcome by exploiting
+a peculiar feature of the <math id="S2.p6.1.m1.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S2.p6.1.m1.1a"><mrow id="S2.p6.1.m1.1.6"><mo stretchy="false" id="S2.p6.1.m1.1.1">(</mo><mn id="S2.p6.1.m1.1.4" xref="S2.p6.1.m1.1.4.cmml">100</mn><mo stretchy="false" id="S2.p6.1.m1.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S2.p6.1.m1.1b"><cn type="integer" id="S2.p6.1.m1.1.4.cmml" xref="S2.p6.1.m1.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p6.1.m1.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S2.p6.1.m1.1d">(100)</annotation></semantics></math>
+hex reconstructed surface, namely the fact that its lateral density increases
+with temperature, notably by about 5% from 700 to 1000 K. <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib6" title="" class="ltx_ref">6</a>]</cite></p>
+</div>
+<div id="S2.p7" class="ltx_para">
+<p id="S2.p7.1" class="ltx_p">When a step is present, as is the case here, it will retract upon heating to accommodate for this
+top layer density increase. The net movement of the step in fact
+provides in this way for us a very natural method to gauge the optimal spontaneous change
+of surface lateral density. Moreover, we can observe how the lateral
+density varies locally, depending on the planar coordinate relative to the
+step position.</p>
+</div>
+<div id="S2.p8" class="ltx_para">
+<p id="S2.p8.1" class="ltx_p">If we consider now a flat, step-free surface, and we heat it up
+suddenly, the associated increase
+of optimal lateral hex layer density will induce a strong tensile
+surface stress, which cannot be relieved in the absence of a
+defect. If that stress overcomes a certain critical limit,
+we can expect the sudden formation of one or more craters, leading to
+a state quite similar to that which we could have obtained by removing
+atoms at fixed temperature. Conversely, sudden cooling should lead
+to compressive stress, and eventually islands of excess atoms will pop up
+to relieve that stress.</p>
+</div>
+<div id="S2.p9" class="ltx_para">
+<p id="S2.p9.1" class="ltx_p">This method is completely ad hoc for our situation, and it can only
+work in practice if the hex layer is relatively free to slide parallel
+to itself. Luckily, we found that this is the case for gold in the
+temperature range 800-1000K used here.</p>
+</div>
+<div id="S2.p10" class="ltx_para">
+<p id="S2.p10.1" class="ltx_p">An alternative, and certainly more standard way to add or remove atoms
+in order to study island or crater formation would be Grand Canonical
+Monte Carlo (GCMC). Although we did succeed in implementing it
+for certain Au surfaces, we eventually found the MD technique
+described above more useful for the present purposes. GCMC is
+in the first place very difficult
+to equilibrate, and moreover it does not provide as much desirable information
+on the dynamics, as MD does.</p>
+</div>
+<div id="S2.p11" class="ltx_para">
+<p id="S2.p11.1" class="ltx_p">Conversely, GCMC can be of great help in all cases where a
+strong density change (like in the square<math id="S2.p11.1.m1.1" class="ltx_Math" alttext="\rightarrow" display="inline"><semantics id="S2.p11.1.m1.1a"><mo id="S2.p11.1.m1.1.1" xref="S2.p11.1.m1.1.1.cmml">→</mo><annotation-xml encoding="MathML-Content" id="S2.p11.1.m1.1b"><ci id="S2.p11.1.m1.1.1.cmml" xref="S2.p11.1.m1.1.1">→</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p11.1.m1.1c">ARROW:rightarrow</annotation><annotation encoding="application/x-tex" id="S2.p11.1.m1.1d">\rightarrow</annotation></semantics></math>hex transformation)
+must be handled. We will demonstrate how
+that works for Au <math id="S2.p11.1.m2.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S2.p11.1.m2.1a"><mrow id="S2.p11.1.m2.1.6"><mo stretchy="false" id="S2.p11.1.m2.1.1">(</mo><mn id="S2.p11.1.m2.1.4" xref="S2.p11.1.m2.1.4.cmml">100</mn><mo stretchy="false" id="S2.p11.1.m2.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S2.p11.1.m2.1b"><cn type="integer" id="S2.p11.1.m2.1.4.cmml" xref="S2.p11.1.m2.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S2.p11.1.m2.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S2.p11.1.m2.1d">(100)</annotation></semantics></math> in a forthcoming paper <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib11" title="" class="ltx_ref">11</a>]</cite>.</p>
+</div>
+</section>
+<section id="S3" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">III </span>A step on the hex Au <math id="S3.m1.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S3.m1.1b"><mrow id="S3.m1.1.6"><mo stretchy="false" id="S3.m1.1.1">(</mo><mn id="S3.m1.1.4" xref="S3.m1.1.4.cmml">100</mn><mo stretchy="false" id="S3.m1.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S3.m1.1c"><cn type="integer" id="S3.m1.1.4.cmml" xref="S3.m1.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S3.m1.1d">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S3.m1.1e">(100)</annotation></semantics></math> surface</h2>
+
+<div id="S3.p1" class="ltx_para">
+<p id="S3.p1.1" class="ltx_p">We simulated a <math id="S3.p1.1.m1.1" class="ltx_Math" alttext="(100,1,1)" display="inline"><semantics id="S3.p1.1.m1.1a"><mrow id="S3.p1.1.m1.1.10" xref="S3.p1.1.m1.1.10.1.cmml"><mo stretchy="false" id="S3.p1.1.m1.1.1" xref="S3.p1.1.m1.1.10.1.cmml">(</mo><mn id="S3.p1.1.m1.1.4" xref="S3.p1.1.m1.1.4.cmml">100</mn><mo id="S3.p1.1.m1.1.5" xref="S3.p1.1.m1.1.10.1.cmml">,</mo><mn id="S3.p1.1.m1.1.6" xref="S3.p1.1.m1.1.6.cmml">1</mn><mo id="S3.p1.1.m1.1.7" xref="S3.p1.1.m1.1.10.1.cmml">,</mo><mn id="S3.p1.1.m1.1.8" xref="S3.p1.1.m1.1.8.cmml">1</mn><mo stretchy="false" id="S3.p1.1.m1.1.9" xref="S3.p1.1.m1.1.10.1.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S3.p1.1.m1.1b"><vector id="S3.p1.1.m1.1.10.1.cmml" xref="S3.p1.1.m1.1.10"><cn type="integer" id="S3.p1.1.m1.1.4.cmml" xref="S3.p1.1.m1.1.4">100</cn><cn type="integer" id="S3.p1.1.m1.1.6.cmml" xref="S3.p1.1.m1.1.6">1</cn><cn type="integer" id="S3.p1.1.m1.1.8.cmml" xref="S3.p1.1.m1.1.8">1</cn></vector></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p1.1.m1.1c">OPEN:( NUMBER:100 PUNCT:, NUMBER:1 PUNCT:, NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S3.p1.1.m1.1d">(100,1,1)</annotation></semantics></math> vicinal surface of Au <math id="S3.p1.1.m2.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S3.p1.1.m2.1a"><mrow id="S3.p1.1.m2.1.6"><mo stretchy="false" id="S3.p1.1.m2.1.1">(</mo><mn id="S3.p1.1.m2.1.4" xref="S3.p1.1.m2.1.4.cmml">100</mn><mo stretchy="false" id="S3.p1.1.m2.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S3.p1.1.m2.1b"><cn type="integer" id="S3.p1.1.m2.1.4.cmml" xref="S3.p1.1.m2.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p1.1.m2.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S3.p1.1.m2.1d">(100)</annotation></semantics></math>, with a single step and
+a wide terrace (maximum terrace size was <math id="S3.p1.1.m3.1" class="ltx_Math" alttext="50\times 50" display="inline"><semantics id="S3.p1.1.m3.1a"><mrow id="S3.p1.1.m3.1.6" xref="S3.p1.1.m3.1.6.cmml"><mn id="S3.p1.1.m3.1.2" xref="S3.p1.1.m3.1.2.cmml">50</mn><mo id="S3.p1.1.m3.1.3" xref="S3.p1.1.m3.1.3.cmml">×</mo><mn id="S3.p1.1.m3.1.5" xref="S3.p1.1.m3.1.5.cmml">50</mn></mrow><annotation-xml encoding="MathML-Content" id="S3.p1.1.m3.1b"><apply id="S3.p1.1.m3.1.6.cmml" xref="S3.p1.1.m3.1.6"><times id="S3.p1.1.m3.1.3.cmml" xref="S3.p1.1.m3.1.3"></times><cn type="integer" id="S3.p1.1.m3.1.2.cmml" xref="S3.p1.1.m3.1.2">50</cn><cn type="integer" id="S3.p1.1.m3.1.5.cmml" xref="S3.p1.1.m3.1.5">50</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p1.1.m3.1c">NUMBER:50 MULOP:times NUMBER:50</annotation><annotation encoding="application/x-tex" id="S3.p1.1.m3.1d">50\times 50</annotation></semantics></math> nearest neighbor
+distances). Fig. 1 (upper part) shows the side view of the surface with a step.
+</p>
+</div>
+<div id="S3.p2" class="ltx_para">
+<p id="S3.p2.1" class="ltx_p">The atoms of the second layer are marked in white; we note that the part
+of the second layer covered by the terrace is unreconstructed (A) whereas
+the (B) part is reconstructed. If we follow the lateral
+density of the second layer from A to B, we will cross a transition zone
+in correspondence with the step. The width of this zone marks the surface correlation
+length as probed by
+the step, and can be
+extracted from MD simulations, and the result for the temperature of <math id="S3.p2.1.m1.1" class="ltx_Math" alttext="T=900K" display="inline"><semantics id="S3.p2.1.m1.1a"><mrow id="S3.p2.1.m1.1.7" xref="S3.p2.1.m1.1.7.cmml"><mi id="S3.p2.1.m1.1.1" xref="S3.p2.1.m1.1.1.cmml">T</mi><mo id="S3.p2.1.m1.1.2" xref="S3.p2.1.m1.1.2.cmml">=</mo><mrow id="S3.p2.1.m1.1.7.1" xref="S3.p2.1.m1.1.7.1.cmml"><mn id="S3.p2.1.m1.1.5" xref="S3.p2.1.m1.1.5.cmml">900</mn><mo id="S3.p2.1.m1.1.7.1.1" xref="S3.p2.1.m1.1.7.1.1.cmml">⁢</mo><mi id="S3.p2.1.m1.1.6" xref="S3.p2.1.m1.1.6.cmml">K</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S3.p2.1.m1.1b"><apply id="S3.p2.1.m1.1.7.cmml" xref="S3.p2.1.m1.1.7"><eq id="S3.p2.1.m1.1.2.cmml" xref="S3.p2.1.m1.1.2"></eq><ci id="S3.p2.1.m1.1.1.cmml" xref="S3.p2.1.m1.1.1">𝑇</ci><apply id="S3.p2.1.m1.1.7.1.cmml" xref="S3.p2.1.m1.1.7.1"><times id="S3.p2.1.m1.1.7.1.1.cmml" xref="S3.p2.1.m1.1.7.1.1"></times><cn type="integer" id="S3.p2.1.m1.1.5.cmml" xref="S3.p2.1.m1.1.5">900</cn><ci id="S3.p2.1.m1.1.6.cmml" xref="S3.p2.1.m1.1.6">𝐾</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p2.1.m1.1c">italic-T RELOP:equals NUMBER:900 italic-K</annotation><annotation encoding="application/x-tex" id="S3.p2.1.m1.1d">T=900K</annotation></semantics></math> are
+shown in Fig. 1 (lower part). The correlation
+length is roughly <math id="S3.p2.1.m2.1" class="ltx_Math" alttext="5" display="inline"><semantics id="S3.p2.1.m2.1a"><mn id="S3.p2.1.m2.1.1" xref="S3.p2.1.m2.1.1.cmml">5</mn><annotation-xml encoding="MathML-Content" id="S3.p2.1.m2.1b"><cn type="integer" id="S3.p2.1.m2.1.1.cmml" xref="S3.p2.1.m2.1.1">5</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p2.1.m2.1c">NUMBER:5</annotation><annotation encoding="application/x-tex" id="S3.p2.1.m2.1d">5</annotation></semantics></math> Å at <math id="S3.p2.1.m3.1" class="ltx_Math" alttext="900K" display="inline"><semantics id="S3.p2.1.m3.1a"><mrow id="S3.p2.1.m3.1.5" xref="S3.p2.1.m3.1.5.cmml"><mn id="S3.p2.1.m3.1.3" xref="S3.p2.1.m3.1.3.cmml">900</mn><mo id="S3.p2.1.m3.1.5.1" xref="S3.p2.1.m3.1.5.1.cmml">⁢</mo><mi id="S3.p2.1.m3.1.4" xref="S3.p2.1.m3.1.4.cmml">K</mi></mrow><annotation-xml encoding="MathML-Content" id="S3.p2.1.m3.1b"><apply id="S3.p2.1.m3.1.5.cmml" xref="S3.p2.1.m3.1.5"><times id="S3.p2.1.m3.1.5.1.cmml" xref="S3.p2.1.m3.1.5.1"></times><cn type="integer" id="S3.p2.1.m3.1.3.cmml" xref="S3.p2.1.m3.1.3">900</cn><ci id="S3.p2.1.m3.1.4.cmml" xref="S3.p2.1.m3.1.4">𝐾</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p2.1.m3.1c">NUMBER:900 italic-K</annotation><annotation encoding="application/x-tex" id="S3.p2.1.m3.1d">900K</annotation></semantics></math> and increases to <math id="S3.p2.1.m4.1" class="ltx_Math" alttext="10" display="inline"><semantics id="S3.p2.1.m4.1a"><mn id="S3.p2.1.m4.1.2" xref="S3.p2.1.m4.1.2.cmml">10</mn><annotation-xml encoding="MathML-Content" id="S3.p2.1.m4.1b"><cn type="integer" id="S3.p2.1.m4.1.2.cmml" xref="S3.p2.1.m4.1.2">10</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p2.1.m4.1c">NUMBER:10</annotation><annotation encoding="application/x-tex" id="S3.p2.1.m4.1d">10</annotation></semantics></math> Å at <math id="S3.p2.1.m5.1" class="ltx_Math" alttext="1250K" display="inline"><semantics id="S3.p2.1.m5.1a"><mrow id="S3.p2.1.m5.1.6" xref="S3.p2.1.m5.1.6.cmml"><mn id="S3.p2.1.m5.1.4" xref="S3.p2.1.m5.1.4.cmml">1250</mn><mo id="S3.p2.1.m5.1.6.1" xref="S3.p2.1.m5.1.6.1.cmml">⁢</mo><mi id="S3.p2.1.m5.1.5" xref="S3.p2.1.m5.1.5.cmml">K</mi></mrow><annotation-xml encoding="MathML-Content" id="S3.p2.1.m5.1b"><apply id="S3.p2.1.m5.1.6.cmml" xref="S3.p2.1.m5.1.6"><times id="S3.p2.1.m5.1.6.1.cmml" xref="S3.p2.1.m5.1.6.1"></times><cn type="integer" id="S3.p2.1.m5.1.4.cmml" xref="S3.p2.1.m5.1.4">1250</cn><ci id="S3.p2.1.m5.1.5.cmml" xref="S3.p2.1.m5.1.5">𝐾</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S3.p2.1.m5.1c">NUMBER:1250 italic-K</annotation><annotation encoding="application/x-tex" id="S3.p2.1.m5.1d">1250K</annotation></semantics></math> (not shown).
+This result gives a measure of the influence of the step on the lateral
+coordination in its neighborhood, and reveals an interesting interplay
+between step and reconstruction.</p>
+</div>
+</section>
+<section id="S4" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">IV </span>Island formation</h2>
+
+<div id="S4.p1" class="ltx_para">
+<p id="S4.p1.1" class="ltx_p">The reconstructed <math id="S4.p1.1.m1.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S4.p1.1.m1.1a"><mrow id="S4.p1.1.m1.1.6"><mo stretchy="false" id="S4.p1.1.m1.1.1">(</mo><mn id="S4.p1.1.m1.1.4" xref="S4.p1.1.m1.1.4.cmml">100</mn><mo stretchy="false" id="S4.p1.1.m1.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S4.p1.1.m1.1b"><cn type="integer" id="S4.p1.1.m1.1.4.cmml" xref="S4.p1.1.m1.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p1.1.m1.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S4.p1.1.m1.1d">(100)</annotation></semantics></math> surface of noble metals undergoes an order <math id="S4.p1.1.m2.1" class="ltx_Math" alttext="\rightarrow" display="inline"><semantics id="S4.p1.1.m2.1a"><mo id="S4.p1.1.m2.1.1" xref="S4.p1.1.m2.1.1.cmml">→</mo><annotation-xml encoding="MathML-Content" id="S4.p1.1.m2.1b"><ci id="S4.p1.1.m2.1.1.cmml" xref="S4.p1.1.m2.1.1">→</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p1.1.m2.1c">ARROW:rightarrow</annotation><annotation encoding="application/x-tex" id="S4.p1.1.m2.1d">\rightarrow</annotation></semantics></math>disorder
+transition at about <math id="S4.p1.1.m3.1" class="ltx_Math" alttext="T=.8\,T_{m}" display="inline"><semantics id="S4.p1.1.m3.1a"><mrow id="S4.p1.1.m3.1.8" xref="S4.p1.1.m3.1.8.cmml"><mi id="S4.p1.1.m3.1.1" xref="S4.p1.1.m3.1.1.cmml">T</mi><mo id="S4.p1.1.m3.1.2" xref="S4.p1.1.m3.1.2.cmml">=</mo><mrow id="S4.p1.1.m3.1.8.1" xref="S4.p1.1.m3.1.8.1.cmml"><mpadded width="+1.7pt" id="S4.p1.1.m3.1.4" xref="S4.p1.1.m3.1.4.cmml"><mn id="S4.p1.1.m3.1.4a" xref="S4.p1.1.m3.1.4.cmml">.8</mn></mpadded><mo id="S4.p1.1.m3.1.8.1.1" xref="S4.p1.1.m3.1.8.1.1.cmml">⁢</mo><msub id="S4.p1.1.m3.1.8.1.2" xref="S4.p1.1.m3.1.8.1.2.cmml"><mi id="S4.p1.1.m3.1.6" xref="S4.p1.1.m3.1.6.cmml">T</mi><mi id="S4.p1.1.m3.1.7.1" xref="S4.p1.1.m3.1.7.1.cmml">m</mi></msub></mrow></mrow><annotation-xml encoding="MathML-Content" id="S4.p1.1.m3.1b"><apply id="S4.p1.1.m3.1.8.cmml" xref="S4.p1.1.m3.1.8"><eq id="S4.p1.1.m3.1.2.cmml" xref="S4.p1.1.m3.1.2"></eq><ci id="S4.p1.1.m3.1.1.cmml" xref="S4.p1.1.m3.1.1">𝑇</ci><apply id="S4.p1.1.m3.1.8.1.cmml" xref="S4.p1.1.m3.1.8.1"><times id="S4.p1.1.m3.1.8.1.1.cmml" xref="S4.p1.1.m3.1.8.1.1"></times><cn type="float" id="S4.p1.1.m3.1.4.cmml" xref="S4.p1.1.m3.1.4">.8</cn><apply id="S4.p1.1.m3.1.8.1.2.cmml" xref="S4.p1.1.m3.1.8.1.2"><csymbol cd="ambiguous" id="S4.p1.1.m3.1.8.1.2.1.cmml" xref="S4.p1.1.m3.1.8.1.2">subscript</csymbol><ci id="S4.p1.1.m3.1.6.cmml" xref="S4.p1.1.m3.1.6">𝑇</ci><ci id="S4.p1.1.m3.1.7.1.cmml" xref="S4.p1.1.m3.1.7.1">𝑚</ci></apply></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p1.1.m3.1c">italic-T RELOP:equals NUMBER:.8 italic-T POSTSUBSCRIPT:start italic-m POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S4.p1.1.m3.1d">T=.8\,T_{m}</annotation></semantics></math>. Low temperature deconstruction can, however, be induced upon adsorption of
+molecular species. The Cambridge group <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib5" title="" class="ltx_ref">5</a>]</cite> has carried out thorough studies of adsorption of light
+molecules such as CO, D<math id="S4.p1.1.m4.1" class="ltx_Math" alttext="{}_{2}" display="inline"><semantics id="S4.p1.1.m4.1a"><msub id="S4.p1.1.m4.1.1" xref="S4.p1.1.m4.1.1.cmml"><mi id="S4.p1.1.m4.1.1a" xref="S4.p1.1.m4.1.1.cmml"></mi><mn id="S4.p1.1.m4.1.1.1" xref="S4.p1.1.m4.1.1.1.cmml">2</mn></msub><annotation-xml encoding="MathML-Content" id="S4.p1.1.m4.1b"><apply id="S4.p1.1.m4.1.1.cmml" xref="S4.p1.1.m4.1.1"><cn type="integer" id="S4.p1.1.m4.1.1.1.cmml" xref="S4.p1.1.m4.1.1.1">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p1.1.m4.1c">FLOATSUBSCRIPT:start NUMBER:2 FLOATSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S4.p1.1.m4.1d">{}_{2}</annotation></semantics></math> and O<math id="S4.p1.1.m5.1" class="ltx_Math" alttext="{}_{2}" display="inline"><semantics id="S4.p1.1.m5.1a"><msub id="S4.p1.1.m5.1.1" xref="S4.p1.1.m5.1.1.cmml"><mi id="S4.p1.1.m5.1.1a" xref="S4.p1.1.m5.1.1.cmml"></mi><mn id="S4.p1.1.m5.1.1.1" xref="S4.p1.1.m5.1.1.1.cmml">2</mn></msub><annotation-xml encoding="MathML-Content" id="S4.p1.1.m5.1b"><apply id="S4.p1.1.m5.1.1.cmml" xref="S4.p1.1.m5.1.1"><cn type="integer" id="S4.p1.1.m5.1.1.1.cmml" xref="S4.p1.1.m5.1.1.1">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p1.1.m5.1c">FLOATSUBSCRIPT:start NUMBER:2 FLOATSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S4.p1.1.m5.1d">{}_{2}</annotation></semantics></math> onto a fully reconstructed Pt <math id="S4.p1.1.m6.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S4.p1.1.m6.1a"><mrow id="S4.p1.1.m6.1.6"><mo stretchy="false" id="S4.p1.1.m6.1.1">(</mo><mn id="S4.p1.1.m6.1.4" xref="S4.p1.1.m6.1.4.cmml">100</mn><mo stretchy="false" id="S4.p1.1.m6.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S4.p1.1.m6.1b"><cn type="integer" id="S4.p1.1.m6.1.4.cmml" xref="S4.p1.1.m6.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p1.1.m6.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S4.p1.1.m6.1d">(100)</annotation></semantics></math> surface. They found
+that molecular island form, but that the
+growth rate of the islands increases extremely slowly at
+low concentrations, roughly like the
+fourth power of molecular coverage (we shall call this King’s law).
+The explanation offered for this phenomenon is that while
+the hex-reconstructed surface is unreactive, and will bind the
+molecules, the opposite is true for the <span id="S4.p1.1.1" class="ltx_text ltx_font_italic">deconstructed</span>
+,
+square <math id="S4.p1.1.m7.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S4.p1.1.m7.1a"><mrow id="S4.p1.1.m7.1.6"><mo stretchy="false" id="S4.p1.1.m7.1.1">(</mo><mn id="S4.p1.1.m7.1.4" xref="S4.p1.1.m7.1.4.cmml">100</mn><mo stretchy="false" id="S4.p1.1.m7.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S4.p1.1.m7.1b"><cn type="integer" id="S4.p1.1.m7.1.4.cmml" xref="S4.p1.1.m7.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p1.1.m7.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S4.p1.1.m7.1d">(100)</annotation></semantics></math> surface. The latter however must nucleate (under the island), and this requires a finite island size, of no less
+than 4 ad-molecules.</p>
+</div>
+<div id="S4.p2" class="ltx_para">
+<p id="S4.p2.1" class="ltx_p">It should be noted that King’s exponent of
+about <math id="S4.p2.1.m1.1" class="ltx_Math" alttext="4" display="inline"><semantics id="S4.p2.1.m1.1a"><mn id="S4.p2.1.m1.1.1" xref="S4.p2.1.m1.1.1.cmml">4</mn><annotation-xml encoding="MathML-Content" id="S4.p2.1.m1.1b"><cn type="integer" id="S4.p2.1.m1.1.1.cmml" xref="S4.p2.1.m1.1.1">4</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p2.1.m1.1c">NUMBER:4</annotation><annotation encoding="application/x-tex" id="S4.p2.1.m1.1d">4</annotation></semantics></math> implies that about <math id="S4.p2.1.m2.1" class="ltx_Math" alttext="8" display="inline"><semantics id="S4.p2.1.m2.1a"><mn id="S4.p2.1.m2.1.1" xref="S4.p2.1.m2.1.1.cmml">8</mn><annotation-xml encoding="MathML-Content" id="S4.p2.1.m2.1b"><cn type="integer" id="S4.p2.1.m2.1.1.cmml" xref="S4.p2.1.m2.1.1">8</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p2.1.m2.1c">NUMBER:8</annotation><annotation encoding="application/x-tex" id="S4.p2.1.m2.1d">8</annotation></semantics></math>
+Pt atoms must switch from hex to square for the adsorption process to grow. Hence
+King’s law is most likely telling us a property of the clean surface.
+This is confirmed by the circumstance that the exponent is not very dependent on
+the adsorbed species.
+The next observation is that very much the same deconstruction
+must take place with homoepitaxy. Hence we expect that upon deposition of
+Pt on Pt<math id="S4.p2.1.m3.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S4.p2.1.m3.1a"><mrow id="S4.p2.1.m3.1.6"><mo stretchy="false" id="S4.p2.1.m3.1.1">(</mo><mn id="S4.p2.1.m3.1.4" xref="S4.p2.1.m3.1.4.cmml">100</mn><mo stretchy="false" id="S4.p2.1.m3.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S4.p2.1.m3.1b"><cn type="integer" id="S4.p2.1.m3.1.4.cmml" xref="S4.p2.1.m3.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p2.1.m3.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S4.p2.1.m3.1d">(100)</annotation></semantics></math>, or on Au<math id="S4.p2.1.m4.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S4.p2.1.m4.1a"><mrow id="S4.p2.1.m4.1.6"><mo stretchy="false" id="S4.p2.1.m4.1.1">(</mo><mn id="S4.p2.1.m4.1.4" xref="S4.p2.1.m4.1.4.cmml">100</mn><mo stretchy="false" id="S4.p2.1.m4.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S4.p2.1.m4.1b"><cn type="integer" id="S4.p2.1.m4.1.4.cmml" xref="S4.p2.1.m4.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p2.1.m4.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S4.p2.1.m4.1d">(100)</annotation></semantics></math>, particularly at high temperatures when
+equilibrium can be established, there should be a minimum critical island
+size, of order 8 or so atoms, related to deconstruction of the
+substrate.</p>
+</div>
+<div id="S4.p3" class="ltx_para">
+<p id="S4.p3.1" class="ltx_p">We mimicked homogeneous atoms addition/removal through the
+already mentioned temperature jump technique. An alternative method was to prepare the
+system with a certain surface excess density,
+and to wait for the excess atoms to form an island.
+In both cases, the island/crater growth was mainly determined
+by the density difference between square and hexagonal phase and
+not by the initial conditions of the simulation; the
+dynamics can be therefore trusted as true island/crater growth dynamics,
+whatever the method used to determine lateral density excess/deficit.</p>
+</div>
+<div id="S4.p4" class="ltx_para">
+<p id="S4.p4.1" class="ltx_p">In this section we will focus on island formation case, adding atoms at a temperature of
+<math id="S4.p4.1.m1.1" class="ltx_Math" alttext="1200K" display="inline"><semantics id="S4.p4.1.m1.1a"><mrow id="S4.p4.1.m1.1.6" xref="S4.p4.1.m1.1.6.cmml"><mn id="S4.p4.1.m1.1.4" xref="S4.p4.1.m1.1.4.cmml">1200</mn><mo id="S4.p4.1.m1.1.6.1" xref="S4.p4.1.m1.1.6.1.cmml">⁢</mo><mi id="S4.p4.1.m1.1.5" xref="S4.p4.1.m1.1.5.cmml">K</mi></mrow><annotation-xml encoding="MathML-Content" id="S4.p4.1.m1.1b"><apply id="S4.p4.1.m1.1.6.cmml" xref="S4.p4.1.m1.1.6"><times id="S4.p4.1.m1.1.6.1.cmml" xref="S4.p4.1.m1.1.6.1"></times><cn type="integer" id="S4.p4.1.m1.1.4.cmml" xref="S4.p4.1.m1.1.4">1200</cn><ci id="S4.p4.1.m1.1.5.cmml" xref="S4.p4.1.m1.1.5">𝐾</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p4.1.m1.1c">NUMBER:1200 italic-K</annotation><annotation encoding="application/x-tex" id="S4.p4.1.m1.1d">1200K</annotation></semantics></math> in order to have sufficient mobility of surface atoms.</p>
+</div>
+<div id="S4.p5" class="ltx_para">
+<p id="S4.p5.1" class="ltx_p">An initial excess density of 0.06 <math id="S4.p5.1.m1.1" class="ltx_Math" alttext="\rho_{b}" display="inline"><semantics id="S4.p5.1.m1.1a"><msub id="S4.p5.1.m1.1.3" xref="S4.p5.1.m1.1.3.cmml"><mi id="S4.p5.1.m1.1.1" xref="S4.p5.1.m1.1.1.cmml">ρ</mi><mi id="S4.p5.1.m1.1.2.1" xref="S4.p5.1.m1.1.2.1.cmml">b</mi></msub><annotation-xml encoding="MathML-Content" id="S4.p5.1.m1.1b"><apply id="S4.p5.1.m1.1.3.cmml" xref="S4.p5.1.m1.1.3"><csymbol cd="ambiguous" id="S4.p5.1.m1.1.3.1.cmml" xref="S4.p5.1.m1.1.3">subscript</csymbol><ci id="S4.p5.1.m1.1.1.cmml" xref="S4.p5.1.m1.1.1">𝜌</ci><ci id="S4.p5.1.m1.1.2.1.cmml" xref="S4.p5.1.m1.1.2.1">𝑏</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p5.1.m1.1c">italic-rho POSTSUBSCRIPT:start italic-b POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S4.p5.1.m1.1d">\rho_{b}</annotation></semantics></math> (<math id="S4.p5.1.m2.1" class="ltx_Math" alttext="\rho_{b}" display="inline"><semantics id="S4.p5.1.m2.1a"><msub id="S4.p5.1.m2.1.3" xref="S4.p5.1.m2.1.3.cmml"><mi id="S4.p5.1.m2.1.1" xref="S4.p5.1.m2.1.1.cmml">ρ</mi><mi id="S4.p5.1.m2.1.2.1" xref="S4.p5.1.m2.1.2.1.cmml">b</mi></msub><annotation-xml encoding="MathML-Content" id="S4.p5.1.m2.1b"><apply id="S4.p5.1.m2.1.3.cmml" xref="S4.p5.1.m2.1.3"><csymbol cd="ambiguous" id="S4.p5.1.m2.1.3.1.cmml" xref="S4.p5.1.m2.1.3">subscript</csymbol><ci id="S4.p5.1.m2.1.1.cmml" xref="S4.p5.1.m2.1.1">𝜌</ci><ci id="S4.p5.1.m2.1.2.1.cmml" xref="S4.p5.1.m2.1.2.1">𝑏</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p5.1.m2.1c">italic-rho POSTSUBSCRIPT:start italic-b POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S4.p5.1.m2.1d">\rho_{b}</annotation></semantics></math> being the lateral density of a bulk <math id="S4.p5.1.m3.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S4.p5.1.m3.1a"><mrow id="S4.p5.1.m3.1.6"><mo stretchy="false" id="S4.p5.1.m3.1.1">(</mo><mn id="S4.p5.1.m3.1.4" xref="S4.p5.1.m3.1.4.cmml">100</mn><mo stretchy="false" id="S4.p5.1.m3.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S4.p5.1.m3.1b"><cn type="integer" id="S4.p5.1.m3.1.4.cmml" xref="S4.p5.1.m3.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S4.p5.1.m3.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S4.p5.1.m3.1d">(100)</annotation></semantics></math> layer) at the surface causes the
+appearance of small fluctuating islands. However these islands are readsorbed quickly
+by the substrate so long as their size is smaller than about 10 atoms. If the
+size is greater than 10-15 atoms, however,
+the island is not
+readsorbed and begins to grow.
+Figure 2(a) shows the time evolution of the maximum island size on the surface; there is clearly a critical size above which the island size grows.</p>
+</div>
+<div id="S4.p6" class="ltx_para">
+<p id="S4.p6.1" class="ltx_p">Our explanation for this critical size is the following:
+as long as the island is small, there is no deconstruction under it.
+In other words if the border of the island has the same role of the
+single step
+described in the previous section, the island size is too small.
+No deconstruction occurs until
+the diameter of the island is greater than the
+surface correlation length as felt by the step.
+When the size of the island exceeds this value, only then
+the substrate can deconstruct and growth can continue, now fueled by the excess atoms ejected by the lower layer. These atoms correspond
+to the density difference between
+hexagonal and square order under the island, and they make
+the island growth very fast. The deconstruction is
+almost completed when the island has a size of about 25-30 atoms, as
+shown in a snapshot of the simulation (t=175 ps), shown in Figure 3.</p>
+</div>
+</section>
+<section id="S5" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">V </span>Crater formation</h2>
+
+<div id="S5.p1" class="ltx_para">
+<p id="S5.p1.1" class="ltx_p">A symmetric situation with respect to the last section is the formation
+of craters on a flat surface.
+We used temperature as the driving force for the density
+change at the surface, by increasing temperature from 800 to <math id="S5.p1.1.m1.1" class="ltx_Math" alttext="T=950K" display="inline"><semantics id="S5.p1.1.m1.1a"><mrow id="S5.p1.1.m1.1.7" xref="S5.p1.1.m1.1.7.cmml"><mi id="S5.p1.1.m1.1.1" xref="S5.p1.1.m1.1.1.cmml">T</mi><mo id="S5.p1.1.m1.1.2" xref="S5.p1.1.m1.1.2.cmml">=</mo><mrow id="S5.p1.1.m1.1.7.1" xref="S5.p1.1.m1.1.7.1.cmml"><mn id="S5.p1.1.m1.1.5" xref="S5.p1.1.m1.1.5.cmml">950</mn><mo id="S5.p1.1.m1.1.7.1.1" xref="S5.p1.1.m1.1.7.1.1.cmml">⁢</mo><mi id="S5.p1.1.m1.1.6" xref="S5.p1.1.m1.1.6.cmml">K</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="S5.p1.1.m1.1b"><apply id="S5.p1.1.m1.1.7.cmml" xref="S5.p1.1.m1.1.7"><eq id="S5.p1.1.m1.1.2.cmml" xref="S5.p1.1.m1.1.2"></eq><ci id="S5.p1.1.m1.1.1.cmml" xref="S5.p1.1.m1.1.1">𝑇</ci><apply id="S5.p1.1.m1.1.7.1.cmml" xref="S5.p1.1.m1.1.7.1"><times id="S5.p1.1.m1.1.7.1.1.cmml" xref="S5.p1.1.m1.1.7.1.1"></times><cn type="integer" id="S5.p1.1.m1.1.5.cmml" xref="S5.p1.1.m1.1.5">950</cn><ci id="S5.p1.1.m1.1.6.cmml" xref="S5.p1.1.m1.1.6">𝐾</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p1.1.m1.1c">italic-T RELOP:equals NUMBER:950 italic-K</annotation><annotation encoding="application/x-tex" id="S5.p1.1.m1.1d">T=950K</annotation></semantics></math>. At this
+temperature, surface atom mobility is sufficiently high.
+The main results concerning craters are the following:</p>
+</div>
+<div id="S5.p2" class="ltx_para">
+<ul id="S5.I1" class="ltx_itemize">
+<li id="S5.I1.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S5.I1.i1.p1" class="ltx_para">
+<p id="S5.I1.i1.p1.1" class="ltx_p">The formation of craters requires a slightly smaller nucleus with a
+critical size <math id="S5.I1.i1.p1.1.m1.1" class="ltx_Math" alttext="N_{H}" display="inline"><semantics id="S5.I1.i1.p1.1.m1.1a"><msub id="S5.I1.i1.p1.1.m1.1.3" xref="S5.I1.i1.p1.1.m1.1.3.cmml"><mi id="S5.I1.i1.p1.1.m1.1.1" xref="S5.I1.i1.p1.1.m1.1.1.cmml">N</mi><mi id="S5.I1.i1.p1.1.m1.1.2.1" xref="S5.I1.i1.p1.1.m1.1.2.1.cmml">H</mi></msub><annotation-xml encoding="MathML-Content" id="S5.I1.i1.p1.1.m1.1b"><apply id="S5.I1.i1.p1.1.m1.1.3.cmml" xref="S5.I1.i1.p1.1.m1.1.3"><csymbol cd="ambiguous" id="S5.I1.i1.p1.1.m1.1.3.1.cmml" xref="S5.I1.i1.p1.1.m1.1.3">subscript</csymbol><ci id="S5.I1.i1.p1.1.m1.1.1.cmml" xref="S5.I1.i1.p1.1.m1.1.1">𝑁</ci><ci id="S5.I1.i1.p1.1.m1.1.2.1.cmml" xref="S5.I1.i1.p1.1.m1.1.2.1">𝐻</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.I1.i1.p1.1.m1.1c">italic-N POSTSUBSCRIPT:start italic-H POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S5.I1.i1.p1.1.m1.1d">N_{H}</annotation></semantics></math> of about <math id="S5.I1.i1.p1.1.m2.1" class="ltx_Math" alttext="8-10" display="inline"><semantics id="S5.I1.i1.p1.1.m2.1a"><mrow id="S5.I1.i1.p1.1.m2.1.5" xref="S5.I1.i1.p1.1.m2.1.5.cmml"><mn id="S5.I1.i1.p1.1.m2.1.1" xref="S5.I1.i1.p1.1.m2.1.1.cmml">8</mn><mo id="S5.I1.i1.p1.1.m2.1.2" xref="S5.I1.i1.p1.1.m2.1.2.cmml">-</mo><mn id="S5.I1.i1.p1.1.m2.1.4" xref="S5.I1.i1.p1.1.m2.1.4.cmml">10</mn></mrow><annotation-xml encoding="MathML-Content" id="S5.I1.i1.p1.1.m2.1b"><apply id="S5.I1.i1.p1.1.m2.1.5.cmml" xref="S5.I1.i1.p1.1.m2.1.5"><minus id="S5.I1.i1.p1.1.m2.1.2.cmml" xref="S5.I1.i1.p1.1.m2.1.2"></minus><cn type="integer" id="S5.I1.i1.p1.1.m2.1.1.cmml" xref="S5.I1.i1.p1.1.m2.1.1">8</cn><cn type="integer" id="S5.I1.i1.p1.1.m2.1.4.cmml" xref="S5.I1.i1.p1.1.m2.1.4">10</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.I1.i1.p1.1.m2.1c">NUMBER:8 ADDOP:minus NUMBER:10</annotation><annotation encoding="application/x-tex" id="S5.I1.i1.p1.1.m2.1d">8-10</annotation></semantics></math> atoms.
+Figure 2(b) shows this behaviour; the size (in atoms) of a crater
+is plotted versus the simulation time. At a size of about 8, a jump occurs and the
+crater growth subsequently continues linearly, up to
+saturation.
+This jump is associated with reconstruction of the crater bottom.</p>
+</div>
+</li>
+<li id="S5.I1.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="S5.I1.i2.p1" class="ltx_para">
+<p id="S5.I1.i2.p1.1" class="ltx_p">The mechanism for further growth of the craters with <math id="S5.I1.i2.p1.1.m1.1" class="ltx_Math" alttext="N&gt;N_{H}" display="inline"><semantics id="S5.I1.i2.p1.1.m1.1a"><mrow id="S5.I1.i2.p1.1.m1.1.5" xref="S5.I1.i2.p1.1.m1.1.5.cmml"><mi id="S5.I1.i2.p1.1.m1.1.1" xref="S5.I1.i2.p1.1.m1.1.1.cmml">N</mi><mo id="S5.I1.i2.p1.1.m1.1.2" xref="S5.I1.i2.p1.1.m1.1.2.cmml">&gt;</mo><msub id="S5.I1.i2.p1.1.m1.1.5.1" xref="S5.I1.i2.p1.1.m1.1.5.1.cmml"><mi id="S5.I1.i2.p1.1.m1.1.3" xref="S5.I1.i2.p1.1.m1.1.3.cmml">N</mi><mi id="S5.I1.i2.p1.1.m1.1.4.1" xref="S5.I1.i2.p1.1.m1.1.4.1.cmml">H</mi></msub></mrow><annotation-xml encoding="MathML-Content" id="S5.I1.i2.p1.1.m1.1b"><apply id="S5.I1.i2.p1.1.m1.1.5.cmml" xref="S5.I1.i2.p1.1.m1.1.5"><gt id="S5.I1.i2.p1.1.m1.1.2.cmml" xref="S5.I1.i2.p1.1.m1.1.2"></gt><ci id="S5.I1.i2.p1.1.m1.1.1.cmml" xref="S5.I1.i2.p1.1.m1.1.1">𝑁</ci><apply id="S5.I1.i2.p1.1.m1.1.5.1.cmml" xref="S5.I1.i2.p1.1.m1.1.5.1"><csymbol cd="ambiguous" id="S5.I1.i2.p1.1.m1.1.5.1.1.cmml" xref="S5.I1.i2.p1.1.m1.1.5.1">subscript</csymbol><ci id="S5.I1.i2.p1.1.m1.1.3.cmml" xref="S5.I1.i2.p1.1.m1.1.3">𝑁</ci><ci id="S5.I1.i2.p1.1.m1.1.4.1.cmml" xref="S5.I1.i2.p1.1.m1.1.4.1">𝐻</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S5.I1.i2.p1.1.m1.1c">italic-N RELOP:greater-than italic-N POSTSUBSCRIPT:start italic-H POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S5.I1.i2.p1.1.m1.1d">N&gt;N_{H}</annotation></semantics></math> is
+the following: atoms in the hole, initially arranged in a square lattice,
+are undercoordinated; atoms at the boundary of the crater are “eaten up”
+increasing the dimension of the hole. The growth is less dramatic than that
+of the island.</p>
+</div>
+</li>
+</ul>
+</div>
+<div id="S5.p3" class="ltx_para">
+<p id="S5.p3.1" class="ltx_p">Summarizing, there appears to be a connection between the critical nucleus for
+growth of craters and of islands and the reconstruction correlation length as probed
+by a step on a surface.
+We can infer from the two situations we have examined (the crater and
+the island) that reconstruction and deconstruction play a crucial role in determining their onset.
+The size of the critical nucleus predicted for Au <math id="S5.p3.1.m1.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S5.p3.1.m1.1a"><mrow id="S5.p3.1.m1.1.6"><mo stretchy="false" id="S5.p3.1.m1.1.1">(</mo><mn id="S5.p3.1.m1.1.4" xref="S5.p3.1.m1.1.4.cmml">100</mn><mo stretchy="false" id="S5.p3.1.m1.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S5.p3.1.m1.1b"><cn type="integer" id="S5.p3.1.m1.1.4.cmml" xref="S5.p3.1.m1.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p3.1.m1.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S5.p3.1.m1.1d">(100)</annotation></semantics></math> is of 8-10 atoms, in
+remarkably close agreement with the 8-atom size which can be extracted by King’s exponent of
+4 for molecular adsorption on Pt <math id="S5.p3.1.m2.1" class="ltx_Math" alttext="(100)" display="inline"><semantics id="S5.p3.1.m2.1a"><mrow id="S5.p3.1.m2.1.6"><mo stretchy="false" id="S5.p3.1.m2.1.1">(</mo><mn id="S5.p3.1.m2.1.4" xref="S5.p3.1.m2.1.4.cmml">100</mn><mo stretchy="false" id="S5.p3.1.m2.1.5">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S5.p3.1.m2.1b"><cn type="integer" id="S5.p3.1.m2.1.4.cmml" xref="S5.p3.1.m2.1.4">100</cn></annotation-xml><annotation encoding="application/x-llamapun" id="S5.p3.1.m2.1c">OPEN:( NUMBER:100 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S5.p3.1.m2.1d">(100)</annotation></semantics></math></p>
+</div>
+</section>
+<section id="S6" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">VI </span>Discussion</h2>
+
+<div id="S6.p1" class="ltx_para">
+<p id="S6.p1.1" class="ltx_p">We have found that reconstruction/deconstruction introduces a natural
+critical size for the nucleation of islands and craters of Au on Au (100).
+This size does not show the normal dependence upon supersaturation, expected of normal
+nucleation processes, and appears more as an intrinsic characteristics of that
+surface. The reason can be as follows. The nucleation free energy barrier as
+a function of increasing size has a nonstandard shape,
+with a large, sudden drop around <math id="S6.p1.1.m1.1" class="ltx_Math" alttext="\simeq 15" display="inline"><semantics id="S6.p1.1.m1.1a"><mrow id="S6.p1.1.m1.1.4" xref="S6.p1.1.m1.1.4.cmml"><mi id="S6.p1.1.m1.1.4.1" xref="S6.p1.1.m1.1.4.1.cmml"></mi><mo id="S6.p1.1.m1.1.1" xref="S6.p1.1.m1.1.1.cmml">≃</mo><mn id="S6.p1.1.m1.1.3" xref="S6.p1.1.m1.1.3.cmml">15</mn></mrow><annotation-xml encoding="MathML-Content" id="S6.p1.1.m1.1b"><apply id="S6.p1.1.m1.1.4.cmml" xref="S6.p1.1.m1.1.4"><csymbol cd="latexml" id="S6.p1.1.m1.1.1.cmml" xref="S6.p1.1.m1.1.1">similar-to-or-equals</csymbol><csymbol cd="latexml" id="S6.p1.1.m1.1.4.1.cmml" xref="S6.p1.1.m1.1.4.1">absent</csymbol><cn type="integer" id="S6.p1.1.m1.1.3.cmml" xref="S6.p1.1.m1.1.3">15</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S6.p1.1.m1.1c">RELOP:similar-to-or-equals NUMBER:15</annotation><annotation encoding="application/x-tex" id="S6.p1.1.m1.1d">\simeq 15</annotation></semantics></math> atoms, when substrate reconstruction/deconstruction can occur. That drop has the effect of <span id="S6.p1.1.1" class="ltx_text ltx_font_italic">pinning</span> the critical
+size, making it independent of sovrasaturation and, possibly, also of the adsorbed
+species.
+Figure 4 shows a very schematic representation of this point in the crater case. For small craters, the bottom of the crater is not reconstructed. At the radius of about 6 Angstrom, deconstruction can occur and a jump in the free energy is observed; by changing the sovrasaturation, the jump position (which depends only on the interplay between step and reconstruction), does not change.</p>
+</div>
+</section>
+<section id="Sx1" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">Acknowledgments</h2>
+
+<div id="Sx1.p1" class="ltx_para">
+<p id="Sx1.p1.1" class="ltx_p">We thank D. A. King and Bo Persson for fruitful and constructive discussions.
+Work of D. P. at SISSA is directly supported by MURST.</p>
+</div>
+</section>
+<section id="Sx2" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">Figure captions</h2>
+
+<div id="Sx2.p1" class="ltx_para">
+<ul id="Sx2.I1" class="ltx_itemize">
+<li id="Sx2.I1.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="Sx2.I1.i1.p1" class="ltx_para">
+<p id="Sx2.I1.i1.p1.1" class="ltx_p">Figure 1. Upper part: side view of a surface with a single step. The second layer atoms are drawn in white. (A) denotes the part of the second layer which lies under the terrace and is unreconstructed, (B) denotes the uncovered
+reconstructed terrace. Lower part: profile of the lateral density in the “second layer”
+for <math id="Sx2.I1.i1.p1.1.m1.1" class="ltx_Math" alttext="T=900K" display="inline"><semantics id="Sx2.I1.i1.p1.1.m1.1a"><mrow id="Sx2.I1.i1.p1.1.m1.1.7" xref="Sx2.I1.i1.p1.1.m1.1.7.cmml"><mi id="Sx2.I1.i1.p1.1.m1.1.1" xref="Sx2.I1.i1.p1.1.m1.1.1.cmml">T</mi><mo id="Sx2.I1.i1.p1.1.m1.1.2" xref="Sx2.I1.i1.p1.1.m1.1.2.cmml">=</mo><mrow id="Sx2.I1.i1.p1.1.m1.1.7.1" xref="Sx2.I1.i1.p1.1.m1.1.7.1.cmml"><mn id="Sx2.I1.i1.p1.1.m1.1.5" xref="Sx2.I1.i1.p1.1.m1.1.5.cmml">900</mn><mo id="Sx2.I1.i1.p1.1.m1.1.7.1.1" xref="Sx2.I1.i1.p1.1.m1.1.7.1.1.cmml">⁢</mo><mi id="Sx2.I1.i1.p1.1.m1.1.6" xref="Sx2.I1.i1.p1.1.m1.1.6.cmml">K</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="Sx2.I1.i1.p1.1.m1.1b"><apply id="Sx2.I1.i1.p1.1.m1.1.7.cmml" xref="Sx2.I1.i1.p1.1.m1.1.7"><eq id="Sx2.I1.i1.p1.1.m1.1.2.cmml" xref="Sx2.I1.i1.p1.1.m1.1.2"></eq><ci id="Sx2.I1.i1.p1.1.m1.1.1.cmml" xref="Sx2.I1.i1.p1.1.m1.1.1">𝑇</ci><apply id="Sx2.I1.i1.p1.1.m1.1.7.1.cmml" xref="Sx2.I1.i1.p1.1.m1.1.7.1"><times id="Sx2.I1.i1.p1.1.m1.1.7.1.1.cmml" xref="Sx2.I1.i1.p1.1.m1.1.7.1.1"></times><cn type="integer" id="Sx2.I1.i1.p1.1.m1.1.5.cmml" xref="Sx2.I1.i1.p1.1.m1.1.5">900</cn><ci id="Sx2.I1.i1.p1.1.m1.1.6.cmml" xref="Sx2.I1.i1.p1.1.m1.1.6">𝐾</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="Sx2.I1.i1.p1.1.m1.1c">italic-T RELOP:equals NUMBER:900 italic-K</annotation><annotation encoding="application/x-tex" id="Sx2.I1.i1.p1.1.m1.1d">T=900K</annotation></semantics></math>. The layer has a square structure to the left, where it is covered by a terrace, and a dense hexagonal structure to the right.
+The interface between the two zones is smoothened by the presence
+of a finite correlation length of the step. At <math id="Sx2.I1.i1.p1.1.m2.1" class="ltx_Math" alttext="T=1200K" display="inline"><semantics id="Sx2.I1.i1.p1.1.m2.1a"><mrow id="Sx2.I1.i1.p1.1.m2.1.8" xref="Sx2.I1.i1.p1.1.m2.1.8.cmml"><mi id="Sx2.I1.i1.p1.1.m2.1.1" xref="Sx2.I1.i1.p1.1.m2.1.1.cmml">T</mi><mo id="Sx2.I1.i1.p1.1.m2.1.2" xref="Sx2.I1.i1.p1.1.m2.1.2.cmml">=</mo><mrow id="Sx2.I1.i1.p1.1.m2.1.8.1" xref="Sx2.I1.i1.p1.1.m2.1.8.1.cmml"><mn id="Sx2.I1.i1.p1.1.m2.1.6" xref="Sx2.I1.i1.p1.1.m2.1.6.cmml">1200</mn><mo id="Sx2.I1.i1.p1.1.m2.1.8.1.1" xref="Sx2.I1.i1.p1.1.m2.1.8.1.1.cmml">⁢</mo><mi id="Sx2.I1.i1.p1.1.m2.1.7" xref="Sx2.I1.i1.p1.1.m2.1.7.cmml">K</mi></mrow></mrow><annotation-xml encoding="MathML-Content" id="Sx2.I1.i1.p1.1.m2.1b"><apply id="Sx2.I1.i1.p1.1.m2.1.8.cmml" xref="Sx2.I1.i1.p1.1.m2.1.8"><eq id="Sx2.I1.i1.p1.1.m2.1.2.cmml" xref="Sx2.I1.i1.p1.1.m2.1.2"></eq><ci id="Sx2.I1.i1.p1.1.m2.1.1.cmml" xref="Sx2.I1.i1.p1.1.m2.1.1">𝑇</ci><apply id="Sx2.I1.i1.p1.1.m2.1.8.1.cmml" xref="Sx2.I1.i1.p1.1.m2.1.8.1"><times id="Sx2.I1.i1.p1.1.m2.1.8.1.1.cmml" xref="Sx2.I1.i1.p1.1.m2.1.8.1.1"></times><cn type="integer" id="Sx2.I1.i1.p1.1.m2.1.6.cmml" xref="Sx2.I1.i1.p1.1.m2.1.6">1200</cn><ci id="Sx2.I1.i1.p1.1.m2.1.7.cmml" xref="Sx2.I1.i1.p1.1.m2.1.7">𝐾</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="Sx2.I1.i1.p1.1.m2.1c">italic-T RELOP:equals NUMBER:1200 italic-K</annotation><annotation encoding="application/x-tex" id="Sx2.I1.i1.p1.1.m2.1d">T=1200K</annotation></semantics></math> (not shown) the profile
+is smoother, and the correlation length larger.</p>
+</div>
+</li>
+<li id="Sx2.I1.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="Sx2.I1.i2.p1" class="ltx_para">
+<p id="Sx2.I1.i2.p1.1" class="ltx_p">Figure 2. (a): the maximum island size for an excess density of about <math id="Sx2.I1.i2.p1.1.m1.1" class="ltx_Math" alttext="0.06" display="inline"><semantics id="Sx2.I1.i2.p1.1.m1.1a"><mn id="Sx2.I1.i2.p1.1.m1.1.4" xref="Sx2.I1.i2.p1.1.m1.1.4.cmml">0.06</mn><annotation-xml encoding="MathML-Content" id="Sx2.I1.i2.p1.1.m1.1b"><cn type="float" id="Sx2.I1.i2.p1.1.m1.1.4.cmml" xref="Sx2.I1.i2.p1.1.m1.1.4">0.06</cn></annotation-xml><annotation encoding="application/x-llamapun" id="Sx2.I1.i2.p1.1.m1.1c">NUMBER:0.06</annotation><annotation encoding="application/x-tex" id="Sx2.I1.i2.p1.1.m1.1d">0.06</annotation></semantics></math>. There is a jump in the island size and a growth up to a saturation value of
+about 38 atoms, corresponding to the initial excess density. The arrow indicates the onset of deconstruction of the substrate under the island. This deconstruction is completed at a size of about 20.
+(b): the crater formation case; time evolution of a crater size. Please note the jump at
+a critical value for the size.</p>
+</div>
+</li>
+<li id="Sx2.I1.i3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="Sx2.I1.i3.p1" class="ltx_para">
+<p id="Sx2.I1.i3.p1.1" class="ltx_p">Figure 3. (color) Snapshot of the island growth simulation after 175 <math id="Sx2.I1.i3.p1.1.m1.1" class="ltx_Math" alttext="ps" display="inline"><semantics id="Sx2.I1.i3.p1.1.m1.1a"><mrow id="Sx2.I1.i3.p1.1.m1.1.3" xref="Sx2.I1.i3.p1.1.m1.1.3.cmml"><mi id="Sx2.I1.i3.p1.1.m1.1.1" xref="Sx2.I1.i3.p1.1.m1.1.1.cmml">p</mi><mo id="Sx2.I1.i3.p1.1.m1.1.3.1" xref="Sx2.I1.i3.p1.1.m1.1.3.1.cmml">⁢</mo><mi id="Sx2.I1.i3.p1.1.m1.1.2" xref="Sx2.I1.i3.p1.1.m1.1.2.cmml">s</mi></mrow><annotation-xml encoding="MathML-Content" id="Sx2.I1.i3.p1.1.m1.1b"><apply id="Sx2.I1.i3.p1.1.m1.1.3.cmml" xref="Sx2.I1.i3.p1.1.m1.1.3"><times id="Sx2.I1.i3.p1.1.m1.1.3.1.cmml" xref="Sx2.I1.i3.p1.1.m1.1.3.1"></times><ci id="Sx2.I1.i3.p1.1.m1.1.1.cmml" xref="Sx2.I1.i3.p1.1.m1.1.1">𝑝</ci><ci id="Sx2.I1.i3.p1.1.m1.1.2.cmml" xref="Sx2.I1.i3.p1.1.m1.1.2">𝑠</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="Sx2.I1.i3.p1.1.m1.1c">italic-p italic-s</annotation><annotation encoding="application/x-tex" id="Sx2.I1.i3.p1.1.m1.1d">ps</annotation></semantics></math>. Red atoms are adatoms. The view from the bottom shows the almost complete
+deconstruction under the red island, bigger than the critical size.</p>
+</div>
+</li>
+<li id="Sx2.I1.i4" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span> 
+<div id="Sx2.I1.i4.p1" class="ltx_para">
+<p id="Sx2.I1.i4.p1.1" class="ltx_p">Figure 4. Schematic profile of Gibbs free energy (at different chemical potential) upon formation of a crater of radius <math id="Sx2.I1.i4.p1.1.m1.1" class="ltx_Math" alttext="r" display="inline"><semantics id="Sx2.I1.i4.p1.1.m1.1a"><mi id="Sx2.I1.i4.p1.1.m1.1.1" xref="Sx2.I1.i4.p1.1.m1.1.1.cmml">r</mi><annotation-xml encoding="MathML-Content" id="Sx2.I1.i4.p1.1.m1.1b"><ci id="Sx2.I1.i4.p1.1.m1.1.1.cmml" xref="Sx2.I1.i4.p1.1.m1.1.1">𝑟</ci></annotation-xml><annotation encoding="application/x-llamapun" id="Sx2.I1.i4.p1.1.m1.1c">italic-r</annotation><annotation encoding="application/x-tex" id="Sx2.I1.i4.p1.1.m1.1d">r</annotation></semantics></math>. The jump occurs at the crater reconstruction, and does not depend on sovrasaturation.</p>
+</div>
+</li>
+</ul>
+</div>
+</section>
+<section id="bib" class="ltx_bibliography">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+
+<ul class="ltx_biblist">
+<li id="bib.bib1" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[*]</span>
+<span class="ltx_bibblock"> Corresponding author,
+Address: SISSA, Via Beirut 2, I-34014 Trieste, Italy.
+Fax number: +39-040-3787528.
+E-mail: <span id="bib.bib1.1" class="ltx_text ltx_font_typewriter">passero@sissa.it</span>.
+
+</span>
+</li>
+<li id="bib.bib2" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[†]</span>
+<span class="ltx_bibblock"> E-mail: <span id="bib.bib2.1" class="ltx_text ltx_font_typewriter">furio@sissa.it</span>
+
+</span>
+</li>
+<li id="bib.bib3" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[‡]</span>
+<span class="ltx_bibblock"> E-mail: <span id="bib.bib3.1" class="ltx_text ltx_font_typewriter">tosatti@sissa.it</span>
+
+</span>
+</li>
+<li id="bib.bib4" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[4]</span>
+<span class="ltx_bibblock"> D. L. Abernathy, S. G. J. Mochrie, D. M. Zehner, G. Grübel
+and Doon Gibbs, Phys. Rev. <span id="bib.bib4.1" class="ltx_text ltx_font_bold">B</span> 45(1992)9272.
+
+</span>
+</li>
+<li id="bib.bib5" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[5]</span>
+<span class="ltx_bibblock">See, <span id="bib.bib5.1" class="ltx_text ltx_font_italic">e.g.</span>, A. Hopkinson, Xing-Cai Guo, J. M. Bradley, and D. A. King,
+J. Chem. Phys. <span id="bib.bib5.2" class="ltx_text ltx_font_bold">99</span>(1993)1.
+
+</span>
+</li>
+<li id="bib.bib6" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[6]</span>
+<span class="ltx_bibblock">D. Passerone, F. Ercolessi and E. Tosatti, Surf. Sci. <span id="bib.bib6.1" class="ltx_text ltx_font_bold">377-379</span>(1997)27.
+
+</span>
+</li>
+<li id="bib.bib7" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[7]</span>
+<span class="ltx_bibblock">
+J. F. Annett and J. E. Inglesfield,
+J. Phys.: Cond. Matt. <span id="bib.bib7.1" class="ltx_text ltx_font_bold">1</span> (1989) 3645;
+N. Takeuchi, C. T. Chan, and K. M. Ho,
+Phys. Rev. Lett. <span id="bib.bib7.2" class="ltx_text ltx_font_bold">63</span> (1989) 1273;
+V. Fiorentini, M. Methfessel, and M. Scheffler,
+Phys. Rev. Lett. <span id="bib.bib7.3" class="ltx_text ltx_font_bold">71</span> (1993) 1051.
+
+</span>
+</li>
+<li id="bib.bib8" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[8]</span>
+<span class="ltx_bibblock">
+F. Ercolessi, E. Tosatti, and M. Parrinello,
+Phys. Rev. Lett <span id="bib.bib8.1" class="ltx_text ltx_font_bold">57</span> (1986) 719;
+F. Ercolessi, M. Parrinello, and E. Tosatti,
+Surf. Sci. <span id="bib.bib8.2" class="ltx_text ltx_font_bold">177</span> (1986) 314.
+
+</span>
+</li>
+<li id="bib.bib9" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[9]</span>
+<span class="ltx_bibblock"> F. Ercolessi, M. Parrinello and E. Tosatti, Philos.
+Mag. A, 58(1988)213.
+
+</span>
+</li>
+<li id="bib.bib10" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[10]</span>
+<span class="ltx_bibblock">S. G. J. Mochrie, D. M. Zehner, B. M. Ocko, and Doon Gibbs, Phys. Rev. Lett. 64, 2925 (1990).
+
+</span>
+</li>
+<li id="bib.bib11" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[11]</span>
+<span class="ltx_bibblock">D. Passerone, F. Celestini, F. Ercolessi and E. Tosatti,
+to be published.
+
+</span>
+</li>
+</ul>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Mon Jul 15 14:19:12 2019 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></img>
+</a>
+</div></footer>
+</div>
+</body>
+</html>

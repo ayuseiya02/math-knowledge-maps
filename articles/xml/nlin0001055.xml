@@ -1,0 +1,579 @@
+<!DOCTYPE html><html>
+<head>
+<title>Patterns and localized structures in bistable semiconductor resonators</title>
+<!--Generated on Mon Jul 15 12:26:17 2019 by LaTeXML (version 0.8.4) http://dlmf.nist.gov/LaTeXML/.-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</meta>
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">Patterns and localized structures in bistable semiconductor resonators</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">V.B.Taranenko, I.Ganne,<math id="m1.1" class="ltx_Math" alttext="{}^{*}" display="inline"><semantics id="m1.1a"><msup id="m1.1.1" xref="m1.1.1.cmml"><mi id="m1.1.1a" xref="m1.1.1.cmml"></mi><mo id="m1.1.1.1" xref="m1.1.1.1.cmml">*</mo></msup><annotation-xml encoding="MathML-Content" id="m1.1b"><apply id="m1.1.1.cmml" xref="m1.1.1"><times id="m1.1.1.1.cmml" xref="m1.1.1.1"></times></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m1.1c">FLOATSUPERSCRIPT:start MULOP:times FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m1.1d">{}^{*}</annotation></semantics></math> R.J.Kuszelewicz,<math id="m2.1" class="ltx_Math" alttext="{}^{*}" display="inline"><semantics id="m2.1a"><msup id="m2.1.1" xref="m2.1.1.cmml"><mi id="m2.1.1a" xref="m2.1.1.cmml"></mi><mo id="m2.1.1.1" xref="m2.1.1.1.cmml">*</mo></msup><annotation-xml encoding="MathML-Content" id="m2.1b"><apply id="m2.1.1.cmml" xref="m2.1.1"><times id="m2.1.1.1.cmml" xref="m2.1.1.1"></times></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m2.1c">FLOATSUPERSCRIPT:start MULOP:times FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m2.1d">{}^{*}</annotation></semantics></math> C.O.Weiss
+</span><span class="ltx_author_notes"><span>
+<span class="ltx_contact ltx_role_affiliation">Physikalisch-Technische Bundesanstalt 38116 Braunschweig/Germany
+<br class="ltx_break"><math id="m3.1" class="ltx_Math" alttext="{}^{*}" display="inline"><semantics id="m3.1a"><msup id="m3.1.1" xref="m3.1.1.cmml"><mi id="m3.1.1a" xref="m3.1.1.cmml"></mi><mo id="m3.1.1.1" xref="m3.1.1.1.cmml">*</mo></msup><annotation-xml encoding="MathML-Content" id="m3.1b"><apply id="m3.1.1.cmml" xref="m3.1.1"><times id="m3.1.1.1.cmml" xref="m3.1.1.1"></times></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m3.1c">FLOATSUPERSCRIPT:start MULOP:times FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m3.1d">{}^{*}</annotation></semantics></math>Centre National d’Etudes de Telecommunication, Bagneux/France
+</br>
+</span></span></span></span>
+</div>
+
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p id="id1" class="ltx_p">We report experiments on spatial switching dynamics and steady
+state structures of passive nonlinear semiconductor resonators of
+large Fresnel number. Extended patterns and switching front
+dynamics are observed and investigated. Evidence of localization
+of structures is given.</p>
+</div>
+<div class="ltx_classification">
+<h6 class="ltx_title ltx_title_classification">pacs: </h6>PACS 42.65.Sf; 42.65.Tg; 42.70.Nq
+</div>
+<div id="p1" class="ltx_para">
+<p id="p1.1" class="ltx_p">[</p>
+</div>
+<div id="p2" class="ltx_para">
+<br class="ltx_break">
+<p id="p2.1" class="ltx_p">]
+It has recently become apparent that pattern formation in optics
+is related in many ways with other fields of physics <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib1" title="" class="ltx_ref">1</a>]</cite>.
+One simple optical pattern forming system is a nonlinear
+resonator, the subject of recent investigations see, e.g.
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib2" title="" class="ltx_ref">2</a>]</cite> and op.cit. The analogy of resonator optics with
+fluids <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib3" title="" class="ltx_ref">3</a>]</cite>, particularly, suggests a variety of phenomena
+not considered for optics before <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib4" title="" class="ltx_ref">4</a>]</cite>. For active
+resonators (lasers, lasers with nonlinear absorber, 4-wave mixing
+oscillators) predicted phenomena, such as vortices and spatial
+solitons, have already been demonstrated experimentally
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib2" title="" class="ltx_ref">2</a>]</cite>. On the other hand, experimental results for passive
+resonators, recently studied extensively theoretically with a view
+to possible application <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib5" title="" class="ltx_ref">5</a>, <a href="#bib.bib6" title="" class="ltx_ref">6</a>]</cite>, are limited to the
+early demonstration of structures in resonators containing liquid
+crystals or alkali vapours as the nonlinear medium <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib7" title="" class="ltx_ref">7</a>]</cite>.
+We report here the first experimental investigations of structure
+formation in passive nonlinear semiconductor resonators. These
+systems, apart from possible usefulness in applications, show
+phenomena in optics analogous to those found in other fields of
+nonlinear physics (e.g. optical Turing instability <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib8" title="" class="ltx_ref">8</a>]</cite> or
+competition between pattern formation and switching <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib9" title="" class="ltx_ref">9</a>]</cite>).
+Our observations include regular (hexagonal) pattern formation
+and, in presence of optical bistability (OB), space- and
+time-resolved switching waves. We also present observations which
+indicate mutual locking of OB switching waves to form localized
+structures (spatial solitons) <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib15" title="" class="ltx_ref">15</a>]</cite>. Further evidence of
+localization effects is shown by independently switch bright spots
+of a hexagonal structure. 
+<br class="ltx_break"></br>
+</p>
+</br>
+</div>
+<div id="p3" class="ltx_para">
+<p id="p3.1" class="ltx_p">The resonator used for the experiment consists of GaAs/GaAlAs
+multiple quantum well (MQW) material (18 periods of
+GaAs/Ga<math id="p3.1.m1.1" class="ltx_Math" alttext="{}_{0.5}" display="inline"><semantics id="p3.1.m1.1a"><msub id="p3.1.m1.1.1" xref="p3.1.m1.1.1.cmml"><mi id="p3.1.m1.1.1a" xref="p3.1.m1.1.1.cmml"></mi><mn id="p3.1.m1.1.1.1" xref="p3.1.m1.1.1.1.cmml">0.5</mn></msub><annotation-xml encoding="MathML-Content" id="p3.1.m1.1b"><apply id="p3.1.m1.1.1.cmml" xref="p3.1.m1.1.1"><cn type="float" id="p3.1.m1.1.1.1.cmml" xref="p3.1.m1.1.1.1">0.5</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m1.1c">FLOATSUBSCRIPT:start NUMBER:0.5 FLOATSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p3.1.m1.1d">{}_{0.5}</annotation></semantics></math>Al<math id="p3.1.m2.1" class="ltx_Math" alttext="{}_{0.5}" display="inline"><semantics id="p3.1.m2.1a"><msub id="p3.1.m2.1.1" xref="p3.1.m2.1.1.cmml"><mi id="p3.1.m2.1.1a" xref="p3.1.m2.1.1.cmml"></mi><mn id="p3.1.m2.1.1.1" xref="p3.1.m2.1.1.1.cmml">0.5</mn></msub><annotation-xml encoding="MathML-Content" id="p3.1.m2.1b"><apply id="p3.1.m2.1.1.cmml" xref="p3.1.m2.1.1"><cn type="float" id="p3.1.m2.1.1.1.cmml" xref="p3.1.m2.1.1.1">0.5</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m2.1c">FLOATSUBSCRIPT:start NUMBER:0.5 FLOATSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p3.1.m2.1d">{}_{0.5}</annotation></semantics></math>As with 10 nm/10 nm thickness) between
+Bragg mirrors of about 99.5 <math id="p3.1.m3.1" class="ltx_Math" alttext="\%" display="inline"><semantics id="p3.1.m3.1a"><mo id="p3.1.m3.1.1" xref="p3.1.m3.1.1.cmml">%</mo><annotation-xml encoding="MathML-Content" id="p3.1.m3.1b"><csymbol cd="latexml" id="p3.1.m3.1.1.cmml" xref="p3.1.m3.1.1">percent</csymbol></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m3.1c">POSTFIX:percent</annotation><annotation encoding="application/x-tex" id="p3.1.m3.1d">\%</annotation></semantics></math> reflectivity on a GaAs substrate.
+Properties of these microresonators have been described in
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib10" title="" class="ltx_ref">10</a>]</cite>. The optical resonator length is approximately 3
+<math id="p3.1.m4.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p3.1.m4.1a"><mi id="p3.1.m4.1.1" xref="p3.1.m4.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p3.1.m4.1b"><ci id="p3.1.m4.1.1.cmml" xref="p3.1.m4.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m4.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p3.1.m4.1d">\mu</annotation></semantics></math>m with a corresponding free spectral range of 50 THz. The
+resonator thickness varies over the usable sample area (10 x 20
+mm). So, by choosing a particular position on the sample, it is
+possible to vary the cavity resonance wavelength such that its
+downshift <math id="p3.1.m5.1" class="ltx_Math" alttext="\Delta\lambda" display="inline"><semantics id="p3.1.m5.1a"><mrow id="p3.1.m5.1.3" xref="p3.1.m5.1.3.cmml"><mi mathvariant="normal" id="p3.1.m5.1.1" xref="p3.1.m5.1.1.cmml">Δ</mi><mo id="p3.1.m5.1.3.1" xref="p3.1.m5.1.3.1.cmml">⁢</mo><mi id="p3.1.m5.1.2" xref="p3.1.m5.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p3.1.m5.1b"><apply id="p3.1.m5.1.3.cmml" xref="p3.1.m5.1.3"><times id="p3.1.m5.1.3.1.cmml" xref="p3.1.m5.1.3.1"></times><ci id="p3.1.m5.1.1.cmml" xref="p3.1.m5.1.1">Δ</ci><ci id="p3.1.m5.1.2.cmml" xref="p3.1.m5.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m5.1c">Delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p3.1.m5.1d">\Delta\lambda</annotation></semantics></math> below the exciton line lies in the
+range 0 <math id="p3.1.m6.1" class="ltx_Math" alttext="&lt;" display="inline"><semantics id="p3.1.m6.1a"><mo id="p3.1.m6.1.1" xref="p3.1.m6.1.1.cmml">&lt;</mo><annotation-xml encoding="MathML-Content" id="p3.1.m6.1b"><lt id="p3.1.m6.1.1.cmml" xref="p3.1.m6.1.1"></lt></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m6.1c">RELOP:less-than</annotation><annotation encoding="application/x-tex" id="p3.1.m6.1d">&lt;</annotation></semantics></math> <math id="p3.1.m7.1" class="ltx_Math" alttext="\Delta\lambda" display="inline"><semantics id="p3.1.m7.1a"><mrow id="p3.1.m7.1.3" xref="p3.1.m7.1.3.cmml"><mi mathvariant="normal" id="p3.1.m7.1.1" xref="p3.1.m7.1.1.cmml">Δ</mi><mo id="p3.1.m7.1.3.1" xref="p3.1.m7.1.3.1.cmml">⁢</mo><mi id="p3.1.m7.1.2" xref="p3.1.m7.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p3.1.m7.1b"><apply id="p3.1.m7.1.3.cmml" xref="p3.1.m7.1.3"><times id="p3.1.m7.1.3.1.cmml" xref="p3.1.m7.1.3.1"></times><ci id="p3.1.m7.1.1.cmml" xref="p3.1.m7.1.1">Δ</ci><ci id="p3.1.m7.1.2.cmml" xref="p3.1.m7.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m7.1c">Delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p3.1.m7.1d">\Delta\lambda</annotation></semantics></math> <math id="p3.1.m8.1" class="ltx_Math" alttext="&lt;" display="inline"><semantics id="p3.1.m8.1a"><mo id="p3.1.m8.1.1" xref="p3.1.m8.1.1.cmml">&lt;</mo><annotation-xml encoding="MathML-Content" id="p3.1.m8.1b"><lt id="p3.1.m8.1.1.cmml" xref="p3.1.m8.1.1"></lt></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m8.1c">RELOP:less-than</annotation><annotation encoding="application/x-tex" id="p3.1.m8.1d">&lt;</annotation></semantics></math> 25 nm. 
+<br class="ltx_break">The absorption of the
+MQW material depends on <math id="p3.1.m9.1" class="ltx_Math" alttext="\Delta\lambda" display="inline"><semantics id="p3.1.m9.1a"><mrow id="p3.1.m9.1.3" xref="p3.1.m9.1.3.cmml"><mi mathvariant="normal" id="p3.1.m9.1.1" xref="p3.1.m9.1.1.cmml">Δ</mi><mo id="p3.1.m9.1.3.1" xref="p3.1.m9.1.3.1.cmml">⁢</mo><mi id="p3.1.m9.1.2" xref="p3.1.m9.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p3.1.m9.1b"><apply id="p3.1.m9.1.3.cmml" xref="p3.1.m9.1.3"><times id="p3.1.m9.1.3.1.cmml" xref="p3.1.m9.1.3.1"></times><ci id="p3.1.m9.1.1.cmml" xref="p3.1.m9.1.1">Δ</ci><ci id="p3.1.m9.1.2.cmml" xref="p3.1.m9.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m9.1c">Delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p3.1.m9.1d">\Delta\lambda</annotation></semantics></math>. A typical finesse of the
+resonator far below the exciton energy is 200, which corresponds
+to 125 GHz half width at half maximum (HWHM) of the cavity
+resonance. 
+<br class="ltx_break">The radiation source used is a continuous-wave
+Ar<math id="p3.1.m10.1" class="ltx_Math" alttext="{}^{+}" display="inline"><semantics id="p3.1.m10.1a"><msup id="p3.1.m10.1.1" xref="p3.1.m10.1.1.cmml"><mi id="p3.1.m10.1.1a" xref="p3.1.m10.1.1.cmml"></mi><mo id="p3.1.m10.1.1.1" xref="p3.1.m10.1.1.1.cmml">+</mo></msup><annotation-xml encoding="MathML-Content" id="p3.1.m10.1b"><apply id="p3.1.m10.1.1.cmml" xref="p3.1.m10.1.1"><plus id="p3.1.m10.1.1.1.cmml" xref="p3.1.m10.1.1.1"></plus></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m10.1c">FLOATSUPERSCRIPT:start ADDOP:plus FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p3.1.m10.1d">{}^{+}</annotation></semantics></math>-pumped Ti:Al<math id="p3.1.m11.1" class="ltx_Math" alttext="{}_{2}" display="inline"><semantics id="p3.1.m11.1a"><msub id="p3.1.m11.1.1" xref="p3.1.m11.1.1.cmml"><mi id="p3.1.m11.1.1a" xref="p3.1.m11.1.1.cmml"></mi><mn id="p3.1.m11.1.1.1" xref="p3.1.m11.1.1.1.cmml">2</mn></msub><annotation-xml encoding="MathML-Content" id="p3.1.m11.1b"><apply id="p3.1.m11.1.1.cmml" xref="p3.1.m11.1.1"><cn type="integer" id="p3.1.m11.1.1.1.cmml" xref="p3.1.m11.1.1.1">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m11.1c">FLOATSUBSCRIPT:start NUMBER:2 FLOATSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p3.1.m11.1d">{}_{2}</annotation></semantics></math>0<math id="p3.1.m12.1" class="ltx_Math" alttext="{}_{3}" display="inline"><semantics id="p3.1.m12.1a"><msub id="p3.1.m12.1.1" xref="p3.1.m12.1.1.cmml"><mi id="p3.1.m12.1.1a" xref="p3.1.m12.1.1.cmml"></mi><mn id="p3.1.m12.1.1.1" xref="p3.1.m12.1.1.1.cmml">3</mn></msub><annotation-xml encoding="MathML-Content" id="p3.1.m12.1b"><apply id="p3.1.m12.1.1.cmml" xref="p3.1.m12.1.1"><cn type="integer" id="p3.1.m12.1.1.1.cmml" xref="p3.1.m12.1.1.1">3</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m12.1c">FLOATSUBSCRIPT:start NUMBER:3 FLOATSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p3.1.m12.1d">{}_{3}</annotation></semantics></math>-laser. To realize a reasonable
+Fresnel number, the radiation has a spot width on the sample of
+about 60 <math id="p3.1.m13.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p3.1.m13.1a"><mi id="p3.1.m13.1.1" xref="p3.1.m13.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p3.1.m13.1b"><ci id="p3.1.m13.1.1.cmml" xref="p3.1.m13.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m13.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p3.1.m13.1d">\mu</annotation></semantics></math>m. The nonlinearity used is predominantly dispersive
+and defocusing. The characteristic (bistable/monostable) and shape
+of the resonator response depends on both <math id="p3.1.m14.1" class="ltx_Math" alttext="\Delta\lambda" display="inline"><semantics id="p3.1.m14.1a"><mrow id="p3.1.m14.1.3" xref="p3.1.m14.1.3.cmml"><mi mathvariant="normal" id="p3.1.m14.1.1" xref="p3.1.m14.1.1.cmml">Δ</mi><mo id="p3.1.m14.1.3.1" xref="p3.1.m14.1.3.1.cmml">⁢</mo><mi id="p3.1.m14.1.2" xref="p3.1.m14.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p3.1.m14.1b"><apply id="p3.1.m14.1.3.cmml" xref="p3.1.m14.1.3"><times id="p3.1.m14.1.3.1.cmml" xref="p3.1.m14.1.3.1"></times><ci id="p3.1.m14.1.1.cmml" xref="p3.1.m14.1.1">Δ</ci><ci id="p3.1.m14.1.2.cmml" xref="p3.1.m14.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m14.1c">Delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p3.1.m14.1d">\Delta\lambda</annotation></semantics></math> and the
+detuning <math id="p3.1.m15.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="p3.1.m15.1a"><mrow id="p3.1.m15.1.3" xref="p3.1.m15.1.3.cmml"><mi id="p3.1.m15.1.1" xref="p3.1.m15.1.1.cmml">δ</mi><mo id="p3.1.m15.1.3.1" xref="p3.1.m15.1.3.1.cmml">⁢</mo><mi id="p3.1.m15.1.2" xref="p3.1.m15.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p3.1.m15.1b"><apply id="p3.1.m15.1.3.cmml" xref="p3.1.m15.1.3"><times id="p3.1.m15.1.3.1.cmml" xref="p3.1.m15.1.3.1"></times><ci id="p3.1.m15.1.1.cmml" xref="p3.1.m15.1.1">𝛿</ci><ci id="p3.1.m15.1.2.cmml" xref="p3.1.m15.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m15.1c">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p3.1.m15.1d">\delta\lambda</annotation></semantics></math> of the laser field from the resonator
+resonance. 
+<br class="ltx_break">As the substrate for the resonator is opaque, all
+observations are done in reflection. The OB describing the
+reflection returned from the input surface is ”N-shaped”
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib10" title="" class="ltx_ref">10</a>]</cite>, and complementary to the intracavity field
+characteristic, which has the familiar ”S-shape”. To avoid
+confusion, we will therefore refer to ”switched” and ”unswitched”,
+rather then ”upper” and ”lower”, states. 
+<br class="ltx_break">Within the illuminated
+area, smaller areas (<math id="p3.1.m16.1" class="ltx_Math" alttext="\approx" display="inline"><semantics id="p3.1.m16.1a"><mo id="p3.1.m16.1.1" xref="p3.1.m16.1.1.cmml">≈</mo><annotation-xml encoding="MathML-Content" id="p3.1.m16.1b"><approx id="p3.1.m16.1.1.cmml" xref="p3.1.m16.1.1"></approx></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m16.1c">RELOP:approximately-equals</annotation><annotation encoding="application/x-tex" id="p3.1.m16.1d">\approx</annotation></semantics></math> 8 <math id="p3.1.m17.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p3.1.m17.1a"><mi id="p3.1.m17.1.1" xref="p3.1.m17.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p3.1.m17.1b"><ci id="p3.1.m17.1.1.cmml" xref="p3.1.m17.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m17.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p3.1.m17.1d">\mu</annotation></semantics></math>m) can be irradiated by
+short pulses (<math id="p3.1.m18.1" class="ltx_Math" alttext="\leq" display="inline"><semantics id="p3.1.m18.1a"><mo id="p3.1.m18.1.1" xref="p3.1.m18.1.1.cmml">≤</mo><annotation-xml encoding="MathML-Content" id="p3.1.m18.1b"><leq id="p3.1.m18.1.1.cmml" xref="p3.1.m18.1.1"></leq></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m18.1c">RELOP:less-than-or-equals</annotation><annotation encoding="application/x-tex" id="p3.1.m18.1d">\leq</annotation></semantics></math> 0.1 <math id="p3.1.m19.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p3.1.m19.1a"><mi id="p3.1.m19.1.1" xref="p3.1.m19.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p3.1.m19.1b"><ci id="p3.1.m19.1.1.cmml" xref="p3.1.m19.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m19.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p3.1.m19.1d">\mu</annotation></semantics></math>s) to initiate local switching. The
+light of these ”injection” pulses is polarized perpendicularly to
+and ”incoherent” with the ”background-” or ”holding-” beam.
+Address pulses thus produce an injection of photocarriers, locally
+changing the optical properties of the resonator. 
+<br class="ltx_break">All
+observations are made within times lasting a few microseconds,
+repeated at 1 kHz, to eliminate thermal effects. Acousto-optic
+modulators (AOM) serve for fast intensity modulation of the
+injected optical fields, with a time resolution of 50 ns. They can
+be programmed to produce complex pulse-shapes, and to synchronize
+the drive and address pulses. 
+<br class="ltx_break">A variety of detection equipment
+is employed. A CCD camera records two-dimensional images, but with
+slow time response. Images are thus most useful for stable
+steady-state structures. Observations of intrapulse dynamics are
+done with a fast detector (2 ns), which monitors the incident
+power, and measures reflected light intensity with a spatial
+resolution of 4 <math id="p3.1.m20.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p3.1.m20.1a"><mi id="p3.1.m20.1.1" xref="p3.1.m20.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p3.1.m20.1b"><ci id="p3.1.m20.1.1.cmml" xref="p3.1.m20.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m20.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p3.1.m20.1d">\mu</annotation></semantics></math>m. The good repeatability of the
+spatio-temporal dynamics allows to map the intensity dynamics on a
+diameter of the illuminated area, by successively imaging the
+points of the diameter onto the detector while recording the
+intensity in each point as a function of time.
+
+<br class="ltx_break"></br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</p>
+</div>
+<div id="p4" class="ltx_para">
+<p id="p4.1" class="ltx_p">At large <math id="p4.1.m1.1" class="ltx_Math" alttext="\Delta\lambda" display="inline"><semantics id="p4.1.m1.1a"><mrow id="p4.1.m1.1.3" xref="p4.1.m1.1.3.cmml"><mi mathvariant="normal" id="p4.1.m1.1.1" xref="p4.1.m1.1.1.cmml">Δ</mi><mo id="p4.1.m1.1.3.1" xref="p4.1.m1.1.3.1.cmml">⁢</mo><mi id="p4.1.m1.1.2" xref="p4.1.m1.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p4.1.m1.1b"><apply id="p4.1.m1.1.3.cmml" xref="p4.1.m1.1.3"><times id="p4.1.m1.1.3.1.cmml" xref="p4.1.m1.1.3.1"></times><ci id="p4.1.m1.1.1.cmml" xref="p4.1.m1.1.1">Δ</ci><ci id="p4.1.m1.1.2.cmml" xref="p4.1.m1.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p4.1.m1.1c">Delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p4.1.m1.1d">\Delta\lambda</annotation></semantics></math> and small negative <math id="p4.1.m2.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="p4.1.m2.1a"><mrow id="p4.1.m2.1.3" xref="p4.1.m2.1.3.cmml"><mi id="p4.1.m2.1.1" xref="p4.1.m2.1.1.cmml">δ</mi><mo id="p4.1.m2.1.3.1" xref="p4.1.m2.1.3.1.cmml">⁢</mo><mi id="p4.1.m2.1.2" xref="p4.1.m2.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p4.1.m2.1b"><apply id="p4.1.m2.1.3.cmml" xref="p4.1.m2.1.3"><times id="p4.1.m2.1.3.1.cmml" xref="p4.1.m2.1.3.1"></times><ci id="p4.1.m2.1.1.cmml" xref="p4.1.m2.1.1">𝛿</ci><ci id="p4.1.m2.1.2.cmml" xref="p4.1.m2.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p4.1.m2.1c">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p4.1.m2.1d">\delta\lambda</annotation></semantics></math>
+(<math id="p4.1.m3.1" class="ltx_Math" alttext="\mid" display="inline"><semantics id="p4.1.m3.1a"><mo id="p4.1.m3.1.1" xref="p4.1.m3.1.1.cmml">∣</mo><annotation-xml encoding="MathML-Content" id="p4.1.m3.1b"><ci id="p4.1.m3.1.1.cmml" xref="p4.1.m3.1.1">∣</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p4.1.m3.1c">VERTBAR:mid</annotation><annotation encoding="application/x-tex" id="p4.1.m3.1d">\mid</annotation></semantics></math><math id="p4.1.m4.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="p4.1.m4.1a"><mrow id="p4.1.m4.1.3" xref="p4.1.m4.1.3.cmml"><mi id="p4.1.m4.1.1" xref="p4.1.m4.1.1.cmml">δ</mi><mo id="p4.1.m4.1.3.1" xref="p4.1.m4.1.3.1.cmml">⁢</mo><mi id="p4.1.m4.1.2" xref="p4.1.m4.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p4.1.m4.1b"><apply id="p4.1.m4.1.3.cmml" xref="p4.1.m4.1.3"><times id="p4.1.m4.1.3.1.cmml" xref="p4.1.m4.1.3.1"></times><ci id="p4.1.m4.1.1.cmml" xref="p4.1.m4.1.1">𝛿</ci><ci id="p4.1.m4.1.2.cmml" xref="p4.1.m4.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p4.1.m4.1c">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p4.1.m4.1d">\delta\lambda</annotation></semantics></math><math id="p4.1.m5.1" class="ltx_Math" alttext="\mid" display="inline"><semantics id="p4.1.m5.1a"><mo id="p4.1.m5.1.1" xref="p4.1.m5.1.1.cmml">∣</mo><annotation-xml encoding="MathML-Content" id="p4.1.m5.1b"><ci id="p4.1.m5.1.1.cmml" xref="p4.1.m5.1.1">∣</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p4.1.m5.1c">VERTBAR:mid</annotation><annotation encoding="application/x-tex" id="p4.1.m5.1d">\mid</annotation></semantics></math> <math id="p4.1.m6.1" class="ltx_Math" alttext="\leq" display="inline"><semantics id="p4.1.m6.1a"><mo id="p4.1.m6.1.1" xref="p4.1.m6.1.1.cmml">≤</mo><annotation-xml encoding="MathML-Content" id="p4.1.m6.1b"><leq id="p4.1.m6.1.1.cmml" xref="p4.1.m6.1.1"></leq></annotation-xml><annotation encoding="application/x-llamapun" id="p4.1.m6.1c">RELOP:less-than-or-equals</annotation><annotation encoding="application/x-tex" id="p4.1.m6.1d">\leq</annotation></semantics></math> 1 HWHM) hexagonal structures
+form (Fig. 1). Hexagonal patterns appear in many different fields
+of physics <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib11" title="" class="ltx_ref">11</a>]</cite>, and have also been predicted, but not
+previously observed, for nonlinear resonators
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib12" title="" class="ltx_ref">12</a>, <a href="#bib.bib13" title="" class="ltx_ref">13</a>]</cite>. The period of the hexagonal lattice is about
+20 <math id="p4.1.m7.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p4.1.m7.1a"><mi id="p4.1.m7.1.1" xref="p4.1.m7.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p4.1.m7.1b"><ci id="p4.1.m7.1.1.cmml" xref="p4.1.m7.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p4.1.m7.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p4.1.m7.1d">\mu</annotation></semantics></math>m, consistent with typical predictions for semiconductor
+models <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib13" title="" class="ltx_ref">13</a>]</cite>. Our interpretation of Fig. 1 is that it is
+the result of a supercritical modulational instability of the
+unswitched branch. There is no observable threshold intensity for
+this pattern, however. We attribute this to a blurring of the
+threshold due to spatial and temporal variations and fluctuations
+of the input beam. Note that Fig. 1 is the reflected signal, so
+the imaged negative hexagons (lattice of dark spots) corresponds
+in terms of intracavity intensity to positive hexagons (lattice of
+bright spots). 
+<br class="ltx_break"></br>
+</p>
+</div>
+<figure id="S0.F1" class="ltx_figure">
+<p id="S0.F1.1" class="ltx_p ltx_align_center"></p>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>Hexagonal pattern observed for the following parameters:
+<math id="S0.F1.m4.1" class="ltx_Math" alttext="\Delta\lambda" display="inline"><semantics id="S0.F1.m4.1b"><mrow id="S0.F1.m4.1.3" xref="S0.F1.m4.1.3.cmml"><mi mathvariant="normal" id="S0.F1.m4.1.1" xref="S0.F1.m4.1.1.cmml">Δ</mi><mo id="S0.F1.m4.1.3.1" xref="S0.F1.m4.1.3.1.cmml">⁢</mo><mi id="S0.F1.m4.1.2" xref="S0.F1.m4.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="S0.F1.m4.1c"><apply id="S0.F1.m4.1.3.cmml" xref="S0.F1.m4.1.3"><times id="S0.F1.m4.1.3.1.cmml" xref="S0.F1.m4.1.3.1"></times><ci id="S0.F1.m4.1.1.cmml" xref="S0.F1.m4.1.1">Δ</ci><ci id="S0.F1.m4.1.2.cmml" xref="S0.F1.m4.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F1.m4.1d">Delta italic-lambda</annotation><annotation encoding="application/x-tex" id="S0.F1.m4.1e">\Delta\lambda</annotation></semantics></math> = 25 nm, <math id="S0.F1.m5.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="S0.F1.m5.1b"><mrow id="S0.F1.m5.1.3" xref="S0.F1.m5.1.3.cmml"><mi id="S0.F1.m5.1.1" xref="S0.F1.m5.1.1.cmml">δ</mi><mo id="S0.F1.m5.1.3.1" xref="S0.F1.m5.1.3.1.cmml">⁢</mo><mi id="S0.F1.m5.1.2" xref="S0.F1.m5.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="S0.F1.m5.1c"><apply id="S0.F1.m5.1.3.cmml" xref="S0.F1.m5.1.3"><times id="S0.F1.m5.1.3.1.cmml" xref="S0.F1.m5.1.3.1"></times><ci id="S0.F1.m5.1.1.cmml" xref="S0.F1.m5.1.1">𝛿</ci><ci id="S0.F1.m5.1.2.cmml" xref="S0.F1.m5.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F1.m5.1d">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="S0.F1.m5.1e">\delta\lambda</annotation></semantics></math> = -1 HWHM, power 30 mW,
+size of illuminated area 60 <math id="S0.F1.m6.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="S0.F1.m6.1b"><mi id="S0.F1.m6.1.1" xref="S0.F1.m6.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="S0.F1.m6.1c"><ci id="S0.F1.m6.1.1.cmml" xref="S0.F1.m6.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F1.m6.1d">italic-mu</annotation><annotation encoding="application/x-tex" id="S0.F1.m6.1e">\mu</annotation></semantics></math>m.</figcaption>
+</figure>
+<div id="p5" class="ltx_para">
+<p id="p5.1" class="ltx_p">The lattice period is measured to scale linearly with
+<math id="p5.1.m1.1" class="ltx_Math" alttext="1/\sqrt{\delta\lambda}" display="inline"><semantics id="p5.1.m1.1a"><mrow id="p5.1.m1.1.4" xref="p5.1.m1.1.4.cmml"><mn id="p5.1.m1.1.1" xref="p5.1.m1.1.1.cmml">1</mn><mo id="p5.1.m1.1.2" xref="p5.1.m1.1.2.cmml">/</mo><msqrt id="p5.1.m1.1.3" xref="p5.1.m1.1.3.cmml"><mrow id="p5.1.m1.1.3.2" xref="p5.1.m1.1.3.2.cmml"><mi id="p5.1.m1.1.3.2.1" xref="p5.1.m1.1.3.2.1.cmml">δ</mi><mo id="p5.1.m1.1.3.2.3" xref="p5.1.m1.1.3.2.3.cmml">⁢</mo><mi id="p5.1.m1.1.3.2.2" xref="p5.1.m1.1.3.2.2.cmml">λ</mi></mrow></msqrt></mrow><annotation-xml encoding="MathML-Content" id="p5.1.m1.1b"><apply id="p5.1.m1.1.4.cmml" xref="p5.1.m1.1.4"><divide id="p5.1.m1.1.2.cmml" xref="p5.1.m1.1.2"></divide><cn type="integer" id="p5.1.m1.1.1.cmml" xref="p5.1.m1.1.1">1</cn><apply id="p5.1.m1.1.3.cmml" xref="p5.1.m1.1.3"><root id="p5.1.m1.1.3a.cmml" xref="p5.1.m1.1.3"></root><apply id="p5.1.m1.1.3.2.cmml" xref="p5.1.m1.1.3.2"><times id="p5.1.m1.1.3.2.3.cmml" xref="p5.1.m1.1.3.2.3"></times><ci id="p5.1.m1.1.3.2.1.cmml" xref="p5.1.m1.1.3.2.1">𝛿</ci><ci id="p5.1.m1.1.3.2.2.cmml" xref="p5.1.m1.1.3.2.2">𝜆</ci></apply></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m1.1c">NUMBER:1 MULOP:divide italic-square-root ARG:start italic-delta italic-lambda ARG:end</annotation><annotation encoding="application/x-tex" id="p5.1.m1.1d">1/\sqrt{\delta\lambda}</annotation></semantics></math> as expected for tilted waves
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib12" title="" class="ltx_ref">12</a>, <a href="#bib.bib14" title="" class="ltx_ref">14</a>]</cite>, which we expected to be the basic mechanism
+of this hexagon formation. We observe a change from negative to
+positive hexagons with decreasing <math id="p5.1.m2.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="p5.1.m2.1a"><mrow id="p5.1.m2.1.3" xref="p5.1.m2.1.3.cmml"><mi id="p5.1.m2.1.1" xref="p5.1.m2.1.1.cmml">δ</mi><mo id="p5.1.m2.1.3.1" xref="p5.1.m2.1.3.1.cmml">⁢</mo><mi id="p5.1.m2.1.2" xref="p5.1.m2.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p5.1.m2.1b"><apply id="p5.1.m2.1.3.cmml" xref="p5.1.m2.1.3"><times id="p5.1.m2.1.3.1.cmml" xref="p5.1.m2.1.3.1"></times><ci id="p5.1.m2.1.1.cmml" xref="p5.1.m2.1.1">𝛿</ci><ci id="p5.1.m2.1.2.cmml" xref="p5.1.m2.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m2.1c">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p5.1.m2.1d">\delta\lambda</annotation></semantics></math>. The contrast
+of the pattern decreases with increasing <math id="p5.1.m3.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="p5.1.m3.1a"><mrow id="p5.1.m3.1.3" xref="p5.1.m3.1.3.cmml"><mi id="p5.1.m3.1.1" xref="p5.1.m3.1.1.cmml">δ</mi><mo id="p5.1.m3.1.3.1" xref="p5.1.m3.1.3.1.cmml">⁢</mo><mi id="p5.1.m3.1.2" xref="p5.1.m3.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p5.1.m3.1b"><apply id="p5.1.m3.1.3.cmml" xref="p5.1.m3.1.3"><times id="p5.1.m3.1.3.1.cmml" xref="p5.1.m3.1.3.1"></times><ci id="p5.1.m3.1.1.cmml" xref="p5.1.m3.1.1">𝛿</ci><ci id="p5.1.m3.1.2.cmml" xref="p5.1.m3.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m3.1c">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p5.1.m3.1d">\delta\lambda</annotation></semantics></math>. Above
+<math id="p5.1.m4.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="p5.1.m4.1a"><mrow id="p5.1.m4.1.3" xref="p5.1.m4.1.3.cmml"><mi id="p5.1.m4.1.1" xref="p5.1.m4.1.1.cmml">δ</mi><mo id="p5.1.m4.1.3.1" xref="p5.1.m4.1.3.1.cmml">⁢</mo><mi id="p5.1.m4.1.2" xref="p5.1.m4.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p5.1.m4.1b"><apply id="p5.1.m4.1.3.cmml" xref="p5.1.m4.1.3"><times id="p5.1.m4.1.3.1.cmml" xref="p5.1.m4.1.3.1"></times><ci id="p5.1.m4.1.1.cmml" xref="p5.1.m4.1.1">𝛿</ci><ci id="p5.1.m4.1.2.cmml" xref="p5.1.m4.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m4.1c">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p5.1.m4.1d">\delta\lambda</annotation></semantics></math> = 1.5 HWHM OB switching occurs before a pattern
+with notable contrast develops, when increasing the intensity. 
+<br class="ltx_break">Since the illumination is with a Gaussian beam, the central part
+of the field switches first. The switched domain is separated from
+the surrounding unswitched area by a stationary switching front
+[15]. Such a switching front moves if the incident light intensity
+is different from the ”Maxwellian” <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib15" title="" class="ltx_ref">15</a>]</cite> intensity, the
+intensity for which the potential maxima for lower and upper
+branch are equally deep. The front moves into the unswitched area
+if the local incident intensity is larger than the Maxwellian
+intensity <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib15" title="" class="ltx_ref">15</a>]</cite> and vice versa. It is stationary only on
+the contour on which the incident light intensity equals the
+Maxwellian intensity. Thus switching fronts can be moved by
+changing the incident light intensity, as Fig. 2 shows. 
+<br class="ltx_break">Fig. 2a
+gives the incident and reflected intensity at the center of the
+Gaussian beam as a function of time; 2b and 2c show the intensity
+along a diameter of incident and reflected beam respectively as a
+function of time in the form of equiintensity contours. The
+recording Fig. 2d gives the reflectivity of the resonator along
+the same diameter of the Gaussian beam. 
+<br class="ltx_break"></br>
+</br>
+</br>
+</p>
+</div>
+<figure id="S0.F2" class="ltx_figure">
+<p id="S0.F2.1" class="ltx_p ltx_align_center"></p>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 2: </span>Motion of switching front: a) incident light intensity
+(dashed) and light intensity reflected from sample, center of
+Gaussian beam (solid), b) intensity contours of incident light,
+c) intensity contours of reflected light (switching front matches
+the third lowest intensity contour of incident light), d)
+reflectivity of sample (darkest zones are the switching front).
+<br class="ltx_break">Parameters are: <math id="S0.F2.m4.1" class="ltx_Math" alttext="\Delta\lambda" display="inline"><semantics id="S0.F2.m4.1b"><mrow id="S0.F2.m4.1.3" xref="S0.F2.m4.1.3.cmml"><mi mathvariant="normal" id="S0.F2.m4.1.1" xref="S0.F2.m4.1.1.cmml">Δ</mi><mo id="S0.F2.m4.1.3.1" xref="S0.F2.m4.1.3.1.cmml">⁢</mo><mi id="S0.F2.m4.1.2" xref="S0.F2.m4.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="S0.F2.m4.1c"><apply id="S0.F2.m4.1.3.cmml" xref="S0.F2.m4.1.3"><times id="S0.F2.m4.1.3.1.cmml" xref="S0.F2.m4.1.3.1"></times><ci id="S0.F2.m4.1.1.cmml" xref="S0.F2.m4.1.1">Δ</ci><ci id="S0.F2.m4.1.2.cmml" xref="S0.F2.m4.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F2.m4.1d">Delta italic-lambda</annotation><annotation encoding="application/x-tex" id="S0.F2.m4.1e">\Delta\lambda</annotation></semantics></math> = 17 nm, <math id="S0.F2.m5.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="S0.F2.m5.1b"><mrow id="S0.F2.m5.1.3" xref="S0.F2.m5.1.3.cmml"><mi id="S0.F2.m5.1.1" xref="S0.F2.m5.1.1.cmml">δ</mi><mo id="S0.F2.m5.1.3.1" xref="S0.F2.m5.1.3.1.cmml">⁢</mo><mi id="S0.F2.m5.1.2" xref="S0.F2.m5.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="S0.F2.m5.1c"><apply id="S0.F2.m5.1.3.cmml" xref="S0.F2.m5.1.3"><times id="S0.F2.m5.1.3.1.cmml" xref="S0.F2.m5.1.3.1"></times><ci id="S0.F2.m5.1.1.cmml" xref="S0.F2.m5.1.1">𝛿</ci><ci id="S0.F2.m5.1.2.cmml" xref="S0.F2.m5.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F2.m5.1d">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="S0.F2.m5.1e">\delta\lambda</annotation></semantics></math> = -1.6
+HWHM, power 70 mW, spot size 60 <math id="S0.F2.m6.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="S0.F2.m6.1b"><mi id="S0.F2.m6.1.1" xref="S0.F2.m6.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="S0.F2.m6.1c"><ci id="S0.F2.m6.1.1.cmml" xref="S0.F2.m6.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F2.m6.1d">italic-mu</annotation><annotation encoding="application/x-tex" id="S0.F2.m6.1e">\mu</annotation></semantics></math>m.
+<br class="ltx_break">Same time scale for a,
+b, c, d.</br>
+</br>
+</figcaption>
+</figure>
+<div id="p6" class="ltx_para">
+<p id="p6.1" class="ltx_p">The light intensity is programmed here by the AOM as described
+above in order to study switching-wave dynamics. An initial peak
+(2a) switches most of the beam cross section to the low
+reflectivity state. During the rapid initial outward motion of the
+switching front (as well as the inward motion at switch-off) the
+position of the switching front is probably not adiabatically
+controlled by the light field. As predicted <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib15" title="" class="ltx_ref">15</a>]</cite>, for
+adiabatic motion the switching front follows an intensity contour
+of the varying incident light; as evident by comparing 2b and 2c.
+
+<br class="ltx_break">As opposed to the extended patterns (Fig. 1) localized
+structures (spatial cavity solitons) have been predicted
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib5" title="" class="ltx_ref">5</a>, <a href="#bib.bib6" title="" class="ltx_ref">6</a>]</cite>. Such structures can form due to interaction
+between switching fronts, in which context they have been called
+”diffractive autosolitons” <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib15" title="" class="ltx_ref">15</a>]</cite>.
+<br class="ltx_break"></br>
+</br>
+</p>
+</div>
+<figure id="S0.F3" class="ltx_figure">
+<p id="S0.F3.1" class="ltx_p ltx_align_center"></p>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 3: </span>Switching front with oscillating tails: a) switching
+front (darkest ring) surrounded by equidistant rings in unswitched
+area, b) intensity contours of incident light, c) reflectivity of
+sample.
+<br class="ltx_break">Parameters are: <math id="S0.F3.m4.1" class="ltx_Math" alttext="\Delta\lambda" display="inline"><semantics id="S0.F3.m4.1b"><mrow id="S0.F3.m4.1.3" xref="S0.F3.m4.1.3.cmml"><mi mathvariant="normal" id="S0.F3.m4.1.1" xref="S0.F3.m4.1.1.cmml">Δ</mi><mo id="S0.F3.m4.1.3.1" xref="S0.F3.m4.1.3.1.cmml">⁢</mo><mi id="S0.F3.m4.1.2" xref="S0.F3.m4.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="S0.F3.m4.1c"><apply id="S0.F3.m4.1.3.cmml" xref="S0.F3.m4.1.3"><times id="S0.F3.m4.1.3.1.cmml" xref="S0.F3.m4.1.3.1"></times><ci id="S0.F3.m4.1.1.cmml" xref="S0.F3.m4.1.1">Δ</ci><ci id="S0.F3.m4.1.2.cmml" xref="S0.F3.m4.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F3.m4.1d">Delta italic-lambda</annotation><annotation encoding="application/x-tex" id="S0.F3.m4.1e">\Delta\lambda</annotation></semantics></math> = 25 nm, <math id="S0.F3.m5.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="S0.F3.m5.1b"><mrow id="S0.F3.m5.1.3" xref="S0.F3.m5.1.3.cmml"><mi id="S0.F3.m5.1.1" xref="S0.F3.m5.1.1.cmml">δ</mi><mo id="S0.F3.m5.1.3.1" xref="S0.F3.m5.1.3.1.cmml">⁢</mo><mi id="S0.F3.m5.1.2" xref="S0.F3.m5.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="S0.F3.m5.1c"><apply id="S0.F3.m5.1.3.cmml" xref="S0.F3.m5.1.3"><times id="S0.F3.m5.1.3.1.cmml" xref="S0.F3.m5.1.3.1"></times><ci id="S0.F3.m5.1.1.cmml" xref="S0.F3.m5.1.1">𝛿</ci><ci id="S0.F3.m5.1.2.cmml" xref="S0.F3.m5.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F3.m5.1d">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="S0.F3.m5.1e">\delta\lambda</annotation></semantics></math> = -1.6 HWHM, power 80 mW, spot size 60 <math id="S0.F3.m6.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="S0.F3.m6.1b"><mi id="S0.F3.m6.1.1" xref="S0.F3.m6.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="S0.F3.m6.1c"><ci id="S0.F3.m6.1.1.cmml" xref="S0.F3.m6.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F3.m6.1d">italic-mu</annotation><annotation encoding="application/x-tex" id="S0.F3.m6.1e">\mu</annotation></semantics></math>m.</br>
+</figcaption>
+</figure>
+<div id="p7" class="ltx_para">
+<p id="p7.1" class="ltx_p">If switching fronts have ”oscillating tails”, the gradients
+associated with these oscillations can mutually trap two switching
+fronts. In 2D such ”oscillating tails”, which can occur due to a
+nearby modulational instability <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib16" title="" class="ltx_ref">16</a>]</cite>, may stabilize a
+circular switching front. This is equivalent to a localized
+structure or spatial soliton, which is free to move as a whole
+unless constrained by boundary effects. This mechanism of
+formation of such spatial solitons was studied theoretically
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib17" title="" class="ltx_ref">17</a>]</cite> and demonstrated already experimentally
+<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib18" title="" class="ltx_ref">18</a>]</cite> on a system with phase bistability. Oscillating
+tails are readily observable in the present system by choosing
+appropriate <math id="p7.1.m1.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="p7.1.m1.1a"><mrow id="p7.1.m1.1.3" xref="p7.1.m1.1.3.cmml"><mi id="p7.1.m1.1.1" xref="p7.1.m1.1.1.cmml">δ</mi><mo id="p7.1.m1.1.3.1" xref="p7.1.m1.1.3.1.cmml">⁢</mo><mi id="p7.1.m1.1.2" xref="p7.1.m1.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m1.1b"><apply id="p7.1.m1.1.3.cmml" xref="p7.1.m1.1.3"><times id="p7.1.m1.1.3.1.cmml" xref="p7.1.m1.1.3.1"></times><ci id="p7.1.m1.1.1.cmml" xref="p7.1.m1.1.1">𝛿</ci><ci id="p7.1.m1.1.2.cmml" xref="p7.1.m1.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m1.1c">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p7.1.m1.1d">\delta\lambda</annotation></semantics></math> and <math id="p7.1.m2.1" class="ltx_Math" alttext="\Delta\lambda" display="inline"><semantics id="p7.1.m2.1a"><mrow id="p7.1.m2.1.3" xref="p7.1.m2.1.3.cmml"><mi mathvariant="normal" id="p7.1.m2.1.1" xref="p7.1.m2.1.1.cmml">Δ</mi><mo id="p7.1.m2.1.3.1" xref="p7.1.m2.1.3.1.cmml">⁢</mo><mi id="p7.1.m2.1.2" xref="p7.1.m2.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m2.1b"><apply id="p7.1.m2.1.3.cmml" xref="p7.1.m2.1.3"><times id="p7.1.m2.1.3.1.cmml" xref="p7.1.m2.1.3.1"></times><ci id="p7.1.m2.1.1.cmml" xref="p7.1.m2.1.1">Δ</ci><ci id="p7.1.m2.1.2.cmml" xref="p7.1.m2.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m2.1c">Delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p7.1.m2.1d">\Delta\lambda</annotation></semantics></math>; as seen in Fig.
+3. Similar front-locking may thus occur in systems with intensity
+bistability such as the present one. The stabilization of front
+distances can thus be used as one criterion for the existence of
+spatial solitons. Another criterion is evidently the moveability
+of localized structures, which, furthermore, implies bistability
+of the structure. 
+<br class="ltx_break">Fig. 4 shows a corresponding observation. The
+intensity on a diameter of the illuminated field is recorded as a
+function of time. The background illumination is set in the middle
+of the bistability range.
+<br class="ltx_break"></br>
+</br>
+</p>
+</div>
+<figure id="S0.F4" class="ltx_figure">
+<p id="S0.F4.1" class="ltx_p ltx_align_center"></p>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 4: </span>Motion of switching front for off-center local
+switching.
+<br class="ltx_break">Parameters of the holding beam as in Fig. 3.</br>
+</figcaption>
+</figure>
+<div id="p8" class="ltx_para">
+<p id="p8.1" class="ltx_p">At some distance from the beam center a narrow (8 <math id="p8.1.m1.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p8.1.m1.1a"><mi id="p8.1.m1.1.1" xref="p8.1.m1.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p8.1.m1.1b"><ci id="p8.1.m1.1.1.cmml" xref="p8.1.m1.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m1.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p8.1.m1.1d">\mu</annotation></semantics></math>m)
+injection pulse can locally switch a small area to the upswitched
+branch. Fig. 4 shows how this switched spot moves to the center of
+the illuminated area (due to the intensity gradient of the
+background field). It would appear that the two points of the
+circular switching front, which can be followed in Fig. 4, move in
+parallel, suggesting a moving stable structure. 
+<br class="ltx_break"></br>
+</p>
+</div>
+<figure id="S0.F5" class="ltx_figure">
+<p id="S0.F5.1" class="ltx_p ltx_align_center"></p>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 5: </span>Location of bright switched spot on two intensity maxima
+of the background field.
+<br class="ltx_break">Observation 400 <math id="S0.F5.m2.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="S0.F5.m2.1b"><mi id="S0.F5.m2.1.1" xref="S0.F5.m2.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="S0.F5.m2.1c"><ci id="S0.F5.m2.1.1.cmml" xref="S0.F5.m2.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F5.m2.1d">italic-mu</annotation><annotation encoding="application/x-tex" id="S0.F5.m2.1e">\mu</annotation></semantics></math>m below sample
+surface (see text).</br>
+</figcaption>
+</figure>
+<div id="p9" class="ltx_para">
+<p id="p9.1" class="ltx_p">After the structure has reached the center of the field, where the
+intensity is maximal, it remains there stationarily. When there
+are two or more local intensity maxima in the background
+illumination, the final position of the up-switched structure can
+be at any of the maxima. Fig. 5 shows a background illumination,
+which has an intensity saddle at the center of the picture and
+local maxima at the center of the left and right half of the
+picture. Depending on whether the injection is (anywhere) in the
+right or the left half of the picture, the final position of the
+up-switched structure will be the left or right intensity maximum
+respectively (Fig. 5a,b). Equally, at the two maxima up-switched
+structures can exist simultaneously (Fig. 5c).
+<br class="ltx_break"></br>
+</p>
+</div>
+<figure id="S0.F6" class="ltx_figure">
+<p id="S0.F6.1" class="ltx_p ltx_align_center"></p>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 6: </span>Switched spot embedded in structured background.
+Observation on (a)) and 400 <math id="S0.F6.m5.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="S0.F6.m5.1b"><mi id="S0.F6.m5.1.1" xref="S0.F6.m5.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="S0.F6.m5.1c"><ci id="S0.F6.m5.1.1.cmml" xref="S0.F6.m5.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F6.m5.1d">italic-mu</annotation><annotation encoding="application/x-tex" id="S0.F6.m5.1e">\mu</annotation></semantics></math>m below (b)) sample surface. 
+<br class="ltx_break">Parameters are: <math id="S0.F6.m6.1" class="ltx_Math" alttext="\Delta\lambda" display="inline"><semantics id="S0.F6.m6.1b"><mrow id="S0.F6.m6.1.3" xref="S0.F6.m6.1.3.cmml"><mi mathvariant="normal" id="S0.F6.m6.1.1" xref="S0.F6.m6.1.1.cmml">Δ</mi><mo id="S0.F6.m6.1.3.1" xref="S0.F6.m6.1.3.1.cmml">⁢</mo><mi id="S0.F6.m6.1.2" xref="S0.F6.m6.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="S0.F6.m6.1c"><apply id="S0.F6.m6.1.3.cmml" xref="S0.F6.m6.1.3"><times id="S0.F6.m6.1.3.1.cmml" xref="S0.F6.m6.1.3.1"></times><ci id="S0.F6.m6.1.1.cmml" xref="S0.F6.m6.1.1">Δ</ci><ci id="S0.F6.m6.1.2.cmml" xref="S0.F6.m6.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F6.m6.1d">Delta italic-lambda</annotation><annotation encoding="application/x-tex" id="S0.F6.m6.1e">\Delta\lambda</annotation></semantics></math> = 25 nm, <math id="S0.F6.m7.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="S0.F6.m7.1b"><mrow id="S0.F6.m7.1.3" xref="S0.F6.m7.1.3.cmml"><mi id="S0.F6.m7.1.1" xref="S0.F6.m7.1.1.cmml">δ</mi><mo id="S0.F6.m7.1.3.1" xref="S0.F6.m7.1.3.1.cmml">⁢</mo><mi id="S0.F6.m7.1.2" xref="S0.F6.m7.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="S0.F6.m7.1c"><apply id="S0.F6.m7.1.3.cmml" xref="S0.F6.m7.1.3"><times id="S0.F6.m7.1.3.1.cmml" xref="S0.F6.m7.1.3.1"></times><ci id="S0.F6.m7.1.1.cmml" xref="S0.F6.m7.1.1">𝛿</ci><ci id="S0.F6.m7.1.2.cmml" xref="S0.F6.m7.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F6.m7.1d">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="S0.F6.m7.1e">\delta\lambda</annotation></semantics></math> = -1
+HWHM power 40 mW, spot size 60 <math id="S0.F6.m8.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="S0.F6.m8.1b"><mi id="S0.F6.m8.1.1" xref="S0.F6.m8.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="S0.F6.m8.1c"><ci id="S0.F6.m8.1.1.cmml" xref="S0.F6.m8.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F6.m8.1d">italic-mu</annotation><annotation encoding="application/x-tex" id="S0.F6.m8.1e">\mu</annotation></semantics></math>m.</br>
+</figcaption>
+</figure>
+<div id="p10" class="ltx_para">
+<p id="p10.1" class="ltx_p">At small <math id="p10.1.m1.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="p10.1.m1.1a"><mrow id="p10.1.m1.1.3" xref="p10.1.m1.1.3.cmml"><mi id="p10.1.m1.1.1" xref="p10.1.m1.1.1.cmml">δ</mi><mo id="p10.1.m1.1.3.1" xref="p10.1.m1.1.3.1.cmml">⁢</mo><mi id="p10.1.m1.1.2" xref="p10.1.m1.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="p10.1.m1.1b"><apply id="p10.1.m1.1.3.cmml" xref="p10.1.m1.1.3"><times id="p10.1.m1.1.3.1.cmml" xref="p10.1.m1.1.3.1"></times><ci id="p10.1.m1.1.1.cmml" xref="p10.1.m1.1.1">𝛿</ci><ci id="p10.1.m1.1.2.cmml" xref="p10.1.m1.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p10.1.m1.1c">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="p10.1.m1.1d">\delta\lambda</annotation></semantics></math>, when the background intensity is
+increased beyond the appearance of a high contrast hexagonal
+pattern a noticeably small spot (<math id="p10.1.m2.1" class="ltx_Math" alttext="\approx" display="inline"><semantics id="p10.1.m2.1a"><mo id="p10.1.m2.1.1" xref="p10.1.m2.1.1.cmml">≈</mo><annotation-xml encoding="MathML-Content" id="p10.1.m2.1b"><approx id="p10.1.m2.1.1.cmml" xref="p10.1.m2.1.1"></approx></annotation-xml><annotation encoding="application/x-llamapun" id="p10.1.m2.1c">RELOP:approximately-equals</annotation><annotation encoding="application/x-tex" id="p10.1.m2.1d">\approx</annotation></semantics></math> 10 <math id="p10.1.m3.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p10.1.m3.1a"><mi id="p10.1.m3.1.1" xref="p10.1.m3.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p10.1.m3.1b"><ci id="p10.1.m3.1.1.cmml" xref="p10.1.m3.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.1.m3.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p10.1.m3.1d">\mu</annotation></semantics></math>m) appears as
+the switched-up structure, Fig. 6. For better measurement signal
+to noise ratio we have recorded in Figs 5 to 8 in a plane 400
+<math id="p10.1.m4.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p10.1.m4.1a"><mi id="p10.1.m4.1.1" xref="p10.1.m4.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p10.1.m4.1b"><ci id="p10.1.m4.1.1.cmml" xref="p10.1.m4.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p10.1.m4.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p10.1.m4.1d">\mu</annotation></semantics></math>m below the sample surface. In this plane the structures
+appear bright, regular, with high contrast compared to the
+structures in the sample plane. Thus allowing to reduce the
+recording averaging times.
+<br class="ltx_break"></br>
+</p>
+</div>
+<figure id="S0.F7" class="ltx_figure">
+<p id="S0.F7.1" class="ltx_p ltx_align_center"></p>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 7: </span>Bistability of localized structure. a) intensity
+contours of incident light, b) reflectivity of sample.
+<br class="ltx_break">Fast
+short increase of incident light intensity switches localized
+structure on. Fast short reduction of incident light intensity
+switches localized structure off.
+<br class="ltx_break">Parameters as in Fig. 6.</br>
+</br>
+</figcaption>
+</figure>
+<div id="p11" class="ltx_para">
+<p id="p11.1" class="ltx_p">Because of the small size and high brightness of the structure in
+Fig. 6b further tests were done on its soliton properties. The
+first test (bistability) is shown in Fig. 7. Fig. 7a shows
+intensity contours of the incident light in the same way as Fig.
+2b. Fig. 7b shows the light intensity reflected from the sample.
+The initial background intensity is chosen in the middle of the
+bistability range. A short (pulsed) increase of intensity (at ca.
+0.5 <math id="p11.1.m1.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p11.1.m1.1a"><mi id="p11.1.m1.1.1" xref="p11.1.m1.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p11.1.m1.1b"><ci id="p11.1.m1.1.1.cmml" xref="p11.1.m1.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p11.1.m1.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p11.1.m1.1d">\mu</annotation></semantics></math>s) is then seen to switch the sample up. The small bright
+structure remains up-switched when the intensity is returned to
+its initial value below the switching limit. The small structure
+is switched back off by momentary decrease of the illumination to
+below the lower bistability limit (at ca. 1.5 <math id="p11.1.m2.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p11.1.m2.1a"><mi id="p11.1.m2.1.1" xref="p11.1.m2.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p11.1.m2.1b"><ci id="p11.1.m2.1.1.cmml" xref="p11.1.m2.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p11.1.m2.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p11.1.m2.1d">\mu</annotation></semantics></math>s). This is
+clear proof of bistability as expected for a spatial soliton. 
+<br class="ltx_break"></br>
+</p>
+</div>
+<figure id="S0.F8" class="ltx_figure">
+<p id="S0.F8.1" class="ltx_p ltx_align_center"></p>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 8: </span>Test of localized structure robustness. a) intensity
+contours of incident light, b) intensity contour of reflected
+light, c) reflectivity of sample.
+<br class="ltx_break">Note that there is no
+intensity contour of the incident light which matches the contour
+of the bright zone.
+<br class="ltx_break">Parameters as in Fig. 6.</br>
+</br>
+</figcaption>
+</figure>
+<div id="p12" class="ltx_para">
+<p id="p12.1" class="ltx_p">If this structure is just a small up-switched domain, then the
+switching fronts surrounding it should follow an equiintensity
+contour of the background field. If, on the other hand, there is
+”locking” of the switching front, it should not follow precisely
+the intensity changes. The result of the test is shown in Fig. 8:
+8a and 8b give intensity contours for the incident and reflected
+light respectively, 8c gives the reflectivity. At the beginning
+the small structure is created by an initial pulse above the
+switching threshold, followed by a reduction of input intensity to
+a value in the middle of the bistability range. The test for
+robustness is then done by variation of the intensity (within the
+bistability range). Fig. 8b,c shows that the spatial variation of
+the reflected intensity, and thus of the switching front, is much
+less marked than that of the incident light intensity, in contrast
+to what we observe in Fig. 2. This indicates a ”robustness” of the
+structure indicative of self-localization. 
+<br class="ltx_break">Fig. 9 gives
+evidence that in hexagonal patterns the individual bright spots
+can have properties of localized structures or spatial solitons.
+9a shows a hexagonal structure seemingly similar to Fig. 1. The
+intensity of the background field is in the middle of the
+bistability range. Injection with a narrow beam in a short pulse
+aimed at the bright spot marked ”a” in 6a, switches it, as seen in
+9b, to be a dark ”defect”. When the injection beam is aimed at the
+adjacent spot (marked ”b”), this adjacent spot is switched off,
+all other spots remaining unchanged. To demonstrate that the
+switched spot is stable, we show in Fig. 9d the output from that
+region as a function of time during the 2 <math id="p12.1.m1.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="p12.1.m1.1a"><mi id="p12.1.m1.1.1" xref="p12.1.m1.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="p12.1.m1.1b"><ci id="p12.1.m1.1.1.cmml" xref="p12.1.m1.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p12.1.m1.1c">italic-mu</annotation><annotation encoding="application/x-tex" id="p12.1.m1.1d">\mu</annotation></semantics></math>s duration of the
+main input pulse. In the upper trace, the address pulse is too
+weak to induce switching, and the output recovers within 100ns to
+its original steady value. In the lower trace, switching does
+occur, and the output remains almost constant at a level less than
+20 <math id="p12.1.m2.1" class="ltx_Math" alttext="\%" display="inline"><semantics id="p12.1.m2.1a"><mo id="p12.1.m2.1.1" xref="p12.1.m2.1.1.cmml">%</mo><annotation-xml encoding="MathML-Content" id="p12.1.m2.1b"><csymbol cd="latexml" id="p12.1.m2.1.1.cmml" xref="p12.1.m2.1.1">percent</csymbol></annotation-xml><annotation encoding="application/x-llamapun" id="p12.1.m2.1c">POSTFIX:percent</annotation><annotation encoding="application/x-tex" id="p12.1.m2.1d">\%</annotation></semantics></math> below its original value, until the holding light is
+returned to zero. Thus unlike a coherent extended hexagon pattern,
+the structure of Fig. 9a behaves like a collection of localized
+structures, who can independently be switched. 
+<br class="ltx_break"></br>
+</br>
+</p>
+</div>
+<figure id="S0.F9" class="ltx_figure">
+<p id="S0.F9.1" class="ltx_p ltx_align_center"></p>
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 9: </span>Switching of individual bright spots of a bright spot
+claster (see text).
+<br class="ltx_break">Parameters are: <math id="S0.F9.m5.1" class="ltx_Math" alttext="\Delta\lambda" display="inline"><semantics id="S0.F9.m5.1b"><mrow id="S0.F9.m5.1.3" xref="S0.F9.m5.1.3.cmml"><mi mathvariant="normal" id="S0.F9.m5.1.1" xref="S0.F9.m5.1.1.cmml">Δ</mi><mo id="S0.F9.m5.1.3.1" xref="S0.F9.m5.1.3.1.cmml">⁢</mo><mi id="S0.F9.m5.1.2" xref="S0.F9.m5.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="S0.F9.m5.1c"><apply id="S0.F9.m5.1.3.cmml" xref="S0.F9.m5.1.3"><times id="S0.F9.m5.1.3.1.cmml" xref="S0.F9.m5.1.3.1"></times><ci id="S0.F9.m5.1.1.cmml" xref="S0.F9.m5.1.1">Δ</ci><ci id="S0.F9.m5.1.2.cmml" xref="S0.F9.m5.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F9.m5.1d">Delta italic-lambda</annotation><annotation encoding="application/x-tex" id="S0.F9.m5.1e">\Delta\lambda</annotation></semantics></math> = 25 nm,
+<math id="S0.F9.m6.1" class="ltx_Math" alttext="\delta\lambda" display="inline"><semantics id="S0.F9.m6.1b"><mrow id="S0.F9.m6.1.3" xref="S0.F9.m6.1.3.cmml"><mi id="S0.F9.m6.1.1" xref="S0.F9.m6.1.1.cmml">δ</mi><mo id="S0.F9.m6.1.3.1" xref="S0.F9.m6.1.3.1.cmml">⁢</mo><mi id="S0.F9.m6.1.2" xref="S0.F9.m6.1.2.cmml">λ</mi></mrow><annotation-xml encoding="MathML-Content" id="S0.F9.m6.1c"><apply id="S0.F9.m6.1.3.cmml" xref="S0.F9.m6.1.3"><times id="S0.F9.m6.1.3.1.cmml" xref="S0.F9.m6.1.3.1"></times><ci id="S0.F9.m6.1.1.cmml" xref="S0.F9.m6.1.1">𝛿</ci><ci id="S0.F9.m6.1.2.cmml" xref="S0.F9.m6.1.2">𝜆</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F9.m6.1d">italic-delta italic-lambda</annotation><annotation encoding="application/x-tex" id="S0.F9.m6.1e">\delta\lambda</annotation></semantics></math> = -1 HWHM, holding beam width 60 <math id="S0.F9.m7.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="S0.F9.m7.1b"><mi id="S0.F9.m7.1.1" xref="S0.F9.m7.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="S0.F9.m7.1c"><ci id="S0.F9.m7.1.1.cmml" xref="S0.F9.m7.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F9.m7.1d">italic-mu</annotation><annotation encoding="application/x-tex" id="S0.F9.m7.1e">\mu</annotation></semantics></math>m,
+injecting beam width 8 <math id="S0.F9.m8.1" class="ltx_Math" alttext="\mu" display="inline"><semantics id="S0.F9.m8.1b"><mi id="S0.F9.m8.1.1" xref="S0.F9.m8.1.1.cmml">μ</mi><annotation-xml encoding="MathML-Content" id="S0.F9.m8.1c"><ci id="S0.F9.m8.1.1.cmml" xref="S0.F9.m8.1.1">𝜇</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F9.m8.1d">italic-mu</annotation><annotation encoding="application/x-tex" id="S0.F9.m8.1e">\mu</annotation></semantics></math>m.</br>
+</figcaption>
+</figure>
+<div id="p13" class="ltx_para">
+<p id="p13.1" class="ltx_p">Concluding, we have shown for the first time the formation of
+hexagon patterns, as predicted for non-linear passive resonators.
+Evidence was given of soliton properties of small spatial
+structures. 
+<br class="ltx_break"></br>
+</p>
+</div>
+<div id="p14" class="ltx_para">
+<p id="p14.1" class="ltx_p">Acknowledgements 
+<br class="ltx_break">This work was supported by ESPRIT LTR project
+PIANOS. Discussions with the project partners are acknowledged. We
+thank W.J.Firth for valuable suggestions. We also thank
+K.Staliunas for developing clarifying concepts such as the linear
+filtering of spatial noise by a 2D resonator. 
+<br class="ltx_break"></br>
+</br>
+</p>
+</div>
+<section id="bib" class="ltx_bibliography">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+
+<ul class="ltx_biblist">
+<li id="bib.bib1" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[1]</span>
+<span class="ltx_bibblock"> L.A.Lugiato, M.Brambilla, A.Gatti, Advances in Atomic, Molecular,
+and Optical Physics <span id="bib.bib1.1" class="ltx_text ltx_font_bold">40</span>, 229 (1999).
+
+</span>
+</li>
+<li id="bib.bib2" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[2]</span>
+<span class="ltx_bibblock"> C.O.Weiss, M.Vaupel, K.Staliunas, G.Slekys, V.B.Taranenko, Appl. Phys. B <span id="bib.bib2.1" class="ltx_text ltx_font_bold">68</span>,
+151 (1999).
+
+</span>
+</li>
+<li id="bib.bib3" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[3]</span>
+<span class="ltx_bibblock"> K.Staliunas, Phys. Rev. A <span id="bib.bib3.1" class="ltx_text ltx_font_bold">48</span>, 1573 (1993).
+
+</span>
+</li>
+<li id="bib.bib4" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[4]</span>
+<span class="ltx_bibblock"> C.O.Weiss, H.R.Telle, K.Staliunas, M.Brambilla, Phys. Rev. A <span id="bib.bib4.1" class="ltx_text ltx_font_bold">47</span>, R1616 (1993);
+M.Vaupel, C.O.Weiss, Phys. Rev. A <span id="bib.bib4.2" class="ltx_text ltx_font_bold">51</span>, 4078 (1995); M.Vaupel,
+K.Staliunas, C.O.Weiss, Phys. Rev. A <span id="bib.bib4.3" class="ltx_text ltx_font_bold">54</span>, 880 (1996).
+
+</span>
+</li>
+<li id="bib.bib5" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[5]</span>
+<span class="ltx_bibblock">M.Tlidi, P.Mandel, R.Lefever, Phys. Rev. Lett. <span id="bib.bib5.1" class="ltx_text ltx_font_bold">73</span>, 640 (1994).
+
+</span>
+</li>
+<li id="bib.bib6" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[6]</span>
+<span class="ltx_bibblock">W.J.Firth, A.J.Scroggie, Phys. Rev. Lett <span id="bib.bib6.1" class="ltx_text ltx_font_bold">76</span>, 1623 (1996); M.Brambilla, L.A.Lugiato, F.Prati, L.Spinelli,
+W.J.Firth, Phys. Rev. Lett. <span id="bib.bib6.2" class="ltx_text ltx_font_bold">79</span>, 2042 (1997).
+
+</span>
+</li>
+<li id="bib.bib7" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[7]</span>
+<span class="ltx_bibblock">M.Kreuzer, W.Balzer, T.Tschudi, Appl. Opt. <span id="bib.bib7.1" class="ltx_text ltx_font_bold">29</span>, 579 (1990); M.Kreuzer, H.Gottschling, T.Tschudi,
+R.Neubecker, Mol. Cryst. Liq. Cryst. <span id="bib.bib7.2" class="ltx_text ltx_font_bold">207</span>, 219 (1991);
+J.Nalik, L.M.Hoffer, G.L.Lippi, Ch.Vorgerd, W.Lange, Phys. Rev. A
+<span id="bib.bib7.3" class="ltx_text ltx_font_bold">45</span>, R4237 (1992).
+
+</span>
+</li>
+<li id="bib.bib8" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[8]</span>
+<span class="ltx_bibblock">L.A.Lugiato, R.Lefever, Phys. Rev. Lett. <span id="bib.bib8.1" class="ltx_text ltx_font_bold">58</span>, 2209 (1987).
+
+</span>
+</li>
+<li id="bib.bib9" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[9]</span>
+<span class="ltx_bibblock">S.Coen, M.Haelterman, Opt. Lett. <span id="bib.bib9.1" class="ltx_text ltx_font_bold">24</span>, 80 (1999).
+
+</span>
+</li>
+<li id="bib.bib10" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[10]</span>
+<span class="ltx_bibblock">B.G.Sfez, J.L.Oudar, J.C.Michel, R.Kuszelewicz, R.Azoulay, Appl. Phys. Lett. <span id="bib.bib10.1" class="ltx_text ltx_font_bold">57</span>, 1849
+(1990); I.Abram, S.Iung, R.Kuszelewicz, G.LeRoux, C.Licoppe,
+J.L.Oudar, Appl. Phys. Lett. <span id="bib.bib10.2" class="ltx_text ltx_font_bold">65</span>, 2516 (1994).
+
+</span>
+</li>
+<li id="bib.bib11" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[11]</span>
+<span class="ltx_bibblock">G.Dewel, S.Métens, M’F.Hilaly, P.Borckmans, C.B.Price, Phys. Rev. Lett. <span id="bib.bib11.1" class="ltx_text ltx_font_bold">74</span>, 4647 (1995)
+
+</span>
+</li>
+<li id="bib.bib12" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[12]</span>
+<span class="ltx_bibblock">W.J.Firth, A.J.Scroggie, Europhys.Lett. <span id="bib.bib12.1" class="ltx_text ltx_font_bold">26</span>, 521 (1994).
+
+</span>
+</li>
+<li id="bib.bib13" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[13]</span>
+<span class="ltx_bibblock">L.Spinelli, G.Tissoni, M.Brambilla, F.Prati, L.A.Lugiato, Phys. Rev. A <span id="bib.bib13.1" class="ltx_text ltx_font_bold">58</span>, 2542 (1998); D.Michaelis,
+U.Peschel, F.Lederer, Phys. Rev. A <span id="bib.bib13.2" class="ltx_text ltx_font_bold">56</span>, R3366 (1997).
+
+</span>
+</li>
+<li id="bib.bib14" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[14]</span>
+<span class="ltx_bibblock">P.V.Jakobsen, J.V.Moloney, A.C.Newell, R.Indik, Phys. Rev. A <span id="bib.bib14.1" class="ltx_text ltx_font_bold">45</span>, 129 (1992).
+
+</span>
+</li>
+<li id="bib.bib15" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[15]</span>
+<span class="ltx_bibblock">N.N.Rosanov, 1996 PROGRESS in OPTICS <span id="bib.bib15.1" class="ltx_text ltx_font_bold">35</span>, 1 Ed. E.Wolf
+
+</span>
+</li>
+<li id="bib.bib16" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[16]</span>
+<span class="ltx_bibblock">N.N.Rosanov, G.V.Khodova, JOSA B <span id="bib.bib16.1" class="ltx_text ltx_font_bold">7</span>, 1057 (1990).
+
+</span>
+</li>
+<li id="bib.bib17" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[17]</span>
+<span class="ltx_bibblock">K.Staliunas, V.J.Sanchez Morcillo, Phys. Rev. A <span id="bib.bib17.1" class="ltx_text ltx_font_bold">57</span>, 1454 (1998); K.Staliunas, V.J.Sanchez-Morcillo,
+Phys. Lett A <span id="bib.bib17.2" class="ltx_text ltx_font_bold">241</span>, 28 (1998).
+
+</span>
+</li>
+<li id="bib.bib18" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[18]</span>
+<span class="ltx_bibblock">V.B.Taranenko, K.Staliunas, C.O.Weiss, Phys. Rev. Lett. <span id="bib.bib18.1" class="ltx_text ltx_font_bold">81</span>, 2236 (1998); V.B.Taranenko,
+M.Zander, P.Wobben, C.O.Weiss, Appl. Phys. B <span id="bib.bib18.2" class="ltx_text ltx_font_bold">69</span> 337 (1999).
+
+</span>
+</li>
+</ul>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Mon Jul 15 12:26:17 2019 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></img>
+</a>
+</div></footer>
+</div>
+</body>
+</html>
