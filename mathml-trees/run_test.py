@@ -10,6 +10,8 @@ if len(sys.argv) > 1:
 
 trees = convertToTrees(test_filename)
 
+plotTree(trees[0])
+
 for tree in trees:
     presentation_tree = toPresentationTree(tree)
     plotTree(presentation_tree)
