@@ -1,0 +1,15 @@
+<math>
+<semantics>
+  <mrow>
+    <mrow><mo>(</mo><mi>a</mi> <mo>+</mo> <mi>b</mi><mo>)</mo></mrow>
+    <mo>InvisibleTimes</mo>
+    <mrow><mo>(</mo><mi>c</mi> <mo>+</mo> <mi>d</mi><mo>)</mo></mrow>
+  </mrow>
+  <annotation-xml encoding="MathML-Content">
+    <apply><and/>
+      <apply><xor/><ci>a</ci> <ci>b</ci></apply>
+      <apply><xor/><ci>c</ci> <ci>d</ci></apply>
+    </apply>
+  </annotation-xml>
+</semantics>
+</math>

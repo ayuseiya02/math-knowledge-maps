@@ -1,0 +1,786 @@
+<!DOCTYPE html><html>
+<head>
+<title>(Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding</title>
+<!--Generated on Mon Jul 15 14:18:42 2019 by LaTeXML (version 0.8.4) http://dlmf.nist.gov/LaTeXML/.-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">(Meta-)stable reconstructions of the diamond (111)
+surface: interplay between diamond- and graphite-like bonding</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">A.V. Petukhov<math id="m1.1" class="ltx_Math" alttext="{}^{*}" display="inline"><semantics id="m1.1a"><msup id="m1.1.1" xref="m1.1.1.cmml"><mi id="m1.1.1a" xref="m1.1.1.cmml"></mi><mo id="m1.1.1.1" xref="m1.1.1.1.cmml">*</mo></msup><annotation-xml encoding="MathML-Content" id="m1.1b"><apply id="m1.1.1.cmml" xref="m1.1.1"><times id="m1.1.1.1.cmml" xref="m1.1.1.1"></times></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m1.1c">FLOATSUPERSCRIPT:start MULOP:times FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m1.1d">{}^{*}</annotation></semantics></math>
+</span><span class="ltx_author_notes"><span>
+<span class="ltx_contact ltx_role_affiliation">RIM and NSR Research Centers,
+Theoretical Physics, University of Nijmegen,
+NL-6525 ED Nijmegen, The Netherlands
+</span></span></span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">D. Passerone<math id="m2.1" class="ltx_Math" alttext="{}^{{\dagger}}" display="inline"><semantics id="m2.1a"><msup id="m2.1.1" xref="m2.1.1.cmml"><mi id="m2.1.1a" xref="m2.1.1.cmml"></mi><mo id="m2.1.1.1" xref="m2.1.1.1.cmml">†</mo></msup><annotation-xml encoding="MathML-Content" id="m2.1b"><apply id="m2.1.1.cmml" xref="m2.1.1"><ci id="m2.1.1.1.cmml" xref="m2.1.1.1">†</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="m2.1c">FLOATSUPERSCRIPT:start MULOP:dagger FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="m2.1d">{}^{{\dagger}}</annotation></semantics></math>, F. Ercolessi, E. Tosatti
+</span><span class="ltx_author_notes"><span>
+<span class="ltx_contact ltx_role_affiliation">Istituto Nazionale di Fisica della Materia (INFM) and
+Scuola Internazionale Superiore di Studi Avanzati (SISSA),
+Via Beirut 2/4, 34014 Trieste, Italy
+</span></span></span></span>
+<span class="ltx_author_before">  </span><span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">A. Fasolino
+</span><span class="ltx_author_notes"><span>
+<span class="ltx_contact ltx_role_affiliation">RIM Research Center, Theoretical Physics,
+University of Nijmegen, NL-6525 ED Nijmegen, The Netherlands
+</span></span></span></span>
+</div>
+
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p id="id1" class="ltx_p">Off-lattice Grand Canonical Monte Carlo simulations of the clean
+diamond (111) surface, based on the effective many-body Brenner
+potential, yield the <math id="id1.m1.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="id1.m1.1a"><mrow id="id1.m1.1.6" xref="id1.m1.1.6.2.cmml"><mo stretchy="false" id="id1.m1.1.1" xref="id1.m1.1.6.2.cmml">(</mo><mrow id="id1.m1.1.6.2" xref="id1.m1.1.6.2.cmml"><mn id="id1.m1.1.2" xref="id1.m1.1.2.cmml">2</mn><mo id="id1.m1.1.3" xref="id1.m1.1.3.cmml">×</mo><mn id="id1.m1.1.4" xref="id1.m1.1.4.cmml">1</mn></mrow><mo stretchy="false" id="id1.m1.1.5" xref="id1.m1.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="id1.m1.1b"><apply id="id1.m1.1.6.2.cmml" xref="id1.m1.1.6"><times id="id1.m1.1.3.cmml" xref="id1.m1.1.3"></times><cn type="integer" id="id1.m1.1.2.cmml" xref="id1.m1.1.2">2</cn><cn type="integer" id="id1.m1.1.4.cmml" xref="id1.m1.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="id1.m1.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="id1.m1.1d">(2\times 1)</annotation></semantics></math> Pandey
+reconstruction in agreement with <em id="id1.1" class="ltx_emph ltx_font_italic">ab-initio</em>
+calculations and predict the existence of new meta-stable states,
+very near in energy, with all surface atoms in three-fold
+graphite-like bonding. We believe that the long-standing debate
+on the structural and electronic properties of this surface
+could be solved by considering this type of carbon-specific
+configurations.</p>
+</div>
+<div id="p1" class="ltx_para">
+<p id="p1.1" class="ltx_p">The discovery of fullerene has awakened an increasing interest in carbon
+based nanostructures as well as in
+processes, such as diamond graphitization<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib3" title="" class="ltx_ref">3</a>]</cite> or
+the graphite-to-diamond transformation<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib4" title="" class="ltx_ref">4</a>]</cite>
+leading to structures, which promise to have desirable
+properties of both graphite and diamond.
+It is important to develop predictive schemes to treat
+diamond, graphite and mixed bonding
+with approaches able to deal with large
+structures, often beyond the possibility of <em id="p1.1.1" class="ltx_emph ltx_font_italic">ab-initio</em> calculations.
+The effective many-body empirical potentials due to
+Tersoff<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib5" title="" class="ltx_ref">5</a>]</cite> for group IV elements
+are very accurate for Si and Ge,
+but less reliable for C. In particular, for C
+the Tersoff potential yields the unreconstructed (111) <math id="p1.1.m1.1" class="ltx_Math" alttext="(1\times 1)" display="inline"><semantics id="p1.1.m1.1a"><mrow id="p1.1.m1.1.6" xref="p1.1.m1.1.6.2.cmml"><mo stretchy="false" id="p1.1.m1.1.1" xref="p1.1.m1.1.6.2.cmml">(</mo><mrow id="p1.1.m1.1.6.2" xref="p1.1.m1.1.6.2.cmml"><mn id="p1.1.m1.1.2" xref="p1.1.m1.1.2.cmml">1</mn><mo id="p1.1.m1.1.3" xref="p1.1.m1.1.3.cmml">×</mo><mn id="p1.1.m1.1.4" xref="p1.1.m1.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p1.1.m1.1.5" xref="p1.1.m1.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p1.1.m1.1b"><apply id="p1.1.m1.1.6.2.cmml" xref="p1.1.m1.1.6"><times id="p1.1.m1.1.3.cmml" xref="p1.1.m1.1.3"></times><cn type="integer" id="p1.1.m1.1.2.cmml" xref="p1.1.m1.1.2">1</cn><cn type="integer" id="p1.1.m1.1.4.cmml" xref="p1.1.m1.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p1.1.m1.1c">OPEN:( NUMBER:1 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p1.1.m1.1d">(1\times 1)</annotation></semantics></math> surface
+as the most stable against the experimental
+evidence<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib6" title="" class="ltx_ref">6</a>, <a href="#bib.bib7" title="" class="ltx_ref">7</a>, <a href="#bib.bib8" title="" class="ltx_ref">8</a>, <a href="#bib.bib9" title="" class="ltx_ref">9</a>]</cite> of a
+<math id="p1.1.m2.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p1.1.m2.1a"><mrow id="p1.1.m2.1.6" xref="p1.1.m2.1.6.2.cmml"><mo stretchy="false" id="p1.1.m2.1.1" xref="p1.1.m2.1.6.2.cmml">(</mo><mrow id="p1.1.m2.1.6.2" xref="p1.1.m2.1.6.2.cmml"><mn id="p1.1.m2.1.2" xref="p1.1.m2.1.2.cmml">2</mn><mo id="p1.1.m2.1.3" xref="p1.1.m2.1.3.cmml">×</mo><mn id="p1.1.m2.1.4" xref="p1.1.m2.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p1.1.m2.1.5" xref="p1.1.m2.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p1.1.m2.1b"><apply id="p1.1.m2.1.6.2.cmml" xref="p1.1.m2.1.6"><times id="p1.1.m2.1.3.cmml" xref="p1.1.m2.1.3"></times><cn type="integer" id="p1.1.m2.1.2.cmml" xref="p1.1.m2.1.2">2</cn><cn type="integer" id="p1.1.m2.1.4.cmml" xref="p1.1.m2.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p1.1.m2.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p1.1.m2.1d">(2\times 1)</annotation></semantics></math> Pandey reconstruction.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib10" title="" class="ltx_ref">10</a>, <a href="#bib.bib11" title="" class="ltx_ref">11</a>]</cite> For the (001) face it
+predicts dimerization with a strong asymmetric displacement of the
+third-layer atoms.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib12" title="" class="ltx_ref">12</a>]</cite> Here, we use the
+potential proposed by Brenner<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib13" title="" class="ltx_ref">13</a>]</cite> (parametrization I) and
+show that it is reliable also at the surface.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib14" title="" class="ltx_ref">14</a>]</cite></p>
+</div>
+<div id="p2" class="ltx_para">
+<p id="p2.1" class="ltx_p">We perform off-lattice Grand Canonical Monte Carlo (GCMC)
+simulations<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib15" title="" class="ltx_ref">15</a>]</cite> of the (111) surface of diamond. We find the
+unbuckled undimerized <math id="p2.1.m1.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p2.1.m1.1a"><mrow id="p2.1.m1.1.6" xref="p2.1.m1.1.6.2.cmml"><mo stretchy="false" id="p2.1.m1.1.1" xref="p2.1.m1.1.6.2.cmml">(</mo><mrow id="p2.1.m1.1.6.2" xref="p2.1.m1.1.6.2.cmml"><mn id="p2.1.m1.1.2" xref="p2.1.m1.1.2.cmml">2</mn><mo id="p2.1.m1.1.3" xref="p2.1.m1.1.3.cmml">×</mo><mn id="p2.1.m1.1.4" xref="p2.1.m1.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p2.1.m1.1.5" xref="p2.1.m1.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p2.1.m1.1b"><apply id="p2.1.m1.1.6.2.cmml" xref="p2.1.m1.1.6"><times id="p2.1.m1.1.3.cmml" xref="p2.1.m1.1.3"></times><cn type="integer" id="p2.1.m1.1.2.cmml" xref="p2.1.m1.1.2">2</cn><cn type="integer" id="p2.1.m1.1.4.cmml" xref="p2.1.m1.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p2.1.m1.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p2.1.m1.1d">(2\times 1)</annotation></semantics></math> Pandey chain reconstruction as the
+minimum energy structure and
+three new meta-stable states, close in energy, with all surface atoms in a
+three-fold graphite-like bonding. Two of them
+are obtained by a strong dimerization of the <em id="p2.1.1" class="ltx_emph ltx_font_italic">lower</em>
+(4-fold coordinated) chain, inducing a small dimerization of the
+upper (<math id="p2.1.m2.1" class="ltx_Math" alttext="\pi" display="inline"><semantics id="p2.1.m2.1a"><mi id="p2.1.m2.1.1" xref="p2.1.m2.1.1.cmml">π</mi><annotation-xml encoding="MathML-Content" id="p2.1.m2.1b"><ci id="p2.1.m2.1.1.cmml" xref="p2.1.m2.1.1">𝜋</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p2.1.m2.1c">italic-pi</annotation><annotation encoding="application/x-tex" id="p2.1.m2.1d">\pi</annotation></semantics></math>-bonded) chain as well. The third meta-stable
+<math id="p2.1.m3.1" class="ltx_Math" alttext="(\sqrt{3}\times\sqrt{3})R30^{\rm o}" display="inline"><semantics id="p2.1.m3.1a"><mrow id="p2.1.m3.1.10" xref="p2.1.m3.1.10.cmml"><mrow id="p2.1.m3.1.10.2" xref="p2.1.m3.1.10.2.2.cmml"><mo stretchy="false" id="p2.1.m3.1.1" xref="p2.1.m3.1.10.2.2.cmml">(</mo><mrow id="p2.1.m3.1.10.2.2" xref="p2.1.m3.1.10.2.2.cmml"><msqrt id="p2.1.m3.1.2" xref="p2.1.m3.1.2.cmml"><mn id="p2.1.m3.1.2.2" xref="p2.1.m3.1.2.2.cmml">3</mn></msqrt><mo id="p2.1.m3.1.3" xref="p2.1.m3.1.3.cmml">×</mo><msqrt id="p2.1.m3.1.4" xref="p2.1.m3.1.4.cmml"><mn id="p2.1.m3.1.4.2" xref="p2.1.m3.1.4.2.cmml">3</mn></msqrt></mrow><mo stretchy="false" id="p2.1.m3.1.5" xref="p2.1.m3.1.10.2.2.cmml">)</mo></mrow><mo id="p2.1.m3.1.10.1" xref="p2.1.m3.1.10.1.cmml">⁢</mo><mi id="p2.1.m3.1.6" xref="p2.1.m3.1.6.cmml">R</mi><mo id="p2.1.m3.1.10.1a" xref="p2.1.m3.1.10.1.cmml">⁢</mo><msup id="p2.1.m3.1.10.3" xref="p2.1.m3.1.10.3.cmml"><mn id="p2.1.m3.1.8" xref="p2.1.m3.1.8.cmml">30</mn><mi mathvariant="normal" id="p2.1.m3.1.9.1" xref="p2.1.m3.1.9.1.cmml">o</mi></msup></mrow><annotation-xml encoding="MathML-Content" id="p2.1.m3.1b"><apply id="p2.1.m3.1.10.cmml" xref="p2.1.m3.1.10"><times id="p2.1.m3.1.10.1.cmml" xref="p2.1.m3.1.10.1"></times><apply id="p2.1.m3.1.10.2.2.cmml" xref="p2.1.m3.1.10.2"><times id="p2.1.m3.1.3.cmml" xref="p2.1.m3.1.3"></times><apply id="p2.1.m3.1.2.cmml" xref="p2.1.m3.1.2"><root id="p2.1.m3.1.2a.cmml" xref="p2.1.m3.1.2"></root><cn type="integer" id="p2.1.m3.1.2.2.cmml" xref="p2.1.m3.1.2.2">3</cn></apply><apply id="p2.1.m3.1.4.cmml" xref="p2.1.m3.1.4"><root id="p2.1.m3.1.4a.cmml" xref="p2.1.m3.1.4"></root><cn type="integer" id="p2.1.m3.1.4.2.cmml" xref="p2.1.m3.1.4.2">3</cn></apply></apply><ci id="p2.1.m3.1.6.cmml" xref="p2.1.m3.1.6">𝑅</ci><apply id="p2.1.m3.1.10.3.cmml" xref="p2.1.m3.1.10.3"><csymbol cd="ambiguous" id="p2.1.m3.1.10.3.1.cmml" xref="p2.1.m3.1.10.3">superscript</csymbol><cn type="integer" id="p2.1.m3.1.8.cmml" xref="p2.1.m3.1.8">30</cn><ci id="p2.1.m3.1.9.1.cmml" xref="p2.1.m3.1.9.1">o</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p2.1.m3.1c">OPEN:( italic-square-root ARG:start NUMBER:3 ARG:end MULOP:times italic-square-root ARG:start NUMBER:3 ARG:end CLOSE:) italic-R NUMBER:30 POSTSUPERSCRIPT:start o POSTSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p2.1.m3.1d">(\sqrt{3}\times\sqrt{3})R30^{\rm o}</annotation></semantics></math> reconstruction is
+formed by a regular array of vacancies.</p>
+</div>
+<div id="p3" class="ltx_para">
+<p id="p3.1" class="ltx_p">Surprisingly, the reconstruction of clean diamond(111) is not yet
+established in detail, although there is a consensus that the
+<math id="p3.1.m1.1" class="ltx_Math" alttext="\pi" display="inline"><semantics id="p3.1.m1.1a"><mi id="p3.1.m1.1.1" xref="p3.1.m1.1.1.cmml">π</mi><annotation-xml encoding="MathML-Content" id="p3.1.m1.1b"><ci id="p3.1.m1.1.1.cmml" xref="p3.1.m1.1.1">𝜋</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m1.1c">italic-pi</annotation><annotation encoding="application/x-tex" id="p3.1.m1.1d">\pi</annotation></semantics></math>-bonded Pandey <math id="p3.1.m2.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p3.1.m2.1a"><mrow id="p3.1.m2.1.6" xref="p3.1.m2.1.6.2.cmml"><mo stretchy="false" id="p3.1.m2.1.1" xref="p3.1.m2.1.6.2.cmml">(</mo><mrow id="p3.1.m2.1.6.2" xref="p3.1.m2.1.6.2.cmml"><mn id="p3.1.m2.1.2" xref="p3.1.m2.1.2.cmml">2</mn><mo id="p3.1.m2.1.3" xref="p3.1.m2.1.3.cmml">×</mo><mn id="p3.1.m2.1.4" xref="p3.1.m2.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p3.1.m2.1.5" xref="p3.1.m2.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p3.1.m2.1b"><apply id="p3.1.m2.1.6.2.cmml" xref="p3.1.m2.1.6"><times id="p3.1.m2.1.3.cmml" xref="p3.1.m2.1.3"></times><cn type="integer" id="p3.1.m2.1.2.cmml" xref="p3.1.m2.1.2">2</cn><cn type="integer" id="p3.1.m2.1.4.cmml" xref="p3.1.m2.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m2.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p3.1.m2.1d">(2\times 1)</annotation></semantics></math> reconstruction<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib10" title="" class="ltx_ref">10</a>, <a href="#bib.bib11" title="" class="ltx_ref">11</a>]</cite>
+is the most stable. One important issue is whether this surface
+is metallic or semiconducting. In most
+calculations<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib16" title="" class="ltx_ref">16</a>, <a href="#bib.bib17" title="" class="ltx_ref">17</a>, <a href="#bib.bib18" title="" class="ltx_ref">18</a>, <a href="#bib.bib19" title="" class="ltx_ref">19</a>]</cite> the band of
+surface states is metallic
+whereas experimentally the highest occupied state is at least 0.5 eV below
+the Fermi level.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib20" title="" class="ltx_ref">20</a>, <a href="#bib.bib21" title="" class="ltx_ref">21</a>]</cite>
+Dimerization along the <math id="p3.1.m3.1" class="ltx_Math" alttext="\pi" display="inline"><semantics id="p3.1.m3.1a"><mi id="p3.1.m3.1.1" xref="p3.1.m3.1.1.cmml">π</mi><annotation-xml encoding="MathML-Content" id="p3.1.m3.1b"><ci id="p3.1.m3.1.1.cmml" xref="p3.1.m3.1.1">𝜋</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m3.1c">italic-pi</annotation><annotation encoding="application/x-tex" id="p3.1.m3.1d">\pi</annotation></semantics></math>-bonded chain could open the
+surface gap<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib22" title="" class="ltx_ref">22</a>, <a href="#bib.bib23" title="" class="ltx_ref">23</a>]</cite> but
+only one total-energy calculation obtains slightly dimerized
+chains yielding a 0.3 eV gap<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib22" title="" class="ltx_ref">22</a>]</cite>
+in the surface band. Experimentally,
+recent X-ray data<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib8" title="" class="ltx_ref">8</a>]</cite> and medium-energy
+ion scattering <cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib9" title="" class="ltx_ref">9</a>]</cite> do not show any dimerization but
+favor the <math id="p3.1.m4.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p3.1.m4.1a"><mrow id="p3.1.m4.1.6" xref="p3.1.m4.1.6.2.cmml"><mo stretchy="false" id="p3.1.m4.1.1" xref="p3.1.m4.1.6.2.cmml">(</mo><mrow id="p3.1.m4.1.6.2" xref="p3.1.m4.1.6.2.cmml"><mn id="p3.1.m4.1.2" xref="p3.1.m4.1.2.cmml">2</mn><mo id="p3.1.m4.1.3" xref="p3.1.m4.1.3.cmml">×</mo><mn id="p3.1.m4.1.4" xref="p3.1.m4.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p3.1.m4.1.5" xref="p3.1.m4.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p3.1.m4.1b"><apply id="p3.1.m4.1.6.2.cmml" xref="p3.1.m4.1.6"><times id="p3.1.m4.1.3.cmml" xref="p3.1.m4.1.3"></times><cn type="integer" id="p3.1.m4.1.2.cmml" xref="p3.1.m4.1.2">2</cn><cn type="integer" id="p3.1.m4.1.4.cmml" xref="p3.1.m4.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m4.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p3.1.m4.1d">(2\times 1)</annotation></semantics></math>
+reconstruction accompanied by a strong tilt of the <math id="p3.1.m5.1" class="ltx_Math" alttext="\pi" display="inline"><semantics id="p3.1.m5.1a"><mi id="p3.1.m5.1.1" xref="p3.1.m5.1.1.cmml">π</mi><annotation-xml encoding="MathML-Content" id="p3.1.m5.1b"><ci id="p3.1.m5.1.1.cmml" xref="p3.1.m5.1.1">𝜋</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m5.1c">italic-pi</annotation><annotation encoding="application/x-tex" id="p3.1.m5.1d">\pi</annotation></semantics></math>-bonded chains,
+similar to the <math id="p3.1.m6.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p3.1.m6.1a"><mrow id="p3.1.m6.1.6" xref="p3.1.m6.1.6.2.cmml"><mo stretchy="false" id="p3.1.m6.1.1" xref="p3.1.m6.1.6.2.cmml">(</mo><mrow id="p3.1.m6.1.6.2" xref="p3.1.m6.1.6.2.cmml"><mn id="p3.1.m6.1.2" xref="p3.1.m6.1.2.cmml">2</mn><mo id="p3.1.m6.1.3" xref="p3.1.m6.1.3.cmml">×</mo><mn id="p3.1.m6.1.4" xref="p3.1.m6.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p3.1.m6.1.5" xref="p3.1.m6.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p3.1.m6.1b"><apply id="p3.1.m6.1.6.2.cmml" xref="p3.1.m6.1.6"><times id="p3.1.m6.1.3.cmml" xref="p3.1.m6.1.3"></times><cn type="integer" id="p3.1.m6.1.2.cmml" xref="p3.1.m6.1.2">2</cn><cn type="integer" id="p3.1.m6.1.4.cmml" xref="p3.1.m6.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m6.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p3.1.m6.1d">(2\times 1)</annotation></semantics></math> reconstruction of Si(111) and Ge(111).
+The tilt is however not confirmed by theoretical
+studies.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib16" title="" class="ltx_ref">16</a>, <a href="#bib.bib17" title="" class="ltx_ref">17</a>, <a href="#bib.bib18" title="" class="ltx_ref">18</a>, <a href="#bib.bib19" title="" class="ltx_ref">19</a>, <a href="#bib.bib22" title="" class="ltx_ref">22</a>]</cite>
+Also, relaxations in deeper layers are debated. The bonds between
+first and second bilayers are found to be elongated by an amount which
+varies between 1%<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib8" title="" class="ltx_ref">8</a>, <a href="#bib.bib9" title="" class="ltx_ref">9</a>]</cite> and 8%.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib6" title="" class="ltx_ref">6</a>, <a href="#bib.bib16" title="" class="ltx_ref">16</a>, <a href="#bib.bib22" title="" class="ltx_ref">22</a>]</cite>
+Bonds between the second and third bilayers are slightly shifted (<math id="p3.1.m7.1" class="ltx_Math" alttext="\lesssim 1" display="inline"><semantics id="p3.1.m7.1a"><mrow id="p3.1.m7.1.3" xref="p3.1.m7.1.3.cmml"><mi id="p3.1.m7.1.3.1" xref="p3.1.m7.1.3.1.cmml"></mi><mo id="p3.1.m7.1.1" xref="p3.1.m7.1.1.cmml">≲</mo><mn id="p3.1.m7.1.2" xref="p3.1.m7.1.2.cmml">1</mn></mrow><annotation-xml encoding="MathML-Content" id="p3.1.m7.1b"><apply id="p3.1.m7.1.3.cmml" xref="p3.1.m7.1.3"><csymbol cd="latexml" id="p3.1.m7.1.1.cmml" xref="p3.1.m7.1.1">less-than-or-similar-to</csymbol><csymbol cd="latexml" id="p3.1.m7.1.3.1.cmml" xref="p3.1.m7.1.3.1">absent</csymbol><cn type="integer" id="p3.1.m7.1.2.cmml" xref="p3.1.m7.1.2">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p3.1.m7.1c">RELOP:less-than-or-similar-to NUMBER:1</annotation><annotation encoding="application/x-tex" id="p3.1.m7.1d">\lesssim 1</annotation></semantics></math>%)
+in theoretical studies
+while X-ray data suggest a 5-6% relaxation.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib8" title="" class="ltx_ref">8</a>, <a href="#bib.bib9" title="" class="ltx_ref">9</a>]</cite>
+</p>
+</div>
+<div id="p4" class="ltx_para">
+<p id="p4.1" class="ltx_p">Experimentally, uncertainties can be caused by variations of
+surface preparation. A partial
+graphitization<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib3" title="" class="ltx_ref">3</a>, <a href="#bib.bib21" title="" class="ltx_ref">21</a>, <a href="#bib.bib24" title="" class="ltx_ref">24</a>]</cite>
+and other structural phases<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib25" title="" class="ltx_ref">25</a>, <a href="#bib.bib26" title="" class="ltx_ref">26</a>]</cite> can coexist at the
+real surface. It is noteworthy that most structural
+models were first suggested for Si and
+Ge<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib10" title="" class="ltx_ref">10</a>, <a href="#bib.bib27" title="" class="ltx_ref">27</a>, <a href="#bib.bib28" title="" class="ltx_ref">28</a>]</cite>
+and then extended to diamond.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib11" title="" class="ltx_ref">11</a>, <a href="#bib.bib16" title="" class="ltx_ref">16</a>]</cite> However,
+the former always favor tetrahedral
+four-fold coordination whereas C
+favors also the graphite-like three-fold bonding, the latter being in
+fact energetically stable in the bulk at normal conditions. One can therefore
+expect diamond to have additional low-energy
+surface structures, such as the meta-stable
+reconstructions presented here.</p>
+</div>
+<div id="p5" class="ltx_para">
+<p id="p5.1" class="ltx_p">Empirical potentials, although less accurate than <em id="p5.1.1" class="ltx_emph ltx_font_italic">ab-initio</em>
+calculations, allow to explore larger portions of phase space
+and can lead to unexpected structures, which
+can then be tested in more accurate calculations and
+taken into account in the experimental data analysis.
+We exploit the MC simulated annealing scheme to overcome potential
+energy barriers and identify low-energy surface structures.
+Atoms in the bottom layers are kept fixed at their ideal bulk
+positions while the others (usually, four bilayers of 128 atoms each)
+are mobile. We consider
+either a <math id="p5.1.m1.1" class="ltx_Math" alttext="VNT" display="inline"><semantics id="p5.1.m1.1a"><mrow id="p5.1.m1.1.4" xref="p5.1.m1.1.4.cmml"><mi id="p5.1.m1.1.1" xref="p5.1.m1.1.1.cmml">V</mi><mo id="p5.1.m1.1.4.1" xref="p5.1.m1.1.4.1.cmml">⁢</mo><mi id="p5.1.m1.1.2" xref="p5.1.m1.1.2.cmml">N</mi><mo id="p5.1.m1.1.4.1a" xref="p5.1.m1.1.4.1.cmml">⁢</mo><mi id="p5.1.m1.1.3" xref="p5.1.m1.1.3.cmml">T</mi></mrow><annotation-xml encoding="MathML-Content" id="p5.1.m1.1b"><apply id="p5.1.m1.1.4.cmml" xref="p5.1.m1.1.4"><times id="p5.1.m1.1.4.1.cmml" xref="p5.1.m1.1.4.1"></times><ci id="p5.1.m1.1.1.cmml" xref="p5.1.m1.1.1">𝑉</ci><ci id="p5.1.m1.1.2.cmml" xref="p5.1.m1.1.2">𝑁</ci><ci id="p5.1.m1.1.3.cmml" xref="p5.1.m1.1.3">𝑇</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m1.1c">italic-V italic-N italic-T</annotation><annotation encoding="application/x-tex" id="p5.1.m1.1d">VNT</annotation></semantics></math>, <math id="p5.1.m2.1" class="ltx_Math" alttext="PNT" display="inline"><semantics id="p5.1.m2.1a"><mrow id="p5.1.m2.1.4" xref="p5.1.m2.1.4.cmml"><mi id="p5.1.m2.1.1" xref="p5.1.m2.1.1.cmml">P</mi><mo id="p5.1.m2.1.4.1" xref="p5.1.m2.1.4.1.cmml">⁢</mo><mi id="p5.1.m2.1.2" xref="p5.1.m2.1.2.cmml">N</mi><mo id="p5.1.m2.1.4.1a" xref="p5.1.m2.1.4.1.cmml">⁢</mo><mi id="p5.1.m2.1.3" xref="p5.1.m2.1.3.cmml">T</mi></mrow><annotation-xml encoding="MathML-Content" id="p5.1.m2.1b"><apply id="p5.1.m2.1.4.cmml" xref="p5.1.m2.1.4"><times id="p5.1.m2.1.4.1.cmml" xref="p5.1.m2.1.4.1"></times><ci id="p5.1.m2.1.1.cmml" xref="p5.1.m2.1.1">𝑃</ci><ci id="p5.1.m2.1.2.cmml" xref="p5.1.m2.1.2">𝑁</ci><ci id="p5.1.m2.1.3.cmml" xref="p5.1.m2.1.3">𝑇</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m2.1c">italic-P italic-N italic-T</annotation><annotation encoding="application/x-tex" id="p5.1.m2.1d">PNT</annotation></semantics></math> or <math id="p5.1.m3.1" class="ltx_Math" alttext="P\mu T" display="inline"><semantics id="p5.1.m3.1a"><mrow id="p5.1.m3.1.4" xref="p5.1.m3.1.4.cmml"><mi id="p5.1.m3.1.1" xref="p5.1.m3.1.1.cmml">P</mi><mo id="p5.1.m3.1.4.1" xref="p5.1.m3.1.4.1.cmml">⁢</mo><mi id="p5.1.m3.1.2" xref="p5.1.m3.1.2.cmml">μ</mi><mo id="p5.1.m3.1.4.1a" xref="p5.1.m3.1.4.1.cmml">⁢</mo><mi id="p5.1.m3.1.3" xref="p5.1.m3.1.3.cmml">T</mi></mrow><annotation-xml encoding="MathML-Content" id="p5.1.m3.1b"><apply id="p5.1.m3.1.4.cmml" xref="p5.1.m3.1.4"><times id="p5.1.m3.1.4.1.cmml" xref="p5.1.m3.1.4.1"></times><ci id="p5.1.m3.1.1.cmml" xref="p5.1.m3.1.1">𝑃</ci><ci id="p5.1.m3.1.2.cmml" xref="p5.1.m3.1.2">𝜇</ci><ci id="p5.1.m3.1.3.cmml" xref="p5.1.m3.1.3">𝑇</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m3.1c">italic-P italic-mu italic-T</annotation><annotation encoding="application/x-tex" id="p5.1.m3.1d">P\mu T</annotation></semantics></math> ensembles for different tasks.
+The canonical <math id="p5.1.m4.1" class="ltx_Math" alttext="VNT" display="inline"><semantics id="p5.1.m4.1a"><mrow id="p5.1.m4.1.4" xref="p5.1.m4.1.4.cmml"><mi id="p5.1.m4.1.1" xref="p5.1.m4.1.1.cmml">V</mi><mo id="p5.1.m4.1.4.1" xref="p5.1.m4.1.4.1.cmml">⁢</mo><mi id="p5.1.m4.1.2" xref="p5.1.m4.1.2.cmml">N</mi><mo id="p5.1.m4.1.4.1a" xref="p5.1.m4.1.4.1.cmml">⁢</mo><mi id="p5.1.m4.1.3" xref="p5.1.m4.1.3.cmml">T</mi></mrow><annotation-xml encoding="MathML-Content" id="p5.1.m4.1b"><apply id="p5.1.m4.1.4.cmml" xref="p5.1.m4.1.4"><times id="p5.1.m4.1.4.1.cmml" xref="p5.1.m4.1.4.1"></times><ci id="p5.1.m4.1.1.cmml" xref="p5.1.m4.1.1">𝑉</ci><ci id="p5.1.m4.1.2.cmml" xref="p5.1.m4.1.2">𝑁</ci><ci id="p5.1.m4.1.3.cmml" xref="p5.1.m4.1.3">𝑇</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m4.1c">italic-V italic-N italic-T</annotation><annotation encoding="application/x-tex" id="p5.1.m4.1d">VNT</annotation></semantics></math> ensemble is used to minimize
+ordered structures. During the simulated annealing we allow
+for volume fluctuations (<math id="p5.1.m5.1" class="ltx_Math" alttext="PNT" display="inline"><semantics id="p5.1.m5.1a"><mrow id="p5.1.m5.1.4" xref="p5.1.m5.1.4.cmml"><mi id="p5.1.m5.1.1" xref="p5.1.m5.1.1.cmml">P</mi><mo id="p5.1.m5.1.4.1" xref="p5.1.m5.1.4.1.cmml">⁢</mo><mi id="p5.1.m5.1.2" xref="p5.1.m5.1.2.cmml">N</mi><mo id="p5.1.m5.1.4.1a" xref="p5.1.m5.1.4.1.cmml">⁢</mo><mi id="p5.1.m5.1.3" xref="p5.1.m5.1.3.cmml">T</mi></mrow><annotation-xml encoding="MathML-Content" id="p5.1.m5.1b"><apply id="p5.1.m5.1.4.cmml" xref="p5.1.m5.1.4"><times id="p5.1.m5.1.4.1.cmml" xref="p5.1.m5.1.4.1"></times><ci id="p5.1.m5.1.1.cmml" xref="p5.1.m5.1.1">𝑃</ci><ci id="p5.1.m5.1.2.cmml" xref="p5.1.m5.1.2">𝑁</ci><ci id="p5.1.m5.1.3.cmml" xref="p5.1.m5.1.3">𝑇</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m5.1c">italic-P italic-N italic-T</annotation><annotation encoding="application/x-tex" id="p5.1.m5.1d">PNT</annotation></semantics></math>).
+We consider also a grand canonical <math id="p5.1.m6.1" class="ltx_Math" alttext="P\mu T" display="inline"><semantics id="p5.1.m6.1a"><mrow id="p5.1.m6.1.4" xref="p5.1.m6.1.4.cmml"><mi id="p5.1.m6.1.1" xref="p5.1.m6.1.1.cmml">P</mi><mo id="p5.1.m6.1.4.1" xref="p5.1.m6.1.4.1.cmml">⁢</mo><mi id="p5.1.m6.1.2" xref="p5.1.m6.1.2.cmml">μ</mi><mo id="p5.1.m6.1.4.1a" xref="p5.1.m6.1.4.1.cmml">⁢</mo><mi id="p5.1.m6.1.3" xref="p5.1.m6.1.3.cmml">T</mi></mrow><annotation-xml encoding="MathML-Content" id="p5.1.m6.1b"><apply id="p5.1.m6.1.4.cmml" xref="p5.1.m6.1.4"><times id="p5.1.m6.1.4.1.cmml" xref="p5.1.m6.1.4.1"></times><ci id="p5.1.m6.1.1.cmml" xref="p5.1.m6.1.1">𝑃</ci><ci id="p5.1.m6.1.2.cmml" xref="p5.1.m6.1.2">𝜇</ci><ci id="p5.1.m6.1.3.cmml" xref="p5.1.m6.1.3">𝑇</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m6.1c">italic-P italic-mu italic-T</annotation><annotation encoding="application/x-tex" id="p5.1.m6.1d">P\mu T</annotation></semantics></math> ensemble<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib15" title="" class="ltx_ref">15</a>]</cite>
+to access structures
+with different number of atoms than in the bulk terminated structure.
+Each atom creation/destruction is enabled only in the near-surface
+region (2-3 top bilayers) and followed by 1000 MC equilibration moves.
+We have optimized the implementation of the potential
+by use of neighbor lists which allow to calculate energy variations
+on a finite portion of the sample.
+The one-dimensional functions defining the potential are stored in
+tables with a fine grid and calculated by linear
+interpolation. The attractive
+<math id="p5.1.m7.1" class="ltx_Math" alttext="V_{A}" display="inline"><semantics id="p5.1.m7.1a"><msub id="p5.1.m7.1.3" xref="p5.1.m7.1.3.cmml"><mi id="p5.1.m7.1.1" xref="p5.1.m7.1.1.cmml">V</mi><mi id="p5.1.m7.1.2.1" xref="p5.1.m7.1.2.1.cmml">A</mi></msub><annotation-xml encoding="MathML-Content" id="p5.1.m7.1b"><apply id="p5.1.m7.1.3.cmml" xref="p5.1.m7.1.3"><csymbol cd="ambiguous" id="p5.1.m7.1.3.1.cmml" xref="p5.1.m7.1.3">subscript</csymbol><ci id="p5.1.m7.1.1.cmml" xref="p5.1.m7.1.1">𝑉</ci><ci id="p5.1.m7.1.2.1.cmml" xref="p5.1.m7.1.2.1">𝐴</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m7.1c">italic-V POSTSUBSCRIPT:start italic-A POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p5.1.m7.1d">V_{A}</annotation></semantics></math>, repulsive <math id="p5.1.m8.1" class="ltx_Math" alttext="V_{R}" display="inline"><semantics id="p5.1.m8.1a"><msub id="p5.1.m8.1.3" xref="p5.1.m8.1.3.cmml"><mi id="p5.1.m8.1.1" xref="p5.1.m8.1.1.cmml">V</mi><mi id="p5.1.m8.1.2.1" xref="p5.1.m8.1.2.1.cmml">R</mi></msub><annotation-xml encoding="MathML-Content" id="p5.1.m8.1b"><apply id="p5.1.m8.1.3.cmml" xref="p5.1.m8.1.3"><csymbol cd="ambiguous" id="p5.1.m8.1.3.1.cmml" xref="p5.1.m8.1.3">subscript</csymbol><ci id="p5.1.m8.1.1.cmml" xref="p5.1.m8.1.1">𝑉</ci><ci id="p5.1.m8.1.2.1.cmml" xref="p5.1.m8.1.2.1">𝑅</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m8.1c">italic-V POSTSUBSCRIPT:start italic-R POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p5.1.m8.1d">V_{R}</annotation></semantics></math> and the cut-off <math id="p5.1.m9.1" class="ltx_Math" alttext="f_{c}" display="inline"><semantics id="p5.1.m9.1a"><msub id="p5.1.m9.1.3" xref="p5.1.m9.1.3.cmml"><mi id="p5.1.m9.1.1" xref="p5.1.m9.1.1.cmml">f</mi><mi id="p5.1.m9.1.2.1" xref="p5.1.m9.1.2.1.cmml">c</mi></msub><annotation-xml encoding="MathML-Content" id="p5.1.m9.1b"><apply id="p5.1.m9.1.3.cmml" xref="p5.1.m9.1.3"><csymbol cd="ambiguous" id="p5.1.m9.1.3.1.cmml" xref="p5.1.m9.1.3">subscript</csymbol><ci id="p5.1.m9.1.1.cmml" xref="p5.1.m9.1.1">𝑓</ci><ci id="p5.1.m9.1.2.1.cmml" xref="p5.1.m9.1.2.1">𝑐</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m9.1c">italic-f POSTSUBSCRIPT:start italic-c POSTSUBSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p5.1.m9.1d">f_{c}</annotation></semantics></math> terms
+are stored as a function of the square of interatomic distances to
+avoid square root operations. The three-dimensional <math id="p5.1.m10.1" class="ltx_Math" alttext="F" display="inline"><semantics id="p5.1.m10.1a"><mi id="p5.1.m10.1.1" xref="p5.1.m10.1.1.cmml">F</mi><annotation-xml encoding="MathML-Content" id="p5.1.m10.1b"><ci id="p5.1.m10.1.1.cmml" xref="p5.1.m10.1.1">𝐹</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p5.1.m10.1c">italic-F</annotation><annotation encoding="application/x-tex" id="p5.1.m10.1d">F</annotation></semantics></math> function is
+stored on a finer grid and the tricubic interpolation<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib13" title="" class="ltx_ref">13</a>]</cite>
+is replaced by a linear one, reducing
+the terms to be evaluated from 64 to 8.
+We note that, in a strongly covalent system like diamond,
+creation and destruction are very improbable events, also because
+immediately after creation or destruction the neighboring atoms have
+not yet adjusted to the new local environment;
+after a destruction the system can gain up to 2 eV by
+relaxation. This energy has been added as an
+umbrella<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib29" title="" class="ltx_ref">29</a>]</cite> in the acceptance rule
+for creation/destruction.</p>
+</div>
+<figure id="S0.F1" class="ltx_figure"><img src="x1.png" id="S0.F1.g1" class="ltx_graphics ltx_centering" width="540" height="405" alt="">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>Left: relaxed <math id="S0.F1.m4.1" class="ltx_Math" alttext="1\times 1" display="inline"><semantics id="S0.F1.m4.1b"><mrow id="S0.F1.m4.1.4" xref="S0.F1.m4.1.4.cmml"><mn id="S0.F1.m4.1.1" xref="S0.F1.m4.1.1.cmml">1</mn><mo id="S0.F1.m4.1.2" xref="S0.F1.m4.1.2.cmml">×</mo><mn id="S0.F1.m4.1.3" xref="S0.F1.m4.1.3.cmml">1</mn></mrow><annotation-xml encoding="MathML-Content" id="S0.F1.m4.1c"><apply id="S0.F1.m4.1.4.cmml" xref="S0.F1.m4.1.4"><times id="S0.F1.m4.1.2.cmml" xref="S0.F1.m4.1.2"></times><cn type="integer" id="S0.F1.m4.1.1.cmml" xref="S0.F1.m4.1.1">1</cn><cn type="integer" id="S0.F1.m4.1.3.cmml" xref="S0.F1.m4.1.3">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F1.m4.1d">NUMBER:1 MULOP:times NUMBER:1</annotation><annotation encoding="application/x-tex" id="S0.F1.m4.1e">1\times 1</annotation></semantics></math>, right: Pandey <math id="S0.F1.m5.1" class="ltx_Math" alttext="\pi" display="inline"><semantics id="S0.F1.m5.1b"><mi id="S0.F1.m5.1.1" xref="S0.F1.m5.1.1.cmml">π</mi><annotation-xml encoding="MathML-Content" id="S0.F1.m5.1c"><ci id="S0.F1.m5.1.1.cmml" xref="S0.F1.m5.1.1">𝜋</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F1.m5.1d">italic-pi</annotation><annotation encoding="application/x-tex" id="S0.F1.m5.1e">\pi</annotation></semantics></math>-bonded chain.
+The top (111) and side <math id="S0.F1.m6.1" class="ltx_Math" alttext="(1\bar{1}0)" display="inline"><semantics id="S0.F1.m6.1b"><mrow id="S0.F1.m6.1.6" xref="S0.F1.m6.1.6.2.cmml"><mo stretchy="false" id="S0.F1.m6.1.1" xref="S0.F1.m6.1.6.2.cmml">(</mo><mrow id="S0.F1.m6.1.6.2" xref="S0.F1.m6.1.6.2.cmml"><mn id="S0.F1.m6.1.2" xref="S0.F1.m6.1.2.cmml">1</mn><mo id="S0.F1.m6.1.6.2.1" xref="S0.F1.m6.1.6.2.1.cmml">⁢</mo><mover accent="true" id="S0.F1.m6.1.3" xref="S0.F1.m6.1.3.cmml"><mn id="S0.F1.m6.1.3.2" xref="S0.F1.m6.1.3.2.cmml">1</mn><mo stretchy="false" id="S0.F1.m6.1.3.1" xref="S0.F1.m6.1.3.1.cmml">¯</mo></mover><mo id="S0.F1.m6.1.6.2.1b" xref="S0.F1.m6.1.6.2.1.cmml">⁢</mo><mn id="S0.F1.m6.1.4" xref="S0.F1.m6.1.4.cmml">0</mn></mrow><mo stretchy="false" id="S0.F1.m6.1.5" xref="S0.F1.m6.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S0.F1.m6.1c"><apply id="S0.F1.m6.1.6.2.cmml" xref="S0.F1.m6.1.6"><times id="S0.F1.m6.1.6.2.1.cmml" xref="S0.F1.m6.1.6.2.1"></times><cn type="integer" id="S0.F1.m6.1.2.cmml" xref="S0.F1.m6.1.2">1</cn><apply id="S0.F1.m6.1.3.cmml" xref="S0.F1.m6.1.3"><ci id="S0.F1.m6.1.3.1.cmml" xref="S0.F1.m6.1.3.1">¯</ci><cn type="integer" id="S0.F1.m6.1.3.2.cmml" xref="S0.F1.m6.1.3.2">1</cn></apply><cn type="integer" id="S0.F1.m6.1.4.cmml" xref="S0.F1.m6.1.4">0</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F1.m6.1d">OPEN:( NUMBER:1 OVERACCENT:bar ARG:start NUMBER:1 ARG:end NUMBER:0 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S0.F1.m6.1e">(1\bar{1}0)</annotation></semantics></math> views are
+presented in the top and bottom images, respectively. The relative
+changes of the bond lengths and the atom labeling schemes used in
+Table <a href="#S0.T1" title="Table 1 ‣ (Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a> are indicated.</figcaption>
+</figure>
+<div id="p6" class="ltx_para">
+<p id="p6.1" class="ltx_p">Throughout, we give energy gains <math id="p6.1.m1.1" class="ltx_Math" alttext="\Delta E" display="inline"><semantics id="p6.1.m1.1a"><mrow id="p6.1.m1.1.3" xref="p6.1.m1.1.3.cmml"><mi mathvariant="normal" id="p6.1.m1.1.1" xref="p6.1.m1.1.1.cmml">Δ</mi><mo id="p6.1.m1.1.3.1" xref="p6.1.m1.1.3.1.cmml">⁢</mo><mi id="p6.1.m1.1.2" xref="p6.1.m1.1.2.cmml">E</mi></mrow><annotation-xml encoding="MathML-Content" id="p6.1.m1.1b"><apply id="p6.1.m1.1.3.cmml" xref="p6.1.m1.1.3"><times id="p6.1.m1.1.3.1.cmml" xref="p6.1.m1.1.3.1"></times><ci id="p6.1.m1.1.1.cmml" xref="p6.1.m1.1.1">Δ</ci><ci id="p6.1.m1.1.2.cmml" xref="p6.1.m1.1.2">𝐸</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p6.1.m1.1c">Delta italic-E</annotation><annotation encoding="application/x-tex" id="p6.1.m1.1d">\Delta E</annotation></semantics></math> per <math id="p6.1.m2.1" class="ltx_Math" alttext="1\times 1" display="inline"><semantics id="p6.1.m2.1a"><mrow id="p6.1.m2.1.4" xref="p6.1.m2.1.4.cmml"><mn id="p6.1.m2.1.1" xref="p6.1.m2.1.1.cmml">1</mn><mo id="p6.1.m2.1.2" xref="p6.1.m2.1.2.cmml">×</mo><mn id="p6.1.m2.1.3" xref="p6.1.m2.1.3.cmml">1</mn></mrow><annotation-xml encoding="MathML-Content" id="p6.1.m2.1b"><apply id="p6.1.m2.1.4.cmml" xref="p6.1.m2.1.4"><times id="p6.1.m2.1.2.cmml" xref="p6.1.m2.1.2"></times><cn type="integer" id="p6.1.m2.1.1.cmml" xref="p6.1.m2.1.1">1</cn><cn type="integer" id="p6.1.m2.1.3.cmml" xref="p6.1.m2.1.3">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p6.1.m2.1c">NUMBER:1 MULOP:times NUMBER:1</annotation><annotation encoding="application/x-tex" id="p6.1.m2.1d">1\times 1</annotation></semantics></math> unit cell,
+relative to the bulk-terminated surface.
+We find the relaxed <math id="p6.1.m3.1" class="ltx_Math" alttext="(1\times 1)" display="inline"><semantics id="p6.1.m3.1a"><mrow id="p6.1.m3.1.6" xref="p6.1.m3.1.6.2.cmml"><mo stretchy="false" id="p6.1.m3.1.1" xref="p6.1.m3.1.6.2.cmml">(</mo><mrow id="p6.1.m3.1.6.2" xref="p6.1.m3.1.6.2.cmml"><mn id="p6.1.m3.1.2" xref="p6.1.m3.1.2.cmml">1</mn><mo id="p6.1.m3.1.3" xref="p6.1.m3.1.3.cmml">×</mo><mn id="p6.1.m3.1.4" xref="p6.1.m3.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p6.1.m3.1.5" xref="p6.1.m3.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p6.1.m3.1b"><apply id="p6.1.m3.1.6.2.cmml" xref="p6.1.m3.1.6"><times id="p6.1.m3.1.3.cmml" xref="p6.1.m3.1.3"></times><cn type="integer" id="p6.1.m3.1.2.cmml" xref="p6.1.m3.1.2">1</cn><cn type="integer" id="p6.1.m3.1.4.cmml" xref="p6.1.m3.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p6.1.m3.1c">OPEN:( NUMBER:1 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p6.1.m3.1d">(1\times 1)</annotation></semantics></math> and Pandey <math id="p6.1.m4.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p6.1.m4.1a"><mrow id="p6.1.m4.1.6" xref="p6.1.m4.1.6.2.cmml"><mo stretchy="false" id="p6.1.m4.1.1" xref="p6.1.m4.1.6.2.cmml">(</mo><mrow id="p6.1.m4.1.6.2" xref="p6.1.m4.1.6.2.cmml"><mn id="p6.1.m4.1.2" xref="p6.1.m4.1.2.cmml">2</mn><mo id="p6.1.m4.1.3" xref="p6.1.m4.1.3.cmml">×</mo><mn id="p6.1.m4.1.4" xref="p6.1.m4.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p6.1.m4.1.5" xref="p6.1.m4.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p6.1.m4.1b"><apply id="p6.1.m4.1.6.2.cmml" xref="p6.1.m4.1.6"><times id="p6.1.m4.1.3.cmml" xref="p6.1.m4.1.3"></times><cn type="integer" id="p6.1.m4.1.2.cmml" xref="p6.1.m4.1.2">2</cn><cn type="integer" id="p6.1.m4.1.4.cmml" xref="p6.1.m4.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p6.1.m4.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p6.1.m4.1d">(2\times 1)</annotation></semantics></math> structures
+shown in Fig. <a href="#S0.F1" title="Figure 1 ‣ (Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a> to have
+<math id="p6.1.m5.1" class="ltx_Math" alttext="\Delta E=0.244" display="inline"><semantics id="p6.1.m5.1a"><mrow id="p6.1.m5.1.9" xref="p6.1.m5.1.9.cmml"><mrow id="p6.1.m5.1.9.1" xref="p6.1.m5.1.9.1.cmml"><mi mathvariant="normal" id="p6.1.m5.1.1" xref="p6.1.m5.1.1.cmml">Δ</mi><mo id="p6.1.m5.1.9.1.1" xref="p6.1.m5.1.9.1.1.cmml">⁢</mo><mi id="p6.1.m5.1.2" xref="p6.1.m5.1.2.cmml">E</mi></mrow><mo id="p6.1.m5.1.3" xref="p6.1.m5.1.3.cmml">=</mo><mn id="p6.1.m5.1.8" xref="p6.1.m5.1.8.cmml">0.244</mn></mrow><annotation-xml encoding="MathML-Content" id="p6.1.m5.1b"><apply id="p6.1.m5.1.9.cmml" xref="p6.1.m5.1.9"><eq id="p6.1.m5.1.3.cmml" xref="p6.1.m5.1.3"></eq><apply id="p6.1.m5.1.9.1.cmml" xref="p6.1.m5.1.9.1"><times id="p6.1.m5.1.9.1.1.cmml" xref="p6.1.m5.1.9.1.1"></times><ci id="p6.1.m5.1.1.cmml" xref="p6.1.m5.1.1">Δ</ci><ci id="p6.1.m5.1.2.cmml" xref="p6.1.m5.1.2">𝐸</ci></apply><cn type="float" id="p6.1.m5.1.8.cmml" xref="p6.1.m5.1.8">0.244</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p6.1.m5.1c">Delta italic-E RELOP:equals NUMBER:0.244</annotation><annotation encoding="application/x-tex" id="p6.1.m5.1d">\Delta E=0.244</annotation></semantics></math> and 1.102 eV, respectively. Apart from
+a 4% elongation of the bond between first and second
+bilayer against 8%<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib6" title="" class="ltx_ref">6</a>, <a href="#bib.bib16" title="" class="ltx_ref">16</a>, <a href="#bib.bib22" title="" class="ltx_ref">22</a>]</cite>
+for the Pandey structure, our results agree remarkably well with
+<em id="p6.1.1" class="ltx_emph ltx_font_italic">ab-initio</em> calculations.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib16" title="" class="ltx_ref">16</a>, <a href="#bib.bib19" title="" class="ltx_ref">19</a>, <a href="#bib.bib22" title="" class="ltx_ref">22</a>, <a href="#bib.bib30" title="" class="ltx_ref">30</a>]</cite></p>
+</div>
+<div id="p7" class="ltx_para">
+<p id="p7.1" class="ltx_p">To the best of our knowledge, no one has succeeded before in simulating
+a spontaneous transition from the ideal <math id="p7.1.m1.1" class="ltx_Math" alttext="(1\times 1)" display="inline"><semantics id="p7.1.m1.1a"><mrow id="p7.1.m1.1.6" xref="p7.1.m1.1.6.2.cmml"><mo stretchy="false" id="p7.1.m1.1.1" xref="p7.1.m1.1.6.2.cmml">(</mo><mrow id="p7.1.m1.1.6.2" xref="p7.1.m1.1.6.2.cmml"><mn id="p7.1.m1.1.2" xref="p7.1.m1.1.2.cmml">1</mn><mo id="p7.1.m1.1.3" xref="p7.1.m1.1.3.cmml">×</mo><mn id="p7.1.m1.1.4" xref="p7.1.m1.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p7.1.m1.1.5" xref="p7.1.m1.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m1.1b"><apply id="p7.1.m1.1.6.2.cmml" xref="p7.1.m1.1.6"><times id="p7.1.m1.1.3.cmml" xref="p7.1.m1.1.3"></times><cn type="integer" id="p7.1.m1.1.2.cmml" xref="p7.1.m1.1.2">1</cn><cn type="integer" id="p7.1.m1.1.4.cmml" xref="p7.1.m1.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m1.1c">OPEN:( NUMBER:1 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p7.1.m1.1d">(1\times 1)</annotation></semantics></math> to the
+<math id="p7.1.m2.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p7.1.m2.1a"><mrow id="p7.1.m2.1.6" xref="p7.1.m2.1.6.2.cmml"><mo stretchy="false" id="p7.1.m2.1.1" xref="p7.1.m2.1.6.2.cmml">(</mo><mrow id="p7.1.m2.1.6.2" xref="p7.1.m2.1.6.2.cmml"><mn id="p7.1.m2.1.2" xref="p7.1.m2.1.2.cmml">2</mn><mo id="p7.1.m2.1.3" xref="p7.1.m2.1.3.cmml">×</mo><mn id="p7.1.m2.1.4" xref="p7.1.m2.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p7.1.m2.1.5" xref="p7.1.m2.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m2.1b"><apply id="p7.1.m2.1.6.2.cmml" xref="p7.1.m2.1.6"><times id="p7.1.m2.1.3.cmml" xref="p7.1.m2.1.3"></times><cn type="integer" id="p7.1.m2.1.2.cmml" xref="p7.1.m2.1.2">2</cn><cn type="integer" id="p7.1.m2.1.4.cmml" xref="p7.1.m2.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m2.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p7.1.m2.1d">(2\times 1)</annotation></semantics></math> reconstructed diamond (111) surface. The <math id="p7.1.m3.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p7.1.m3.1a"><mrow id="p7.1.m3.1.6" xref="p7.1.m3.1.6.2.cmml"><mo stretchy="false" id="p7.1.m3.1.1" xref="p7.1.m3.1.6.2.cmml">(</mo><mrow id="p7.1.m3.1.6.2" xref="p7.1.m3.1.6.2.cmml"><mn id="p7.1.m3.1.2" xref="p7.1.m3.1.2.cmml">2</mn><mo id="p7.1.m3.1.3" xref="p7.1.m3.1.3.cmml">×</mo><mn id="p7.1.m3.1.4" xref="p7.1.m3.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p7.1.m3.1.5" xref="p7.1.m3.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m3.1b"><apply id="p7.1.m3.1.6.2.cmml" xref="p7.1.m3.1.6"><times id="p7.1.m3.1.3.cmml" xref="p7.1.m3.1.3"></times><cn type="integer" id="p7.1.m3.1.2.cmml" xref="p7.1.m3.1.2">2</cn><cn type="integer" id="p7.1.m3.1.4.cmml" xref="p7.1.m3.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m3.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p7.1.m3.1d">(2\times 1)</annotation></semantics></math>
+reconstruction of both diamond(111) and Si(111) is associated with a
+large coherent displacement of the first bilayer by more than 0.5 Å,
+accompanied by rebonding in which
+one atom in the <math id="p7.1.m4.1" class="ltx_Math" alttext="2\times 1" display="inline"><semantics id="p7.1.m4.1a"><mrow id="p7.1.m4.1.4" xref="p7.1.m4.1.4.cmml"><mn id="p7.1.m4.1.1" xref="p7.1.m4.1.1.cmml">2</mn><mo id="p7.1.m4.1.2" xref="p7.1.m4.1.2.cmml">×</mo><mn id="p7.1.m4.1.3" xref="p7.1.m4.1.3.cmml">1</mn></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m4.1b"><apply id="p7.1.m4.1.4.cmml" xref="p7.1.m4.1.4"><times id="p7.1.m4.1.2.cmml" xref="p7.1.m4.1.2"></times><cn type="integer" id="p7.1.m4.1.1.cmml" xref="p7.1.m4.1.1">2</cn><cn type="integer" id="p7.1.m4.1.3.cmml" xref="p7.1.m4.1.3">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m4.1c">NUMBER:2 MULOP:times NUMBER:1</annotation><annotation encoding="application/x-tex" id="p7.1.m4.1d">2\times 1</annotation></semantics></math> surface unit cell changes coordination
+from four to three while another does the opposite.
+<em id="p7.1.1" class="ltx_emph ltx_font_italic">Ab-initio</em> molecular dynamics simulation<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib31" title="" class="ltx_ref">31</a>]</cite>
+of the spontaneous <math id="p7.1.m5.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p7.1.m5.1a"><mrow id="p7.1.m5.1.6" xref="p7.1.m5.1.6.2.cmml"><mo stretchy="false" id="p7.1.m5.1.1" xref="p7.1.m5.1.6.2.cmml">(</mo><mrow id="p7.1.m5.1.6.2" xref="p7.1.m5.1.6.2.cmml"><mn id="p7.1.m5.1.2" xref="p7.1.m5.1.2.cmml">2</mn><mo id="p7.1.m5.1.3" xref="p7.1.m5.1.3.cmml">×</mo><mn id="p7.1.m5.1.4" xref="p7.1.m5.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p7.1.m5.1.5" xref="p7.1.m5.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m5.1b"><apply id="p7.1.m5.1.6.2.cmml" xref="p7.1.m5.1.6"><times id="p7.1.m5.1.3.cmml" xref="p7.1.m5.1.3"></times><cn type="integer" id="p7.1.m5.1.2.cmml" xref="p7.1.m5.1.2">2</cn><cn type="integer" id="p7.1.m5.1.4.cmml" xref="p7.1.m5.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m5.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p7.1.m5.1d">(2\times 1)</annotation></semantics></math> reconstruction of Si(111)
+shows that breaking and formation of a new bond occurs at the same
+time. We find that for diamond, instead, the bond breaking leading
+to an increase of three-fold (graphite-like) atoms
+precedes the bond formation.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib32" title="" class="ltx_ref">32</a>]</cite>
+In such a situation, competition between the <math id="p7.1.m6.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p7.1.m6.1a"><mrow id="p7.1.m6.1.6" xref="p7.1.m6.1.6.2.cmml"><mo stretchy="false" id="p7.1.m6.1.1" xref="p7.1.m6.1.6.2.cmml">(</mo><mrow id="p7.1.m6.1.6.2" xref="p7.1.m6.1.6.2.cmml"><mn id="p7.1.m6.1.2" xref="p7.1.m6.1.2.cmml">2</mn><mo id="p7.1.m6.1.3" xref="p7.1.m6.1.3.cmml">×</mo><mn id="p7.1.m6.1.4" xref="p7.1.m6.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p7.1.m6.1.5" xref="p7.1.m6.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m6.1b"><apply id="p7.1.m6.1.6.2.cmml" xref="p7.1.m6.1.6"><times id="p7.1.m6.1.3.cmml" xref="p7.1.m6.1.3"></times><cn type="integer" id="p7.1.m6.1.2.cmml" xref="p7.1.m6.1.2">2</cn><cn type="integer" id="p7.1.m6.1.4.cmml" xref="p7.1.m6.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m6.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p7.1.m6.1d">(2\times 1)</annotation></semantics></math>
+reconstruction and (partial) surface graphitization
+becomes very important,<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib24" title="" class="ltx_ref">24</a>]</cite> especially if
+the annealing is performed at high temperatures. Conversely,
+a low annealing temperature makes it very difficult
+to overcome the potential barrier between the two ordered structures.
+In Fig. <a href="#S0.F2" title="Figure 2 ‣ (Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding" class="ltx_ref"><span class="ltx_text ltx_ref_tag">2</span></a> we show the top view of a diamond (111) sample, obtained
+from the ideal relaxed <math id="p7.1.m7.1" class="ltx_Math" alttext="(1\times 1)" display="inline"><semantics id="p7.1.m7.1a"><mrow id="p7.1.m7.1.6" xref="p7.1.m7.1.6.2.cmml"><mo stretchy="false" id="p7.1.m7.1.1" xref="p7.1.m7.1.6.2.cmml">(</mo><mrow id="p7.1.m7.1.6.2" xref="p7.1.m7.1.6.2.cmml"><mn id="p7.1.m7.1.2" xref="p7.1.m7.1.2.cmml">1</mn><mo id="p7.1.m7.1.3" xref="p7.1.m7.1.3.cmml">×</mo><mn id="p7.1.m7.1.4" xref="p7.1.m7.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p7.1.m7.1.5" xref="p7.1.m7.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m7.1b"><apply id="p7.1.m7.1.6.2.cmml" xref="p7.1.m7.1.6"><times id="p7.1.m7.1.3.cmml" xref="p7.1.m7.1.3"></times><cn type="integer" id="p7.1.m7.1.2.cmml" xref="p7.1.m7.1.2">1</cn><cn type="integer" id="p7.1.m7.1.4.cmml" xref="p7.1.m7.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m7.1c">OPEN:( NUMBER:1 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p7.1.m7.1d">(1\times 1)</annotation></semantics></math> structure after an annealing cycle
+(about <math id="p7.1.m8.1" class="ltx_Math" alttext="0.5\cdot 10^{6}" display="inline"><semantics id="p7.1.m8.1a"><mrow id="p7.1.m8.1.8" xref="p7.1.m8.1.8.cmml"><mn id="p7.1.m8.1.3" xref="p7.1.m8.1.3.cmml">0.5</mn><mo id="p7.1.m8.1.4" xref="p7.1.m8.1.4.cmml">⋅</mo><msup id="p7.1.m8.1.8.1" xref="p7.1.m8.1.8.1.cmml"><mn id="p7.1.m8.1.6" xref="p7.1.m8.1.6.cmml">10</mn><mn id="p7.1.m8.1.7.1" xref="p7.1.m8.1.7.1.cmml">6</mn></msup></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m8.1b"><apply id="p7.1.m8.1.8.cmml" xref="p7.1.m8.1.8"><ci id="p7.1.m8.1.4.cmml" xref="p7.1.m8.1.4">⋅</ci><cn type="float" id="p7.1.m8.1.3.cmml" xref="p7.1.m8.1.3">0.5</cn><apply id="p7.1.m8.1.8.1.cmml" xref="p7.1.m8.1.8.1"><csymbol cd="ambiguous" id="p7.1.m8.1.8.1.1.cmml" xref="p7.1.m8.1.8.1">superscript</csymbol><cn type="integer" id="p7.1.m8.1.6.cmml" xref="p7.1.m8.1.6">10</cn><cn type="integer" id="p7.1.m8.1.7.1.cmml" xref="p7.1.m8.1.7.1">6</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m8.1c">NUMBER:0.5 MULOP:cdot NUMBER:10 POSTSUPERSCRIPT:start NUMBER:6 POSTSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p7.1.m8.1d">0.5\cdot 10^{6}</annotation></semantics></math> MC steps) at <math id="p7.1.m9.1" class="ltx_Math" alttext="T=750" display="inline"><semantics id="p7.1.m9.1a"><mrow id="p7.1.m9.1.6" xref="p7.1.m9.1.6.cmml"><mi id="p7.1.m9.1.1" xref="p7.1.m9.1.1.cmml">T</mi><mo id="p7.1.m9.1.2" xref="p7.1.m9.1.2.cmml">=</mo><mn id="p7.1.m9.1.5" xref="p7.1.m9.1.5.cmml">750</mn></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m9.1b"><apply id="p7.1.m9.1.6.cmml" xref="p7.1.m9.1.6"><eq id="p7.1.m9.1.2.cmml" xref="p7.1.m9.1.2"></eq><ci id="p7.1.m9.1.1.cmml" xref="p7.1.m9.1.1">𝑇</ci><cn type="integer" id="p7.1.m9.1.5.cmml" xref="p7.1.m9.1.5">750</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m9.1c">italic-T RELOP:equals NUMBER:750</annotation><annotation encoding="application/x-tex" id="p7.1.m9.1d">T=750</annotation></semantics></math> K.
+The efficiency of phase space exploring is improved by increasing
+the step size<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib29" title="" class="ltx_ref">29</a>]</cite> as to reduce the acceptance rate from the
+usual 50% down to 20-25%.
+In Fig. <a href="#S0.F2" title="Figure 2 ‣ (Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding" class="ltx_ref"><span class="ltx_text ltx_ref_tag">2</span></a> we emphasize pieces of the lower, four-fold
+coordinated Pandey chains which represent the final stage of the
+<math id="p7.1.m10.1" class="ltx_Math" alttext="(1\times 1)\rightarrow(2\times 1)" display="inline"><semantics id="p7.1.m10.1a"><mrow id="p7.1.m10.1.12" xref="p7.1.m10.1.12.cmml"><mrow id="p7.1.m10.1.12.1" xref="p7.1.m10.1.12.1.2.cmml"><mo stretchy="false" id="p7.1.m10.1.1" xref="p7.1.m10.1.12.1.2.cmml">(</mo><mrow id="p7.1.m10.1.12.1.2" xref="p7.1.m10.1.12.1.2.cmml"><mn id="p7.1.m10.1.2" xref="p7.1.m10.1.2.cmml">1</mn><mo id="p7.1.m10.1.3" xref="p7.1.m10.1.3.cmml">×</mo><mn id="p7.1.m10.1.4" xref="p7.1.m10.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p7.1.m10.1.5" xref="p7.1.m10.1.12.1.2.cmml">)</mo></mrow><mo id="p7.1.m10.1.6" xref="p7.1.m10.1.6.cmml">→</mo><mrow id="p7.1.m10.1.12.2" xref="p7.1.m10.1.12.2.2.cmml"><mo stretchy="false" id="p7.1.m10.1.7" xref="p7.1.m10.1.12.2.2.cmml">(</mo><mrow id="p7.1.m10.1.12.2.2" xref="p7.1.m10.1.12.2.2.cmml"><mn id="p7.1.m10.1.8" xref="p7.1.m10.1.8.cmml">2</mn><mo id="p7.1.m10.1.9" xref="p7.1.m10.1.9.cmml">×</mo><mn id="p7.1.m10.1.10" xref="p7.1.m10.1.10.cmml">1</mn></mrow><mo stretchy="false" id="p7.1.m10.1.11" xref="p7.1.m10.1.12.2.2.cmml">)</mo></mrow></mrow><annotation-xml encoding="MathML-Content" id="p7.1.m10.1b"><apply id="p7.1.m10.1.12.cmml" xref="p7.1.m10.1.12"><ci id="p7.1.m10.1.6.cmml" xref="p7.1.m10.1.6">→</ci><apply id="p7.1.m10.1.12.1.2.cmml" xref="p7.1.m10.1.12.1"><times id="p7.1.m10.1.3.cmml" xref="p7.1.m10.1.3"></times><cn type="integer" id="p7.1.m10.1.2.cmml" xref="p7.1.m10.1.2">1</cn><cn type="integer" id="p7.1.m10.1.4.cmml" xref="p7.1.m10.1.4">1</cn></apply><apply id="p7.1.m10.1.12.2.2.cmml" xref="p7.1.m10.1.12.2"><times id="p7.1.m10.1.9.cmml" xref="p7.1.m10.1.9"></times><cn type="integer" id="p7.1.m10.1.8.cmml" xref="p7.1.m10.1.8">2</cn><cn type="integer" id="p7.1.m10.1.10.cmml" xref="p7.1.m10.1.10">1</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p7.1.m10.1c">OPEN:( NUMBER:1 MULOP:times NUMBER:1 CLOSE:) ARROW:rightarrow OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p7.1.m10.1d">(1\times 1)\rightarrow(2\times 1)</annotation></semantics></math> transition. Only one rotational domain
+is present and
+the relative position of the formed chains is somewhat disordered.
+</p>
+</div>
+<figure id="S0.F2" class="ltx_figure"><img src="x2.png" id="S0.F2.g1" class="ltx_graphics ltx_centering" width="540" height="633" alt="">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 2: </span>Top view of a reconstructed diamond(111) sample after a spontaneous
+transition from the bulk-terminated <math id="S0.F2.m2.1" class="ltx_Math" alttext="(1\times 1)" display="inline"><semantics id="S0.F2.m2.1b"><mrow id="S0.F2.m2.1.6" xref="S0.F2.m2.1.6.2.cmml"><mo stretchy="false" id="S0.F2.m2.1.1" xref="S0.F2.m2.1.6.2.cmml">(</mo><mrow id="S0.F2.m2.1.6.2" xref="S0.F2.m2.1.6.2.cmml"><mn id="S0.F2.m2.1.2" xref="S0.F2.m2.1.2.cmml">1</mn><mo id="S0.F2.m2.1.3" xref="S0.F2.m2.1.3.cmml">×</mo><mn id="S0.F2.m2.1.4" xref="S0.F2.m2.1.4.cmml">1</mn></mrow><mo stretchy="false" id="S0.F2.m2.1.5" xref="S0.F2.m2.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S0.F2.m2.1c"><apply id="S0.F2.m2.1.6.2.cmml" xref="S0.F2.m2.1.6"><times id="S0.F2.m2.1.3.cmml" xref="S0.F2.m2.1.3"></times><cn type="integer" id="S0.F2.m2.1.2.cmml" xref="S0.F2.m2.1.2">1</cn><cn type="integer" id="S0.F2.m2.1.4.cmml" xref="S0.F2.m2.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F2.m2.1d">OPEN:( NUMBER:1 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S0.F2.m2.1e">(1\times 1)</annotation></semantics></math> structure. The four-fold
+coordinated atoms in the first bilayer (atoms 13 and 14 in Fig. <a href="#S0.F1" title="Figure 1 ‣ (Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a>)
+are shown as dark balls and connected by dark solid lines. Periodic
+boundary conditions within the surface plane are used.</figcaption>
+</figure>
+<figure id="S0.F3" class="ltx_figure"><img src="x3.png" id="S0.F3.g1" class="ltx_graphics ltx_centering" width="540" height="210" alt="">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 3: </span>Meta-stable structures of the diamond(111) surface arranged
+as in Fig. <a href="#S0.F1" title="Figure 1 ‣ (Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a>. Left and central
+structures are the <math id="S0.F3.m4.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="S0.F3.m4.1b"><mrow id="S0.F3.m4.1.6" xref="S0.F3.m4.1.6.2.cmml"><mo stretchy="false" id="S0.F3.m4.1.1" xref="S0.F3.m4.1.6.2.cmml">(</mo><mrow id="S0.F3.m4.1.6.2" xref="S0.F3.m4.1.6.2.cmml"><mn id="S0.F3.m4.1.2" xref="S0.F3.m4.1.2.cmml">2</mn><mo id="S0.F3.m4.1.3" xref="S0.F3.m4.1.3.cmml">×</mo><mn id="S0.F3.m4.1.4" xref="S0.F3.m4.1.4.cmml">1</mn></mrow><mo stretchy="false" id="S0.F3.m4.1.5" xref="S0.F3.m4.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S0.F3.m4.1c"><apply id="S0.F3.m4.1.6.2.cmml" xref="S0.F3.m4.1.6"><times id="S0.F3.m4.1.3.cmml" xref="S0.F3.m4.1.3"></times><cn type="integer" id="S0.F3.m4.1.2.cmml" xref="S0.F3.m4.1.2">2</cn><cn type="integer" id="S0.F3.m4.1.4.cmml" xref="S0.F3.m4.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F3.m4.1d">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S0.F3.m4.1e">(2\times 1)</annotation></semantics></math> and <math id="S0.F3.m5.1" class="ltx_Math" alttext="(4\times 1)" display="inline"><semantics id="S0.F3.m5.1b"><mrow id="S0.F3.m5.1.6" xref="S0.F3.m5.1.6.2.cmml"><mo stretchy="false" id="S0.F3.m5.1.1" xref="S0.F3.m5.1.6.2.cmml">(</mo><mrow id="S0.F3.m5.1.6.2" xref="S0.F3.m5.1.6.2.cmml"><mn id="S0.F3.m5.1.2" xref="S0.F3.m5.1.2.cmml">4</mn><mo id="S0.F3.m5.1.3" xref="S0.F3.m5.1.3.cmml">×</mo><mn id="S0.F3.m5.1.4" xref="S0.F3.m5.1.4.cmml">1</mn></mrow><mo stretchy="false" id="S0.F3.m5.1.5" xref="S0.F3.m5.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S0.F3.m5.1c"><apply id="S0.F3.m5.1.6.2.cmml" xref="S0.F3.m5.1.6"><times id="S0.F3.m5.1.3.cmml" xref="S0.F3.m5.1.3"></times><cn type="integer" id="S0.F3.m5.1.2.cmml" xref="S0.F3.m5.1.2">4</cn><cn type="integer" id="S0.F3.m5.1.4.cmml" xref="S0.F3.m5.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F3.m5.1d">OPEN:( NUMBER:4 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S0.F3.m5.1e">(4\times 1)</annotation></semantics></math> dimerized reconstructions.
+Short and long distances in the dimerized chain are indicated by solid and
+broken lines, respectively. The structure on the right displays the
+vacancy <math id="S0.F3.m6.1" class="ltx_Math" alttext="(\sqrt{3}\times\sqrt{3})R30^{\rm o}" display="inline"><semantics id="S0.F3.m6.1b"><mrow id="S0.F3.m6.1.10" xref="S0.F3.m6.1.10.cmml"><mrow id="S0.F3.m6.1.10.2" xref="S0.F3.m6.1.10.2.2.cmml"><mo stretchy="false" id="S0.F3.m6.1.1" xref="S0.F3.m6.1.10.2.2.cmml">(</mo><mrow id="S0.F3.m6.1.10.2.2" xref="S0.F3.m6.1.10.2.2.cmml"><msqrt id="S0.F3.m6.1.2" xref="S0.F3.m6.1.2.cmml"><mn id="S0.F3.m6.1.2.2" xref="S0.F3.m6.1.2.2.cmml">3</mn></msqrt><mo id="S0.F3.m6.1.3" xref="S0.F3.m6.1.3.cmml">×</mo><msqrt id="S0.F3.m6.1.4" xref="S0.F3.m6.1.4.cmml"><mn id="S0.F3.m6.1.4.2" xref="S0.F3.m6.1.4.2.cmml">3</mn></msqrt></mrow><mo stretchy="false" id="S0.F3.m6.1.5" xref="S0.F3.m6.1.10.2.2.cmml">)</mo></mrow><mo id="S0.F3.m6.1.10.1" xref="S0.F3.m6.1.10.1.cmml">⁢</mo><mi id="S0.F3.m6.1.6" xref="S0.F3.m6.1.6.cmml">R</mi><mo id="S0.F3.m6.1.10.1b" xref="S0.F3.m6.1.10.1.cmml">⁢</mo><msup id="S0.F3.m6.1.10.3" xref="S0.F3.m6.1.10.3.cmml"><mn id="S0.F3.m6.1.8" xref="S0.F3.m6.1.8.cmml">30</mn><mi mathvariant="normal" id="S0.F3.m6.1.9.1" xref="S0.F3.m6.1.9.1.cmml">o</mi></msup></mrow><annotation-xml encoding="MathML-Content" id="S0.F3.m6.1c"><apply id="S0.F3.m6.1.10.cmml" xref="S0.F3.m6.1.10"><times id="S0.F3.m6.1.10.1.cmml" xref="S0.F3.m6.1.10.1"></times><apply id="S0.F3.m6.1.10.2.2.cmml" xref="S0.F3.m6.1.10.2"><times id="S0.F3.m6.1.3.cmml" xref="S0.F3.m6.1.3"></times><apply id="S0.F3.m6.1.2.cmml" xref="S0.F3.m6.1.2"><root id="S0.F3.m6.1.2a.cmml" xref="S0.F3.m6.1.2"></root><cn type="integer" id="S0.F3.m6.1.2.2.cmml" xref="S0.F3.m6.1.2.2">3</cn></apply><apply id="S0.F3.m6.1.4.cmml" xref="S0.F3.m6.1.4"><root id="S0.F3.m6.1.4a.cmml" xref="S0.F3.m6.1.4"></root><cn type="integer" id="S0.F3.m6.1.4.2.cmml" xref="S0.F3.m6.1.4.2">3</cn></apply></apply><ci id="S0.F3.m6.1.6.cmml" xref="S0.F3.m6.1.6">𝑅</ci><apply id="S0.F3.m6.1.10.3.cmml" xref="S0.F3.m6.1.10.3"><csymbol cd="ambiguous" id="S0.F3.m6.1.10.3.1.cmml" xref="S0.F3.m6.1.10.3">superscript</csymbol><cn type="integer" id="S0.F3.m6.1.8.cmml" xref="S0.F3.m6.1.8">30</cn><ci id="S0.F3.m6.1.9.1.cmml" xref="S0.F3.m6.1.9.1">o</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F3.m6.1d">OPEN:( italic-square-root ARG:start NUMBER:3 ARG:end MULOP:times italic-square-root ARG:start NUMBER:3 ARG:end CLOSE:) italic-R NUMBER:30 POSTSUPERSCRIPT:start o POSTSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S0.F3.m6.1e">(\sqrt{3}\times\sqrt{3})R30^{\rm o}</annotation></semantics></math> reconstruction. </figcaption>
+</figure>
+<figure id="S0.T1" class="ltx_table">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_table">Table 1: </span>Coordinates of atoms (in Å) within top three bilayers for
+the Pandey model, <math id="S0.T1.m7.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="S0.T1.m7.1b"><mrow id="S0.T1.m7.1.6" xref="S0.T1.m7.1.6.2.cmml"><mo stretchy="false" id="S0.T1.m7.1.1" xref="S0.T1.m7.1.6.2.cmml">(</mo><mrow id="S0.T1.m7.1.6.2" xref="S0.T1.m7.1.6.2.cmml"><mn id="S0.T1.m7.1.2" xref="S0.T1.m7.1.2.cmml">2</mn><mo id="S0.T1.m7.1.3" xref="S0.T1.m7.1.3.cmml">×</mo><mn id="S0.T1.m7.1.4" xref="S0.T1.m7.1.4.cmml">1</mn></mrow><mo stretchy="false" id="S0.T1.m7.1.5" xref="S0.T1.m7.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S0.T1.m7.1c"><apply id="S0.T1.m7.1.6.2.cmml" xref="S0.T1.m7.1.6"><times id="S0.T1.m7.1.3.cmml" xref="S0.T1.m7.1.3"></times><cn type="integer" id="S0.T1.m7.1.2.cmml" xref="S0.T1.m7.1.2">2</cn><cn type="integer" id="S0.T1.m7.1.4.cmml" xref="S0.T1.m7.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.T1.m7.1d">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S0.T1.m7.1e">(2\times 1)</annotation></semantics></math> and <math id="S0.T1.m8.1" class="ltx_Math" alttext="(4\times 1)" display="inline"><semantics id="S0.T1.m8.1b"><mrow id="S0.T1.m8.1.6" xref="S0.T1.m8.1.6.2.cmml"><mo stretchy="false" id="S0.T1.m8.1.1" xref="S0.T1.m8.1.6.2.cmml">(</mo><mrow id="S0.T1.m8.1.6.2" xref="S0.T1.m8.1.6.2.cmml"><mn id="S0.T1.m8.1.2" xref="S0.T1.m8.1.2.cmml">4</mn><mo id="S0.T1.m8.1.3" xref="S0.T1.m8.1.3.cmml">×</mo><mn id="S0.T1.m8.1.4" xref="S0.T1.m8.1.4.cmml">1</mn></mrow><mo stretchy="false" id="S0.T1.m8.1.5" xref="S0.T1.m8.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S0.T1.m8.1c"><apply id="S0.T1.m8.1.6.2.cmml" xref="S0.T1.m8.1.6"><times id="S0.T1.m8.1.3.cmml" xref="S0.T1.m8.1.3"></times><cn type="integer" id="S0.T1.m8.1.2.cmml" xref="S0.T1.m8.1.2">4</cn><cn type="integer" id="S0.T1.m8.1.4.cmml" xref="S0.T1.m8.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.T1.m8.1d">OPEN:( NUMBER:4 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S0.T1.m8.1e">(4\times 1)</annotation></semantics></math> dimerized
+reconstructions.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib32" title="" class="ltx_ref">32</a>]</cite>
+The Brenner potential gives the diamond bulk bond length of 1.541 Å and
+the <math id="S0.T1.m9.1" class="ltx_Math" alttext="2\times 1" display="inline"><semantics id="S0.T1.m9.1b"><mrow id="S0.T1.m9.1.4" xref="S0.T1.m9.1.4.cmml"><mn id="S0.T1.m9.1.1" xref="S0.T1.m9.1.1.cmml">2</mn><mo id="S0.T1.m9.1.2" xref="S0.T1.m9.1.2.cmml">×</mo><mn id="S0.T1.m9.1.3" xref="S0.T1.m9.1.3.cmml">1</mn></mrow><annotation-xml encoding="MathML-Content" id="S0.T1.m9.1c"><apply id="S0.T1.m9.1.4.cmml" xref="S0.T1.m9.1.4"><times id="S0.T1.m9.1.2.cmml" xref="S0.T1.m9.1.2"></times><cn type="integer" id="S0.T1.m9.1.1.cmml" xref="S0.T1.m9.1.1">2</cn><cn type="integer" id="S0.T1.m9.1.3.cmml" xref="S0.T1.m9.1.3">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.T1.m9.1d">NUMBER:2 MULOP:times NUMBER:1</annotation><annotation encoding="application/x-tex" id="S0.T1.m9.1e">2\times 1</annotation></semantics></math> unit cell has in-plane dimensions <math id="S0.T1.m10.1" class="ltx_Math" alttext="4.357\times 2.517" display="inline"><semantics id="S0.T1.m10.1b"><mrow id="S0.T1.m10.1.12" xref="S0.T1.m10.1.12.cmml"><mn id="S0.T1.m10.1.5" xref="S0.T1.m10.1.5.cmml">4.357</mn><mo id="S0.T1.m10.1.6" xref="S0.T1.m10.1.6.cmml">×</mo><mn id="S0.T1.m10.1.11" xref="S0.T1.m10.1.11.cmml">2.517</mn></mrow><annotation-xml encoding="MathML-Content" id="S0.T1.m10.1c"><apply id="S0.T1.m10.1.12.cmml" xref="S0.T1.m10.1.12"><times id="S0.T1.m10.1.6.cmml" xref="S0.T1.m10.1.6"></times><cn type="float" id="S0.T1.m10.1.5.cmml" xref="S0.T1.m10.1.5">4.357</cn><cn type="float" id="S0.T1.m10.1.11.cmml" xref="S0.T1.m10.1.11">2.517</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.T1.m10.1d">NUMBER:4.357 MULOP:times NUMBER:2.517</annotation><annotation encoding="application/x-tex" id="S0.T1.m10.1e">4.357\times 2.517</annotation></semantics></math> Å<math id="S0.T1.m11.1" class="ltx_Math" alttext="{}^{2}" display="inline"><semantics id="S0.T1.m11.1b"><msup id="S0.T1.m11.1.1" xref="S0.T1.m11.1.1.cmml"><mi id="S0.T1.m11.1.1b" xref="S0.T1.m11.1.1.cmml"></mi><mn id="S0.T1.m11.1.1.1" xref="S0.T1.m11.1.1.1.cmml">2</mn></msup><annotation-xml encoding="MathML-Content" id="S0.T1.m11.1c"><apply id="S0.T1.m11.1.1.cmml" xref="S0.T1.m11.1.1"><cn type="integer" id="S0.T1.m11.1.1.1.cmml" xref="S0.T1.m11.1.1.1">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.T1.m11.1d">FLOATSUPERSCRIPT:start NUMBER:2 FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="S0.T1.m11.1e">{}^{2}</annotation></semantics></math>.
+The numbers in brackets for the <math id="S0.T1.m12.1" class="ltx_Math" alttext="(4\times 1)" display="inline"><semantics id="S0.T1.m12.1b"><mrow id="S0.T1.m12.1.6" xref="S0.T1.m12.1.6.2.cmml"><mo stretchy="false" id="S0.T1.m12.1.1" xref="S0.T1.m12.1.6.2.cmml">(</mo><mrow id="S0.T1.m12.1.6.2" xref="S0.T1.m12.1.6.2.cmml"><mn id="S0.T1.m12.1.2" xref="S0.T1.m12.1.2.cmml">4</mn><mo id="S0.T1.m12.1.3" xref="S0.T1.m12.1.3.cmml">×</mo><mn id="S0.T1.m12.1.4" xref="S0.T1.m12.1.4.cmml">1</mn></mrow><mo stretchy="false" id="S0.T1.m12.1.5" xref="S0.T1.m12.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="S0.T1.m12.1c"><apply id="S0.T1.m12.1.6.2.cmml" xref="S0.T1.m12.1.6"><times id="S0.T1.m12.1.3.cmml" xref="S0.T1.m12.1.3"></times><cn type="integer" id="S0.T1.m12.1.2.cmml" xref="S0.T1.m12.1.2">4</cn><cn type="integer" id="S0.T1.m12.1.4.cmml" xref="S0.T1.m12.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.T1.m12.1d">OPEN:( NUMBER:4 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="S0.T1.m12.1e">(4\times 1)</annotation></semantics></math> dimerized reconstruction
+are coordinates of atoms in the second half of the unit cell (denoted
+with primes in Fig. <a href="#S0.F3" title="Figure 3 ‣ (Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding" class="ltx_ref"><span class="ltx_text ltx_ref_tag">3</span></a>).</figcaption>
+<table id="S0.T1.1" class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr id="S0.T1.1.1" class="ltx_tr">
+<th id="S0.T1.1.1.1" class="ltx_td ltx_th ltx_th_column ltx_th_row ltx_border_l ltx_border_r"></th>
+<th id="S0.T1.1.1.2" class="ltx_td ltx_th ltx_th_column"></th>
+<th id="S0.T1.1.1.3" class="ltx_td ltx_align_center ltx_th ltx_th_column"><span id="S0.T1.1.1.3.1" class="ltx_text" style="width:0.0pt;">Pandey</span></th>
+<th id="S0.T1.1.1.4" class="ltx_td ltx_th ltx_th_column ltx_border_r"></th>
+<th id="S0.T1.1.1.5" class="ltx_td ltx_th ltx_th_column"></th>
+<th id="S0.T1.1.1.6" class="ltx_td ltx_align_center ltx_th ltx_th_column"><span id="S0.T1.1.1.6.1" class="ltx_text" style="width:0.0pt;">dimer <math id="S0.T1.1.1.6.1.m1.1" class="ltx_Math" alttext="2\times 1" display="inline"><semantics id="S0.T1.1.1.6.1.m1.1a"><mrow id="S0.T1.1.1.6.1.m1.1.4" xref="S0.T1.1.1.6.1.m1.1.4.cmml"><mn id="S0.T1.1.1.6.1.m1.1.1" xref="S0.T1.1.1.6.1.m1.1.1.cmml">2</mn><mo id="S0.T1.1.1.6.1.m1.1.2" xref="S0.T1.1.1.6.1.m1.1.2.cmml">×</mo><mn id="S0.T1.1.1.6.1.m1.1.3" xref="S0.T1.1.1.6.1.m1.1.3.cmml">1</mn></mrow><annotation-xml encoding="MathML-Content" id="S0.T1.1.1.6.1.m1.1b"><apply id="S0.T1.1.1.6.1.m1.1.4.cmml" xref="S0.T1.1.1.6.1.m1.1.4"><times id="S0.T1.1.1.6.1.m1.1.2.cmml" xref="S0.T1.1.1.6.1.m1.1.2"></times><cn type="integer" id="S0.T1.1.1.6.1.m1.1.1.cmml" xref="S0.T1.1.1.6.1.m1.1.1">2</cn><cn type="integer" id="S0.T1.1.1.6.1.m1.1.3.cmml" xref="S0.T1.1.1.6.1.m1.1.3">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.T1.1.1.6.1.m1.1c">NUMBER:2 MULOP:times NUMBER:1</annotation><annotation encoding="application/x-tex" id="S0.T1.1.1.6.1.m1.1d">2\times 1</annotation></semantics></math></span></th>
+<th id="S0.T1.1.1.7" class="ltx_td ltx_th ltx_th_column ltx_border_r"></th>
+<th id="S0.T1.1.1.8" class="ltx_td ltx_th ltx_th_column"></th>
+<th id="S0.T1.1.1.9" class="ltx_td ltx_align_center ltx_th ltx_th_column"><span id="S0.T1.1.1.9.1" class="ltx_text" style="width:0.0pt;">dimer <math id="S0.T1.1.1.9.1.m1.1" class="ltx_Math" alttext="4\times 1" display="inline"><semantics id="S0.T1.1.1.9.1.m1.1a"><mrow id="S0.T1.1.1.9.1.m1.1.4" xref="S0.T1.1.1.9.1.m1.1.4.cmml"><mn id="S0.T1.1.1.9.1.m1.1.1" xref="S0.T1.1.1.9.1.m1.1.1.cmml">4</mn><mo id="S0.T1.1.1.9.1.m1.1.2" xref="S0.T1.1.1.9.1.m1.1.2.cmml">×</mo><mn id="S0.T1.1.1.9.1.m1.1.3" xref="S0.T1.1.1.9.1.m1.1.3.cmml">1</mn></mrow><annotation-xml encoding="MathML-Content" id="S0.T1.1.1.9.1.m1.1b"><apply id="S0.T1.1.1.9.1.m1.1.4.cmml" xref="S0.T1.1.1.9.1.m1.1.4"><times id="S0.T1.1.1.9.1.m1.1.2.cmml" xref="S0.T1.1.1.9.1.m1.1.2"></times><cn type="integer" id="S0.T1.1.1.9.1.m1.1.1.cmml" xref="S0.T1.1.1.9.1.m1.1.1">4</cn><cn type="integer" id="S0.T1.1.1.9.1.m1.1.3.cmml" xref="S0.T1.1.1.9.1.m1.1.3">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="S0.T1.1.1.9.1.m1.1c">NUMBER:4 MULOP:times NUMBER:1</annotation><annotation encoding="application/x-tex" id="S0.T1.1.1.9.1.m1.1d">4\times 1</annotation></semantics></math></span></th>
+<th id="S0.T1.1.1.10" class="ltx_td ltx_th ltx_th_column ltx_border_r"></th>
+</tr>
+<tr id="S0.T1.1.2" class="ltx_tr">
+<th id="S0.T1.1.2.1" class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_th_row ltx_border_l ltx_border_r">atom</th>
+<th id="S0.T1.1.2.2" class="ltx_td ltx_align_center ltx_th ltx_th_column">x</th>
+<th id="S0.T1.1.2.3" class="ltx_td ltx_align_center ltx_th ltx_th_column">y</th>
+<th id="S0.T1.1.2.4" class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_r">z</th>
+<th id="S0.T1.1.2.5" class="ltx_td ltx_align_center ltx_th ltx_th_column">x</th>
+<th id="S0.T1.1.2.6" class="ltx_td ltx_align_center ltx_th ltx_th_column">y</th>
+<th id="S0.T1.1.2.7" class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_r">z</th>
+<th id="S0.T1.1.2.8" class="ltx_td ltx_align_center ltx_th ltx_th_column">x</th>
+<th id="S0.T1.1.2.9" class="ltx_td ltx_align_center ltx_th ltx_th_column">y</th>
+<th id="S0.T1.1.2.10" class="ltx_td ltx_align_center ltx_th ltx_th_column ltx_border_r">z</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr id="S0.T1.1.3" class="ltx_tr">
+<th id="S0.T1.1.3.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r ltx_border_t">11</th>
+<td id="S0.T1.1.3.2" class="ltx_td ltx_align_center ltx_border_t">3.064</td>
+<td id="S0.T1.1.3.3" class="ltx_td ltx_align_center ltx_border_t">-0.943</td>
+<td id="S0.T1.1.3.4" class="ltx_td ltx_align_center ltx_border_r ltx_border_t">5.525</td>
+<td id="S0.T1.1.3.5" class="ltx_td ltx_align_center ltx_border_t">3.071</td>
+<td id="S0.T1.1.3.6" class="ltx_td ltx_align_center ltx_border_t">-0.942</td>
+<td id="S0.T1.1.3.7" class="ltx_td ltx_align_center ltx_border_r ltx_border_t">5.638</td>
+<td id="S0.T1.1.3.8" class="ltx_td ltx_align_center ltx_border_t">3.072 (7.435)</td>
+<td id="S0.T1.1.3.9" class="ltx_td ltx_align_center ltx_border_t">-0.532
+(-1.355)</td>
+<td id="S0.T1.1.3.10" class="ltx_td ltx_align_center ltx_border_r ltx_border_t">5.648 (5.645)</td>
+</tr>
+<tr id="S0.T1.1.4" class="ltx_tr">
+<th id="S0.T1.1.4.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r">12</th>
+<td id="S0.T1.1.4.2" class="ltx_td ltx_align_center">2.370</td>
+<td id="S0.T1.1.4.3" class="ltx_td ltx_align_center">0.315</td>
+<td id="S0.T1.1.4.4" class="ltx_td ltx_align_center ltx_border_r">5.519</td>
+<td id="S0.T1.1.4.5" class="ltx_td ltx_align_center">2.353</td>
+<td id="S0.T1.1.4.6" class="ltx_td ltx_align_center">0.332</td>
+<td id="S0.T1.1.4.7" class="ltx_td ltx_align_center ltx_border_r">5.625</td>
+<td id="S0.T1.1.4.8" class="ltx_td ltx_align_center">2.379 (6.742)</td>
+<td id="S0.T1.1.4.9" class="ltx_td ltx_align_center">0.728
+(-0.095)</td>
+<td id="S0.T1.1.4.10" class="ltx_td ltx_align_center ltx_border_r">5.646 (5.641)</td>
+</tr>
+<tr id="S0.T1.1.5" class="ltx_tr">
+<th id="S0.T1.1.5.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r">13</th>
+<td id="S0.T1.1.5.2" class="ltx_td ltx_align_center">1.007</td>
+<td id="S0.T1.1.5.3" class="ltx_td ltx_align_center">0.313</td>
+<td id="S0.T1.1.5.4" class="ltx_td ltx_align_center ltx_border_r">4.792</td>
+<td id="S0.T1.1.5.5" class="ltx_td ltx_align_center">1.177</td>
+<td id="S0.T1.1.5.6" class="ltx_td ltx_align_center">0.594</td>
+<td id="S0.T1.1.5.7" class="ltx_td ltx_align_center ltx_border_r">4.804</td>
+<td id="S0.T1.1.5.8" class="ltx_td ltx_align_center">1.210 (5.591)</td>
+<td id="S0.T1.1.5.9" class="ltx_td ltx_align_center">0.714
+(-0.081)</td>
+<td id="S0.T1.1.5.10" class="ltx_td ltx_align_center ltx_border_r">4.802 (4.793)</td>
+</tr>
+<tr id="S0.T1.1.6" class="ltx_tr">
+<th id="S0.T1.1.6.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r">14</th>
+<td id="S0.T1.1.6.2" class="ltx_td ltx_align_center">0.076</td>
+<td id="S0.T1.1.6.3" class="ltx_td ltx_align_center">-0.941</td>
+<td id="S0.T1.1.6.4" class="ltx_td ltx_align_center ltx_border_r">4.804</td>
+<td id="S0.T1.1.6.5" class="ltx_td ltx_align_center">-0.112</td>
+<td id="S0.T1.1.6.6" class="ltx_td ltx_align_center">-1.188</td>
+<td id="S0.T1.1.6.7" class="ltx_td ltx_align_center ltx_border_r">4.820</td>
+<td id="S0.T1.1.6.8" class="ltx_td ltx_align_center">-0.151 (4.228)</td>
+<td id="S0.T1.1.6.9" class="ltx_td ltx_align_center">-1.325
+(-0.561)</td>
+<td id="S0.T1.1.6.10" class="ltx_td ltx_align_center ltx_border_r">4.813 (4.806)</td>
+</tr>
+<tr id="S0.T1.1.7" class="ltx_tr">
+<th id="S0.T1.1.7.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r">21</th>
+<td id="S0.T1.1.7.2" class="ltx_td ltx_align_center">3.816</td>
+<td id="S0.T1.1.7.3" class="ltx_td ltx_align_center">-0.942</td>
+<td id="S0.T1.1.7.4" class="ltx_td ltx_align_center ltx_border_r">3.325</td>
+<td id="S0.T1.1.7.5" class="ltx_td ltx_align_center">3.835</td>
+<td id="S0.T1.1.7.6" class="ltx_td ltx_align_center">-0.965</td>
+<td id="S0.T1.1.7.7" class="ltx_td ltx_align_center ltx_border_r">3.331</td>
+<td id="S0.T1.1.7.8" class="ltx_td ltx_align_center">3.838 (8.202)</td>
+<td id="S0.T1.1.7.9" class="ltx_td ltx_align_center">-0.911
+(-0.989)</td>
+<td id="S0.T1.1.7.10" class="ltx_td ltx_align_center ltx_border_r">3.330 (3.325)</td>
+</tr>
+<tr id="S0.T1.1.8" class="ltx_tr">
+<th id="S0.T1.1.8.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r">22</th>
+<td id="S0.T1.1.8.2" class="ltx_td ltx_align_center">3.041</td>
+<td id="S0.T1.1.8.3" class="ltx_td ltx_align_center">0.316</td>
+<td id="S0.T1.1.8.4" class="ltx_td ltx_align_center ltx_border_r">2.880</td>
+<td id="S0.T1.1.8.5" class="ltx_td ltx_align_center">3.065</td>
+<td id="S0.T1.1.8.6" class="ltx_td ltx_align_center">0.299</td>
+<td id="S0.T1.1.8.7" class="ltx_td ltx_align_center ltx_border_r">2.872</td>
+<td id="S0.T1.1.8.8" class="ltx_td ltx_align_center">3.072 (7.436)</td>
+<td id="S0.T1.1.8.9" class="ltx_td ltx_align_center">0.350
+( 0.275)</td>
+<td id="S0.T1.1.8.10" class="ltx_td ltx_align_center ltx_border_r">2.866 (2.862)</td>
+</tr>
+<tr id="S0.T1.1.9" class="ltx_tr">
+<th id="S0.T1.1.9.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r">23</th>
+<td id="S0.T1.1.9.2" class="ltx_td ltx_align_center">1.557</td>
+<td id="S0.T1.1.9.3" class="ltx_td ltx_align_center">0.314</td>
+<td id="S0.T1.1.9.4" class="ltx_td ltx_align_center ltx_border_r">3.290</td>
+<td id="S0.T1.1.9.5" class="ltx_td ltx_align_center">1.573</td>
+<td id="S0.T1.1.9.6" class="ltx_td ltx_align_center">0.341</td>
+<td id="S0.T1.1.9.7" class="ltx_td ltx_align_center ltx_border_r">3.297</td>
+<td id="S0.T1.1.9.8" class="ltx_td ltx_align_center">1.589 (5.967)</td>
+<td id="S0.T1.1.9.9" class="ltx_td ltx_align_center">0.378
+( 0.250)</td>
+<td id="S0.T1.1.9.10" class="ltx_td ltx_align_center ltx_border_r">3.313 (3.302)</td>
+</tr>
+<tr id="S0.T1.1.10" class="ltx_tr">
+<th id="S0.T1.1.10.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r">24</th>
+<td id="S0.T1.1.10.2" class="ltx_td ltx_align_center">0.895</td>
+<td id="S0.T1.1.10.3" class="ltx_td ltx_align_center">-0.943</td>
+<td id="S0.T1.1.10.4" class="ltx_td ltx_align_center ltx_border_r">2.737</td>
+<td id="S0.T1.1.10.5" class="ltx_td ltx_align_center">0.896</td>
+<td id="S0.T1.1.10.6" class="ltx_td ltx_align_center">-0.910</td>
+<td id="S0.T1.1.10.7" class="ltx_td ltx_align_center ltx_border_r">2.759</td>
+<td id="S0.T1.1.10.8" class="ltx_td ltx_align_center">0.898 (5.272)</td>
+<td id="S0.T1.1.10.9" class="ltx_td ltx_align_center">-0.878
+(-1.015)</td>
+<td id="S0.T1.1.10.10" class="ltx_td ltx_align_center ltx_border_r">2.774 (2.767)</td>
+</tr>
+<tr id="S0.T1.1.11" class="ltx_tr">
+<th id="S0.T1.1.11.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r">31</th>
+<td id="S0.T1.1.11.2" class="ltx_td ltx_align_center">3.065</td>
+<td id="S0.T1.1.11.3" class="ltx_td ltx_align_center">0.316</td>
+<td id="S0.T1.1.11.4" class="ltx_td ltx_align_center ltx_border_r">1.300</td>
+<td id="S0.T1.1.11.5" class="ltx_td ltx_align_center">3.075</td>
+<td id="S0.T1.1.11.6" class="ltx_td ltx_align_center">0.318</td>
+<td id="S0.T1.1.11.7" class="ltx_td ltx_align_center ltx_border_r">1.295</td>
+<td id="S0.T1.1.11.8" class="ltx_td ltx_align_center">3.084 (7.449)</td>
+<td id="S0.T1.1.11.9" class="ltx_td ltx_align_center">0.322
+( 0.306)</td>
+<td id="S0.T1.1.11.10" class="ltx_td ltx_align_center ltx_border_r">1.299 (1.291)</td>
+</tr>
+<tr id="S0.T1.1.12" class="ltx_tr">
+<th id="S0.T1.1.12.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r">32</th>
+<td id="S0.T1.1.12.2" class="ltx_td ltx_align_center">2.346</td>
+<td id="S0.T1.1.12.3" class="ltx_td ltx_align_center">-0.942</td>
+<td id="S0.T1.1.12.4" class="ltx_td ltx_align_center ltx_border_r">0.760</td>
+<td id="S0.T1.1.12.5" class="ltx_td ltx_align_center">2.251</td>
+<td id="S0.T1.1.12.6" class="ltx_td ltx_align_center">-0.946</td>
+<td id="S0.T1.1.12.7" class="ltx_td ltx_align_center ltx_border_r">0.770</td>
+<td id="S0.T1.1.12.8" class="ltx_td ltx_align_center">2.361 (6.727)</td>
+<td id="S0.T1.1.12.9" class="ltx_td ltx_align_center">-0.938
+(-0.955)</td>
+<td id="S0.T1.1.12.10" class="ltx_td ltx_align_center ltx_border_r">0.769 (0.765)</td>
+</tr>
+<tr id="S0.T1.1.13" class="ltx_tr">
+<th id="S0.T1.1.13.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r">33</th>
+<td id="S0.T1.1.13.2" class="ltx_td ltx_align_center">0.883</td>
+<td id="S0.T1.1.13.3" class="ltx_td ltx_align_center">-0.944</td>
+<td id="S0.T1.1.13.4" class="ltx_td ltx_align_center ltx_border_r">1.227</td>
+<td id="S0.T1.1.13.5" class="ltx_td ltx_align_center">0.889</td>
+<td id="S0.T1.1.13.6" class="ltx_td ltx_align_center">-0.930</td>
+<td id="S0.T1.1.13.7" class="ltx_td ltx_align_center ltx_border_r">1.240</td>
+<td id="S0.T1.1.13.8" class="ltx_td ltx_align_center">0.895 (5.265)</td>
+<td id="S0.T1.1.13.9" class="ltx_td ltx_align_center">-0.918
+(-0.974)</td>
+<td id="S0.T1.1.13.10" class="ltx_td ltx_align_center ltx_border_r">1.252 (1.246)</td>
+</tr>
+<tr id="S0.T1.1.14" class="ltx_tr">
+<th id="S0.T1.1.14.1" class="ltx_td ltx_align_center ltx_th ltx_th_row ltx_border_l ltx_border_r">34</th>
+<td id="S0.T1.1.14.2" class="ltx_td ltx_align_center">0.152</td>
+<td id="S0.T1.1.14.3" class="ltx_td ltx_align_center">0.315</td>
+<td id="S0.T1.1.14.4" class="ltx_td ltx_align_center ltx_border_r">0.739</td>
+<td id="S0.T1.1.14.5" class="ltx_td ltx_align_center">0.156</td>
+<td id="S0.T1.1.14.6" class="ltx_td ltx_align_center">0.328</td>
+<td id="S0.T1.1.14.7" class="ltx_td ltx_align_center ltx_border_r">0.752</td>
+<td id="S0.T1.1.14.8" class="ltx_td ltx_align_center">0.162 (4.533)</td>
+<td id="S0.T1.1.14.9" class="ltx_td ltx_align_center">0.342
+( 0.293)</td>
+<td id="S0.T1.1.14.10" class="ltx_td ltx_align_center ltx_border_r">0.756 (0.756)</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<div id="p8" class="ltx_para">
+<p id="p8.1" class="ltx_p">At higher temperatures, apart from a tendency towards
+graphite-like structures, we observe also other
+ordered phases, similar to the Pandey reconstruction but accompanied
+by a strong dimerization of the <em id="p8.1.1" class="ltx_emph ltx_font_italic">lower</em> atomic chain.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib32" title="" class="ltx_ref">32</a>]</cite>
+This dimerization can be performed in two ways,
+leading to the <math id="p8.1.m1.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p8.1.m1.1a"><mrow id="p8.1.m1.1.6" xref="p8.1.m1.1.6.2.cmml"><mo stretchy="false" id="p8.1.m1.1.1" xref="p8.1.m1.1.6.2.cmml">(</mo><mrow id="p8.1.m1.1.6.2" xref="p8.1.m1.1.6.2.cmml"><mn id="p8.1.m1.1.2" xref="p8.1.m1.1.2.cmml">2</mn><mo id="p8.1.m1.1.3" xref="p8.1.m1.1.3.cmml">×</mo><mn id="p8.1.m1.1.4" xref="p8.1.m1.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p8.1.m1.1.5" xref="p8.1.m1.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p8.1.m1.1b"><apply id="p8.1.m1.1.6.2.cmml" xref="p8.1.m1.1.6"><times id="p8.1.m1.1.3.cmml" xref="p8.1.m1.1.3"></times><cn type="integer" id="p8.1.m1.1.2.cmml" xref="p8.1.m1.1.2">2</cn><cn type="integer" id="p8.1.m1.1.4.cmml" xref="p8.1.m1.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m1.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p8.1.m1.1d">(2\times 1)</annotation></semantics></math> and <math id="p8.1.m2.1" class="ltx_Math" alttext="(4\times 1)" display="inline"><semantics id="p8.1.m2.1a"><mrow id="p8.1.m2.1.6" xref="p8.1.m2.1.6.2.cmml"><mo stretchy="false" id="p8.1.m2.1.1" xref="p8.1.m2.1.6.2.cmml">(</mo><mrow id="p8.1.m2.1.6.2" xref="p8.1.m2.1.6.2.cmml"><mn id="p8.1.m2.1.2" xref="p8.1.m2.1.2.cmml">4</mn><mo id="p8.1.m2.1.3" xref="p8.1.m2.1.3.cmml">×</mo><mn id="p8.1.m2.1.4" xref="p8.1.m2.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p8.1.m2.1.5" xref="p8.1.m2.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p8.1.m2.1b"><apply id="p8.1.m2.1.6.2.cmml" xref="p8.1.m2.1.6"><times id="p8.1.m2.1.3.cmml" xref="p8.1.m2.1.3"></times><cn type="integer" id="p8.1.m2.1.2.cmml" xref="p8.1.m2.1.2">4</cn><cn type="integer" id="p8.1.m2.1.4.cmml" xref="p8.1.m2.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m2.1c">OPEN:( NUMBER:4 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p8.1.m2.1d">(4\times 1)</annotation></semantics></math> structures shown in
+Fig. <a href="#S0.F3" title="Figure 3 ‣ (Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding" class="ltx_ref"><span class="ltx_text ltx_ref_tag">3</span></a>. The atom coordinates are given<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib32" title="" class="ltx_ref">32</a>]</cite> in
+Table <a href="#S0.T1" title="Table 1 ‣ (Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding" class="ltx_ref"><span class="ltx_text ltx_ref_tag">1</span></a> along with those for the Pandey
+reconstruction. The energy
+gain <math id="p8.1.m3.1" class="ltx_Math" alttext="\Delta E" display="inline"><semantics id="p8.1.m3.1a"><mrow id="p8.1.m3.1.3" xref="p8.1.m3.1.3.cmml"><mi mathvariant="normal" id="p8.1.m3.1.1" xref="p8.1.m3.1.1.cmml">Δ</mi><mo id="p8.1.m3.1.3.1" xref="p8.1.m3.1.3.1.cmml">⁢</mo><mi id="p8.1.m3.1.2" xref="p8.1.m3.1.2.cmml">E</mi></mrow><annotation-xml encoding="MathML-Content" id="p8.1.m3.1b"><apply id="p8.1.m3.1.3.cmml" xref="p8.1.m3.1.3"><times id="p8.1.m3.1.3.1.cmml" xref="p8.1.m3.1.3.1"></times><ci id="p8.1.m3.1.1.cmml" xref="p8.1.m3.1.1">Δ</ci><ci id="p8.1.m3.1.2.cmml" xref="p8.1.m3.1.2">𝐸</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m3.1c">Delta italic-E</annotation><annotation encoding="application/x-tex" id="p8.1.m3.1d">\Delta E</annotation></semantics></math> is <math id="p8.1.m4.1" class="ltx_Math" alttext="0.883" display="inline"><semantics id="p8.1.m4.1a"><mn id="p8.1.m4.1.5" xref="p8.1.m4.1.5.cmml">0.883</mn><annotation-xml encoding="MathML-Content" id="p8.1.m4.1b"><cn type="float" id="p8.1.m4.1.5.cmml" xref="p8.1.m4.1.5">0.883</cn></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m4.1c">NUMBER:0.883</annotation><annotation encoding="application/x-tex" id="p8.1.m4.1d">0.883</annotation></semantics></math> and <math id="p8.1.m5.1" class="ltx_Math" alttext="1.023" display="inline"><semantics id="p8.1.m5.1a"><mn id="p8.1.m5.1.5" xref="p8.1.m5.1.5.cmml">1.023</mn><annotation-xml encoding="MathML-Content" id="p8.1.m5.1b"><cn type="float" id="p8.1.m5.1.5.cmml" xref="p8.1.m5.1.5">1.023</cn></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m5.1c">NUMBER:1.023</annotation><annotation encoding="application/x-tex" id="p8.1.m5.1d">1.023</annotation></semantics></math> eV,
+for the metastable <math id="p8.1.m6.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p8.1.m6.1a"><mrow id="p8.1.m6.1.6" xref="p8.1.m6.1.6.2.cmml"><mo stretchy="false" id="p8.1.m6.1.1" xref="p8.1.m6.1.6.2.cmml">(</mo><mrow id="p8.1.m6.1.6.2" xref="p8.1.m6.1.6.2.cmml"><mn id="p8.1.m6.1.2" xref="p8.1.m6.1.2.cmml">2</mn><mo id="p8.1.m6.1.3" xref="p8.1.m6.1.3.cmml">×</mo><mn id="p8.1.m6.1.4" xref="p8.1.m6.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p8.1.m6.1.5" xref="p8.1.m6.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p8.1.m6.1b"><apply id="p8.1.m6.1.6.2.cmml" xref="p8.1.m6.1.6"><times id="p8.1.m6.1.3.cmml" xref="p8.1.m6.1.3"></times><cn type="integer" id="p8.1.m6.1.2.cmml" xref="p8.1.m6.1.2">2</cn><cn type="integer" id="p8.1.m6.1.4.cmml" xref="p8.1.m6.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m6.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p8.1.m6.1d">(2\times 1)</annotation></semantics></math> and <math id="p8.1.m7.1" class="ltx_Math" alttext="(4\times 1)" display="inline"><semantics id="p8.1.m7.1a"><mrow id="p8.1.m7.1.6" xref="p8.1.m7.1.6.2.cmml"><mo stretchy="false" id="p8.1.m7.1.1" xref="p8.1.m7.1.6.2.cmml">(</mo><mrow id="p8.1.m7.1.6.2" xref="p8.1.m7.1.6.2.cmml"><mn id="p8.1.m7.1.2" xref="p8.1.m7.1.2.cmml">4</mn><mo id="p8.1.m7.1.3" xref="p8.1.m7.1.3.cmml">×</mo><mn id="p8.1.m7.1.4" xref="p8.1.m7.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p8.1.m7.1.5" xref="p8.1.m7.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p8.1.m7.1b"><apply id="p8.1.m7.1.6.2.cmml" xref="p8.1.m7.1.6"><times id="p8.1.m7.1.3.cmml" xref="p8.1.m7.1.3"></times><cn type="integer" id="p8.1.m7.1.2.cmml" xref="p8.1.m7.1.2">4</cn><cn type="integer" id="p8.1.m7.1.4.cmml" xref="p8.1.m7.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m7.1c">OPEN:( NUMBER:4 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p8.1.m7.1d">(4\times 1)</annotation></semantics></math> respectively.
+In the dimerized chains the short/long distances between atoms
+13 and 14 are 1.459/2.215 and 1.444/2.455 Å for the <math id="p8.1.m8.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p8.1.m8.1a"><mrow id="p8.1.m8.1.6" xref="p8.1.m8.1.6.2.cmml"><mo stretchy="false" id="p8.1.m8.1.1" xref="p8.1.m8.1.6.2.cmml">(</mo><mrow id="p8.1.m8.1.6.2" xref="p8.1.m8.1.6.2.cmml"><mn id="p8.1.m8.1.2" xref="p8.1.m8.1.2.cmml">2</mn><mo id="p8.1.m8.1.3" xref="p8.1.m8.1.3.cmml">×</mo><mn id="p8.1.m8.1.4" xref="p8.1.m8.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p8.1.m8.1.5" xref="p8.1.m8.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p8.1.m8.1b"><apply id="p8.1.m8.1.6.2.cmml" xref="p8.1.m8.1.6"><times id="p8.1.m8.1.3.cmml" xref="p8.1.m8.1.3"></times><cn type="integer" id="p8.1.m8.1.2.cmml" xref="p8.1.m8.1.2">2</cn><cn type="integer" id="p8.1.m8.1.4.cmml" xref="p8.1.m8.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m8.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p8.1.m8.1d">(2\times 1)</annotation></semantics></math>
+and <math id="p8.1.m9.1" class="ltx_Math" alttext="(4\times 1)" display="inline"><semantics id="p8.1.m9.1a"><mrow id="p8.1.m9.1.6" xref="p8.1.m9.1.6.2.cmml"><mo stretchy="false" id="p8.1.m9.1.1" xref="p8.1.m9.1.6.2.cmml">(</mo><mrow id="p8.1.m9.1.6.2" xref="p8.1.m9.1.6.2.cmml"><mn id="p8.1.m9.1.2" xref="p8.1.m9.1.2.cmml">4</mn><mo id="p8.1.m9.1.3" xref="p8.1.m9.1.3.cmml">×</mo><mn id="p8.1.m9.1.4" xref="p8.1.m9.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p8.1.m9.1.5" xref="p8.1.m9.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p8.1.m9.1b"><apply id="p8.1.m9.1.6.2.cmml" xref="p8.1.m9.1.6"><times id="p8.1.m9.1.3.cmml" xref="p8.1.m9.1.3"></times><cn type="integer" id="p8.1.m9.1.2.cmml" xref="p8.1.m9.1.2">4</cn><cn type="integer" id="p8.1.m9.1.4.cmml" xref="p8.1.m9.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m9.1c">OPEN:( NUMBER:4 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p8.1.m9.1d">(4\times 1)</annotation></semantics></math> instead of 1.562 Å in the Pandey reconstruction.
+This dimerization induces dimerization of the <math id="p8.1.m10.1" class="ltx_Math" alttext="\pi" display="inline"><semantics id="p8.1.m10.1a"><mi id="p8.1.m10.1.1" xref="p8.1.m10.1.1.cmml">π</mi><annotation-xml encoding="MathML-Content" id="p8.1.m10.1b"><ci id="p8.1.m10.1.1.cmml" xref="p8.1.m10.1.1">𝜋</ci></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m10.1c">italic-pi</annotation><annotation encoding="application/x-tex" id="p8.1.m10.1d">\pi</annotation></semantics></math>-bonded chain
+as well, albeit small (<math id="p8.1.m11.1" class="ltx_Math" alttext="&lt;1" display="inline"><semantics id="p8.1.m11.1a"><mrow id="p8.1.m11.1.3" xref="p8.1.m11.1.3.cmml"><mi id="p8.1.m11.1.3.1" xref="p8.1.m11.1.3.1.cmml"></mi><mo id="p8.1.m11.1.1" xref="p8.1.m11.1.1.cmml">&lt;</mo><mn id="p8.1.m11.1.2" xref="p8.1.m11.1.2.cmml">1</mn></mrow><annotation-xml encoding="MathML-Content" id="p8.1.m11.1b"><apply id="p8.1.m11.1.3.cmml" xref="p8.1.m11.1.3"><lt id="p8.1.m11.1.1.cmml" xref="p8.1.m11.1.1"></lt><csymbol cd="latexml" id="p8.1.m11.1.3.1.cmml" xref="p8.1.m11.1.3.1">absent</csymbol><cn type="integer" id="p8.1.m11.1.2.cmml" xref="p8.1.m11.1.2">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m11.1c">RELOP:less-than NUMBER:1</annotation><annotation encoding="application/x-tex" id="p8.1.m11.1d">&lt;1</annotation></semantics></math>%), which might be of importance for surface
+electronic properties. The <math id="p8.1.m12.1" class="ltx_Math" alttext="(4\times 1)" display="inline"><semantics id="p8.1.m12.1a"><mrow id="p8.1.m12.1.6" xref="p8.1.m12.1.6.2.cmml"><mo stretchy="false" id="p8.1.m12.1.1" xref="p8.1.m12.1.6.2.cmml">(</mo><mrow id="p8.1.m12.1.6.2" xref="p8.1.m12.1.6.2.cmml"><mn id="p8.1.m12.1.2" xref="p8.1.m12.1.2.cmml">4</mn><mo id="p8.1.m12.1.3" xref="p8.1.m12.1.3.cmml">×</mo><mn id="p8.1.m12.1.4" xref="p8.1.m12.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p8.1.m12.1.5" xref="p8.1.m12.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p8.1.m12.1b"><apply id="p8.1.m12.1.6.2.cmml" xref="p8.1.m12.1.6"><times id="p8.1.m12.1.3.cmml" xref="p8.1.m12.1.3"></times><cn type="integer" id="p8.1.m12.1.2.cmml" xref="p8.1.m12.1.2">4</cn><cn type="integer" id="p8.1.m12.1.4.cmml" xref="p8.1.m12.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m12.1c">OPEN:( NUMBER:4 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p8.1.m12.1d">(4\times 1)</annotation></semantics></math> dimerized structure is only
+160 meV (<math id="p8.1.m13.1" class="ltx_Math" alttext="\approx 2000" display="inline"><semantics id="p8.1.m13.1a"><mrow id="p8.1.m13.1.6" xref="p8.1.m13.1.6.cmml"><mi id="p8.1.m13.1.6.1" xref="p8.1.m13.1.6.1.cmml"></mi><mo id="p8.1.m13.1.1" xref="p8.1.m13.1.1.cmml">≈</mo><mn id="p8.1.m13.1.5" xref="p8.1.m13.1.5.cmml">2000</mn></mrow><annotation-xml encoding="MathML-Content" id="p8.1.m13.1b"><apply id="p8.1.m13.1.6.cmml" xref="p8.1.m13.1.6"><approx id="p8.1.m13.1.1.cmml" xref="p8.1.m13.1.1"></approx><csymbol cd="latexml" id="p8.1.m13.1.6.1.cmml" xref="p8.1.m13.1.6.1">absent</csymbol><cn type="integer" id="p8.1.m13.1.5.cmml" xref="p8.1.m13.1.5">2000</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m13.1c">RELOP:approximately-equals NUMBER:2000</annotation><annotation encoding="application/x-tex" id="p8.1.m13.1d">\approx 2000</annotation></semantics></math> K)
+per broken bond higher than the Pandey structure, i.e.
+these phases can coexist at the surface at high temperatures.
+Indeed, by heating the ordered Pandey
+structure to <math id="p8.1.m14.1" class="ltx_Math" alttext="2350" display="inline"><semantics id="p8.1.m14.1a"><mn id="p8.1.m14.1.4" xref="p8.1.m14.1.4.cmml">2350</mn><annotation-xml encoding="MathML-Content" id="p8.1.m14.1b"><cn type="integer" id="p8.1.m14.1.4.cmml" xref="p8.1.m14.1.4">2350</cn></annotation-xml><annotation encoding="application/x-llamapun" id="p8.1.m14.1c">NUMBER:2350</annotation><annotation encoding="application/x-tex" id="p8.1.m14.1d">2350</annotation></semantics></math> K we observe a partial transformation to the
+dimerized state
+as shown in Fig. <a href="#S0.F4" title="Figure 4 ‣ (Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding" class="ltx_ref"><span class="ltx_text ltx_ref_tag">4</span></a>. Note also a precursor of surface
+graphitization.</p>
+</div>
+<div id="p9" class="ltx_para">
+<p id="p9.1" class="ltx_p">Lastly, in GCMC runs we find the <math id="p9.1.m1.1" class="ltx_Math" alttext="(\sqrt{3}\times\sqrt{3})R30^{\rm o}" display="inline"><semantics id="p9.1.m1.1a"><mrow id="p9.1.m1.1.10" xref="p9.1.m1.1.10.cmml"><mrow id="p9.1.m1.1.10.2" xref="p9.1.m1.1.10.2.2.cmml"><mo stretchy="false" id="p9.1.m1.1.1" xref="p9.1.m1.1.10.2.2.cmml">(</mo><mrow id="p9.1.m1.1.10.2.2" xref="p9.1.m1.1.10.2.2.cmml"><msqrt id="p9.1.m1.1.2" xref="p9.1.m1.1.2.cmml"><mn id="p9.1.m1.1.2.2" xref="p9.1.m1.1.2.2.cmml">3</mn></msqrt><mo id="p9.1.m1.1.3" xref="p9.1.m1.1.3.cmml">×</mo><msqrt id="p9.1.m1.1.4" xref="p9.1.m1.1.4.cmml"><mn id="p9.1.m1.1.4.2" xref="p9.1.m1.1.4.2.cmml">3</mn></msqrt></mrow><mo stretchy="false" id="p9.1.m1.1.5" xref="p9.1.m1.1.10.2.2.cmml">)</mo></mrow><mo id="p9.1.m1.1.10.1" xref="p9.1.m1.1.10.1.cmml">⁢</mo><mi id="p9.1.m1.1.6" xref="p9.1.m1.1.6.cmml">R</mi><mo id="p9.1.m1.1.10.1a" xref="p9.1.m1.1.10.1.cmml">⁢</mo><msup id="p9.1.m1.1.10.3" xref="p9.1.m1.1.10.3.cmml"><mn id="p9.1.m1.1.8" xref="p9.1.m1.1.8.cmml">30</mn><mi mathvariant="normal" id="p9.1.m1.1.9.1" xref="p9.1.m1.1.9.1.cmml">o</mi></msup></mrow><annotation-xml encoding="MathML-Content" id="p9.1.m1.1b"><apply id="p9.1.m1.1.10.cmml" xref="p9.1.m1.1.10"><times id="p9.1.m1.1.10.1.cmml" xref="p9.1.m1.1.10.1"></times><apply id="p9.1.m1.1.10.2.2.cmml" xref="p9.1.m1.1.10.2"><times id="p9.1.m1.1.3.cmml" xref="p9.1.m1.1.3"></times><apply id="p9.1.m1.1.2.cmml" xref="p9.1.m1.1.2"><root id="p9.1.m1.1.2a.cmml" xref="p9.1.m1.1.2"></root><cn type="integer" id="p9.1.m1.1.2.2.cmml" xref="p9.1.m1.1.2.2">3</cn></apply><apply id="p9.1.m1.1.4.cmml" xref="p9.1.m1.1.4"><root id="p9.1.m1.1.4a.cmml" xref="p9.1.m1.1.4"></root><cn type="integer" id="p9.1.m1.1.4.2.cmml" xref="p9.1.m1.1.4.2">3</cn></apply></apply><ci id="p9.1.m1.1.6.cmml" xref="p9.1.m1.1.6">𝑅</ci><apply id="p9.1.m1.1.10.3.cmml" xref="p9.1.m1.1.10.3"><csymbol cd="ambiguous" id="p9.1.m1.1.10.3.1.cmml" xref="p9.1.m1.1.10.3">superscript</csymbol><cn type="integer" id="p9.1.m1.1.8.cmml" xref="p9.1.m1.1.8">30</cn><ci id="p9.1.m1.1.9.1.cmml" xref="p9.1.m1.1.9.1">o</ci></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p9.1.m1.1c">OPEN:( italic-square-root ARG:start NUMBER:3 ARG:end MULOP:times italic-square-root ARG:start NUMBER:3 ARG:end CLOSE:) italic-R NUMBER:30 POSTSUPERSCRIPT:start o POSTSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="p9.1.m1.1d">(\sqrt{3}\times\sqrt{3})R30^{\rm o}</annotation></semantics></math>
+reconstruction formed by an ordered array of vacancies as shown on
+the right hand side in Fig. <a href="#S0.F3" title="Figure 3 ‣ (Meta-)stable reconstructions of the diamond (111) surface: interplay between diamond- and graphite-like bonding" class="ltx_ref"><span class="ltx_text ltx_ref_tag">3</span></a>. The bond lengths between
+the atoms in the first bilayer is reduced to 1.390 Å,
+slightly less than the equilibrium bond length in graphite
+(1.42 Å). The bonds between the first and second layer are elongated
+by <math id="p9.1.m2.1" class="ltx_Math" alttext="\sim 1" display="inline"><semantics id="p9.1.m2.1a"><mrow id="p9.1.m2.1.3" xref="p9.1.m2.1.3.cmml"><mi id="p9.1.m2.1.3.1" xref="p9.1.m2.1.3.1.cmml"></mi><mo id="p9.1.m2.1.1" xref="p9.1.m2.1.1.cmml">∼</mo><mn id="p9.1.m2.1.2" xref="p9.1.m2.1.2.cmml">1</mn></mrow><annotation-xml encoding="MathML-Content" id="p9.1.m2.1b"><apply id="p9.1.m2.1.3.cmml" xref="p9.1.m2.1.3"><csymbol cd="latexml" id="p9.1.m2.1.1.cmml" xref="p9.1.m2.1.1">similar-to</csymbol><csymbol cd="latexml" id="p9.1.m2.1.3.1.cmml" xref="p9.1.m2.1.3.1">absent</csymbol><cn type="integer" id="p9.1.m2.1.2.cmml" xref="p9.1.m2.1.2">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p9.1.m2.1c">RELOP:similar-to NUMBER:1</annotation><annotation encoding="application/x-tex" id="p9.1.m2.1d">\sim 1</annotation></semantics></math>% while the other bond lengths are close to the bulk
+value.
+Taking the bulk binding energy 7.346 eV as the chemical potential,
+the energy gain is estimated to be <math id="p9.1.m3.1" class="ltx_Math" alttext="\Delta E=0.6145" display="inline"><semantics id="p9.1.m3.1a"><mrow id="p9.1.m3.1.10" xref="p9.1.m3.1.10.cmml"><mrow id="p9.1.m3.1.10.1" xref="p9.1.m3.1.10.1.cmml"><mi mathvariant="normal" id="p9.1.m3.1.1" xref="p9.1.m3.1.1.cmml">Δ</mi><mo id="p9.1.m3.1.10.1.1" xref="p9.1.m3.1.10.1.1.cmml">⁢</mo><mi id="p9.1.m3.1.2" xref="p9.1.m3.1.2.cmml">E</mi></mrow><mo id="p9.1.m3.1.3" xref="p9.1.m3.1.3.cmml">=</mo><mn id="p9.1.m3.1.9" xref="p9.1.m3.1.9.cmml">0.6145</mn></mrow><annotation-xml encoding="MathML-Content" id="p9.1.m3.1b"><apply id="p9.1.m3.1.10.cmml" xref="p9.1.m3.1.10"><eq id="p9.1.m3.1.3.cmml" xref="p9.1.m3.1.3"></eq><apply id="p9.1.m3.1.10.1.cmml" xref="p9.1.m3.1.10.1"><times id="p9.1.m3.1.10.1.1.cmml" xref="p9.1.m3.1.10.1.1"></times><ci id="p9.1.m3.1.1.cmml" xref="p9.1.m3.1.1">Δ</ci><ci id="p9.1.m3.1.2.cmml" xref="p9.1.m3.1.2">𝐸</ci></apply><cn type="float" id="p9.1.m3.1.9.cmml" xref="p9.1.m3.1.9">0.6145</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p9.1.m3.1c">Delta italic-E RELOP:equals NUMBER:0.6145</annotation><annotation encoding="application/x-tex" id="p9.1.m3.1d">\Delta E=0.6145</annotation></semantics></math> eV. Once formed,
+this structure is found to be very stable and remains unaltered after long
+GCMC annealing cycles at <math id="p9.1.m4.1" class="ltx_Math" alttext="T=2350" display="inline"><semantics id="p9.1.m4.1a"><mrow id="p9.1.m4.1.7" xref="p9.1.m4.1.7.cmml"><mi id="p9.1.m4.1.1" xref="p9.1.m4.1.1.cmml">T</mi><mo id="p9.1.m4.1.2" xref="p9.1.m4.1.2.cmml">=</mo><mn id="p9.1.m4.1.6" xref="p9.1.m4.1.6.cmml">2350</mn></mrow><annotation-xml encoding="MathML-Content" id="p9.1.m4.1b"><apply id="p9.1.m4.1.7.cmml" xref="p9.1.m4.1.7"><eq id="p9.1.m4.1.2.cmml" xref="p9.1.m4.1.2"></eq><ci id="p9.1.m4.1.1.cmml" xref="p9.1.m4.1.1">𝑇</ci><cn type="integer" id="p9.1.m4.1.6.cmml" xref="p9.1.m4.1.6">2350</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p9.1.m4.1c">italic-T RELOP:equals NUMBER:2350</annotation><annotation encoding="application/x-tex" id="p9.1.m4.1d">T=2350</annotation></semantics></math> K.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib32" title="" class="ltx_ref">32</a>]</cite>
+Similar structures have been discussed for
+Si.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib33" title="" class="ltx_ref">33</a>, <a href="#bib.bib34" title="" class="ltx_ref">34</a>]</cite> For diamond(111)
+a <math id="p9.1.m5.1" class="ltx_Math" alttext="(2\times 2)" display="inline"><semantics id="p9.1.m5.1a"><mrow id="p9.1.m5.1.6" xref="p9.1.m5.1.6.2.cmml"><mo stretchy="false" id="p9.1.m5.1.1" xref="p9.1.m5.1.6.2.cmml">(</mo><mrow id="p9.1.m5.1.6.2" xref="p9.1.m5.1.6.2.cmml"><mn id="p9.1.m5.1.2" xref="p9.1.m5.1.2.cmml">2</mn><mo id="p9.1.m5.1.3" xref="p9.1.m5.1.3.cmml">×</mo><mn id="p9.1.m5.1.4" xref="p9.1.m5.1.4.cmml">2</mn></mrow><mo stretchy="false" id="p9.1.m5.1.5" xref="p9.1.m5.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p9.1.m5.1b"><apply id="p9.1.m5.1.6.2.cmml" xref="p9.1.m5.1.6"><times id="p9.1.m5.1.3.cmml" xref="p9.1.m5.1.3"></times><cn type="integer" id="p9.1.m5.1.2.cmml" xref="p9.1.m5.1.2">2</cn><cn type="integer" id="p9.1.m5.1.4.cmml" xref="p9.1.m5.1.4">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p9.1.m5.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:2 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p9.1.m5.1d">(2\times 2)</annotation></semantics></math> vacancy structure was shown to be energetically unfavorable
+compared to the relaxed <math id="p9.1.m6.1" class="ltx_Math" alttext="(1\times 1)" display="inline"><semantics id="p9.1.m6.1a"><mrow id="p9.1.m6.1.6" xref="p9.1.m6.1.6.2.cmml"><mo stretchy="false" id="p9.1.m6.1.1" xref="p9.1.m6.1.6.2.cmml">(</mo><mrow id="p9.1.m6.1.6.2" xref="p9.1.m6.1.6.2.cmml"><mn id="p9.1.m6.1.2" xref="p9.1.m6.1.2.cmml">1</mn><mo id="p9.1.m6.1.3" xref="p9.1.m6.1.3.cmml">×</mo><mn id="p9.1.m6.1.4" xref="p9.1.m6.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p9.1.m6.1.5" xref="p9.1.m6.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p9.1.m6.1b"><apply id="p9.1.m6.1.6.2.cmml" xref="p9.1.m6.1.6"><times id="p9.1.m6.1.3.cmml" xref="p9.1.m6.1.3"></times><cn type="integer" id="p9.1.m6.1.2.cmml" xref="p9.1.m6.1.2">1</cn><cn type="integer" id="p9.1.m6.1.4.cmml" xref="p9.1.m6.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p9.1.m6.1c">OPEN:( NUMBER:1 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p9.1.m6.1d">(1\times 1)</annotation></semantics></math> structure.<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib35" title="" class="ltx_ref">35</a>]</cite>
+However, contrary to the <math id="p9.1.m7.1" class="ltx_Math" alttext="(2\times 2)" display="inline"><semantics id="p9.1.m7.1a"><mrow id="p9.1.m7.1.6" xref="p9.1.m7.1.6.2.cmml"><mo stretchy="false" id="p9.1.m7.1.1" xref="p9.1.m7.1.6.2.cmml">(</mo><mrow id="p9.1.m7.1.6.2" xref="p9.1.m7.1.6.2.cmml"><mn id="p9.1.m7.1.2" xref="p9.1.m7.1.2.cmml">2</mn><mo id="p9.1.m7.1.3" xref="p9.1.m7.1.3.cmml">×</mo><mn id="p9.1.m7.1.4" xref="p9.1.m7.1.4.cmml">2</mn></mrow><mo stretchy="false" id="p9.1.m7.1.5" xref="p9.1.m7.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p9.1.m7.1b"><apply id="p9.1.m7.1.6.2.cmml" xref="p9.1.m7.1.6"><times id="p9.1.m7.1.3.cmml" xref="p9.1.m7.1.3"></times><cn type="integer" id="p9.1.m7.1.2.cmml" xref="p9.1.m7.1.2">2</cn><cn type="integer" id="p9.1.m7.1.4.cmml" xref="p9.1.m7.1.4">2</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p9.1.m7.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:2 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p9.1.m7.1d">(2\times 2)</annotation></semantics></math> vacancy
+structure,<cite class="ltx_cite ltx_citemacro_cite">[<a href="#bib.bib35" title="" class="ltx_ref">35</a>]</cite> our
+<math id="p9.1.m8.1" class="ltx_Math" alttext="(\sqrt{3}\times\sqrt{3})" display="inline"><semantics id="p9.1.m8.1a"><mrow id="p9.1.m8.1.6" xref="p9.1.m8.1.6.2.cmml"><mo stretchy="false" id="p9.1.m8.1.1" xref="p9.1.m8.1.6.2.cmml">(</mo><mrow id="p9.1.m8.1.6.2" xref="p9.1.m8.1.6.2.cmml"><msqrt id="p9.1.m8.1.2" xref="p9.1.m8.1.2.cmml"><mn id="p9.1.m8.1.2.2" xref="p9.1.m8.1.2.2.cmml">3</mn></msqrt><mo id="p9.1.m8.1.3" xref="p9.1.m8.1.3.cmml">×</mo><msqrt id="p9.1.m8.1.4" xref="p9.1.m8.1.4.cmml"><mn id="p9.1.m8.1.4.2" xref="p9.1.m8.1.4.2.cmml">3</mn></msqrt></mrow><mo stretchy="false" id="p9.1.m8.1.5" xref="p9.1.m8.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p9.1.m8.1b"><apply id="p9.1.m8.1.6.2.cmml" xref="p9.1.m8.1.6"><times id="p9.1.m8.1.3.cmml" xref="p9.1.m8.1.3"></times><apply id="p9.1.m8.1.2.cmml" xref="p9.1.m8.1.2"><root id="p9.1.m8.1.2a.cmml" xref="p9.1.m8.1.2"></root><cn type="integer" id="p9.1.m8.1.2.2.cmml" xref="p9.1.m8.1.2.2">3</cn></apply><apply id="p9.1.m8.1.4.cmml" xref="p9.1.m8.1.4"><root id="p9.1.m8.1.4a.cmml" xref="p9.1.m8.1.4"></root><cn type="integer" id="p9.1.m8.1.4.2.cmml" xref="p9.1.m8.1.4.2">3</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p9.1.m8.1c">OPEN:( italic-square-root ARG:start NUMBER:3 ARG:end MULOP:times italic-square-root ARG:start NUMBER:3 ARG:end CLOSE:)</annotation><annotation encoding="application/x-tex" id="p9.1.m8.1d">(\sqrt{3}\times\sqrt{3})</annotation></semantics></math> structure has only three-fold
+coordinated surface atoms and might thus be more favorable.</p>
+</div>
+<figure id="S0.F4" class="ltx_figure"><img src="x4.png" id="S0.F4.g1" class="ltx_graphics ltx_centering" width="539" height="825" alt="">
+<figcaption class="ltx_caption"><span class="ltx_tag ltx_tag_figure">Figure 4: </span>Top and side views of the sample at 2350 K showing coexistence
+of the original Pandey chain (lower chains connected by solid lines) and
+the dimerized
+(alternating solid-dashed lines) reconstructions.
+The four atoms in the first bilayer connected by a dotted line in
+the top view and given as dark balls in the side view are
+lifted off (a precursor of surface graphitization). The dark atoms
+underneath in the second bilayer have changed their
+coordination from four to three to form a new <math id="S0.F4.m2.1" class="ltx_Math" alttext="\pi" display="inline"><semantics id="S0.F4.m2.1b"><mi id="S0.F4.m2.1.1" xref="S0.F4.m2.1.1.cmml">π</mi><annotation-xml encoding="MathML-Content" id="S0.F4.m2.1c"><ci id="S0.F4.m2.1.1.cmml" xref="S0.F4.m2.1.1">𝜋</ci></annotation-xml><annotation encoding="application/x-llamapun" id="S0.F4.m2.1d">italic-pi</annotation><annotation encoding="application/x-tex" id="S0.F4.m2.1e">\pi</annotation></semantics></math>-bonded chain.</figcaption>
+</figure>
+<div id="p10" class="ltx_para">
+<p id="p10.1" class="ltx_p">In conclusion, we have performed off-lattice GCMC simulations of
+the clean diamond (111) surface structure based on the Brenner potential.
+A spontaneous transition from the
+ideal <math id="p10.1.m1.1" class="ltx_Math" alttext="(1\times 1)" display="inline"><semantics id="p10.1.m1.1a"><mrow id="p10.1.m1.1.6" xref="p10.1.m1.1.6.2.cmml"><mo stretchy="false" id="p10.1.m1.1.1" xref="p10.1.m1.1.6.2.cmml">(</mo><mrow id="p10.1.m1.1.6.2" xref="p10.1.m1.1.6.2.cmml"><mn id="p10.1.m1.1.2" xref="p10.1.m1.1.2.cmml">1</mn><mo id="p10.1.m1.1.3" xref="p10.1.m1.1.3.cmml">×</mo><mn id="p10.1.m1.1.4" xref="p10.1.m1.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p10.1.m1.1.5" xref="p10.1.m1.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p10.1.m1.1b"><apply id="p10.1.m1.1.6.2.cmml" xref="p10.1.m1.1.6"><times id="p10.1.m1.1.3.cmml" xref="p10.1.m1.1.3"></times><cn type="integer" id="p10.1.m1.1.2.cmml" xref="p10.1.m1.1.2">1</cn><cn type="integer" id="p10.1.m1.1.4.cmml" xref="p10.1.m1.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p10.1.m1.1c">OPEN:( NUMBER:1 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p10.1.m1.1d">(1\times 1)</annotation></semantics></math> to the stable Pandey <math id="p10.1.m2.1" class="ltx_Math" alttext="(2\times 1)" display="inline"><semantics id="p10.1.m2.1a"><mrow id="p10.1.m2.1.6" xref="p10.1.m2.1.6.2.cmml"><mo stretchy="false" id="p10.1.m2.1.1" xref="p10.1.m2.1.6.2.cmml">(</mo><mrow id="p10.1.m2.1.6.2" xref="p10.1.m2.1.6.2.cmml"><mn id="p10.1.m2.1.2" xref="p10.1.m2.1.2.cmml">2</mn><mo id="p10.1.m2.1.3" xref="p10.1.m2.1.3.cmml">×</mo><mn id="p10.1.m2.1.4" xref="p10.1.m2.1.4.cmml">1</mn></mrow><mo stretchy="false" id="p10.1.m2.1.5" xref="p10.1.m2.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p10.1.m2.1b"><apply id="p10.1.m2.1.6.2.cmml" xref="p10.1.m2.1.6"><times id="p10.1.m2.1.3.cmml" xref="p10.1.m2.1.3"></times><cn type="integer" id="p10.1.m2.1.2.cmml" xref="p10.1.m2.1.2">2</cn><cn type="integer" id="p10.1.m2.1.4.cmml" xref="p10.1.m2.1.4">1</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p10.1.m2.1c">OPEN:( NUMBER:2 MULOP:times NUMBER:1 CLOSE:)</annotation><annotation encoding="application/x-tex" id="p10.1.m2.1d">(2\times 1)</annotation></semantics></math> reconstruction
+is obtained. We also find metastable reconstructions very
+close in energy with strong dimerization of the lower atomic chain,
+which are shown to coexist with the Pandey chain reconstruction at temperatures
+<math id="p10.1.m3.1" class="ltx_Math" alttext="\sim 2000" display="inline"><semantics id="p10.1.m3.1a"><mrow id="p10.1.m3.1.6" xref="p10.1.m3.1.6.cmml"><mi id="p10.1.m3.1.6.1" xref="p10.1.m3.1.6.1.cmml"></mi><mo id="p10.1.m3.1.1" xref="p10.1.m3.1.1.cmml">∼</mo><mn id="p10.1.m3.1.5" xref="p10.1.m3.1.5.cmml">2000</mn></mrow><annotation-xml encoding="MathML-Content" id="p10.1.m3.1b"><apply id="p10.1.m3.1.6.cmml" xref="p10.1.m3.1.6"><csymbol cd="latexml" id="p10.1.m3.1.1.cmml" xref="p10.1.m3.1.1">similar-to</csymbol><csymbol cd="latexml" id="p10.1.m3.1.6.1.cmml" xref="p10.1.m3.1.6.1">absent</csymbol><cn type="integer" id="p10.1.m3.1.5.cmml" xref="p10.1.m3.1.5">2000</cn></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p10.1.m3.1c">RELOP:similar-to NUMBER:2000</annotation><annotation encoding="application/x-tex" id="p10.1.m3.1d">\sim 2000</annotation></semantics></math> K. Besides, we find a deep local minimum for the vacancy
+stabilized <math id="p10.1.m4.1" class="ltx_Math" alttext="(\sqrt{3}\times\sqrt{3})" display="inline"><semantics id="p10.1.m4.1a"><mrow id="p10.1.m4.1.6" xref="p10.1.m4.1.6.2.cmml"><mo stretchy="false" id="p10.1.m4.1.1" xref="p10.1.m4.1.6.2.cmml">(</mo><mrow id="p10.1.m4.1.6.2" xref="p10.1.m4.1.6.2.cmml"><msqrt id="p10.1.m4.1.2" xref="p10.1.m4.1.2.cmml"><mn id="p10.1.m4.1.2.2" xref="p10.1.m4.1.2.2.cmml">3</mn></msqrt><mo id="p10.1.m4.1.3" xref="p10.1.m4.1.3.cmml">×</mo><msqrt id="p10.1.m4.1.4" xref="p10.1.m4.1.4.cmml"><mn id="p10.1.m4.1.4.2" xref="p10.1.m4.1.4.2.cmml">3</mn></msqrt></mrow><mo stretchy="false" id="p10.1.m4.1.5" xref="p10.1.m4.1.6.2.cmml">)</mo></mrow><annotation-xml encoding="MathML-Content" id="p10.1.m4.1b"><apply id="p10.1.m4.1.6.2.cmml" xref="p10.1.m4.1.6"><times id="p10.1.m4.1.3.cmml" xref="p10.1.m4.1.3"></times><apply id="p10.1.m4.1.2.cmml" xref="p10.1.m4.1.2"><root id="p10.1.m4.1.2a.cmml" xref="p10.1.m4.1.2"></root><cn type="integer" id="p10.1.m4.1.2.2.cmml" xref="p10.1.m4.1.2.2">3</cn></apply><apply id="p10.1.m4.1.4.cmml" xref="p10.1.m4.1.4"><root id="p10.1.m4.1.4a.cmml" xref="p10.1.m4.1.4"></root><cn type="integer" id="p10.1.m4.1.4.2.cmml" xref="p10.1.m4.1.4.2">3</cn></apply></apply></annotation-xml><annotation encoding="application/x-llamapun" id="p10.1.m4.1c">OPEN:( italic-square-root ARG:start NUMBER:3 ARG:end MULOP:times italic-square-root ARG:start NUMBER:3 ARG:end CLOSE:)</annotation><annotation encoding="application/x-tex" id="p10.1.m4.1d">(\sqrt{3}\times\sqrt{3})</annotation></semantics></math> structure. These meta-stable
+structures have a larger number of three-fold coordinated atoms
+at the surface. The absence of consensus on
+the structural details and electronic structure of the clean (111)
+surface might be related to these surface structures, which
+are peculiar of carbon and have never been considered so far.</p>
+</div>
+<div id="p11" class="ltx_para">
+<p id="p11.1" class="ltx_p">A.V.P. and A.F. would like to thank E. Vlieg, F. van Bouwelen,
+J.J. ter Meulen, W. van Enckevort, J. Schermer and B.I. Dunlap for
+useful discussions. D.P., F.E. and E.T. acknowledge support by MURST.</p>
+</div>
+<section id="bib" class="ltx_bibliography">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+
+<ul class="ltx_biblist">
+<li id="bib.bib1" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[1]</span>
+<span class="ltx_bibblock">[<math id="bib.bib1.m1.1" class="ltx_Math" alttext="{}^{*}" display="inline"><semantics id="bib.bib1.m1.1a"><msup id="bib.bib1.m1.1.1" xref="bib.bib1.m1.1.1.cmml"><mi id="bib.bib1.m1.1.1a" xref="bib.bib1.m1.1.1.cmml"></mi><mo id="bib.bib1.m1.1.1.1" xref="bib.bib1.m1.1.1.1.cmml">*</mo></msup><annotation-xml encoding="MathML-Content" id="bib.bib1.m1.1b"><apply id="bib.bib1.m1.1.1.cmml" xref="bib.bib1.m1.1.1"><times id="bib.bib1.m1.1.1.1.cmml" xref="bib.bib1.m1.1.1.1"></times></apply></annotation-xml><annotation encoding="application/x-llamapun" id="bib.bib1.m1.1c">FLOATSUPERSCRIPT:start MULOP:times FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="bib.bib1.m1.1d">{}^{*}</annotation></semantics></math>]
+on leave from the
+Institute of Crystallography, 117333 Moscow, Russia; e-mail
+petukhov@sci.kun.nl
+
+</span>
+</li>
+<li id="bib.bib2" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[2]</span>
+<span class="ltx_bibblock">[<math id="bib.bib2.m1.1" class="ltx_Math" alttext="{}^{{\dagger}}" display="inline"><semantics id="bib.bib2.m1.1a"><msup id="bib.bib2.m1.1.1" xref="bib.bib2.m1.1.1.cmml"><mi id="bib.bib2.m1.1.1a" xref="bib.bib2.m1.1.1.cmml"></mi><mo id="bib.bib2.m1.1.1.1" xref="bib.bib2.m1.1.1.1.cmml">†</mo></msup><annotation-xml encoding="MathML-Content" id="bib.bib2.m1.1b"><apply id="bib.bib2.m1.1.1.cmml" xref="bib.bib2.m1.1.1"><ci id="bib.bib2.m1.1.1.1.cmml" xref="bib.bib2.m1.1.1.1">†</ci></apply></annotation-xml><annotation encoding="application/x-llamapun" id="bib.bib2.m1.1c">FLOATSUPERSCRIPT:start MULOP:dagger FLOATSUPERSCRIPT:end</annotation><annotation encoding="application/x-tex" id="bib.bib2.m1.1d">{}^{{\dagger}}</annotation></semantics></math>] present address: Max Planck Institut für
+Festköperforschung, D-70569, Stuttgart, Germany.
+
+</span>
+</li>
+<li id="bib.bib3" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[3]</span>
+<span class="ltx_bibblock">
+Y.G. Gogotsi, A. Kailer, K.G. Nickel, Nature, <span id="bib.bib3.1" class="ltx_text ltx_font_bold">401</span>, 663 (1999);
+A. De Vita <em id="bib.bib3.2" class="ltx_emph ltx_font_italic">et al.</em>, Nature <span id="bib.bib3.3" class="ltx_text ltx_font_bold">379</span>, 523 (1996).
+
+</span>
+</li>
+<li id="bib.bib4" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[4]</span>
+<span class="ltx_bibblock">
+F. Banhart, P.M. Ajayan, Nature, <span id="bib.bib4.1" class="ltx_text ltx_font_bold">382</span>, 433 (1996).
+
+</span>
+</li>
+<li id="bib.bib5" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[5]</span>
+<span class="ltx_bibblock"> J. Tersoff, Phys. Rev. Lett. <span id="bib.bib5.1" class="ltx_text ltx_font_bold">61</span>, 2879 (1988).
+
+</span>
+</li>
+<li id="bib.bib6" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[6]</span>
+<span class="ltx_bibblock">
+E.C. Sowa, G.D. Kubiak, R.H. Stulen, J.
+Vac. Sci. Technol. A <span id="bib.bib6.1" class="ltx_text ltx_font_bold">6</span>, 832 (1988).
+
+</span>
+</li>
+<li id="bib.bib7" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[7]</span>
+<span class="ltx_bibblock"> T.E. Derry, L. Smit and J.F. van der Veen,
+Surf. Sci. <span id="bib.bib7.1" class="ltx_text ltx_font_bold">167</span>, 502 (1986).
+
+</span>
+</li>
+<li id="bib.bib8" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[8]</span>
+<span class="ltx_bibblock"> W.J. Huisman <em id="bib.bib8.1" class="ltx_emph ltx_font_italic">et al.</em>,
+Surface Sci., <span id="bib.bib8.2" class="ltx_text ltx_font_bold">396</span>, 241 (1998).
+
+</span>
+</li>
+<li id="bib.bib9" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[9]</span>
+<span class="ltx_bibblock"> W.J. Huisman, J.F. Peters, J.F. van der Veen,
+Surface Sci., <span id="bib.bib9.1" class="ltx_text ltx_font_bold">396</span>, 253 (1998).
+
+</span>
+</li>
+<li id="bib.bib10" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[10]</span>
+<span class="ltx_bibblock">
+K.C. Pandey, Phys. Rev. Lett. <span id="bib.bib10.1" class="ltx_text ltx_font_bold">47</span>, 1913 (1981).
+
+</span>
+</li>
+<li id="bib.bib11" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[11]</span>
+<span class="ltx_bibblock">
+K.C. Pandey, Phys. Rev. B <span id="bib.bib11.1" class="ltx_text ltx_font_bold">25</span>, 4338 (1982).
+
+</span>
+</li>
+<li id="bib.bib12" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[12]</span>
+<span class="ltx_bibblock"> A.V. Petukhov, A. Fasolino, D. Passerone,
+F. Ercolessi, Phys. Stat. Sol. (a) <span id="bib.bib12.1" class="ltx_text ltx_font_bold">174</span>, 19 (1999).
+
+</span>
+</li>
+<li id="bib.bib13" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[13]</span>
+<span class="ltx_bibblock"> D.W. Brenner, Phys. Rev. B <span id="bib.bib13.1" class="ltx_text ltx_font_bold">42</span>,9458 (1990).
+
+</span>
+</li>
+<li id="bib.bib14" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[14]</span>
+<span class="ltx_bibblock"> For the (001) surface see A.V. Petukhov, A. Fasolino,
+Phys. Stat. Sol. (a), to be published.
+
+</span>
+</li>
+<li id="bib.bib15" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[15]</span>
+<span class="ltx_bibblock"> F. Celestini, D. Passerone, F. Ercolessi and E. Tosatti,
+Surf. Sci. <span id="bib.bib15.1" class="ltx_text ltx_font_bold">402-404</span>, 886 (1998).
+
+</span>
+</li>
+<li id="bib.bib16" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[16]</span>
+<span class="ltx_bibblock"> D. Vanderbilt, S.G. Louie, Phys. Rev. B <span id="bib.bib16.1" class="ltx_text ltx_font_bold">30</span>,
+6118 (1984).
+
+</span>
+</li>
+<li id="bib.bib17" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[17]</span>
+<span class="ltx_bibblock">
+D.R. Alfonso, D.A. Drabold, S.E. Ulloa, Phys. Rev. B <span id="bib.bib17.1" class="ltx_text ltx_font_bold">51</span>, 14669 (1995).
+
+</span>
+</li>
+<li id="bib.bib18" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[18]</span>
+<span class="ltx_bibblock"> G. Kern, J. Hafner, J. Furthmüller, G. Kresse,
+Surface Sci., <span id="bib.bib18.1" class="ltx_text ltx_font_bold">352-354</span>, 745 (1996).
+
+</span>
+</li>
+<li id="bib.bib19" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[19]</span>
+<span class="ltx_bibblock"> A. Scholze, W.G. Schidt, F. Bechstedt,
+Phys. Rev. B <span id="bib.bib19.1" class="ltx_text ltx_font_bold">53</span>, 13725 (1996).
+
+</span>
+</li>
+<li id="bib.bib20" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[20]</span>
+<span class="ltx_bibblock">
+R. Graupner <em id="bib.bib20.1" class="ltx_emph ltx_font_italic">et al.</em>,
+Phys. Rev. B <span id="bib.bib20.2" class="ltx_text ltx_font_bold">55</span>, 10841 (1997).
+
+</span>
+</li>
+<li id="bib.bib21" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[21]</span>
+<span class="ltx_bibblock">
+J.B. Cui, J. Ristein, L. Ley, Phys. Rev. B <span id="bib.bib21.1" class="ltx_text ltx_font_bold">59</span>, 5847 (1999).
+
+</span>
+</li>
+<li id="bib.bib22" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[22]</span>
+<span class="ltx_bibblock"> S. Iarlori <em id="bib.bib22.1" class="ltx_emph ltx_font_italic">et al.</em>,
+Phys. Rev. Lett. <span id="bib.bib22.2" class="ltx_text ltx_font_bold">69</span>, 2947 (1992).
+
+</span>
+</li>
+<li id="bib.bib23" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[23]</span>
+<span class="ltx_bibblock">
+C. Kress, M. Fiedler, F. Bechstedt, Europhys. Lett. <span id="bib.bib23.1" class="ltx_text ltx_font_bold">28</span>,
+433 (1994).
+
+</span>
+</li>
+<li id="bib.bib24" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[24]</span>
+<span class="ltx_bibblock"> G. Jungnickel <em id="bib.bib24.1" class="ltx_emph ltx_font_italic">et al.</em>,
+Mat. Res. Soc. Symp. Proc., <span id="bib.bib24.2" class="ltx_text ltx_font_bold">383</span>, 349 (1995); Phys. Stat. Sol. (a) <span id="bib.bib24.3" class="ltx_text ltx_font_bold">154</span>, 109 (1996).
+
+</span>
+</li>
+<li id="bib.bib25" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[25]</span>
+<span class="ltx_bibblock">
+Th. Frauenheim <em id="bib.bib25.1" class="ltx_emph ltx_font_italic">et al.</em>,
+Phys. Rev. B <span id="bib.bib25.2" class="ltx_text ltx_font_bold">48</span>, 18189
+(1993).
+
+</span>
+</li>
+<li id="bib.bib26" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[26]</span>
+<span class="ltx_bibblock">
+R. Graupner <em id="bib.bib26.1" class="ltx_emph ltx_font_italic">et al.</em>,
+Phys. Rev. B <span id="bib.bib26.2" class="ltx_text ltx_font_bold">57</span>, 12397 (1998).
+
+</span>
+</li>
+<li id="bib.bib27" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[27]</span>
+<span class="ltx_bibblock"> D.J. Chadi, Phys. Rev. Lett. <span id="bib.bib27.1" class="ltx_text ltx_font_bold">26</span>, 4762 (1982).
+
+</span>
+</li>
+<li id="bib.bib28" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[28]</span>
+<span class="ltx_bibblock"> R. Seiwatz, Surface Sci., <span id="bib.bib28.1" class="ltx_text ltx_font_bold">2</span>, 473 (1964).
+
+</span>
+</li>
+<li id="bib.bib29" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[29]</span>
+<span class="ltx_bibblock"> M.P. Allen, D.J. Tildesley, <em id="bib.bib29.1" class="ltx_emph ltx_font_italic">Computer Simulation of
+Liquids</em> (Clarendon Press, Oxford, 1987).
+
+</span>
+</li>
+<li id="bib.bib30" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[30]</span>
+<span class="ltx_bibblock">
+R. Stumpf, P.M. Markus, Phys. Rev. B <span id="bib.bib30.1" class="ltx_text ltx_font_bold">47</span>, R16016 (1993).
+
+</span>
+</li>
+<li id="bib.bib31" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[31]</span>
+<span class="ltx_bibblock">
+F. Ancilotto <em id="bib.bib31.1" class="ltx_emph ltx_font_italic">et al.</em>,
+Phys. Rev. Lett. <span id="bib.bib31.2" class="ltx_text ltx_font_bold">65</span>, 3148 (1990).
+
+</span>
+</li>
+<li id="bib.bib32" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[32]</span>
+<span class="ltx_bibblock">
+Animations, xyz files and many other details can be found at
+<span id="bib.bib32.1" class="ltx_text ltx_font_typewriter">http://www.sci.kun.nl/tvs/carbon/</span>.
+
+</span>
+</li>
+<li id="bib.bib33" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[33]</span>
+<span class="ltx_bibblock">
+W.C. Fan <em id="bib.bib33.1" class="ltx_emph ltx_font_italic">et al.</em>,
+Phys. Rev. Lett., <span id="bib.bib33.2" class="ltx_text ltx_font_bold">62</span>, 1516 (1989).
+
+</span>
+</li>
+<li id="bib.bib34" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[34]</span>
+<span class="ltx_bibblock">
+F. Ancilotto, A. Selloni, E. Tosatti, Phys. Rev. B, <span id="bib.bib34.1" class="ltx_text ltx_font_bold">43</span>, R14726 (1991).
+
+</span>
+</li>
+<li id="bib.bib35" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[35]</span>
+<span class="ltx_bibblock">
+F. Bechstedt, W.G. Schmidt, A. Scholze, Europhys. Lett. <span id="bib.bib35.1" class="ltx_text ltx_font_bold">35</span>,
+585 (1996).
+
+</span>
+</li>
+</ul>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Mon Jul 15 14:18:42 2019 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
+</div></footer>
+</div>
+</body>
+</html>
