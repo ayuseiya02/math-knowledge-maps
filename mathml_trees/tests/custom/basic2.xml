@@ -1,0 +1,20 @@
+<math>
+<semantics>
+  <annotation-xml encoding="MathML-Content">
+    <apply><and/>
+      <apply><xor/><ci>a</ci> <ci>b</ci></apply>
+      <apply><xor/><ci>c</ci> <ci>d</ci></apply>
+    </apply>
+  </annotation-xml>
+</semantics>
+</math>
+<math>
+<semantics>
+  <annotation-xml encoding="MathML-Content">
+    <apply><and/>
+      <apply><xor/><ci>e</ci> <ci>f</ci></apply>
+      <apply><xor/><ci>g</ci> <ci>h</ci></apply>
+    </apply>
+  </annotation-xml>
+</semantics>
+</math>
