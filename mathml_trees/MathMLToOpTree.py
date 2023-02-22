@@ -21,6 +21,7 @@ def toMathMLStrings(html_filename):
     soup = BeautifulSoup(xml)
     mathml_strings = []
     for mms in soup.find_all("math"):
+
         if mms["display"] != "block": # skip non-block equations
             continue
      
