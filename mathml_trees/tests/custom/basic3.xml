@@ -1,0 +1,10 @@
+<math display="block" alttext="(e+f)(g+h)">
+<semantics>
+  <annotation-xml encoding="MathML-Content">
+    <apply><and/>
+      <apply><xor/><ci>e</ci> <ci>f</ci></apply>
+      <apply><xor/><ci>g</ci> <ci>h</ci></apply>
+    </apply>
+  </annotation-xml>
+</semantics>
+</math>
